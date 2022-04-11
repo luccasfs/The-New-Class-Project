@@ -3674,7 +3674,7 @@
 							"AddAbilityID": "b8d5f846-e6a6-4f1e-855c-9470edcb3e8b",
 							"Category": "General",
 							"Note": "PL ? Unlock - Superior Evasion",
-							"RemoveAbilityID": "bb2c8f7f-cf97-48bc-861c-5778043adecc",
+							"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
 							"UnlockStyle": "Unlock",
 							"Prerequisites": {
 								"Conditional": {
@@ -3701,7 +3701,7 @@
 									"ClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
 									"MinimumPowerLevel": 6
 								},
-								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"RequiresAbilityID": "bb2c8f7f-cf97-48bc-861c-5778043adecc",
 								"VisibilityConditional": {
 									"Components": [],
 									"Operator": 0
@@ -4136,7 +4136,7 @@
 									"ClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",//v2
 									"MinimumPowerLevel": 6
 								},
-								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"RequiresAbilityID": "d4e66694-b7d0-4c44-9629-4bc894b197b7",
 								"Conditional": {
 									"Operator": 0,
 									"Components": [

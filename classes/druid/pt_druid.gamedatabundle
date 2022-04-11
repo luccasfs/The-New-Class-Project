@@ -6086,7 +6086,7 @@
 									"ClassID": "568f1c26-1398-4e67-8b81-0f6a60e6cdde",
 									"MinimumPowerLevel": 6
 								},
-								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"RequiresAbilityID": "6069edaa-a3a2-4689-82f8-5ffe2316dde7",
 								"VisibilityConditional": {
 									"Components": [],
 									"Operator": 0
@@ -6123,7 +6123,7 @@
 									"ClassID": "568f1c26-1398-4e67-8b81-0f6a60e6cdde",
 									"MinimumPowerLevel": 6
 								},
-								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"RequiresAbilityID": "8f199b51-d2e1-4631-ae00-7649348ac786",
 								"VisibilityConditional": {
 									"Components": [],
 									"Operator": 0
@@ -6160,7 +6160,7 @@
 									"ClassID": "568f1c26-1398-4e67-8b81-0f6a60e6cdde",
 									"MinimumPowerLevel": 6
 								},
-								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"RequiresAbilityID": "af6d067b-11de-4834-9725-b46b135a5e86",
 								"VisibilityConditional": {
 									"Components": [],
 									"Operator": 0
@@ -6197,7 +6197,7 @@
 									"ClassID": "568f1c26-1398-4e67-8b81-0f6a60e6cdde",
 									"MinimumPowerLevel": 6
 								},
-								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"RequiresAbilityID": "fe4edb7e-c0f1-44b1-b5db-ab7010d96c36",
 								"VisibilityConditional": {
 									"Components": [],
 									"Operator": 0
@@ -7514,7 +7514,7 @@
 									"ClassID": "568f1c26-1398-4e67-8b81-0f6a60e6cdde",
 									"MinimumPowerLevel": 8
 								},
-								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"RequiresAbilityID": "cb2aae87-ed55-4fea-ae2b-cdc0d9675c14",
 								"VisibilityConditional": {
 									"Components": [],
 									"Operator": 0
@@ -7551,7 +7551,7 @@
 									"ClassID": "568f1c26-1398-4e67-8b81-0f6a60e6cdde",
 									"MinimumPowerLevel": 8
 								},
-								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"RequiresAbilityID": "37768507-0de7-4820-b662-dd7aba46510a",
 								"VisibilityConditional": {
 									"Components": [],
 									"Operator": 0
@@ -7588,7 +7588,7 @@
 									"ClassID": "568f1c26-1398-4e67-8b81-0f6a60e6cdde",
 									"MinimumPowerLevel": 8
 								},
-								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"RequiresAbilityID": "46922618-17b6-42a6-9aee-a6816e8b3702",
 								"VisibilityConditional": {
 									"Components": [],
 									"Operator": 0
@@ -7637,7 +7637,7 @@
 									"ClassID": "568f1c26-1398-4e67-8b81-0f6a60e6cdde",
 									"MinimumPowerLevel": 8
 								},
-								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"RequiresAbilityID": "233b1759-8c68-419a-bae7-bf4532e39036",
 								"VisibilityConditional": {
 									"Components": [],
 									"Operator": 0

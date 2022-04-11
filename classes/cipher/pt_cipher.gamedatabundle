@@ -1501,7 +1501,7 @@
 									"ClassID": "ccdc9675-e2a7-46fa-83e9-7a5368b56265",
 									"MinimumPowerLevel": 2
 								},
-								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"RequiresAbilityID": "f057dd2e-953f-442a-abad-fc34bfa39b26",
 								"VisibilityConditional": {
 									"Components": [{
 											"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
@@ -1563,7 +1563,7 @@
 									"ClassID": "ccdc9675-e2a7-46fa-83e9-7a5368b56265",
 									"MinimumPowerLevel": 2
 								},
-								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"RequiresAbilityID": "b9bf995b-d7ee-47b2-9dd6-c630c9ae9a0d",
 								"VisibilityConditional": {
 									"Components": [{
 											"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
@@ -1613,7 +1613,7 @@
 									"ClassID": "ccdc9675-e2a7-46fa-83e9-7a5368b56265",
 									"MinimumPowerLevel": 2
 								},
-								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"RequiresAbilityID": "848affe2-cccc-4053-8d80-d997a35d8b98",
 								"VisibilityConditional": {
 									"Components": [{
 											"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
@@ -1663,7 +1663,7 @@
 									"ClassID": "ccdc9675-e2a7-46fa-83e9-7a5368b56265",
 									"MinimumPowerLevel": 2
 								},
-								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"RequiresAbilityID": "f057dd2e-953f-442a-abad-fc34bfa39b26",
 								"VisibilityConditional": {
 									"Components": [{
 											"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
@@ -1725,7 +1725,7 @@
 									"ClassID": "ccdc9675-e2a7-46fa-83e9-7a5368b56265",
 									"MinimumPowerLevel": 2
 								},
-								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"RequiresAbilityID": "b9bf995b-d7ee-47b2-9dd6-c630c9ae9a0d",
 								"VisibilityConditional": {
 									"Components": [{
 											"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
@@ -1775,7 +1775,7 @@
 									"ClassID": "ccdc9675-e2a7-46fa-83e9-7a5368b56265",
 									"MinimumPowerLevel": 2
 								},
-								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"RequiresAbilityID": "848affe2-cccc-4053-8d80-d997a35d8b98",
 								"VisibilityConditional": {
 									"Components": [{
 											"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
@@ -2032,7 +2032,7 @@
 									"ClassID": "ccdc9675-e2a7-46fa-83e9-7a5368b56265",
 									"MinimumPowerLevel": 6
 								},
-								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"RequiresAbilityID": "30b4efca-f3f2-4416-838d-bc8be2a3f972",
 								"VisibilityConditional": {
 									"Components": [],
 									"Operator": 0
