@@ -1,0 +1,247 @@
+{
+	"GameDataObjects": [
+	{
+		"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+		"DebugName": "Rangers_Recovery",
+		"ID": "08d6c678-8935-42f4-bab3-000000000001",
+		"Components": [{
+			"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+			"KeywordsIDs": [],
+			"DisplayName": 1327011,
+			"Description": 1327012,
+			"UpgradeDescriptions": [],
+			"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+			"Vocalization": "NoVocalization",
+			"Icon": "gui/icons/abilities/talents/ability_passive_shock.png",
+			"UsageType": "None",
+			"UsageValue": 0,
+			"AbilityClassID": "1718929c-1faf-4292-b82c-7e2a7c20b3ab",
+			"AbilityLevel": 6,
+			"IsPassive": "true",
+			"StackingRuleOverride": "Default",
+			"TriggerOnHit": "false",
+			"IsModal": "false",
+			"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+			"IsCombatOnly": "false",
+			"IsNonCombatOnly": "false",
+			"HideFromUI": "false",
+			"HideFromCombatLog": "false",
+			"UniqueSet": "None",
+			"NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+			"DurationOverride": 0,
+			"OverrideEmpower": "Default",
+			"ClearsOnMovement": "false",
+			"CannotActivateWhileInStealth": "false",
+			"CannotActivateWhileInvisible": "false",
+			"ActivationPrerequisites": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				}
+			},
+			"ApplicationPrerequisites": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				}
+			},
+			"DeactivationPrerequisites": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				}
+			},
+			"PowerLevelScaling": {
+				"BaseLevel": 0,
+				"LevelIncrement": 1,
+				"MaxLevel": 0,
+				"DamageAdjustment": 1,
+				"DurationAdjustment": 1,
+				"BounceCountAdjustment": 0,
+				"ProjectileCountAdjustment": 0,
+				"AccuracyAdjustment": 0,
+				"PenetrationAdjustment": 0
+			},
+			"StatusEffectKeywordsIDs": [],
+			"StatusEffectsIDs": ["4ba1789f-6b17-49d4-9278-000000000011"],
+			"VisualEffects": [],
+			"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+			"AttackID": "00000000-0000-0000-0000-000000000000",
+			"AITargetingConditional": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				},
+				"Scripts": []
+			},
+			"AudioEventListID": "00000000-0000-0000-0000-000000000000"
+		},
+		{
+			"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+		}]
+	},
+	{
+		"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+		"DebugName": "Armor_Expertise",
+		"ID": "d4e66694-b7d0-4c44-9629-000000000001",
+		"Components": [{
+			"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+			"KeywordsIDs": [],
+			"DisplayName": 1327009,
+			"Description": 1327010,
+			"UpgradeDescriptions": [],
+			"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+			"Vocalization": "NoVocalization",
+			"Icon": "gui/icons/abilities/talents/ability_passive_attack_speed.png",
+			"UsageType": "None",
+			"UsageValue": 0,
+			"AbilityClassID": "1718929c-1faf-4292-b82c-7e2a7c20b3ab",
+			"AbilityLevel": 5,
+			"IsPassive": "true",
+			"StackingRuleOverride": "Default",
+			"TriggerOnHit": "false",
+			"IsModal": "false",
+			"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+			"IsCombatOnly": "false",
+			"IsNonCombatOnly": "false",
+			"HideFromUI": "false",
+			"HideFromCombatLog": "false",
+			"UniqueSet": "None",
+			"NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+			"DurationOverride": 0,
+			"OverrideEmpower": "Default",
+			"ClearsOnMovement": "false",
+			"CannotActivateWhileInStealth": "false",
+			"CannotActivateWhileInvisible": "false",
+			"ActivationPrerequisites": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				}
+			},
+			"ApplicationPrerequisites": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				}
+			},
+			"DeactivationPrerequisites": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				}
+			},
+			"PowerLevelScaling": {
+				"BaseLevel": 0,
+				"LevelIncrement": 1,
+				"MaxLevel": 0,
+				"DamageAdjustment": 1,
+				"DurationAdjustment": 1,
+				"BounceCountAdjustment": 0,
+				"ProjectileCountAdjustment": 0,
+				"AccuracyAdjustment": 0,
+				"PenetrationAdjustment": 0
+			},
+			"StatusEffectKeywordsIDs": [],
+			"StatusEffectsIDs": ["77aed1fa-6301-4574-8e79-000000000001",
+			"1883e0e5-b524-4f59-b62e-000000000002",
+			"df62a582-8539-4e38-bc62-000000000003",
+			"c15f034c-772b-472f-b6ef-000000000004"],
+			"VisualEffects": [],
+			"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+			"AttackID": "00000000-0000-0000-0000-000000000000",
+			"AITargetingConditional": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				},
+				"Scripts": []
+			},
+			"AudioEventListID": "00000000-0000-0000-0000-000000000000"
+		},
+		{
+			"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+		}]
+	},
+	{
+		"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+		"DebugName": "Predator_Strikes",
+		"ID": "9a3fbbe1-8fe3-4409-b30d-000000000001",
+		"Components": [{
+			"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+			"KeywordsIDs": [],
+			"DisplayName": 1327007,
+			"Description": 1327008,
+			"UpgradeDescriptions": [],
+			"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+			"Vocalization": "NoVocalization",
+			"Icon": "gui/icons/abilities/talents/ability_passive_weapon.png",
+			"UsageType": "None",
+			"UsageValue": 0,
+			"AbilityClassID": "1718929c-1faf-4292-b82c-7e2a7c20b3ab",
+			"AbilityLevel": 5,
+			"IsPassive": "true",
+			"StackingRuleOverride": "Default",
+			"TriggerOnHit": "false",
+			"IsModal": "false",
+			"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+			"IsCombatOnly": "false",
+			"IsNonCombatOnly": "false",
+			"HideFromUI": "false",
+			"HideFromCombatLog": "false",
+			"UniqueSet": "None",
+			"NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+			"DurationOverride": 0,
+			"OverrideEmpower": "Default",
+			"ClearsOnMovement": "false",
+			"CannotActivateWhileInStealth": "false",
+			"CannotActivateWhileInvisible": "false",
+			"ActivationPrerequisites": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				}
+			},
+			"ApplicationPrerequisites": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				}
+			},
+			"DeactivationPrerequisites": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				}
+			},
+			"PowerLevelScaling": {
+				"BaseLevel": 0,
+				"LevelIncrement": 1,
+				"MaxLevel": 0,
+				"DamageAdjustment": 1,
+				"DurationAdjustment": 1,
+				"BounceCountAdjustment": 0,
+				"ProjectileCountAdjustment": 0,
+				"AccuracyAdjustment": 0,
+				"PenetrationAdjustment": 0
+			},
+			"StatusEffectKeywordsIDs": [],
+			"StatusEffectsIDs": ["7f4a4261-d25b-44ed-aa74-000000000001"],
+			"VisualEffects": [],
+			"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+			"AttackID": "00000000-0000-0000-0000-000000000000",
+			"AITargetingConditional": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				},
+				"Scripts": []
+			},
+			"AudioEventListID": "00000000-0000-0000-0000-000000000000"
+		},
+		{
+			"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+		}]
+	},
+	]
+}

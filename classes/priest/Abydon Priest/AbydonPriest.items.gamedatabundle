@@ -1,0 +1,85 @@
+{
+  "GameDataObjects": [
+    {      
+      "$type": "Game.GameData.WeaponGameData, Assembly-CSharp",
+      "DebugName": "Priest_Spiritual_Weapon_Abydon_Greatsword",
+      "ID": "c0787d2b-8634-4036-810a-66ff4f50dada",
+      "Components": [
+        {
+          "$type": "Game.GameData.ItemComponent, Assembly-CSharp",
+          "DisplayName": 16401,
+          "DescriptionText": 16402,
+          "FilterType": "Weapons",
+          "InventoryAudioEventListID": "d9ef8ec9-f1fb-4d0b-88b7-49d7c0310019",
+          "IsQuestItem": "false",
+          "IsIngredient": "false",
+          "IsCurrency": "false",
+          "IsAdventuringItem": "false",
+          "CanSellForFullValue": "false",
+          "MaxStackSize": 1,
+          "NeverDropAsLoot": "true",
+          "CanBePickpocketed": "true",
+          "IsUnique": "false",
+          "Value": 50,
+          "IconTextureSmall": "gui/icons/items/weapons/miscellaneous/citzals_armory_greatsword_s.png",
+          "IconTextureLarge": "gui/icons/items/weapons/miscellaneous/citzals_armory_greatsword_l.png",
+          "PencilSketchTexture": "",
+          "InspectOnUseButton": [],
+          "IsPlaceholder": "false"
+        },
+        {
+          "$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
+          "EquipmentType": "GreatSword",
+          "EquipmentSlot": "BothPrimaryAndSecondary",
+          "AppearancePiece": {
+            "ModelVisualDataPath": "prefabs/items/appearance/weapons/great_sword/great_sword01_citzal.asset"
+          },
+          "ItemModsIDs": [
+            "9691785d-0207-492a-9c88-47f9a86db8af",
+            "b1b78aaf-cc67-4a52-b74b-d30d1cf214a3"
+          ],
+          "OnEquipVisualEffects": [
+            {
+              "VisualEffect": "prefabs/effects/abilities/wizzard/fx_citzals_enchanted_armory_sword_wpn.prefab",
+              "AttachPoint": "RightWeapon",
+              "EmissiveColor": {
+                "A": 1,
+                "R": 1,
+                "G": 1,
+                "B": 1
+              },
+              "EmissiveGlowScale": 1
+            }
+          ],
+          "RestrictedToClassIDs": [],
+          "RestrictedToPlayer": "false",
+          "ProficientAbilityID": "0b5fe616-3d6d-460d-a02d-28a1b4217796",
+          "CannotUnequip": "false",
+          "ItemRendererPrefab": "prefabs/itemrenderers/genericitemrenderer.prefab",
+          "ItemModel": "art/character/weapons/great_sword/great_sword01/w_gs01.fbx",
+          "AnimationController": "",
+          "PaperdollOverrideRenderer": "",
+          "AttackSummonID": "00000000-0000-0000-0000-000000000000",
+          "CannotSheathe": "true",
+          "PropVisualEffects": []
+        },
+        {
+          "$type": "Game.GameData.WeaponComponent, Assembly-CSharp",
+          "Stance": "TwoHandedClosedGrip",
+          "AnimationStanceID": "2bfb014c-53e1-44d0-82c8-3c3ff7a6741e",
+          "StatusEffectsOnLaunchIDs": [],
+          "IsDisplayedWhenAlternate": "true",
+          "IsUniversalType": "false",
+          "AttackID": "c6486c49-f098-49ed-8119-163e58f8dada",
+          "NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+          "ForceBackScabbard": "true",
+          "ScabbardAppearancePiece": {
+            "ModelVisualDataPath": "prefabs/items/appearance/weapons/great_sword/a_great_sword01_scabbard.asset"
+          },
+          "ScabbardRendererPrefab": "prefabs/itemrenderers/genericitemrenderer.prefab",
+          "ScabbardModel": "",
+          "AudioEventListID": "00000000-0000-0000-0000-000000000000"
+        }
+      ]
+    },
+    {

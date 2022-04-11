@@ -1,0 +1,1423 @@
+﻿{
+    "GameDataObjects": [
+        {
+			"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Backstab",
+			"ID": "8a9da061-40b3-478c-be72-1b85bb112766",	//vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AbilityClassID": "00000000-0000-0000-0000-000000000000",
+					"AbilityLevel": 2,
+					"Description": 1139,
+					"DisplayName": 1138,
+					"StatusEffectsIDs": ["2d02288e-abba-4775-a12c-938571a1ab73"]//"0c53043d-04a0-4c25-8cd5-2a6474247bc9", 
+				}
+			]
+		}, 	{
+			"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Smoke_Cloud",
+			"ID": "59efd9b3-33f8-41f4-9976-06c4b72a7bb6",	//vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"Description": 35115,
+					"UpgradedFromID": "bfd3b60d-35ba-4c64-a9ca-fd3395fa3c4f"
+				}
+			]
+		},	{
+			"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Pernicious_Cloud",
+			"ID": "0cd190ac-00f0-4f3c-a7dc-960efa88df57",	//vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"Description": 35115,
+					"UpgradeDescriptions": [{
+							"String": 35116
+						}
+					],
+					"UsageValue": 3
+				}
+			]
+		},	{
+			"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Smoke_Grenade",
+			"ID": "0dfe2284-a7d0-4344-a110-77580b9740b4",	//vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"Description": 35115,
+					"UsageValue": 3
+				}
+			]
+		},	{
+			"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Streetfighter_BloodiedAndFlanked",
+			"ID": "4e2d9645-60a3-4fa9-8d98-9e4f302d25e0",	//vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"Icon": "gui/icons/abilities/rogue/sap.png",
+					"DisplayName": 35120
+				}
+			]
+		},	{
+			"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Streetfighter_BloodiedOrFlanked",
+			"ID": "369a0069-f7d0-4ef9-925b-d2e6b10cf78e",	//vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"Icon": "gui/icons/abilities/rogue/sap.png",
+					"DisplayName": 35121
+				}
+			]
+		},	{
+			"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Streetfighter_NotBloodiedOrFlanked",
+			"ID": "8e60ff6a-bcb7-448d-a074-d74c6ac944fe",	//vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"Icon": "gui/icons/abilities/rogue/sap.png",
+					"DisplayName": 35122
+				}
+			]
+		},	{
+			"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Trickster",
+			"ID": "3e3261e9-e20f-42b8-9a3f-ddf5a300d520",	//vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"Icon": "gui/icons/abilities/wizard/arkemyrs_dazzling_lights.png",
+					"UpgradeDescriptions": [{
+						"String": 35123
+						}
+					]
+				}
+			]
+		},	{
+			"$type": "Game.GameData.WeaponAttackAbilityGameData, Assembly-CSharp",
+			"DebugName": "Toxic_Strike",
+			"ID": "b2ebf753-78e9-4b72-b9de-80bf68d0b646",	//vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AbilityClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
+					"AbilityLevel": 6,
+					"Description": 928,
+					"DisplayName": 2650,
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "e89bcf5c-5b28-4792-aff1-7daa02262d1e",
+					"UsageType": "ClassPowerPool",
+					"UsageValue": 3
+				}, {
+					"$type": "Game.GameData.WeaponAttackAbilityComponent, Assembly-CSharp",
+					"Type": "Primary"
+				}
+			]
+		}, 	{
+			"$type": "Game.GameData.WeaponAttackAbilityGameData, Assembly-CSharp",
+			"DebugName": "Perishing_Strike",
+			"ID": "158edf6d-677e-4a95-ba5b-1e49e1dbc108",	//vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AbilityClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
+					"AbilityLevel": 6,
+					"Description": 928,
+					"DisplayName": 2649,
+					"UpgradeDescriptions": [{
+						"String": 2648
+						}
+					],
+					"UpgradedFromID": "b2ebf753-78e9-4b72-b9de-80bf68d0b646",
+					"UsageType": "ClassPowerPool",
+					"UsageValue": 3
+				}, {
+					"$type": "Game.GameData.WeaponAttackAbilityComponent, Assembly-CSharp",
+					"AttackStatusEffectsIDs": ["21a41526-a3e1-4f0b-a312-67eef17998cc", "87cc6f19-8c6b-4c08-a5fe-e08d78f1a9ce", "cca362e4-be7d-4672-8000-de4537510212"],
+					"Type": "Primary"
+				}
+			]
+		},	{
+			"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Enduring_Shadows",
+			"ID": "c15e41f1-8e2f-4d67-b7b3-b79134b80e2a",	//vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AbilityClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
+					"AbilityLevel": 8,
+					"Description": 1034,
+					"DisplayName": 2759,
+					"StatusEffectsIDs": ["45940f37-13ca-41dc-85e5-0df53b4bc444", "0a85af2f-7988-497f-b7fe-fb98def1a8a3", "2ce6927d-1237-486b-a130-a8d335f68816", "546bd6a7-273c-48ee-865e-36af6d09d4c0", "006484d2-c4f8-4fa1-ac11-56b9a7b86e5d", "0867072d-aac5-4af7-97c2-6ef94ade82f0", "cddb0e4c-00dc-4272-83cc-061b0f1b822d"],
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "e110ab6f-f378-496f-b207-b557ea782f4f",
+					"UsageType": "ClassPowerPool",
+					"UsageValue": 3
+				}
+			]
+		},	{
+			"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Escape",	//renamed Sidestep
+			"ID": "719dd06a-6008-4f1d-949c-2bac54bde4da",	//vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"Description": 921,
+					"DisplayName": 406000518,
+					"Icon": "gui/icons/abilities/rogue/shadow_step.png",
+					"IsCombatOnly": "false"
+				}
+			]
+		},	{
+			"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Shadow_Step",
+			"ID": "e1668937-c325-45ec-a53e-7fb9ba421abe",	//vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"IsCombatOnly": "false",
+					"UpgradedFromID": "719dd06a-6008-4f1d-949c-2bac54bde4da",
+					"UsageValue": 2
+				}
+			]
+		},	{
+			"$type": "Game.GameData.WeaponAttackAbilityGameData, Assembly-CSharp",
+			"DebugName": "Withering_Strike",
+			"ID": "e89bcf5c-5b28-4792-aff1-7daa02262d1e",	//vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"UsageValue": 2
+				},	{
+					"$type": "Game.GameData.WeaponAttackAbilityComponent, Assembly-CSharp",
+					"Type": "Primary"
+				}
+			]
+		},	{
+			"$type": "Game.GameData.FinishingBlowAbilityGameData, Assembly-CSharp",
+			"DebugName": "Devastating_Blow",
+			"ID": "32c92168-485c-4076-8251-54ad9dc030e3",	//vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"UsageValue": 3
+				},	{
+					"$type": "Game.GameData.WeaponAttackAbilityComponent, Assembly-CSharp",
+					"Type": "FullAttack"
+				}
+			]
+		},	{
+			"$type": "Game.GameData.FinishingBlowAbilityGameData, Assembly-CSharp",
+			"DebugName": "Eliminating_Blow",
+			"ID": "386bdde4-9754-4ebf-931d-18c3b5c73b5b",	//vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"UsageValue": 3
+				},	{
+					"$type": "Game.GameData.WeaponAttackAbilityComponent, Assembly-CSharp",
+					"Type": "FullAttack"
+				}
+			]
+		},	{
+			"$type": "Game.GameData.WeaponAttackAbilityGameData, Assembly-CSharp",
+			"DebugName": "Blinding_Strike",
+			"ID": "7eb29970-dfae-4c45-9dd5-203c4f9b2f8c",	//vanillaguid
+			"Components": [
+				{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AbilityClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
+					"AbilityLevel": 2,
+					"UsageValue": 1
+				},	{
+					"$type": "Game.GameData.WeaponAttackAbilityComponent, Assembly-CSharp",
+					"BonusAccuracy": 0,
+					"Type": "Primary"
+				}
+			]
+		},	{
+			"$type": "Game.GameData.WeaponAttackAbilityGameData, Assembly-CSharp",
+			"DebugName": "Confounding_Blind",
+			"ID": "a54896f9-19fe-4edc-9d56-45fa753fa1fa",	//vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AbilityClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
+					"AbilityLevel": 4,
+					"UsageType": "ClassPowerPool",
+					"UsageValue": 2
+				}, {
+					"$type": "Game.GameData.WeaponAttackAbilityComponent, Assembly-CSharp",
+					"BonusAccuracy": 0,
+					"Type": "Primary"
+				}
+			]
+		}, 	{
+			"$type": "Game.GameData.WeaponAttackAbilityGameData, Assembly-CSharp",
+			"DebugName": "Gouging_Strike",
+			"ID": "18edb643-7060-4f14-aed0-3c7cee166cb0",	//vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AbilityClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
+					"AbilityLevel": 4,
+					"UsageType": "ClassPowerPool",
+					"UsageValue": 2
+				}, {
+					"$type": "Game.GameData.WeaponAttackAbilityComponent, Assembly-CSharp",
+					"BonusAccuracy": 0,
+					"Type": "Primary"
+				}
+			]
+		}, 	{
+			"$type": "Game.GameData.WeaponAttackAbilityGameData, Assembly-CSharp",
+			"DebugName": "Crippling_Strike",
+			"ID": "1fda55c8-8d5f-47b2-b25d-0ca82c0debed",	//vanillaguid
+			"Components": [
+				{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AbilityClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
+					"AbilityLevel": 1,
+					"Description": 406000517,
+					"DisplayName": 41,
+					"UsageType": "ClassPowerPool",
+					"UsageValue": 1
+				},	{
+					"$type": "Game.GameData.WeaponAttackAbilityComponent, Assembly-CSharp",
+					"AttackStatusEffectsIDs": ["87abdda2-ce6c-418b-9941-554defe1d5ff"],
+					"BonusPenetration": 0,
+					"Type": "Primary"
+				}
+			]
+		},	{
+			"$type": "Game.GameData.WeaponAttackAbilityGameData, Assembly-CSharp",
+			"DebugName": "Arterial_Strike",
+			"ID": "da59e137-4636-4362-9fce-e0c5e5394a06",	//vanillaguid
+			"Components": [
+				{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AbilityClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
+					"AbilityLevel": 3,
+					"Description": 406000517,
+					"DisplayName": 1804,
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "1fda55c8-8d5f-47b2-b25d-0ca82c0debed",
+					"UsageType": "ClassPowerPool",
+					"UsageValue": 1
+				},	{
+					"$type": "Game.GameData.WeaponAttackAbilityComponent, Assembly-CSharp",
+					"AttackStatusEffectsIDs": ["87abdda2-ce6c-418b-9941-554defe1d5ff", "a9858555-f0c4-4641-81e7-447b88c08219"],
+					"BonusPenetration": 0,
+					"Type": "Primary"
+				}
+			]
+		},	{
+			"$type": "Game.GameData.WeaponAttackAbilityGameData, Assembly-CSharp",
+			"DebugName": "Debilitating_Strike",
+			"ID": "5d9e8d52-1ad3-4217-b3bd-7d0ba32bc9c8",	//vanillaguid
+			"Components": [
+				{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AbilityClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
+					"AbilityLevel": 5,
+					"Description": 406000517,
+					"DisplayName": 2040,
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "da59e137-4636-4362-9fce-e0c5e5394a06",
+					"UsageType": "ClassPowerPool",
+					"UsageValue": 1
+				},	{
+					"$type": "Game.GameData.WeaponAttackAbilityComponent, Assembly-CSharp",
+					"AttackStatusEffectsIDs": ["87abdda2-ce6c-418b-9941-554defe1d5ff", "a9858555-f0c4-4641-81e7-447b88c08219", "1cb4d519-5095-4719-a430-620ded907d54"],
+					"BonusPenetration": 0,
+					"Type": "Primary"
+				}
+			]
+		},	{
+			"$type": "Game.GameData.WeaponAttackAbilityGameData, Assembly-CSharp",
+			"DebugName": "Break_The_Bell",
+			"ID": "e8dbfaf0-b7c1-4c4a-bf1e-d85020826712",	//vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"UsageValue": 3
+				},	{
+					"$type": "Game.GameData.WeaponAttackAbilityComponent, Assembly-CSharp",
+					"Type": "Primary"
+				}
+			]
+		},	{
+			"$type": "Game.GameData.WeaponAttackAbilityGameData, Assembly-CSharp",
+			"DebugName": "Ring_The_Bell",
+			"ID": "554f351c-9441-4861-a3cc-9a5f20d7fa28",	//vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"UsageValue": 3
+				},	{
+					"$type": "Game.GameData.WeaponAttackAbilityComponent, Assembly-CSharp",
+					"Type": "Primary"
+				}
+			]
+		},	{
+			"$type": "Game.GameData.WeaponAttackAbilityGameData, Assembly-CSharp",
+			"DebugName": "Pierce_The_Bell",
+			"ID": "bfac9c06-7259-4094-ab14-f1bcfaa4ce07",	//vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"UsageValue": 3
+				},	{
+					"$type": "Game.GameData.WeaponAttackAbilityComponent, Assembly-CSharp",
+					"Type": "Primary"
+				}
+			]
+		},	{
+			"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Surprise_Attack",
+			"ID": "81c0e599-a0a5-4d10-9700-e906f3c53e9c",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
+					"AbilityLevel": 0,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "00000000-0000-0000-0000-000000000000",
+					"AudioEventListID": "00000000-0000-0000-0000-000000000000",
+					"CannotActivateWhileInStealth": "true",
+					"CannotActivateWhileInvisible": "true",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 34995,
+					"DisplayName": 34996,
+					"DurationOverride": 0,
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/talents/ability_passive_damage.png",
+					"IsCombatOnly": "true",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "true",
+					"KeywordsIDs": [],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Default"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": [],
+					"StatusEffectsIDs": ["f033bf3b-1a5a-4b1e-869f-fa7bad97296c"],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+					"UsageType": "None",
+					"UsageValue": 0,
+					"VisualEffects": [],
+					"Vocalization": "NoVocalization"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		},	{
+			"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Sap_Riposte",
+			"ID": "eb9bf7a0-29a8-486b-b7a2-6f683c8f8c97",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
+					"AbilityLevel": 3,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [{
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean IsMeleeWeaponEquippedInPrimarySlot(Guid)",
+										"FunctionHash": -217911750,
+										"ParameterHash": 896845069,
+										"Parameters": ["7d150000-0000-0000-0000-000000000000"],
+										"UnrealCall": ""
+									},
+									"Not": false,
+									"Operator": 1
+								}, {
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean IsMeleeWeaponEquippedInSecondarySlot(Guid)",
+										"FunctionHash": 302004422,
+										"ParameterHash": -165622783,
+										"Parameters": ["7d150000-0000-0000-0000-000000000000"],
+										"UnrealCall": ""
+									},
+									"Not": false,
+									"Operator": 1
+								}
+							],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "00000000-0000-0000-0000-000000000000",
+					"AudioEventListID": "00000000-0000-0000-0000-000000000000",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [{
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean IsMeleeWeaponEquippedInPrimarySlot(Guid)",
+										"FunctionHash": -217911750,
+										"ParameterHash": 896845069,
+										"Parameters": ["7d150000-0000-0000-0000-000000000000"],
+										"UnrealCall": ""
+									},
+									"Not": true,
+									"Operator": 0
+								}, {
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean IsMeleeWeaponEquippedInSecondarySlot(Guid)",
+										"FunctionHash": 302004422,
+										"ParameterHash": -165622783,
+										"Parameters": ["7d150000-0000-0000-0000-000000000000"],
+										"UnrealCall": ""
+									},
+									"Not": true,
+									"Operator": 0
+								}
+							],
+							"Operator": 0
+						}
+					},
+					"Description": 35113,
+					"DisplayName": 1403,
+					"DurationOverride": 0,
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/rogue/sap.png",
+					"IsCombatOnly": "false",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "true",
+					"KeywordsIDs": [],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Default"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": [],
+					"StatusEffectsIDs": ["ed471940-434f-44ab-bf46-038636605cd5"],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+					"UsageType": "None",
+					"UsageValue": 0,
+					"VisualEffects": [],
+					"Vocalization": "NoVocalization"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		}, 	{
+			"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Perplexing_Sap_Riposte",
+			"ID": "00243615-9766-4d81-a7d0-de2dbcd9bf53",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
+					"AbilityLevel": 3,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [{
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean IsMeleeWeaponEquippedInPrimarySlot(Guid)",
+										"FunctionHash": -217911750,
+										"ParameterHash": 896845069,
+										"Parameters": ["7d150000-0000-0000-0000-000000000000"],
+										"UnrealCall": ""
+									},
+									"Not": false,
+									"Operator": 1
+								}, {
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean IsMeleeWeaponEquippedInSecondarySlot(Guid)",
+										"FunctionHash": 302004422,
+										"ParameterHash": -165622783,
+										"Parameters": ["7d150000-0000-0000-0000-000000000000"],
+										"UnrealCall": ""
+									},
+									"Not": false,
+									"Operator": 1
+								}
+							],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "00000000-0000-0000-0000-000000000000",
+					"AudioEventListID": "00000000-0000-0000-0000-000000000000",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [{
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean IsMeleeWeaponEquippedInPrimarySlot(Guid)",
+										"FunctionHash": -217911750,
+										"ParameterHash": 896845069,
+										"Parameters": ["7d150000-0000-0000-0000-000000000000"],
+										"UnrealCall": ""
+									},
+									"Not": true,
+									"Operator": 0
+								}, {
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean IsMeleeWeaponEquippedInSecondarySlot(Guid)",
+										"FunctionHash": 302004422,
+										"ParameterHash": -165622783,
+										"Parameters": ["7d150000-0000-0000-0000-000000000000"],
+										"UnrealCall": ""
+									},
+									"Not": true,
+									"Operator": 0
+								}
+							],
+							"Operator": 0
+						}
+					},
+					"Description": 35113,
+					"DisplayName": 2762,
+					"DurationOverride": 0,
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/rogue/perplexing_sap.png",
+					"IsCombatOnly": "false",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "true",
+					"KeywordsIDs": [],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Default"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": [],
+					"StatusEffectsIDs": ["4b7aa826-013b-4c08-a9dd-83e4e76502fa"],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [{
+						"String": 35114
+					}],
+					"UpgradedFromID": "eb9bf7a0-29a8-486b-b7a2-6f683c8f8c97",
+					"UsageType": "None",
+					"UsageValue": 0,
+					"VisualEffects": [],
+					"Vocalization": "NoVocalization"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		}, 	{
+			"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Swiftblade_Hidden_Blade_Riposte",
+			"ID": "6d981b00-67fa-48d5-9853-9dd9a1e94f25",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
+					"AbilityLevel": 3,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [
+								{
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean IsMeleeWeaponEquippedInPrimarySlot(Guid)",
+										"FunctionHash": -217911750,
+										"ParameterHash": 896845069,
+										"Parameters": ["7d150000-0000-0000-0000-000000000000"],
+										"UnrealCall": ""
+									},
+									"Not": false,
+									"Operator": 1
+								}, {
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean IsMeleeWeaponEquippedInSecondarySlot(Guid)",
+										"FunctionHash": 302004422,
+										"ParameterHash": -165622783,
+										"Parameters": ["7d150000-0000-0000-0000-000000000000"],
+										"UnrealCall": ""
+									},
+									"Not": false,
+									"Operator": 1
+								}
+							],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "00000000-0000-0000-0000-000000000000",
+					"AudioEventListID": "00000000-0000-0000-0000-000000000000",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [
+								{
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean IsMeleeWeaponEquippedInPrimarySlot(Guid)",
+										"FunctionHash": -217911750,
+										"ParameterHash": 896845069,
+										"Parameters": ["7d150000-0000-0000-0000-000000000000"],
+										"UnrealCall": ""
+									},
+									"Not": true,
+									"Operator": 0
+								}, {
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean IsMeleeWeaponEquippedInSecondarySlot(Guid)",
+										"FunctionHash": 302004422,
+										"ParameterHash": -165622783,
+										"Parameters": ["7d150000-0000-0000-0000-000000000000"],
+										"UnrealCall": ""
+									},
+									"Not": true,
+									"Operator": 0
+								}
+							],
+							"Operator": 0
+						}
+					},
+					"Description": 35102,
+					"DisplayName": 35101,
+					"DurationOverride": 0,
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/priest/spiritual_weapon_skaen.png",
+					"IsCombatOnly": "false",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "true",
+					"KeywordsIDs": [],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Default"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": [],
+					"StatusEffectsIDs": ["3e1b511c-4641-40df-abc4-8e599835be7c"],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+					"UsageType": "None",
+					"UsageValue": 0,
+					"VisualEffects": [],
+					"Vocalization": "NoVocalization"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		}, 	{
+			"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Cutpurse",
+			"ID": "5dc93a47-1b33-41eb-8f69-a8c29bbd0994",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
+					"AbilityLevel": 0,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "00000000-0000-0000-0000-000000000000",
+					"AudioEventListID": "00000000-0000-0000-0000-000000000000",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 3751,
+					"DisplayName": 2302,
+					"DurationOverride": 0,
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/barbarian/leap.png",
+					"IsCombatOnly": "false",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "true",
+					"KeywordsIDs": [],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Default"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": [],
+					"StatusEffectsIDs": [],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+					"UsageType": "None",
+					"UsageValue": 0,
+					"VisualEffects": [],
+					"Vocalization": "NoVocalization"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		}, {
+			"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Chameleon",
+			"ID": "832668c0-ca62-4841-b5c0-0bad91eefc07",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
+					"AbilityLevel": 0,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "00000000-0000-0000-0000-000000000000",
+					"AudioEventListID": "00000000-0000-0000-0000-000000000000",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 3751,
+					"DisplayName": 2302,
+					"DurationOverride": 0,
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/barbarian/leap.png",
+					"IsCombatOnly": "false",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "true",
+					"KeywordsIDs": [],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Default"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": [],
+					"StatusEffectsIDs": [],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+					"UsageType": "None",
+					"UsageValue": 0,
+					"VisualEffects": [],
+					"Vocalization": "NoVocalization"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		},	{
+			"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Toxic_Grenade",
+			"ID": "efca543d-dcaf-45d1-a27d-6106b5fcddc6",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
+					"AbilityLevel": 7,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "d40a8c36-9d62-41b9-b9c1-79c399a0deaf",
+					"AudioEventListID": "99d8d71d-b390-4131-9c77-0f2db7d7e986",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 1475,
+					"DisplayName": 406000519,
+					"DurationOverride": 0,
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/rogue/smoke_bomb.png",
+					"IsCombatOnly": "false",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "false",
+					"KeywordsIDs": [],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Default"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": [],
+					"StatusEffectsIDs": [],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+					"UsageType": "ClassPowerPool",
+					"UsageValue": 2,
+					"VisualEffects": [],
+					"Vocalization": "NoVocalization"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		},	{
+			"$type": "Game.GameData.AttackAOEGameData, Assembly-CSharp",
+			"DebugName": "Toxic_Grenade_AOE",
+			"ID": "d40a8c36-9d62-41b9-b9c1-79c399a0deaf",
+			"Components": [{
+					"$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+					"AccuracyBonus": 0,
+					"AdditionalAttackOnTooltip": "false",
+					"AffectedTargetConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AffectedTargetDeathState": "Alive",
+					"AffectedTargetType": "NotSelf",
+					"AfflictionApplicationModifier": "None",
+					"AfflictionsDefendedBy": "None",
+					"AllReactNoise": "false",
+					"ApplyOnceOnly": "false",
+					"AttackDistance": 5,
+					"AttackOnImpactID": "00000000-0000-0000-0000-000000000000",
+					"AttackVariationID": "97969269-856b-478e-83ff-f752f50cc0a1",
+					"BounceData": {
+						"AlwaysBounceAtEnemies": "false",
+						"Bounces": 0,
+						"Delay": 0,
+						"InRangeOrder": "false",
+						"Multiplier": 0.5,
+						"NeverBounce": "false",
+						"NoRepeatTargets": "false",
+						"Range": 10
+					},
+					"CanCrit": "true",
+					"CanGraze": "false",
+					"CastSpeedID": "eacb53e3-6eb5-422a-92ca-99cc883ae4a9",
+					"DamageData": {
+						"AlternateDamageType": "None",
+						"DamageProcs": [],
+						"DamageType": "None",
+						"Maximum": 0,
+						"Minimum": 0
+					},
+					"DefendedBy": "Reflex",
+					"DoesNotApplyDamage": "false",
+					"ExtraAttackID": "00000000-0000-0000-0000-000000000000",
+					"FaceTarget": "true",
+					"ForcedTarget": "None",
+					"HideFromCombatLog": "false",
+					"HitBone": "Chest",
+					"HostilityOverride": "Default",
+					"ImpactDelay": 0,
+					"InterruptType": "Normal",
+					"InterruptsOn": "Hit",
+					"KeywordsIDs": [],
+					"LaunchBone": "LeftWeapon",
+					"MinAttackDistance": 0,
+					"NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
+					"OnHitShakeDuration": "None",
+					"OnHitShakeStrength": "None",
+					"PathsToTarget": "true",
+					"PenetrationRating": 0,
+					"PushDistance": 0,
+					"RandomizeStatusEffect": "false",
+					"RecoveryTimeID": "566840d9-1561-4243-8ca7-889df9869847",
+					"RequiresHitObject": "false",
+					"StatusEffectKeywordsIDs": [],
+					"StatusEffectsIDs": ["22bf5e8d-1077-4e76-8e04-943f54709362", "f0287dbc-e56d-456f-9885-863b0108f2f5"],
+					"SubstituteHitVisualEffect": "",
+					"TargetAngle": 0,
+					"TreatAsWeapon": "false",
+					"UseParentEquippableHand": "false",
+					"VisualEffects": [{
+							"AnimEventID": 0,
+							"AttachMode": "Attach",
+							"AttachObject": "Caster",
+							"AttachPoint": "RightWeapon",
+							"Event": "OnAnimEvent",
+							"Loop": "true",
+							"MeshType": "None",
+							"Scale": "false",
+							"VisualEffect": "prefabs/effects/abilities/rogue/fx_smoke_grenade_hand.prefab"
+						}, {
+							"AnimEventID": 0,
+							"AttachMode": "Position",
+							"AttachObject": "Target",
+							"AttachPoint": "Ground",
+							"Event": "OnImpact",
+							"Loop": "false",
+							"MeshType": "None",
+							"Scale": "false",
+							"VisualEffect": "prefabs/effects/abilities/rogue/fx_smoke_grenade.prefab"
+						}
+					]
+				}, {
+					"$type": "Game.GameData.AttackRangedComponent, Assembly-CSharp",
+					"IgnoreMagicDefense": "false",
+					"IsMultiHit": "false",
+					"LaunchAttackOnCollision": "false",
+					"LaunchOffset": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"LaunchOffsetRandom": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"LaunchSource": "Caster",
+					"MultiHitMaxHits": 0,
+					"MultiHitTravelDist": 10,
+					"ProjectileConeAngle": 145,
+					"ProjectileCount": 1,
+					"ProjectilePrefab": "prefabs/projectiles/rogue/fx_smoke_grenade_projectile.prefab"
+				}, {
+					"$type": "Game.GameData.AttackAOEComponent, Assembly-CSharp",
+					"BlastPhysicsForce": 500,
+					"BlastRadiusOverride": 2.5,
+					"BlastSize": "Medium",
+					"DamageAngle": 360,
+					"ExcludePrimaryTarget": "false",
+					"ExcludeSelf": "true",
+					"IgnoreParentTarget": "false",
+					"PushFromCaster": "false"
+				}
+			]
+		},	{
+			"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Shadowing_Beyond",
+			"ID": "e110ab6f-f378-496f-b207-b557ea782f4f",	//vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"UsageValue": 2
+				}
+			]
+		},	{
+			"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Familiar_Shadows",
+			"ID": "ed08e16a-2c6e-4adb-ba49-a71fa9459cf7",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
+					"AbilityLevel": 8,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "561cd24f-97a2-41b2-a588-cecd344568b4",
+					"AudioEventListID": "da893c2b-54a9-4735-a6c3-c18f85aa00ec",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 1034,
+					"DisplayName": 406000454,
+					"DurationOverride": 0,
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/rogue/enduring_shadows.png",
+					"IsCombatOnly": "true",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "false",
+					"KeywordsIDs": [],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Default"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": [],
+					"StatusEffectsIDs": ["45940f37-13ca-41dc-85e5-0df53b4bc444", "0a85af2f-7988-497f-b7fe-fb98def1a8a3", "2ce6927d-1237-486b-a130-a8d335f68816", "546bd6a7-273c-48ee-865e-36af6d09d4c0", "006484d2-c4f8-4fa1-ac11-56b9a7b86e5d", "0867072d-aac5-4af7-97c2-6ef94ade82f0", "f2ff65f0-5651-497f-a6a0-c2cb44ebe87c"],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "e110ab6f-f378-496f-b207-b557ea782f4f",
+					"UsageType": "ClassPowerPool",
+					"UsageValue": 3,
+					"VisualEffects": [],
+					"Vocalization": "NoVocalization"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		},	{
+			"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Adept_Evasion",
+			"ID": "bb2c8f7f-cf97-48bc-861c-5778043adecc",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
+					"AbilityLevel": 2,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "00000000-0000-0000-0000-000000000000",
+					"AudioEventListID": "00000000-0000-0000-0000-000000000000",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 926,
+					"DisplayName": 374,
+					"DurationOverride": 0,
+					"GrantedViaScript": "false",
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/talents/ability_passive_reflex.png",
+					"IsCombatOnly": "false",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "true",
+					"KeywordsIDs": [],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Default"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": [],
+					"StatusEffectsIDs": ["0d36d9c6-21fb-4f8e-814d-31f84f6f0023"],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+					"UsageType": "None",
+					"UsageValue": 0,
+					"VisualEffects": [],
+					"Vocalization": "NoVocalization"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		},	{
+			"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Superior_Evasion",
+			"ID": "b8d5f846-e6a6-4f1e-855c-9470edcb3e8b",	//vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AbilityClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
+					"AbilityLevel": 5,
+					"Description": 926,
+					"DisplayName": 406000523,
+					"DurationOverride": 0,
+					"GrantedViaScript": "false",
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/talents/ability_passive_reflex.png",
+					"IsCombatOnly": "false",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "true",
+					"KeywordsIDs": [],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Default"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": [],
+					"StatusEffectsIDs": ["e2d9dd06-1fe3-4c86-9608-004723d316b4"],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+					"UsageType": "None",
+					"UsageValue": 0,
+					"VisualEffects": [],
+					"Vocalization": "NoVocalization"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		}
+    ]
+}

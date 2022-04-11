@@ -1,0 +1,424 @@
+{
+	"GameDataObjects": [
+		{
+			"$type": "Game.GameData.BaseProgressionTableAppendGameData, Assembly-CSharp",
+			"DebugName": "Druid_NewSpells",
+			"ID": "deece46a-4e3f-4f78-affe-0d7477d3b973",
+			"Components": [
+				{
+					"$type": "Game.GameData.BaseProgressionTableAppendComponent, Assembly-CSharp",
+					"BaseTableID": "879d3662-bdf7-4585-99e4-0af2df117c50",
+					"AbilityUnlocks": [
+						{
+							"Note": "PL 5 Unlock - Limited Savage Prowess",
+							"Category": "General",
+							"UnlockStyle": "Unlock",
+							"ActivationObject": "Self",
+							"AddAbilityID": "87fc4bc7-58f2-4c0a-be3b-e701326b3ef6",
+							"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+							"Prerequisites": {
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "568f1c26-1398-4e67-8b81-0f6a60e6cdde",
+									"MinimumPowerLevel": 5
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"Conditional": {
+									"Operator": 0,
+									"Components": []
+								},
+								"VisibilityConditional": {
+									"Operator": 0,
+									"Components": []
+								},
+								"IsMutuallyExclusiveUpgrade": "true"
+							}
+						},
+						{
+							"Note": "PL 6 Unlock - Storm Burst",
+							"Category": "General",
+							"UnlockStyle": "Unlock",
+							"ActivationObject": "Self",
+							"AddAbilityID": "bffc19fd-92d4-445d-992c-3143bede4ee4",
+							"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+							"Prerequisites": {
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "568f1c26-1398-4e67-8b81-0f6a60e6cdde",
+									"MinimumPowerLevel": 6
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"Conditional": {
+									"Operator": 0,
+									"Components": []
+								},
+								"VisibilityConditional": {
+									"Operator": 0,
+									"Components": []
+								},
+								"IsMutuallyExclusiveUpgrade": "true"
+							}
+						},
+						{
+							"Note": "PL 6 Unlock - Invisibility Ward",
+							"Category": "General",
+							"UnlockStyle": "Unlock",
+							"ActivationObject": "Self",
+							"AddAbilityID": "c37bd252-73a3-4715-820b-24c860060d3e",
+							"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+							"Prerequisites": {
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "568f1c26-1398-4e67-8b81-0f6a60e6cdde",
+									"MinimumPowerLevel": 6
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"Conditional": {
+									"Operator": 0,
+									"Components": []
+								},
+								"VisibilityConditional": {
+									"Operator": 0,
+									"Components": []
+								},
+								"IsMutuallyExclusiveUpgrade": "true"
+							}
+						},
+						{
+							"Note": "PL 7 Unlock - Erupting Flame",
+							"Category": "General",
+							"UnlockStyle": "Unlock",
+							"ActivationObject": "Self",
+							"AddAbilityID": "5c46818d-98a6-4ab4-82db-cea6ef8a17d8",
+							"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+							"Prerequisites": {
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "568f1c26-1398-4e67-8b81-0f6a60e6cdde",
+									"MinimumPowerLevel": 7
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"Conditional": {
+									"Operator": 0,
+									"Components": []
+								},
+								"VisibilityConditional": {
+									"Operator": 0,
+									"Components": []
+								},
+								"IsMutuallyExclusiveUpgrade": "true"
+							}
+						},
+						{
+							"Note": "PL 8 Unlock - Storm Call",
+							"Category": "General",
+							"UnlockStyle": "Unlock",
+							"ActivationObject": "Self",
+							"AddAbilityID": "bffc18fd-92d4-445a-992c-3193bedc4ee4",
+							"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+							"Prerequisites": {
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "568f1c26-1398-4e67-8b81-0f6a60e6cdde",
+									"MinimumPowerLevel": 8
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"Conditional": {
+									"Operator": 0,
+									"Components": []
+								},
+								"VisibilityConditional": {
+									"Operator": 0,
+									"Components": []
+								},
+								"IsMutuallyExclusiveUpgrade": "true"
+							}
+						},
+						{
+							"Note": "PL 9 Unlock - Superior Savage Prowess",
+							"Category": "General",
+							"UnlockStyle": "Unlock",
+							"ActivationObject": "Self",
+							"AddAbilityID": "a7fcdbc7-58f2-4c0a-be3b-e701326b3ef7",
+							"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+							"Prerequisites": {
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "568f1c26-1398-4e67-8b81-0f6a60e6cdde",
+									"MinimumPowerLevel": 9
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"Conditional": {
+									"Operator": 0,
+									"Components": []
+								},
+								"VisibilityConditional": {
+									"Operator": 0,
+									"Components": []
+								},
+								"IsMutuallyExclusiveUpgrade": "true"
+							}
+						},
+						{
+							"Note": "PL 9 Unlock - Chitinous Carapace",
+							"Category": "General",
+							"UnlockStyle": "Unlock",
+							"ActivationObject": "Self",
+							"AddAbilityID": "374cd82c-c5ea-4967-98a0-a861512ff103",
+							"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+							"Prerequisites": {
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "568f1c26-1398-4e67-8b81-0f6a60e6cdde",
+									"MinimumPowerLevel": 9
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"Conditional": {
+									"Operator": 0,
+									"Components": []
+								},
+								"VisibilityConditional": {
+									"Operator": 0,
+									"Components": []
+								},
+								"IsMutuallyExclusiveUpgrade": "true"
+							}
+						},
+						{
+							"Note": "PL 7 Unlock - Peak Condition",
+							"Category": "General",
+							"UnlockStyle": "Unlock",
+							"ActivationObject": "Self",
+							"AddAbilityID": "a7256b31-aff9-44fb-ae32-15209a081235",
+							"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+							"Prerequisites": {
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "568f1c26-1398-4e67-8b81-0f6a60e6cdde",
+									"MinimumPowerLevel": 7
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"Conditional": {
+									"Operator": 0,
+									"Components": [
+										{
+											"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+											"Data": {
+												"FullName": "Boolean ProgressionTableIsSubclass(Guid)",
+												"Parameters": [
+													"0e7a5b7d-6eba-4d29-9bdc-a90dc145a0c4"
+												],
+												"Flags": "",
+												"UnrealCall": "",
+												"FunctionHash": 1231916529,
+												"ParameterHash": 1588994268
+											},
+											"Not": true,
+											"Operator": 0
+										}
+									]
+								},
+								"VisibilityConditional": {
+									"Operator": 0,
+									"Components": []
+								},
+								"IsMutuallyExclusiveUpgrade": "true"
+							}
+						},
+						{
+							"Note": "PL 7 Unlock - Lunar Radiance",
+							"Category": "General",
+							"UnlockStyle": "Unlock",
+							"ActivationObject": "Self",
+							"AddAbilityID": "a7656631-aef1-44fb-ae32-152f9a0e1d35",
+							"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+							"Prerequisites": {
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "568f1c26-1398-4e67-8b81-0f6a60e6cdde",
+									"MinimumPowerLevel": 7
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"Conditional": {
+									"Operator": 0,
+									"Components": [
+										{
+											"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+											"Data": {
+												"FullName": "Boolean ProgressionTableIsSubclass(Guid)",
+												"Parameters": [
+													"0e7a5b7d-6eba-4d29-9bdc-a90dc145a0c4"
+												],
+												"Flags": "",
+												"UnrealCall": "",
+												"FunctionHash": 1231916529,
+												"ParameterHash": 1588994268
+											},
+											"Not": true,
+											"Operator": 0
+										}
+									]
+								},
+								"VisibilityConditional": {
+									"Operator": 0,
+									"Components": []
+								},
+								"IsMutuallyExclusiveUpgrade": "true"
+							}
+						},
+						{
+							"Note": "PL 5 Unlock - Nature's Bond I",
+							"Category": "General",
+							"UnlockStyle": "Unlock",
+							"ActivationObject": "Self",
+							"AddAbilityID": "12e248b3-5205-4168-9735-8756f4af517b",
+							"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+							"Prerequisites": {
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "568f1c26-1398-4e67-8b81-0f6a60e6cdde",
+									"MinimumPowerLevel": 5
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"Conditional": {
+									"Operator": 0,
+									"Components": []
+								},
+								"VisibilityConditional": {
+									"Operator": 0,
+									"Components": []
+								},
+								"IsMutuallyExclusiveUpgrade": "true"
+							}
+						},
+						{
+							"Note": "PL 7 Unlock - Nature's Bond II",
+							"Category": "General",
+							"UnlockStyle": "Unlock",
+							"ActivationObject": "Self",
+							"AddAbilityID": "12e248b3-5205-4168-9735-8756f4af517c",
+							"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+							"Prerequisites": {
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "568f1c26-1398-4e67-8b81-0f6a60e6cdde",
+									"MinimumPowerLevel": 7
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"Conditional": {
+									"Operator": 0,
+									"Components": []
+								},
+								"VisibilityConditional": {
+									"Operator": 0,
+									"Components": []
+								},
+								"IsMutuallyExclusiveUpgrade": "true"
+							}
+						},
+						{
+							"Note": "PL 9 Unlock - Nature's Bond III",
+							"Category": "General",
+							"UnlockStyle": "Unlock",
+							"ActivationObject": "Self",
+							"AddAbilityID": "12e248b3-5205-4168-9735-8756f4af517d",
+							"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+							"Prerequisites": {
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "568f1c26-1398-4e67-8b81-0f6a60e6cdde",
+									"MinimumPowerLevel": 9
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"Conditional": {
+									"Operator": 0,
+									"Components": []
+								},
+								"VisibilityConditional": {
+									"Operator": 0,
+									"Components": []
+								},
+								"IsMutuallyExclusiveUpgrade": "true"
+							}
+						},
+						{
+							"Note": "PL 1 Unlock - Ondra's Whip",
+							"Category": "General",
+							"UnlockStyle": "Unlock",
+							"ActivationObject": "Self",
+							"AddAbilityID": "1e2deba7-5151-46b4-b5aa-4b0a98598b0e",
+							"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+							"Prerequisites": {
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "568f1c26-1398-4e67-8b81-0f6a60e6cdde",
+									"MinimumPowerLevel": 1
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"Conditional": {
+									"Operator": 0,
+									"Components": []
+								},
+								"VisibilityConditional": {
+									"Operator": 0,
+									"Components": []
+								},
+								"IsMutuallyExclusiveUpgrade": "true"
+							}
+						},
+						{
+							"Note": "PL 5 Unlock - Ocean Burst",
+							"Category": "General",
+							"UnlockStyle": "Unlock",
+							"ActivationObject": "Self",
+							"AddAbilityID": "39a41b15-eda2-4b7c-8b22-cd8f1d497280",
+							"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+							"Prerequisites": {
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "568f1c26-1398-4e67-8b81-0f6a60e6cdde",
+									"MinimumPowerLevel": 5
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"Conditional": {
+									"Operator": 0,
+									"Components": []
+								},
+								"VisibilityConditional": {
+									"Operator": 0,
+									"Components": []
+								},
+								"IsMutuallyExclusiveUpgrade": "true"
+							}
+						},
+						{
+							"Note": "PL 6 Unlock - Watery Double",
+							"Category": "General",
+							"UnlockStyle": "Unlock",
+							"ActivationObject": "Self",
+							"AddAbilityID": "4f8abf18-2540-469f-b92d-f79a2b80f57b",
+							"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+							"Prerequisites": {
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "568f1c26-1398-4e67-8b81-0f6a60e6cdde",
+									"MinimumPowerLevel": 6
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"Conditional": {
+									"Operator": 0,
+									"Components": []
+								},
+								"VisibilityConditional": {
+									"Operator": 0,
+									"Components": []
+								},
+								"IsMutuallyExclusiveUpgrade": "true"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

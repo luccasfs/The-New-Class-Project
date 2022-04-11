@@ -1,0 +1,1341 @@
+{
+  "GameDataObjects": [
+    {
+         "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+         "DebugName": "Ondra_Deity",
+         "ID": "394495a6-85db-11e8-adc0-fa7ae01bbebc",
+         "Components": [
+            {
+               "$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+               "KeywordsIDs": [],
+               "DisplayName": 15606,
+               "Description": 15605,
+               "UpgradeDescriptions": [
+                  {
+                     "String": 15604
+                  }
+               ],
+               "UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+               "Vocalization": "NoVocalization",
+               "Icon": "gui/icons/abilities/talents/class_priest.png",
+               "UsageType": "None",
+               "UsageValue": 0,
+               "AbilityClassID": "f7cb46af-a719-41c0-9a53-107eefdbce2b",
+               "AbilityLevel": 0,
+               "IsPassive": "true",
+               "StackingRuleOverride": "Default",
+               "TriggerOnHit": "false",
+               "IsModal": "false",
+               "ModalGroupID": "00000000-0000-0000-0000-000000000000",
+               "IsCombatOnly": "false",
+               "IsNonCombatOnly": "false",
+               "HideFromUI": "false",
+               "HideFromCombatLog": "false",
+               "UniqueSet": "None",
+               "NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+               "DurationOverride": 0,
+               "OverrideEmpower": "Default",
+               "ClearsOnMovement": "false",
+               "CannotActivateWhileInStealth": "false",
+               "CannotActivateWhileInvisible": "false",
+               "ActivationPrerequisites": {
+                  "Conditional": {
+                     "Operator": 0,
+                     "Components": []
+                  }
+               },
+               "ApplicationPrerequisites": {
+                  "Conditional": {
+                     "Operator": 0,
+                     "Components": []
+                  }
+               },
+               "DeactivationPrerequisites": {
+                  "Conditional": {
+                     "Operator": 0,
+                     "Components": []
+                  }
+               },
+               "PowerLevelScaling": {
+                  "ScalingType": "Default",
+                  "BaseLevel": 0,
+                  "LevelIncrement": 1,
+                  "MaxLevel": 0,
+                  "DamageAdjustment": 1,
+                  "DurationAdjustment": 1,
+                  "BounceCountAdjustment": 0,
+                  "ProjectileCountAdjustment": 0,
+                  "AccuracyAdjustment": 0,
+                  "PenetrationAdjustment": 0
+               },
+               "StatusEffectKeywordsIDs": [],
+               "StatusEffectsIDs": [],
+               "VisualEffects": [],
+               "SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+               "AttackID": "00000000-0000-0000-0000-000000000000",
+               "AITargetingConditional": {
+                  "Conditional": {
+                     "Operator": 0,
+                     "Components": []
+                  },
+                  "Scripts": []
+               },
+               "AudioEventListID": "00000000-0000-0000-0000-000000000000"
+            },
+            {
+               "$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+            }
+         ]
+      },
+      {
+      "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+      "DebugName": "Ondras_Whip__Ondra",
+      "ID": "7efcacea-85dc-11e8-adc0-fa7ae01bbebc",
+      "Components": [
+        {
+          "$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+          "KeywordsIDs": [
+            "97b18bd3-b3e4-4777-a8bc-f0808022dd79"
+          ],
+          "DisplayName": 3297,
+          "Description": 3298,
+          "UpgradeDescriptions": [],
+          "UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+          "Vocalization": "GenericSpellCast1",
+          "Icon": "gui/icons/abilities/druid/ondras_whip.png",
+          "UsageType": "Spell",
+          "UsageValue": 0,
+          "AbilityClassID": "f7cb46af-a719-41c0-9a53-107eefdbce2b",
+          "AbilityLevel": 1,
+          "IsPassive": "false",
+          "StackingRuleOverride": "Default",
+          "TriggerOnHit": "false",
+          "IsModal": "false",
+          "ModalGroupID": "00000000-0000-0000-0000-000000000000",
+          "IsCombatOnly": "true",
+          "IsNonCombatOnly": "false",
+          "HideFromUI": "false",
+          "HideFromCombatLog": "false",
+          "UniqueSet": "None",
+          "NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+          "DurationOverride": 0,
+          "OverrideEmpower": "Default",
+          "ClearsOnMovement": "false",
+          "CannotActivateWhileInStealth": "false",
+          "CannotActivateWhileInvisible": "false",
+          "ActivationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "ApplicationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "DeactivationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "PowerLevelScaling": {
+            "ScalingType": "Default",
+            "BaseLevel": 0,
+            "LevelIncrement": 1,
+            "MaxLevel": 0,
+            "DamageAdjustment": 1,
+            "DurationAdjustment": 1,
+            "BounceCountAdjustment": 0,
+            "ProjectileCountAdjustment": 0,
+            "AccuracyAdjustment": 0,
+            "PenetrationAdjustment": 0
+          },
+          "StatusEffectKeywordsIDs": [],
+          "StatusEffectsIDs": [],
+          "VisualEffects": [],
+          "SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+          "AttackID": "d8a50e76-483b-49c6-b228-18259715bca8",
+          "AITargetingConditional": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            },
+            "Scripts": []
+          },
+          "AudioEventListID": "75fda4f7-fa86-4665-8f6f-75ff76ceb781"
+        },
+        {
+          "$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+      "DebugName": "The_Moons_Light_Ondra",
+      "ID": "3cf755ba-85dd-11e8-adc0-fa7ae01bbebc",
+      "Components": [
+        {
+          "$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+          "KeywordsIDs": [
+            "88f77e03-9180-4830-a2ac-18c8023fec35"
+          ],
+          "DisplayName": 1958,
+          "Description": 1959,
+          "UpgradeDescriptions": [],
+          "UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+          "Vocalization": "GenericSpellCast2",
+          "Icon": "gui/icons/abilities/druid/moons_light.png",
+          "UsageType": "Spell",
+          "UsageValue": 1,
+          "AbilityClassID": "f7cb46af-a719-41c0-9a53-107eefdbce2b",
+          "AbilityLevel": 2,
+          "IsPassive": "false",
+          "StackingRuleOverride": "Default",
+          "TriggerOnHit": "false",
+          "IsModal": "false",
+          "ModalGroupID": "00000000-0000-0000-0000-000000000000",
+          "IsCombatOnly": "true",
+          "IsNonCombatOnly": "false",
+          "HideFromUI": "false",
+          "HideFromCombatLog": "false",
+          "UniqueSet": "None",
+          "NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
+          "DurationOverride": 0,
+          "OverrideEmpower": "Default",
+          "ClearsOnMovement": "false",
+          "CannotActivateWhileInStealth": "false",
+          "CannotActivateWhileInvisible": "false",
+          "ActivationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "ApplicationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "DeactivationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "PowerLevelScaling": {
+            "ScalingType": "Default",
+            "BaseLevel": 0,
+            "LevelIncrement": 1,
+            "MaxLevel": 0,
+            "DamageAdjustment": 1,
+            "DurationAdjustment": 1,
+            "BounceCountAdjustment": 0,
+            "ProjectileCountAdjustment": 0,
+            "AccuracyAdjustment": 0,
+            "PenetrationAdjustment": 0
+          },
+          "StatusEffectKeywordsIDs": [],
+          "StatusEffectsIDs": [],
+          "VisualEffects": [],
+          "SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+          "AttackID": "5bf72549-3f78-47e4-a143-1c909b7d16ca",
+          "AITargetingConditional": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            },
+            "Scripts": []
+          },
+          "AudioEventListID": "1ba6cd38-e2b4-42ee-9a3c-c24dba159e42"
+        },
+        {
+          "$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+      "DebugName": "Overwhelming_Wave_Ondra",
+      "ID": "1c962f06-85df-11e8-adc0-fa7ae01bbebc",
+      "Components": [
+        {
+          "$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+          "KeywordsIDs": [
+            "97b18bd3-b3e4-4777-a8bc-f0808022dd79",
+            "a7a06148-9a41-44fe-9cc8-31acef0e13aa"
+          ],
+          "DisplayName": 541,
+          "Description": 543,
+          "UpgradeDescriptions": [],
+          "UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+          "Vocalization": "GenericSpellCast5",
+          "Icon": "gui/icons/abilities/druid/overwhelming_wave.png",
+          "UsageType": "Spell",
+          "UsageValue": 5,
+          "AbilityClassID": "f7cb46af-a719-41c0-9a53-107eefdbce2b",
+          "AbilityLevel": 4,
+          "IsPassive": "false",
+          "StackingRuleOverride": "Default",
+          "TriggerOnHit": "false",
+          "IsModal": "false",
+          "ModalGroupID": "00000000-0000-0000-0000-000000000000",
+          "IsCombatOnly": "false",
+          "IsNonCombatOnly": "false",
+          "HideFromUI": "false",
+          "HideFromCombatLog": "false",
+          "UniqueSet": "None",
+          "NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
+          "DurationOverride": 0,
+          "OverrideEmpower": "Default",
+          "ClearsOnMovement": "false",
+          "CannotActivateWhileInStealth": "false",
+          "CannotActivateWhileInvisible": "false",
+          "ActivationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "ApplicationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "DeactivationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "PowerLevelScaling": {
+            "ScalingType": "Default",
+            "BaseLevel": 0,
+            "LevelIncrement": 1,
+            "MaxLevel": 0,
+            "DamageAdjustment": 1,
+            "DurationAdjustment": 1,
+            "BounceCountAdjustment": 0,
+            "ProjectileCountAdjustment": 0,
+            "AccuracyAdjustment": 0,
+            "PenetrationAdjustment": 0
+          },
+          "StatusEffectKeywordsIDs": [],
+          "StatusEffectsIDs": [],
+          "VisualEffects": [],
+          "SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+          "AttackID": "789df4d7-d039-4008-aa34-f426b85df3d0",
+          "AITargetingConditional": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            },
+            "Scripts": []
+          },
+          "AudioEventListID": "01c18d17-6643-4f6b-b78d-579c20cf18af"
+        },
+        {
+          "$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+      "DebugName": "Ocean_Burst_Ondra",
+      "ID": "0bd82a0a-85e1-11e8-adc0-fa7ae01bbebc",
+      "Components": [
+        {
+          "$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+          "KeywordsIDs": [
+            "97b18bd3-b3e4-4777-a8bc-f0808022dd79",
+            "a7a06148-9a41-44fe-9cc8-31acef0e13aa"
+          ],
+          "DisplayName": 4610,
+          "Description": 4611,
+          "UpgradeDescriptions": [],
+          "UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+          "Vocalization": "GenericSpellCast5",
+          "Icon": "gui/icons/abilities/druid/ocean_burst.png",
+          "UsageType": "Spell",
+          "UsageValue": 0,
+          "AbilityClassID": "f7cb46af-a719-41c0-9a53-107eefdbce2b",
+          "AbilityLevel": 5,
+          "IsPassive": "false",
+          "StackingRuleOverride": "Default",
+          "TriggerOnHit": "false",
+          "IsModal": "false",
+          "ModalGroupID": "00000000-0000-0000-0000-000000000000",
+          "IsCombatOnly": "false",
+          "IsNonCombatOnly": "false",
+          "HideFromUI": "false",
+          "HideFromCombatLog": "false",
+          "UniqueSet": "None",
+          "NoiseLevelID": "6bfdad12-a1d0-42cc-b797-c9d2dac2af05",
+          "DurationOverride": 0,
+          "OverrideEmpower": "Default",
+          "ClearsOnMovement": "false",
+          "CannotActivateWhileInStealth": "false",
+          "CannotActivateWhileInvisible": "false",
+          "ActivationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "ApplicationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "DeactivationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "PowerLevelScaling": {
+            "ScalingType": "Default",
+            "BaseLevel": 0,
+            "LevelIncrement": 1,
+            "MaxLevel": 0,
+            "DamageAdjustment": 1,
+            "DurationAdjustment": 1,
+            "BounceCountAdjustment": 0,
+            "ProjectileCountAdjustment": 0,
+            "AccuracyAdjustment": 0,
+            "PenetrationAdjustment": 0
+          },
+          "StatusEffectKeywordsIDs": [],
+          "StatusEffectsIDs": [],
+          "VisualEffects": [],
+          "SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+          "AttackID": "8a278a7c-8776-11e8-9a94-a6cf71072f73",
+          "AITargetingConditional": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            },
+            "Scripts": []
+          },
+          "AudioEventListID": "822d2783-793a-42cc-b9ee-1907ec7343cc"
+        },
+        {
+          "$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+      "DebugName": "Rejuvenating_Waters_Ability",
+      "ID": "0a49c47c-85ec-11e8-adc0-fa7ae01bbebc",
+      "Components": [
+        {
+          "$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+          "KeywordsIDs": [
+            "a7a06148-9a41-44fe-9cc8-31acef0e13aa",
+            "97b18bd3-b3e4-4777-a8bc-f0808022dd79"
+          ],
+          "DisplayName": 4587,
+          "Description": 4588,
+          "UpgradeDescriptions": [],
+          "UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+          "Vocalization": "NoVocalization",
+          "Icon": "gui/icons/abilities/priest/restore_light_stamina.png",
+          "UsageType": "Spell",
+          "UsageValue": 0,
+          "AbilityClassID": "f7cb46af-a719-41c0-9a53-107eefdbce2b",
+          "AbilityLevel": 6,
+          "IsPassive": "false",
+          "StackingRuleOverride": "Default",
+          "TriggerOnHit": "false",
+          "IsModal": "false",
+          "ModalGroupID": "00000000-0000-0000-0000-000000000000",
+          "IsCombatOnly": "true",
+          "IsNonCombatOnly": "false",
+          "HideFromUI": "false",
+          "HideFromCombatLog": "false",
+          "UniqueSet": "None",
+          "NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+          "DurationOverride": 0,
+          "OverrideEmpower": "Default",
+          "ClearsOnMovement": "false",
+          "CannotActivateWhileInStealth": "false",
+          "CannotActivateWhileInvisible": "false",
+          "ActivationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "ApplicationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "DeactivationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "PowerLevelScaling": {
+            "ScalingType": "Default",
+            "BaseLevel": 0,
+            "LevelIncrement": 1,
+            "MaxLevel": 0,
+            "DamageAdjustment": 1,
+            "DurationAdjustment": 1,
+            "BounceCountAdjustment": 0,
+            "ProjectileCountAdjustment": 0,
+            "AccuracyAdjustment": 0,
+            "PenetrationAdjustment": 0
+          },
+          "StatusEffectKeywordsIDs": [],
+          "StatusEffectsIDs": [],
+          "VisualEffects": [],
+          "SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+          "AttackID": "a48a652f-76ff-4868-b364-f0644269c609",
+          "AITargetingConditional": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            },
+            "Scripts": []
+          },
+          "AudioEventListID": "062e2bc5-8328-4a47-a9b0-72d957e304a3"
+        },
+        {
+          "$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+      "DebugName": "Memory_of_the_High_Tide_Monks_Ondra",
+      "ID": "4423133e-85e1-11e8-adc0-fa7ae01bbebc",
+      "Components": [
+        {
+          "$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+          "KeywordsIDs": [
+            "97b18bd3-b3e4-4777-a8bc-f0808022dd79"
+          ],
+          "DisplayName": 15621,
+          "Description": 15622,
+          "UpgradeDescriptions": [],
+          "UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+          "Vocalization": "NoVocalization",
+          "Icon": "gui/icons/abilities/rogue/shadowing_beyond.png",
+          "UsageType": "Spell",
+          "UsageValue": 0,
+          "AbilityClassID": "f7cb46af-a719-41c0-9a53-107eefdbce2b",
+          "AbilityLevel": 7,
+          "IsPassive": "false",
+          "StackingRuleOverride": "Default",
+          "TriggerOnHit": "false",
+          "IsModal": "false",
+          "ModalGroupID": "00000000-0000-0000-0000-000000000000",
+          "IsCombatOnly": "true",
+          "IsNonCombatOnly": "false",
+          "HideFromUI": "false",
+          "HideFromCombatLog": "false",
+          "UniqueSet": "None",
+          "NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+          "DurationOverride": 0,
+          "OverrideEmpower": "Default",
+          "ClearsOnMovement": "false",
+          "CannotActivateWhileInStealth": "false",
+          "CannotActivateWhileInvisible": "false",
+          "ActivationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "ApplicationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "DeactivationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "PowerLevelScaling": {
+            "ScalingType": "Default",
+            "BaseLevel": 0,
+            "LevelIncrement": 1,
+            "MaxLevel": 0,
+            "DamageAdjustment": 1,
+            "DurationAdjustment": 1,
+            "BounceCountAdjustment": 0,
+            "ProjectileCountAdjustment": 0,
+            "AccuracyAdjustment": 0,
+            "PenetrationAdjustment": 0
+          },
+          "StatusEffectKeywordsIDs": [],
+          "StatusEffectsIDs": [],
+          "VisualEffects": [],
+          "SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+          "AttackID": "b2fdbec6-85e1-11e8-adc0-fa7ae01bbebc",
+          "AITargetingConditional": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            },
+            "Scripts": []
+          },
+          "AudioEventListID": "83c6c0fb-b0ac-495d-bca0-592a51a05863"
+        },
+        {
+          "$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+      "DebugName": "Memories_of_Sen_Belafa",
+      "ID": "dc6adf74-85f4-11e8-adc0-fa7ae01bbebc",
+      "Components": [
+        {
+          "$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+          "KeywordsIDs": [
+            "88f77e03-9180-4830-a2ac-18c8023fec35",
+            "97b18bd3-b3e4-4777-a8bc-f0808022dd79"
+          ],
+          "DisplayName": 15623,
+          "Description": 15624,
+          "UpgradeDescriptions": [],
+          "UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+          "Vocalization": "GenericSpellCast2",
+          "Icon": "gui/icons/abilities/druid/moonwell.png",
+          "UsageType": "Spell",
+          "UsageValue": 5,
+          "AbilityClassID": "f7cb46af-a719-41c0-9a53-107eefdbce2b",
+          "AbilityLevel": 8,
+          "IsPassive": "false",
+          "StackingRuleOverride": "Default",
+          "TriggerOnHit": "false",
+          "IsModal": "false",
+          "ModalGroupID": "00000000-0000-0000-0000-000000000000",
+          "IsCombatOnly": "true",
+          "IsNonCombatOnly": "false",
+          "HideFromUI": "false",
+          "HideFromCombatLog": "false",
+          "UniqueSet": "None",
+          "NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
+          "DurationOverride": 0,
+          "OverrideEmpower": "Default",
+          "ClearsOnMovement": "false",
+          "CannotActivateWhileInStealth": "false",
+          "CannotActivateWhileInvisible": "false",
+          "ActivationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "ApplicationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "DeactivationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "PowerLevelScaling": {
+            "ScalingType": "Default",
+            "BaseLevel": 0,
+            "LevelIncrement": 1,
+            "MaxLevel": 0,
+            "DamageAdjustment": 1,
+            "DurationAdjustment": 1,
+            "BounceCountAdjustment": 0,
+            "ProjectileCountAdjustment": 0,
+            "AccuracyAdjustment": 0,
+            "PenetrationAdjustment": 0
+          },
+          "StatusEffectKeywordsIDs": [],
+          "StatusEffectsIDs": [],
+          "VisualEffects": [],
+          "SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+          "AttackID": "3bdf26aa-86ad-11e8-adc0-fa7ae01bbebc",
+          "AITargetingConditional": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            },
+            "Scripts": []
+          },
+          "AudioEventListID": "b5b14cbb-ef10-48ae-ba40-4b22afff6df6"
+        },
+        {
+          "$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+      "DebugName": "Spiritual_Weapon_Ondra",
+      "ID": "e70880b2-86a3-11e8-adc0-fa7ae01bbebc",
+      "Components": [
+        {
+          "$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+          "KeywordsIDs": [],
+          "DisplayName": 4033,
+          "Description": 4034,
+          "UpgradeDescriptions": [],
+          "UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+          "Vocalization": "GenericSpellCast1",
+          "Icon": "gui/icons/abilities/monk/stunning_blow.png",
+          "UsageType": "Spell",
+          "UsageValue": 0,
+          "AbilityClassID": "f7cb46af-a719-41c0-9a53-107eefdbce2b",
+          "AbilityLevel": 2,
+          "IsPassive": "false",
+          "StackingRuleOverride": "Default",
+          "TriggerOnHit": "false",
+          "IsModal": "false",
+          "ModalGroupID": "00000000-0000-0000-0000-000000000000",
+          "IsCombatOnly": "true",
+          "IsNonCombatOnly": "false",
+          "HideFromUI": "false",
+          "HideFromCombatLog": "false",
+          "UniqueSet": "None",
+          "NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
+          "DurationOverride": 0,
+          "OverrideEmpower": "Default",
+          "ClearsOnMovement": "false",
+          "CannotActivateWhileInStealth": "false",
+          "CannotActivateWhileInvisible": "false",
+          "ActivationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": [
+                {
+                  "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                  "Data": {
+                    "FullName": "Boolean HasStatusEffectType(Guid, StatusEffectType)",
+                    "Parameters": [
+                      "7d150000-0000-0000-0000-000000000000",
+                      "ChangeForm"
+                    ],
+                    "Flags": "",
+                    "UnrealCall": "",
+                    "FunctionHash": 0,
+                    "ParameterHash": 0
+                  },
+                  "Not": true,
+                  "Operator": 0
+                }
+              ]
+            }
+          },
+          "ApplicationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "DeactivationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "PowerLevelScaling": {
+            "ScalingType": "Default",
+            "BaseLevel": 0,
+            "LevelIncrement": 1,
+            "MaxLevel": 0,
+            "DamageAdjustment": 1,
+            "DurationAdjustment": 1,
+            "BounceCountAdjustment": 0,
+            "ProjectileCountAdjustment": 0,
+            "AccuracyAdjustment": 0,
+            "PenetrationAdjustment": 0
+          },
+          "StatusEffectKeywordsIDs": [],
+          "StatusEffectsIDs": [],
+          "VisualEffects": [],
+          "SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+          "AttackID": "133c6072-86a4-11e8-adc0-fa7ae01bbebc",
+          "AITargetingConditional": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            },
+            "Scripts": []
+          },
+          "AudioEventListID": "f32ef1b3-fb7d-47aa-a98b-8436cfb126b0"
+        },
+        {
+          "$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+      "DebugName": "Fragment_of_Ionni_Brathr_Ondra",
+      "ID": "3bf00984-86b2-11e8-adc0-fa7ae01bbebc",
+      "Components": [
+        {
+          "$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+          "KeywordsIDs": [
+            "f8a513bb-3e92-4d10-b59f-abbdf71d8af4",
+            "ab88e534-596e-4f40-b54e-9dd8b2cab983"
+          ],
+          "DisplayName": 15620,
+          "Description": 861,
+          "UpgradeDescriptions": [],
+          "UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+          "Vocalization": "GenericSpellCast5",
+          "Icon": "gui/icons/abilities/wizard/ninagauth's_freezing_pillar.png",
+          "UsageType": "Spell",
+          "UsageValue": 0,
+          "AbilityClassID": "f7cb46af-a719-41c0-9a53-107eefdbce2b",
+          "AbilityLevel": 3,
+          "IsPassive": "false",
+          "StackingRuleOverride": "Default",
+          "TriggerOnHit": "false",
+          "IsModal": "false",
+          "ModalGroupID": "00000000-0000-0000-0000-000000000000",
+          "IsCombatOnly": "false",
+          "IsNonCombatOnly": "false",
+          "HideFromUI": "false",
+          "HideFromCombatLog": "false",
+          "UniqueSet": "None",
+          "NoiseLevelID": "6bfdad12-a1d0-42cc-b797-c9d2dac2af05",
+          "DurationOverride": 0,
+          "OverrideEmpower": "Default",
+          "ClearsOnMovement": "false",
+          "CannotActivateWhileInStealth": "false",
+          "CannotActivateWhileInvisible": "false",
+          "ActivationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "ApplicationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "DeactivationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "PowerLevelScaling": {
+            "ScalingType": "Default",
+            "BaseLevel": 0,
+            "LevelIncrement": 1,
+            "MaxLevel": 0,
+            "DamageAdjustment": 1,
+            "DurationAdjustment": 1,
+            "BounceCountAdjustment": 0,
+            "ProjectileCountAdjustment": 0,
+            "AccuracyAdjustment": 0,
+            "PenetrationAdjustment": 0
+          },
+          "StatusEffectKeywordsIDs": [],
+          "StatusEffectsIDs": [],
+          "VisualEffects": [],
+          "SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+          "AttackID": "919abe74-86b2-11e8-adc0-fa7ae01bbebc",
+          "AITargetingConditional": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            },
+            "Scripts": []
+          },
+          "AudioEventListID": "8fd3618b-fa99-4f0c-b29f-980e9671c7b4"
+        },
+        {
+          "$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+      "DebugName": "Memories_of_the_White_Crest_Knight",
+      "ID": "e01c5f48-8767-11e8-9a94-a6cf71072f73",
+      "Components": [
+        {
+          "$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+          "KeywordsIDs": [
+            "ad3de01a-e7a8-4a5e-9ec3-7d858d1ffea7"
+          ],
+          "DisplayName": 15625,
+          "Description": 15626,
+          "UpgradeDescriptions": [],
+          "UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+          "Vocalization": "GenericSpellCast1",
+          "Icon": "gui/icons/abilities/fighter/vigorous_defense.png",
+          "UsageType": "Spell",
+          "UsageValue": 0,
+          "AbilityClassID": "f7cb46af-a719-41c0-9a53-107eefdbce2b",
+          "AbilityLevel": 9,
+          "IsPassive": "false",
+          "StackingRuleOverride": "Default",
+          "TriggerOnHit": "false",
+          "IsModal": "false",
+          "ModalGroupID": "00000000-0000-0000-0000-000000000000",
+          "IsCombatOnly": "true",
+          "IsNonCombatOnly": "false",
+          "HideFromUI": "false",
+          "HideFromCombatLog": "false",
+          "UniqueSet": "None",
+          "NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
+          "DurationOverride": 0,
+          "OverrideEmpower": "Default",
+          "ClearsOnMovement": "false",
+          "CannotActivateWhileInStealth": "false",
+          "CannotActivateWhileInvisible": "false",
+          "ActivationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": [
+                {
+                  "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                  "Data": {
+                    "FullName": "Boolean HasStatusEffectType(Guid, StatusEffectType)",
+                    "Parameters": [
+                      "7d150000-0000-0000-0000-000000000000",
+                      "ChangeForm"
+                    ],
+                    "Flags": "",
+                    "UnrealCall": "",
+                    "FunctionHash": 0,
+                    "ParameterHash": 0
+                  },
+                  "Not": true,
+                  "Operator": 0
+                }
+              ]
+            }
+          },
+          "ApplicationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "DeactivationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "PowerLevelScaling": {
+            "ScalingType": "Default",
+            "BaseLevel": 0,
+            "LevelIncrement": 1,
+            "MaxLevel": 0,
+            "DamageAdjustment": 1,
+            "DurationAdjustment": 1,
+            "BounceCountAdjustment": 0,
+            "ProjectileCountAdjustment": 0,
+            "AccuracyAdjustment": 0,
+            "PenetrationAdjustment": 0
+          },
+          "StatusEffectKeywordsIDs": [],
+          "StatusEffectsIDs": [
+            "46845ad5-4c31-4d24-ab84-66ea224e6332"
+            ],
+          "VisualEffects": [],
+          "SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+          "AttackID": "10166946-8768-11e8-9a94-a6cf71072f73",
+          "AITargetingConditional": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            },
+            "Scripts": []
+          },
+          "AudioEventListID": "eb2ecacc-2df6-4a28-869f-8f4c59043565"
+        },
+        {
+          "$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+      "DebugName": "Dancing_Bolts_Ondra",
+      "ID": "395acec6-876a-11e8-9a94-a6cf71072f73",
+      "Components": [
+        {
+          "$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+          "KeywordsIDs": [
+            "a7a06148-9a41-44fe-9cc8-31acef0e13aa",
+            "9c7d6f36-50ff-4b08-a528-74789abe0599"
+          ],
+          "DisplayName": 512,
+          "Description": 513,
+          "UpgradeDescriptions": [],
+          "UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+          "Vocalization": "GenericSpellCast5",
+          "Icon": "gui/icons/abilities/druid/dancing_bolts.png",
+          "UsageType": "PerEncounter",
+          "UsageValue": 1,
+          "AbilityClassID": "568f1c26-1398-4e67-8b81-0f6a60e6cdde",
+          "AbilityLevel": 1,
+          "IsPassive": "false",
+          "StackingRuleOverride": "Default",
+          "TriggerOnHit": "false",
+          "IsModal": "false",
+          "ModalGroupID": "00000000-0000-0000-0000-000000000000",
+          "IsCombatOnly": "false",
+          "IsNonCombatOnly": "false",
+          "HideFromUI": "false",
+          "HideFromCombatLog": "false",
+          "UniqueSet": "None",
+          "NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
+          "DurationOverride": 30,
+          "OverrideEmpower": "Default",
+          "ClearsOnMovement": "false",
+          "CannotActivateWhileInStealth": "false",
+          "CannotActivateWhileInvisible": "false",
+          "ActivationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "ApplicationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "DeactivationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "PowerLevelScaling": {
+            "ScalingType": "Default",
+            "BaseLevel": 0,
+            "LevelIncrement": 1,
+            "MaxLevel": 0,
+            "DamageAdjustment": 1,
+            "DurationAdjustment": 1,
+            "BounceCountAdjustment": 0,
+            "ProjectileCountAdjustment": 0,
+            "AccuracyAdjustment": 0,
+            "PenetrationAdjustment": 0
+          },
+          "StatusEffectKeywordsIDs": [],
+          "StatusEffectsIDs": [],
+          "VisualEffects": [],
+          "SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+          "AttackID": "08e94bee-2de2-44de-aef5-d5b8197d85d6",
+          "AITargetingConditional": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            },
+            "Scripts": []
+          },
+          "AudioEventListID": "e998b864-5333-4e21-90c7-7e2e300b297a"
+        },
+        {
+          "$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+      "DebugName": "Overwhelming_Wave_Ondra_2",
+      "ID": "6252b910-876a-11e8-9a94-a6cf71072f73",
+      "Components": [
+        {
+          "$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+          "KeywordsIDs": [
+            "97b18bd3-b3e4-4777-a8bc-f0808022dd79",
+            "a7a06148-9a41-44fe-9cc8-31acef0e13aa"
+          ],
+          "DisplayName": 541,
+          "Description": 543,
+          "UpgradeDescriptions": [],
+          "UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+          "Vocalization": "GenericSpellCast5",
+          "Icon": "gui/icons/abilities/druid/overwhelming_wave.png",
+          "UsageType": "PerEncounter",
+          "UsageValue": 1,
+          "AbilityClassID": "f7cb46af-a719-41c0-9a53-107eefdbce2b",
+          "AbilityLevel": 4,
+          "IsPassive": "false",
+          "StackingRuleOverride": "Default",
+          "TriggerOnHit": "false",
+          "IsModal": "false",
+          "ModalGroupID": "00000000-0000-0000-0000-000000000000",
+          "IsCombatOnly": "false",
+          "IsNonCombatOnly": "false",
+          "HideFromUI": "false",
+          "HideFromCombatLog": "false",
+          "UniqueSet": "None",
+          "NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
+          "DurationOverride": 0,
+          "OverrideEmpower": "Default",
+          "ClearsOnMovement": "false",
+          "CannotActivateWhileInStealth": "false",
+          "CannotActivateWhileInvisible": "false",
+          "ActivationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "ApplicationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "DeactivationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "PowerLevelScaling": {
+            "ScalingType": "Default",
+            "BaseLevel": 0,
+            "LevelIncrement": 1,
+            "MaxLevel": 0,
+            "DamageAdjustment": 1,
+            "DurationAdjustment": 1,
+            "BounceCountAdjustment": 0,
+            "ProjectileCountAdjustment": 0,
+            "AccuracyAdjustment": 0,
+            "PenetrationAdjustment": 0
+          },
+          "StatusEffectKeywordsIDs": [],
+          "StatusEffectsIDs": [],
+          "VisualEffects": [],
+          "SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+          "AttackID": "789df4d7-d039-4008-aa34-f426b85df3d0",
+          "AITargetingConditional": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            },
+            "Scripts": []
+          },
+          "AudioEventListID": "01c18d17-6643-4f6b-b78d-579c20cf18af"
+        },
+        {
+          "$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+      "DebugName": "Memories_of_the_Tidebringer",
+      "ID": "81b1f556-8773-11e8-9a94-a6cf71072f73",
+      "Components": [
+        {
+          "$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+          "KeywordsIDs": [
+            "3a1316f1-e932-4b0f-9891-7db7bd5825ec"
+          ],
+          "DisplayName": 15627,
+          "Description": 15628,
+          "UpgradeDescriptions": [],
+          "UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+          "Vocalization": "GenericSpellCast1",
+          "Icon": "gui/icons/abilities/monk/turning_wheel.png",
+          "UsageType": "Spell",
+          "UsageValue": 0,
+          "AbilityClassID": "f7cb46af-a719-41c0-9a53-107eefdbce2b",
+          "AbilityLevel": 9,
+          "IsPassive": "false",
+          "StackingRuleOverride": "Default",
+          "TriggerOnHit": "false",
+          "IsModal": "false",
+          "ModalGroupID": "00000000-0000-0000-0000-000000000000",
+          "IsCombatOnly": "true",
+          "IsNonCombatOnly": "false",
+          "HideFromUI": "false",
+          "HideFromCombatLog": "false",
+          "UniqueSet": "None",
+          "NoiseLevelID": "6bfdad12-a1d0-42cc-b797-c9d2dac2af05",
+          "DurationOverride": 0,
+          "OverrideEmpower": "Default",
+          "ClearsOnMovement": "false",
+          "CannotActivateWhileInStealth": "false",
+          "CannotActivateWhileInvisible": "false",
+          "ActivationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "ApplicationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "DeactivationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "PowerLevelScaling": {
+            "ScalingType": "Default",
+            "BaseLevel": 0,
+            "LevelIncrement": 1,
+            "MaxLevel": 0,
+            "DamageAdjustment": 1,
+            "DurationAdjustment": 1,
+            "BounceCountAdjustment": 0,
+            "ProjectileCountAdjustment": 0,
+            "AccuracyAdjustment": 0,
+            "PenetrationAdjustment": 0
+          },
+          "StatusEffectKeywordsIDs": [],
+          "StatusEffectsIDs": [
+            "4fe3ff78-4d7d-4abd-bdd8-6471d3c143ec",
+            "a0940201-95af-46bb-9ee5-ad17d9a7e4c3",
+            "c19b78ef-b360-4fff-8dfe-f20b5d34badb",
+            "41c296f4-328d-4d25-b3b0-02fa6b64c05a",
+            "d368a826-07e4-41e5-94ba-cd3d8e81b569",
+            "b6e7e636-86cb-44e3-a8bc-1b5f8c304484",
+            "ca4ceac2-1fcc-4976-b0e4-a3fd4ea8e4eb",
+            "46845ad5-4c31-4d24-ab84-66ea224e6332",
+            "50a8d249-bd5f-41c2-8c85-661e257ab6dc",
+            "8bad2000-6db5-4a7c-8e51-07cd6a8b1f44",
+            "551b9f2e-93cf-43e8-ba68-ffd682315f82",
+            "e8d519b1-362c-4d8b-95a6-e420efbf50c8",
+            "34d6b5db-7081-48d7-8dbb-6b6510c241a4",
+            "33150e72-26f5-4ad8-90d3-21519a7822b7",
+            "33857cb2-f015-443d-a91f-ec3426931a49",
+            "14d8ad3a-8773-11e8-9a94-a6cf71072f73",
+            "0ec2e488-8773-11e8-9a94-a6cf71072f73",
+            "06ebd80a-8773-11e8-9a94-a6cf71072f73",
+            "01db4f94-8773-11e8-9a94-a6cf71072f73"
+          ],
+          "VisualEffects": [],
+          "SelfMaterialReplacementID": "99cb76db-2eb4-4856-b7dd-df8a9a002cd1",
+          "AttackID": "39588421-6c49-496f-810c-d069c70417b6",
+          "AITargetingConditional": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            },
+            "Scripts": []
+          },
+          "AudioEventListID": "8bb8d2be-1f6d-4035-9430-fc103b2177de"
+        },
+        {
+          "$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+      "DebugName": "Suppress_Affliction_Ondra",
+      "ID": "382f371e-8772-11e8-9a94-a6cf71072f73",
+      "Components": [
+        {
+          "$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+          "KeywordsIDs": [
+            "e726ab76-e91a-4d6e-9525-7eb148964b58"
+          ],
+          "DisplayName": 90,
+          "Description": 248,
+          "UpgradeDescriptions": [],
+          "UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+          "Vocalization": "GenericSpellCast2",
+          "Icon": "gui/icons/abilities/priest/suppress_affliction.png",
+          "UsageType": "PerEncounter",
+          "UsageValue": 1,
+          "AbilityClassID": "f7cb46af-a719-41c0-9a53-107eefdbce2b",
+          "AbilityLevel": 1,
+          "IsPassive": "false",
+          "StackingRuleOverride": "Default",
+          "TriggerOnHit": "false",
+          "IsModal": "false",
+          "ModalGroupID": "00000000-0000-0000-0000-000000000000",
+          "IsCombatOnly": "true",
+          "IsNonCombatOnly": "false",
+          "HideFromUI": "false",
+          "HideFromCombatLog": "false",
+          "UniqueSet": "None",
+          "NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
+          "DurationOverride": 0,
+          "OverrideEmpower": "Default",
+          "ClearsOnMovement": "false",
+          "CannotActivateWhileInStealth": "false",
+          "CannotActivateWhileInvisible": "false",
+          "ActivationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "ApplicationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "DeactivationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "PowerLevelScaling": {
+            "ScalingType": "Default",
+            "BaseLevel": 0,
+            "LevelIncrement": 1,
+            "MaxLevel": 0,
+            "DamageAdjustment": 1,
+            "DurationAdjustment": 1,
+            "BounceCountAdjustment": 0,
+            "ProjectileCountAdjustment": 0,
+            "AccuracyAdjustment": 0,
+            "PenetrationAdjustment": 0
+          },
+          "StatusEffectKeywordsIDs": [],
+          "StatusEffectsIDs": [],
+          "VisualEffects": [],
+          "SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+          "AttackID": "41c98b88-09d1-4dc9-b026-83f247cfc536",
+          "AITargetingConditional": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            },
+            "Scripts": []
+          },
+          "AudioEventListID": "b827aa25-56ae-4d4b-b8ed-272ac9a2fb43"
+        },
+        {
+          "$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+        }
+      ]
+    },
+    {

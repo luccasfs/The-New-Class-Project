@@ -1,0 +1,518 @@
+{
+	"GameDataObjects": [
+	{
+		"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+		"DebugName": "Ranger_Natures_Healing",
+		"ID": "84286332-10c9-42a6-9075-000000004232",
+		"Components": [{
+			"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+			"KeywordsIDs": ["88f77e03-9180-4830-a2ac-18c8023fec35"],
+			"DisplayName": 1327000,
+			"Description": 1328000,
+			"UpgradeDescriptions": [],
+			"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+			"Vocalization": "GenericSpellCast2",
+			"Icon": "gui/icons/abilities/druid/natures_vigor.png",
+			"UsageType": "ClassPowerPool",
+			"UsageValue": 1,
+			"AbilityClassID": "1718929c-1faf-4292-b82c-7e2a7c20b3ab",
+			"AbilityLevel": 2,
+			"IsPassive": "false",
+			"TriggerOnHit": "false",
+			"IsModal": "false",
+			"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+			"IsCombatOnly": "true",
+			"IsNonCombatOnly": "false",
+			"HideFromUI": "false",
+			"HideFromCombatLog": "false",
+			"UniqueSet": "None",
+			"NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
+			"DurationOverride": 0,
+			"ClearsOnMovement": "false",
+			"CannotActivateWhileInStealth": "false",
+			"CannotActivateWhileInvisible": "false",
+			"ActivationPrerequisites": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				}
+			},
+			"ApplicationPrerequisites": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				}
+			},
+			"DeactivationPrerequisites": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				}
+			},
+			"PowerLevelScaling": {
+				"BaseLevel": 0,
+				"LevelIncrement": 1,
+				"MaxLevel": 0,
+				"DamageAdjustment": 1,
+				"DurationAdjustment": 1,
+				"BounceCountAdjustment": 0,
+				"ProjectileCountAdjustment": 0,
+				"AccuracyAdjustment": 0,
+				"PenetrationAdjustment": 0
+			},
+			"StatusEffectKeywordsIDs": [],
+			"StatusEffectsIDs": [],
+			"VisualEffects": [],
+			"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+			"AttackID": "2dc03722-07e8-4e4d-a32c-1111111111ba",
+			"AITargetingConditional": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				},
+				"Scripts": []
+			},
+			"AudioEventListID": "bde64330-3c3c-4358-9eed-5df5dc7e4a79"
+		},
+		{
+			"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+		}]
+	},
+	{
+		"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+		"DebugName": "Ranger_The_Moons_Light",
+		"ID": "06e405f5-7493-4f58-958e-0000000000ef",
+		"Components": [{
+			"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+			"KeywordsIDs": ["88f77e03-9180-4830-a2ac-18c8023fec35"],
+			"DisplayName": 1327001,
+			"Description": 1959,
+			"UpgradeDescriptions": [],
+			"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+			"Vocalization": "GenericSpellCast2",
+			"Icon": "gui/icons/abilities/druid/moons_light.png",
+			"UsageType": "ClassPowerPool",
+			"UsageValue": 1,
+			"AbilityClassID": "1718929c-1faf-4292-b82c-7e2a7c20b3ab",
+			"AbilityLevel": 4,
+			"IsPassive": "false",
+			"TriggerOnHit": "false",
+			"IsModal": "false",
+			"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+			"IsCombatOnly": "true",
+			"IsNonCombatOnly": "false",
+			"HideFromUI": "false",
+			"HideFromCombatLog": "false",
+			"UniqueSet": "None",
+			"NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
+			"DurationOverride": 0,
+			"ClearsOnMovement": "false",
+			"CannotActivateWhileInStealth": "false",
+			"CannotActivateWhileInvisible": "false",
+			"ActivationPrerequisites": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				}
+			},
+			"ApplicationPrerequisites": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				}
+			},
+			"DeactivationPrerequisites": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				}
+			},
+			"PowerLevelScaling": {
+				"BaseLevel": 0,
+				"LevelIncrement": 1,
+				"MaxLevel": 0,
+				"DamageAdjustment": 1,
+				"DurationAdjustment": 1,
+				"BounceCountAdjustment": 0,
+				"ProjectileCountAdjustment": 0,
+				"AccuracyAdjustment": 0,
+				"PenetrationAdjustment": 0
+			},
+			"StatusEffectKeywordsIDs": [],
+			"StatusEffectsIDs": [],
+			"VisualEffects": [],
+			"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+			"AttackID": "5bf72549-3f78-47e4-a143-1111111116ca",
+			"AITargetingConditional": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				},
+				"Scripts": []
+			},
+			"AudioEventListID": "1ba6cd38-e2b4-42ee-9a3c-c24dba159e42"
+		},
+		{
+			"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+		}]
+	},
+	{
+		"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+		"DebugName": "Ranger_Insect_Swarm",
+		"ID": "296ebd07-e675-42a7-bedb-1111116503c5",
+		"Components": [{
+			"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+			"KeywordsIDs": ["7905202d-358e-4ca7-ba17-acfed0718a02"],
+			"DisplayName": 1327005,
+			"Description": 825,
+			"UpgradeDescriptions": [],
+			"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+			"Vocalization": "GenericSpellCast5",
+			"Icon": "gui/icons/abilities/druid/insect_swarm.png",
+			"UsageType": "ClassPowerPool",
+			"UsageValue": 1,
+			"AbilityClassID": "1718929c-1faf-4292-b82c-7e2a7c20b3ab",
+			"AbilityLevel": 1,
+			"IsPassive": "false",
+			"TriggerOnHit": "false",
+			"IsModal": "false",
+			"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+			"IsCombatOnly": "false",
+			"IsNonCombatOnly": "false",
+			"HideFromUI": "false",
+			"HideFromCombatLog": "false",
+			"UniqueSet": "None",
+			"NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
+			"DurationOverride": 0,
+			"ClearsOnMovement": "false",
+			"CannotActivateWhileInStealth": "false",
+			"CannotActivateWhileInvisible": "false",
+			"ActivationPrerequisites": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				}
+			},
+			"ApplicationPrerequisites": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				}
+			},
+			"DeactivationPrerequisites": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				}
+			},
+			"PowerLevelScaling": {
+				"BaseLevel": 0,
+				"LevelIncrement": 1,
+				"MaxLevel": 0,
+				"DamageAdjustment": 1,
+				"DurationAdjustment": 1,
+				"BounceCountAdjustment": 0,
+				"ProjectileCountAdjustment": 0,
+				"AccuracyAdjustment": 0,
+				"PenetrationAdjustment": 0
+			},
+			"StatusEffectKeywordsIDs": [],
+			"StatusEffectsIDs": [],
+			"VisualEffects": [],
+			"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+			"AttackID": "304a8d8f-13cd-48ce-9a20-11111111869a",
+			"AITargetingConditional": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				},
+				"Scripts": []
+			},
+			"AudioEventListID": "f40987f4-2053-43c8-83fd-ee6b08acdf71"
+		},
+		{
+			"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+		}]
+	},
+	{
+		"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+		"DebugName": "Ranger_Writhing_Tentacles",
+		"ID": "e641e27b-74de-4691-96e0-1111111125d0",
+		"Components": [{
+			"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+			"KeywordsIDs": ["ad3de01a-e7a8-4a5e-9ec3-7d858d1ffea7"],
+			"DisplayName": 1327002,
+			"Description": 1771,
+			"UpgradeDescriptions": [],
+			"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+			"Vocalization": "GenericSpellCast1",
+			"Icon": "gui/icons/abilities/wizard/maura's_writhing_tenticles.png",
+			"UsageType": "ClassPowerPool",
+			"UsageValue": 1,
+			"AbilityClassID": "1718929c-1faf-4292-b82c-7e2a7c20b3ab",
+			"AbilityLevel": 5,
+			"IsPassive": "false",
+			"TriggerOnHit": "false",
+			"IsModal": "false",
+			"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+			"IsCombatOnly": "true",
+			"IsNonCombatOnly": "false",
+			"HideFromUI": "false",
+			"HideFromCombatLog": "false",
+			"UniqueSet": "None",
+			"NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+			"DurationOverride": 0,
+			"ClearsOnMovement": "false",
+			"CannotActivateWhileInStealth": "false",
+			"CannotActivateWhileInvisible": "false",
+			"ActivationPrerequisites": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				}
+			},
+			"ApplicationPrerequisites": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				}
+			},
+			"DeactivationPrerequisites": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				}
+			},
+			"PowerLevelScaling": {
+				"BaseLevel": 0,
+				"LevelIncrement": 1,
+				"MaxLevel": 0,
+				"DamageAdjustment": 1,
+				"DurationAdjustment": 1,
+				"BounceCountAdjustment": 0,
+				"ProjectileCountAdjustment": 0,
+				"AccuracyAdjustment": 0,
+				"PenetrationAdjustment": 0
+			},
+			"StatusEffectKeywordsIDs": [],
+			"StatusEffectsIDs": [],
+			"VisualEffects": [],
+			"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+			"AttackID": "be2bb61b-f04a-46e6-916b-1111111113b9",
+			"AITargetingConditional": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				},
+				"Scripts": []
+			},
+			"AudioEventListID": "6b64e193-7f54-4232-ba69-501d98091fc4"
+		},
+		{
+			"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+		}]
+	},
+	{
+		"$type": "Game.GameData.WeaponAttackAbilityGameData, Assembly-CSharp",
+		"DebugName": "Exploding_Arrow",
+		"ID": "04ece2da-d1a8-4627-a48d-111111111583",
+		"Components": [{
+			"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+			"KeywordsIDs": [],
+			"DisplayName": 1327003,
+			"Description": 1327004,
+			"UpgradeDescriptions": [],
+			"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+			"Vocalization": "AbilityCast",
+			"Icon": "gui/icons/abilities/wizard/fireball.png",
+			"UsageType": "ClassPowerPool",
+			"UsageValue": 1,
+			"AbilityClassID": "1718929c-1faf-4292-b82c-7e2a7c20b3ab",
+			"AbilityLevel": 6,
+			"IsPassive": "false",
+			"TriggerOnHit": "false",
+			"IsModal": "false",
+			"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+			"IsCombatOnly": "false",
+			"IsNonCombatOnly": "false",
+			"HideFromUI": "false",
+			"HideFromCombatLog": "false",
+			"UniqueSet": "None",
+			"NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+			"DurationOverride": 0,
+			"ClearsOnMovement": "false",
+			"CannotActivateWhileInStealth": "false",
+			"CannotActivateWhileInvisible": "false",
+			"ActivationPrerequisites": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				}
+			},
+			"ApplicationPrerequisites": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				}
+			},
+			"DeactivationPrerequisites": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				}
+			},
+			"PowerLevelScaling": {
+				"BaseLevel": 0,
+				"LevelIncrement": 1,
+				"MaxLevel": 0,
+				"DamageAdjustment": 1,
+				"DurationAdjustment": 1,
+				"BounceCountAdjustment": 0,
+				"ProjectileCountAdjustment": 0,
+				"AccuracyAdjustment": 0,
+				"PenetrationAdjustment": 0
+			},
+			"StatusEffectKeywordsIDs": [],
+			"StatusEffectsIDs": [],
+			"VisualEffects": [],
+			"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+			"AttackID": "00000000-0000-0000-0000-000000000000",
+			"AITargetingConditional": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				},
+				"Scripts": []
+			},
+			"AudioEventListID": "1beea663-3347-4a67-a0d0-935f3e47b4a7"
+		},
+		{
+			"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+		},
+		{
+			"$type": "Game.GameData.WeaponAttackAbilityComponent, Assembly-CSharp",
+			"Type": "Primary",
+			"Range": "None",
+			"AttackVariationID": "00000000-0000-0000-0000-000000000000",
+			"RecoveryTimeID": "00000000-0000-0000-0000-000000000000",
+			"BonusDamageMultiplier": 1,
+			"BonusAccuracy": 5,
+			"BonusPenetration": 0,
+			"BonusPushDistance": 0,
+			"DefendedBy": "Count",
+			"AfflictionsDefendedBy": "Count",
+			"InterruptsOn": "None",
+			"InterruptType": "Normal",
+			"AttackKeywordsIDs": [],
+			"AttackStatusEffectsIDs": ["b71ca8a4-3c97-4919-9ac3-11111111ad5c"],
+			"AttackVisualEffects": [{
+				"VisualEffect": "prefabs/effects/abilities/ranger/fx_wounding_shot.prefab",
+				"AttachPoint": "Chest",
+				"AttachObject": "Target",
+				"AttachMode": "AttachFaceSource",
+				"MeshType": "None",
+				"Event": "OnHit",
+				"AnimEventID": 0,
+				"Loop": "false",
+				"Scale": "false"
+			}]
+		}]
+	},
+	{
+		"$type": "Game.GameData.WeaponAttackAbilityGameData, Assembly-CSharp",
+		"DebugName": "Minor_Twinned_Shot",
+		"ID": "d14e5d03-5e5e-4f9a-8747-11111111538e",
+		"Components": [{
+			"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+			"KeywordsIDs": [],
+			"DisplayName": 1327006,
+			"Description": 2903,
+			"UpgradeDescriptions": [],
+			"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+			"Vocalization": "AbilityCast",
+			"Icon": "gui/icons/abilities/ranger/twinned_arrows.png",
+			"UsageType": "ClassPowerPool",
+			"UsageValue": 1,
+			"AbilityClassID": "1718929c-1faf-4292-b82c-7e2a7c20b3ab",
+			"AbilityLevel": 5,
+			"IsPassive": "false",
+			"TriggerOnHit": "false",
+			"IsModal": "false",
+			"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+			"IsCombatOnly": "false",
+			"IsNonCombatOnly": "false",
+			"HideFromUI": "false",
+			"HideFromCombatLog": "false",
+			"UniqueSet": "None",
+			"NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+			"DurationOverride": 0,
+			"ClearsOnMovement": "false",
+			"CannotActivateWhileInStealth": "false",
+			"CannotActivateWhileInvisible": "false",
+			"ActivationPrerequisites": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				}
+			},
+			"ApplicationPrerequisites": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				}
+			},
+			"DeactivationPrerequisites": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				}
+			},
+			"PowerLevelScaling": {
+				"BaseLevel": 0,
+				"LevelIncrement": 1,
+				"MaxLevel": 0,
+				"DamageAdjustment": 1,
+				"DurationAdjustment": 1,
+				"BounceCountAdjustment": 0,
+				"ProjectileCountAdjustment": 0,
+				"AccuracyAdjustment": 0,
+				"PenetrationAdjustment": 0
+			},
+			"StatusEffectKeywordsIDs": [],
+			"StatusEffectsIDs": ["d7dde8e5-279c-4c61-809b-5f98a528e2eb"],
+			"VisualEffects": [],
+			"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+			"AttackID": "00000000-0000-0000-0000-000000000000",
+			"AITargetingConditional": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				},
+				"Scripts": []
+			},
+			"AudioEventListID": "0763bce9-5396-45d7-b5f3-ae6ff0ac120d"
+		},
+		{
+			"$type": "Game.GameData.WeaponAttackAbilityComponent, Assembly-CSharp",
+			"Type": "Primary",
+			"Range": "Ranged",
+			"AttackVariationID": "00000000-0000-0000-0000-000000000000",
+			"RecoveryTimeID": "00000000-0000-0000-0000-000000000000",
+			"BonusDamageMultiplier": 0.75,
+			"BonusAccuracy": 0,
+			"BonusPenetration": 0,
+			"BonusPushDistance": 0,
+			"DefendedBy": "Count",
+			"AfflictionsDefendedBy": "Count",
+			"InterruptsOn": "None",
+			"InterruptType": "Normal",
+			"AttackKeywordsIDs": [],
+			"AttackStatusEffectsIDs": [],
+			"AttackVisualEffects": []
+		},
+		{
+			"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+		}]
+	}
+	]
+}

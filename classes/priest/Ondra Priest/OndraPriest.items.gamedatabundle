@@ -1,0 +1,234 @@
+{
+  "GameDataObjects": [
+    {  
+      "$type": "Game.GameData.WeaponGameData, Assembly-CSharp",
+      "DebugName": "The_Long_Pain_Weapon_Ondra",
+      "ID": "b83cde94-86a4-11e8-adc0-fa7ae01bbebc",
+      "Components": [
+        {
+          "$type": "Game.GameData.ItemComponent, Assembly-CSharp",
+          "DisplayName": 16530,
+          "DescriptionText": 16531,
+          "FilterType": "Weapons",
+          "InventoryAudioEventListID": "705deb97-3f84-48c8-a84b-e3c34e2d0e3a",
+          "IsQuestItem": "false",
+          "IsIngredient": "false",
+          "IsCurrency": "false",
+          "IsAdventuringItem": "false",
+          "CanSellForFullValue": "false",
+          "MaxStackSize": 1,
+          "NeverDropAsLoot": "true",
+          "CanBePickpocketed": "true",
+          "IsUnique": "false",
+          "Value": 0,
+          "IconTextureSmall": "gui/icons/items/weapons/miscellaneous/weapong_long_pain_s.png",
+          "IconTextureLarge": "gui/icons/items/weapons/miscellaneous/weapong_long_pain_l.png",
+          "PencilSketchTexture": "",
+          "InspectOnUseButton": [],
+          "IsPlaceholder": "false"
+        },
+        {
+          "$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
+          "EquipmentType": "Unarmed",
+          "EquipmentSlot": "AnyWeapon",
+          "AppearancePiece": {
+            "ModelVisualDataPath": ""
+          },
+          "ItemModsIDs": [
+          	"9d255cfc-b8a8-4fff-803e-a70f32028b7b"
+          ],
+          "OnEquipVisualEffects": [],
+          "RestrictedToClassIDs": [],
+          "RestrictedToPlayer": "false",
+          "ProficientAbilityID": "b863a8c3-ed3b-4787-8b3f-2bdea96c47a1",
+          "CannotUnequip": "false",
+          "ItemRendererPrefab": "",
+          "ItemModel": "",
+          "AnimationController": "",
+          "PaperdollOverrideRenderer": "",
+          "AttackSummonID": "00000000-0000-0000-0000-000000000000",
+          "CannotSheathe": "true",
+          "PropVisualEffects": []
+        },
+        {
+          "$type": "Game.GameData.WeaponComponent, Assembly-CSharp",
+          "Stance": "Unarmed",
+          "AnimationStanceID": "1242fb18-0185-4fb0-b0bb-13a8c7ff7b52",
+          "StatusEffectsOnLaunchIDs": [],
+          "IsDisplayedWhenAlternate": "false",
+          "IsUniversalType": "false",
+          "AttackID": "90fa938c-86a7-11e8-adc0-fa7ae01bbebc",
+          "NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+          "ForceBackScabbard": "false",
+          "ScabbardAppearancePiece": {
+            "ModelVisualDataPath": ""
+          },
+          "ScabbardRendererPrefab": "",
+          "ScabbardModel": "",
+          "AudioEventListID": "00000000-0000-0000-0000-000000000000"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.EquippableGameData, Assembly-CSharp",
+      "DebugName": "White_Crest_Armor",
+      "ID": "8b77d12e-8768-11e8-9a94-a6cf71072f73",
+      "Components": [
+        {
+          "$type": "Game.GameData.ItemComponent, Assembly-CSharp",
+          "DisplayName": 16532,
+          "DescriptionText": 16533,
+          "FilterType": "Armor",
+          "InventoryAudioEventListID": "3b0b476e-883e-4a9e-9a61-956eabf30b6d",
+          "IsQuestItem": "false",
+          "IsIngredient": "false",
+          "IsCurrency": "false",
+          "IsAdventuringItem": "false",
+          "CanSellForFullValue": "false",
+          "MaxStackSize": 1,
+          "NeverDropAsLoot": "true",
+          "CanBePickpocketed": "false",
+          "IsUnique": "false",
+          "Value": 200,
+          "IconTextureSmall": "gui/icons/items/armor/plate/plate_armor_patina_s.png",
+          "IconTextureLarge": "gui/icons/items/armor/plate/plate_armor_patina_l.png",
+          "PencilSketchTexture": "",
+          "InspectOnUseButton": [],
+          "IsPlaceholder": "false"
+        },
+        {
+          "$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
+          "EquipmentType": "None",
+          "EquipmentSlot": "Armor",
+          "AppearancePiece": {
+            "ModelVisualDataPath": "prefabs/items/appearance/body/pl/a_pl03_v02.asset"
+          },
+          "ItemModsIDs": [
+          	"9fe63f31-ba15-46fd-9d79-2323d63c8543"
+          ],
+          "OnEquipVisualEffects": [],
+          "RestrictedToClassIDs": [],
+          "RestrictedToPlayer": "false",
+          "ProficientAbilityID": "00000000-0000-0000-0000-000000000000",
+          "CannotUnequip": "false",
+          "ItemRendererPrefab": "",
+          "ItemModel": "",
+          "AnimationController": "",
+          "PaperdollOverrideRenderer": "",
+          "AttackSummonID": "00000000-0000-0000-0000-000000000000",
+          "CannotSheathe": "false",
+          "PropVisualEffects": []
+        },
+        {
+          "$type": "Game.GameData.ArmorComponent, Assembly-CSharp",
+          "ArmorRating": 7,
+          "SpeedFactor": 0.741,
+          "ArmorCategory": "Medium",
+          "ArmorMaterial": "Plate",
+          "LevelScaling": {
+            "BaseLevel": 1,
+            "LevelIncrement": 1,
+            "MaxLevel": 0,
+            "ArmorRatingAdjustment": 0
+          },
+          "OverridePierceRating": -1,
+          "OverrideSlashRating": -1,
+          "OverrideCrushRating": -1,
+          "OverrideBurnRating": -1,
+          "OverrideFreezeRating": -1,
+          "OverrideShockRating": -1,
+          "OverrideCorrodeRating": -1,
+          "ImmunityPierce": "false",
+          "ImmunitySlash": "false",
+          "ImmunityCrush": "false",
+          "ImmunityBurn": "false",
+          "ImmunityFreeze": "false",
+          "ImmunityShock": "false",
+          "ImmunityCorrode": "false"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.WeaponGameData, Assembly-CSharp",
+      "DebugName": "Forgotten_Tear_of_the_Beloved",
+      "ID": "aa3a5abe-876d-11e8-9a94-a6cf71072f73",
+      "Components": [
+        {
+          "$type": "Game.GameData.ItemComponent, Assembly-CSharp",
+          "DisplayName": 16534,
+          "DescriptionText": 16535,
+          "FilterType": "Weapons",
+          "InventoryAudioEventListID": "9f5589e0-6274-460b-8afd-8d2d298e063b",
+          "IsQuestItem": "false",
+          "IsIngredient": "false",
+          "IsCurrency": "false",
+          "IsAdventuringItem": "false",
+          "CanSellForFullValue": "false",
+          "MaxStackSize": 1,
+          "NeverDropAsLoot": "true",
+          "CanBePickpocketed": "true",
+          "IsUnique": "false",
+          "Value": 75,
+          "IconTextureSmall": "gui/icons/items/weapons/miscellaneous/summoned_eothas_flail_s.png",
+          "IconTextureLarge": "gui/icons/items/weapons/miscellaneous/summoned_eothas_flail_l.png",
+          "PencilSketchTexture": "",
+          "InspectOnUseButton": [],
+          "IsPlaceholder": "false"
+        },
+        {
+          "$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
+          "EquipmentType": "Flail",
+          "EquipmentSlot": "AnyWeapon",
+          "AppearancePiece": {
+            "ModelVisualDataPath": ""
+          },
+          "ItemModsIDs": [
+            "4bc87121-1268-4c4e-b17f-07277c6e64f9",
+            "9691785d-0207-492a-9c88-47f9a86db8af",
+            "be343e6d-fff5-416c-90da-a4943704f3b4"
+          ],
+          "OnEquipVisualEffects": [
+            {
+              "VisualEffect": "prefabs/effects/abilities/priest/fx_spiritual_weapon_eothas.prefab",
+              "AttachPoint": "Fx_Bone_01",
+              "EmissiveColor": {
+                "A": 1,
+                "R": 1,
+                "G": 1,
+                "B": 1
+              },
+              "EmissiveGlowScale": 3
+            }
+          ],
+          "RestrictedToClassIDs": [],
+          "RestrictedToPlayer": "false",
+          "ProficientAbilityID": "f5d40ec7-6dfb-414c-a12d-e2b1aecc80c8",
+          "CannotUnequip": "false",
+          "ItemRendererPrefab": "prefabs/itemrenderers/flail/flail01_v01_eothas.prefab",
+          "ItemModel": "",
+          "AnimationController": "",
+          "PaperdollOverrideRenderer": "prefabs/itemrenderers/flail/flail01_v01_eothas.prefab",
+          "AttackSummonID": "00000000-0000-0000-0000-000000000000",
+          "CannotSheathe": "true",
+          "PropVisualEffects": []
+        },
+        {
+          "$type": "Game.GameData.WeaponComponent, Assembly-CSharp",
+          "Stance": "OneHanded",
+          "AnimationStanceID": "ddeda306-872b-4d63-8032-fbaf359d0ed2",
+          "StatusEffectsOnLaunchIDs": [],
+          "IsDisplayedWhenAlternate": "true",
+          "IsUniversalType": "false",
+          "AttackID": "7a7848f0-7cd4-45b7-8048-64087d70e8ec",
+          "NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+          "ForceBackScabbard": "false",
+          "ScabbardAppearancePiece": {
+            "ModelVisualDataPath": ""
+          },
+          "ScabbardRendererPrefab": "",
+          "ScabbardModel": "",
+          "AudioEventListID": "00000000-0000-0000-0000-000000000000"
+        }
+      ]
+    },
+    {

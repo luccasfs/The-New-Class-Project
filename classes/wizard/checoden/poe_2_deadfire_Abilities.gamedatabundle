@@ -1,0 +1,476 @@
+﻿{
+	"GameDataObjects": [
+	{
+		"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+		"DebugName": "Conjurer",
+		"ID": "4a08d580-c493-4f78-a430-c300673c8c4a",
+		"Components": [{
+			"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+			"KeywordsIDs": [],
+			"DisplayName": 2310,
+			"Description": 3752,
+			"UpgradeDescriptions": [{
+				"String": 2311
+			}],
+			"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+			"Vocalization": "NoVocalization",
+			"Icon": "gui/icons/abilities/talents/class_wizard.png",
+			"UsageType": "None",
+			"UsageValue": 0,
+			"AbilityClassID": "acfd1303-4699-4939-91eb-6ac46d4af0bd",
+			"AbilityLevel": 0,
+			"IsPassive": "true",
+			"StackingRuleOverride": "Default",
+			"TriggerOnHit": "false",
+			"IsModal": "false",
+			"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+			"IsCombatOnly": "false",
+			"IsNonCombatOnly": "false",
+			"HideFromUI": "false",
+			"HideFromCombatLog": "false",
+			"UniqueSet": "None",
+			"NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+			"DurationOverride": 0,
+			"OverrideEmpower": "Default",
+			"ClearsOnMovement": "false",
+			"CannotActivateWhileInStealth": "false",
+			"CannotActivateWhileInvisible": "false",
+			"ActivationPrerequisites": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				}
+			},
+			"ApplicationPrerequisites": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				}
+			},
+			"DeactivationPrerequisites": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				}
+			},
+			"PowerLevelScaling": {
+				"BaseLevel": 0,
+				"LevelIncrement": 1,
+				"MaxLevel": 0,
+				"DamageAdjustment": 1,
+				"DurationAdjustment": 1,
+				"BounceCountAdjustment": 0,
+				"ProjectileCountAdjustment": 0,
+				"AccuracyAdjustment": 0,
+				"PenetrationAdjustment": 0
+			},
+			"StatusEffectKeywordsIDs": [],
+			"StatusEffectsIDs": ["0a83354f-473f-42e8-b45f-3e94476e5240",
+			"e864e6fb-ede0-40e6-b0d8-2711cc12b61d",
+			"032a8473-e344-4d68-ac0f-70372735e4c3",
+			"141a62e5-974e-4130-ba4e-b55797a1feae",
+			"3998681f-b3fa-447d-acde-111719bfcf74",
+			"d062359d-e24e-4d3d-85b9-1115be4ca37c",
+			"b47bb86a-9db7-46d5-af8f-11189d6fa289",
+			"ea9b487c-01f1-4908-a852-111d19e3c0d8",
+			"598dce9d-7da7-44ec-a524-1113e6e8cb97",
+			"7d40b6b1-2f0f-4012-ad7b-111143925658",
+			"66363b42-d95e-4233-8ed4-111b798d0756",
+			"de9c48b2-5d05-4d61-b58c-1115c0e8af1f",
+			"0f89a726-2b33-4354-83f9-1113fea6f67a"],
+			"VisualEffects": [],
+			"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+			"AttackID": "00000000-0000-0000-0000-000000000000",
+			"AITargetingConditional": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				},
+				"Scripts": []
+			},
+			"AudioEventListID": "00000000-0000-0000-0000-000000000000"
+		},
+		{
+			"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+		}]
+	},
+	{
+		"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+		"DebugName": "Enchanter",
+		"ID": "d3905a9e-0b17-4aca-9cbb-53d15a4b0694",
+		"Components": [{
+			"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+			"KeywordsIDs": [],
+			"DisplayName": 2312,
+			"Description": 3753,
+			"UpgradeDescriptions": [{
+				"String": 2317
+			}],
+			"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+			"Vocalization": "NoVocalization",
+			"Icon": "gui/icons/abilities/talents/class_wizard.png",
+			"UsageType": "None",
+			"UsageValue": 0,
+			"AbilityClassID": "acfd1303-4699-4939-91eb-6ac46d4af0bd",
+			"AbilityLevel": 0,
+			"IsPassive": "true",
+			"StackingRuleOverride": "Default",
+			"TriggerOnHit": "false",
+			"IsModal": "false",
+			"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+			"IsCombatOnly": "false",
+			"IsNonCombatOnly": "false",
+			"HideFromUI": "false",
+			"HideFromCombatLog": "false",
+			"UniqueSet": "None",
+			"NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+			"DurationOverride": 0,
+			"OverrideEmpower": "Default",
+			"ClearsOnMovement": "false",
+			"CannotActivateWhileInStealth": "false",
+			"CannotActivateWhileInvisible": "false",
+			"ActivationPrerequisites": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				}
+			},
+			"ApplicationPrerequisites": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				}
+			},
+			"DeactivationPrerequisites": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				}
+			},
+			"PowerLevelScaling": {
+				"BaseLevel": 0,
+				"LevelIncrement": 1,
+				"MaxLevel": 0,
+				"DamageAdjustment": 1,
+				"DurationAdjustment": 1,
+				"BounceCountAdjustment": 0,
+				"ProjectileCountAdjustment": 0,
+				"AccuracyAdjustment": 0,
+				"PenetrationAdjustment": 0
+			},
+			"StatusEffectKeywordsIDs": [],
+			"StatusEffectsIDs": ["7906f35b-ebed-4ea0-8bef-d7c8f7fc0bb0",
+			"38dd8fa3-2dbf-45c6-a36d-a4ab9e79f03a",
+			"141a62e5-974e-4130-ba4e-b55797a1feae",
+			"a1f8dc9a-730a-45f9-ac7e-a1547a0ae010",
+			"3998681f-b3fa-447d-acde-111719bfcf74",
+			"d062359d-e24e-4d3d-85b9-1115be4ca37c",
+			"b47bb86a-9db7-46d5-af8f-11189d6fa289",
+			"ea9b487c-01f1-4908-a852-111d19e3c0d8",
+			"598dce9d-7da7-44ec-a524-1113e6e8cb97",
+			"7d40b6b1-2f0f-4012-ad7b-111143925658",
+			"66363b42-d95e-4233-8ed4-111b798d0756",
+			"de9c48b2-5d05-4d61-b58c-1115c0e8af1f",
+			"0f89a726-2b33-4354-83f9-1113fea6f67a"],
+			"VisualEffects": [],
+			"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+			"AttackID": "00000000-0000-0000-0000-000000000000",
+			"AITargetingConditional": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				},
+				"Scripts": []
+			},
+			"AudioEventListID": "00000000-0000-0000-0000-000000000000"
+		},
+		{
+			"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+		}]
+	},
+	{
+		"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+		"DebugName": "Evoker",
+		"ID": "533d6e20-6a5f-422b-b292-0634e636e436",
+		"Components": [{
+			"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+			"KeywordsIDs": [],
+			"DisplayName": 2313,
+			"Description": 3754,
+			"UpgradeDescriptions": [{
+				"String": 2318
+			}],
+			"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+			"Vocalization": "NoVocalization",
+			"Icon": "gui/icons/abilities/talents/class_wizard.png",
+			"UsageType": "None",
+			"UsageValue": 0,
+			"AbilityClassID": "acfd1303-4699-4939-91eb-6ac46d4af0bd",
+			"AbilityLevel": 0,
+			"IsPassive": "true",
+			"StackingRuleOverride": "Default",
+			"TriggerOnHit": "false",
+			"IsModal": "false",
+			"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+			"IsCombatOnly": "false",
+			"IsNonCombatOnly": "false",
+			"HideFromUI": "false",
+			"HideFromCombatLog": "false",
+			"UniqueSet": "None",
+			"NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+			"DurationOverride": 0,
+			"OverrideEmpower": "Default",
+			"ClearsOnMovement": "false",
+			"CannotActivateWhileInStealth": "false",
+			"CannotActivateWhileInvisible": "false",
+			"ActivationPrerequisites": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				}
+			},
+			"ApplicationPrerequisites": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				}
+			},
+			"DeactivationPrerequisites": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				}
+			},
+			"PowerLevelScaling": {
+				"BaseLevel": 0,
+				"LevelIncrement": 1,
+				"MaxLevel": 0,
+				"DamageAdjustment": 1,
+				"DurationAdjustment": 1,
+				"BounceCountAdjustment": 0,
+				"ProjectileCountAdjustment": 0,
+				"AccuracyAdjustment": 0,
+				"PenetrationAdjustment": 0
+			},
+			"StatusEffectKeywordsIDs": [],
+			"StatusEffectsIDs": ["6dfae604-0fcc-4bff-bc7e-c7a9e330baf3",
+			"71fa2878-56a1-4fd1-a39e-e0d95b66d3eb",
+			"b5eac66e-c834-4ca6-a61b-c9ed8fd96fca",
+			"a1f8dc9a-730a-45f9-ac7e-a1547a0ae010",
+			"9b0a469f-fdf7-45a5-8aad-c229fd0978d9",
+			"3998681f-b3fa-447d-acde-111719bfcf74",
+			"d062359d-e24e-4d3d-85b9-1115be4ca37c",
+			"b47bb86a-9db7-46d5-af8f-11189d6fa289",
+			"ea9b487c-01f1-4908-a852-111d19e3c0d8",
+			"598dce9d-7da7-44ec-a524-1113e6e8cb97",
+			"7d40b6b1-2f0f-4012-ad7b-111143925658",
+			"66363b42-d95e-4233-8ed4-111b798d0756",
+			"de9c48b2-5d05-4d61-b58c-1115c0e8af1f",
+			"0f89a726-2b33-4354-83f9-1113fea6f67a"],
+			"VisualEffects": [],
+			"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+			"AttackID": "00000000-0000-0000-0000-000000000000",
+			"AITargetingConditional": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				},
+				"Scripts": []
+			},
+			"AudioEventListID": "00000000-0000-0000-0000-000000000000"
+		},
+		{
+			"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+		}]
+	},
+	{
+		"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+		"DebugName": "Illusionist",
+		"ID": "3cf7f692-f6f7-45d1-ac0f-186cd2c9cc11",
+		"Components": [{
+			"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+			"KeywordsIDs": [],
+			"DisplayName": 2315,
+			"Description": 3755,
+			"UpgradeDescriptions": [{
+				"String": 2320
+			}],
+			"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+			"Vocalization": "NoVocalization",
+			"Icon": "gui/icons/abilities/talents/class_wizard.png",
+			"UsageType": "None",
+			"UsageValue": 0,
+			"AbilityClassID": "acfd1303-4699-4939-91eb-6ac46d4af0bd",
+			"AbilityLevel": 0,
+			"IsPassive": "true",
+			"StackingRuleOverride": "Default",
+			"TriggerOnHit": "false",
+			"IsModal": "false",
+			"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+			"IsCombatOnly": "false",
+			"IsNonCombatOnly": "false",
+			"HideFromUI": "false",
+			"HideFromCombatLog": "false",
+			"UniqueSet": "None",
+			"NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+			"DurationOverride": 0,
+			"OverrideEmpower": "Default",
+			"ClearsOnMovement": "false",
+			"CannotActivateWhileInStealth": "false",
+			"CannotActivateWhileInvisible": "false",
+			"ActivationPrerequisites": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				}
+			},
+			"ApplicationPrerequisites": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				}
+			},
+			"DeactivationPrerequisites": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				}
+			},
+			"PowerLevelScaling": {
+				"BaseLevel": 0,
+				"LevelIncrement": 1,
+				"MaxLevel": 0,
+				"DamageAdjustment": 1,
+				"DurationAdjustment": 1,
+				"BounceCountAdjustment": 0,
+				"ProjectileCountAdjustment": 0,
+				"AccuracyAdjustment": 0,
+				"PenetrationAdjustment": 0
+			},
+			"StatusEffectKeywordsIDs": [],
+			"StatusEffectsIDs": ["56f055fc-6bbb-4769-b3bc-8eb8b4288f62",
+			"f6810cc8-cbe7-4c55-872d-55de05b8adac",
+			"c024dd83-bcc3-43b2-a2ad-c0aedaa32185",
+			"9b0a469f-fdf7-45a5-8aad-c229fd0978d9",
+			"11a91242-591b-47a4-9931-c05e93595726",
+			"3998681f-b3fa-447d-acde-111719bfcf74",
+			"d062359d-e24e-4d3d-85b9-1115be4ca37c",
+			"b47bb86a-9db7-46d5-af8f-11189d6fa289",
+			"ea9b487c-01f1-4908-a852-111d19e3c0d8",
+			"598dce9d-7da7-44ec-a524-1113e6e8cb97",
+			"7d40b6b1-2f0f-4012-ad7b-111143925658",
+			"66363b42-d95e-4233-8ed4-111b798d0756",
+			"de9c48b2-5d05-4d61-b58c-1115c0e8af1f",
+			"0f89a726-2b33-4354-83f9-1113fea6f67a"],
+			"VisualEffects": [],
+			"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+			"AttackID": "00000000-0000-0000-0000-000000000000",
+			"AITargetingConditional": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				},
+				"Scripts": []
+			},
+			"AudioEventListID": "00000000-0000-0000-0000-000000000000"
+		},
+		{
+			"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+		}]
+	},
+	{
+		"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+		"DebugName": "Transmuter",
+		"ID": "811b8bcf-4b33-47db-8362-f5fd63984c4c",
+		"Components": [{
+			"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+			"KeywordsIDs": [],
+			"DisplayName": 2316,
+			"Description": 3756,
+			"UpgradeDescriptions": [{
+				"String": 2321
+			}],
+			"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+			"Vocalization": "NoVocalization",
+			"Icon": "gui/icons/abilities/talents/class_wizard.png",
+			"UsageType": "None",
+			"UsageValue": 0,
+			"AbilityClassID": "acfd1303-4699-4939-91eb-6ac46d4af0bd",
+			"AbilityLevel": 0,
+			"IsPassive": "true",
+			"StackingRuleOverride": "Default",
+			"TriggerOnHit": "false",
+			"IsModal": "false",
+			"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+			"IsCombatOnly": "false",
+			"IsNonCombatOnly": "false",
+			"HideFromUI": "false",
+			"HideFromCombatLog": "false",
+			"UniqueSet": "None",
+			"NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+			"DurationOverride": 0,
+			"OverrideEmpower": "Default",
+			"ClearsOnMovement": "false",
+			"CannotActivateWhileInStealth": "false",
+			"CannotActivateWhileInvisible": "false",
+			"ActivationPrerequisites": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				}
+			},
+			"ApplicationPrerequisites": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				}
+			},
+			"DeactivationPrerequisites": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				}
+			},
+			"PowerLevelScaling": {
+				"BaseLevel": 0,
+				"LevelIncrement": 1,
+				"MaxLevel": 0,
+				"DamageAdjustment": 1,
+				"DurationAdjustment": 1,
+				"BounceCountAdjustment": 0,
+				"ProjectileCountAdjustment": 0,
+				"AccuracyAdjustment": 0,
+				"PenetrationAdjustment": 0
+			},
+			"StatusEffectKeywordsIDs": [],
+			"StatusEffectsIDs": ["402262fb-09a3-408a-b9f2-493c181842ea",
+			"9a26c942-8ade-4603-a1cf-8ca11be665d3",
+			"11a91242-591b-47a4-9931-c05e93595726",
+			"032a8473-e344-4d68-ac0f-70372735e4c3",
+			"3998681f-b3fa-447d-acde-111719bfcf74",
+			"d062359d-e24e-4d3d-85b9-1115be4ca37c",
+			"b47bb86a-9db7-46d5-af8f-11189d6fa289",
+			"ea9b487c-01f1-4908-a852-111d19e3c0d8",
+			"598dce9d-7da7-44ec-a524-1113e6e8cb97",
+			"7d40b6b1-2f0f-4012-ad7b-111143925658",
+			"66363b42-d95e-4233-8ed4-111b798d0756",
+			"de9c48b2-5d05-4d61-b58c-1115c0e8af1f",
+			"0f89a726-2b33-4354-83f9-1113fea6f67a"],
+			"VisualEffects": [],
+			"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+			"AttackID": "00000000-0000-0000-0000-000000000000",
+			"AITargetingConditional": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				},
+				"Scripts": []
+			},
+			"AudioEventListID": "00000000-0000-0000-0000-000000000000"
+		},
+		{
+			"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+		}]
+	}
+	]
+}

@@ -1,0 +1,1592 @@
+﻿{
+    "GameDataObjects": [
+        {
+			"$type": "Game.GameData.BeamTeleportAttackGameData, Assembly-CSharp",
+			"DebugName": "Charge_ImpactAttack_Pull",
+			"ID": "17bbdabc-fe58-4794-880d-5e708132b270",
+			"Components": [{
+					"$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+					"AccuracyBonus": 0,
+					"AdditionalAttackOnTooltip": "false",
+					"AffectedTargetConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AffectedTargetDeathState": "Alive",
+					"AffectedTargetType": "Hostile",
+					"AfflictionApplicationModifier": "None",
+					"AfflictionsDefendedBy": "None",
+					"AllReactNoise": "false",
+					"ApplyOnceOnly": "false",
+					"AttackDistance": 8,
+					"AttackOnImpactID": "5545adfc-f8aa-47d0-83ce-47f459f6b725",
+					"AttackValidityConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackVariationID": "d59b9cd2-d2ac-454c-b473-6f3f43da5e8b",
+					"BounceData": {
+						"AlwaysBounceAtEnemies": "false",
+						"Bounces": 0,
+						"Delay": 0,
+						"InRangeOrder": "false",
+						"Multiplier": 0.5,
+						"NeverBounce": "false",
+						"NoRepeatTargets": "false",
+						"Range": 10
+					},
+					"CanCrit": "true",
+					"CanGraze": "false",
+					"CastSpeedID": "eacb53e3-6eb5-422a-92ca-99cc883ae4a9",
+					"DamageData": {
+						"AlternateDamageType": "None",
+						"DamageProcs": [],
+						"DamageType": "None",
+						"Maximum": 0,
+						"Minimum": 0
+					},
+					"DefendedBy": "Deflect",
+					"DoesNotApplyDamage": "false",
+					"ExtraAttackID": "00000000-0000-0000-0000-000000000000",
+					"FaceTarget": "true",
+					"ForcedTarget": "None",
+					"HideFromCombatLog": "false",
+					"HitBone": "Chest",
+					"HostilityOverride": "Default",
+					"ImpactDelay": 0,
+					"InterruptType": "Normal",
+					"InterruptsOn": "None",
+					"KeywordsIDs": [],
+					"LaunchBone": "RightWeapon",
+					"MinAttackDistance": 0,
+					"NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+					"OnHitShakeDuration": "None",
+					"OnHitShakeStrength": "None",
+					"PathsToTarget": "true",
+					"PenetrationRating": 0,
+					"PushDistance": 0,
+					"RandomizeStatusEffect": "false",
+					"RecoveryTimeID": "cd5ad068-453b-41f9-8779-db38ff00dd20",
+					"RequiresHitObject": "true",
+					"StatusEffectKeywordsIDs": [],
+					"StatusEffectsIDs": [],
+					"SubstituteHitVisualEffect": "",
+					"TargetAngle": 0,
+					"TreatAsWeapon": "false",
+					"UseParentEquippableHand": "false",
+					"VisualEffects": [{
+							"AnimEventID": 2,
+							"AttachMode": "PositionRotation",
+							"AttachObject": "Caster",
+							"AttachPoint": "Root",
+							"Event": "OnAnimEvent",
+							"Loop": "false",
+							"MeshType": "None",
+							"Scale": "false",
+							"VisualEffect": "prefabs/effects/abilities/fighter/fx_charge_end.prefab"
+						}, {
+							"AnimEventID": 0,
+							"AttachMode": "PositionRotation",
+							"AttachObject": "Caster",
+							"AttachPoint": "Root",
+							"Event": "OnAnimEvent",
+							"Loop": "false",
+							"MeshType": "None",
+							"Scale": "false",
+							"VisualEffect": "prefabs/effects/abilities/fighter/fx_charge_start.prefab"
+						}
+					]
+				}, {
+					"$type": "Game.GameData.BeamTeleportAttackComponent, Assembly-CSharp",
+					"HitTargetWithPrimaryAttack": "true",
+					"HitTargetWithSecondaryAttack": "false",
+					"HitWithPrimaryAttack": "false",
+					"HitWithSecondaryAttack": "false"
+				}, {
+					"$type": "Game.GameData.TeleportAttackComponent, Assembly-CSharp",
+					"Retreating": "false",
+					"SkipRaycast": "false"
+				}
+			]
+		}, 	{
+			"$type": "Game.GameData.BeamTeleportAttackGameData, Assembly-CSharp",
+			"DebugName": "Charge_ImpactAttack_PushProne",
+			"ID": "eb223403-c0f1-4708-a6d7-a4390d04c4b2",
+			"Components": [{
+					"$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+					"AccuracyBonus": 0,
+					"AdditionalAttackOnTooltip": "false",
+					"AffectedTargetConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AffectedTargetDeathState": "Alive",
+					"AffectedTargetType": "Hostile",
+					"AfflictionApplicationModifier": "None",
+					"AfflictionsDefendedBy": "None",
+					"AllReactNoise": "false",
+					"ApplyOnceOnly": "false",
+					"AttackDistance": 8,
+					"AttackOnImpactID": "01d5c90f-6e34-4bcd-8307-b3c9c10316a6",
+					"AttackValidityConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackVariationID": "d59b9cd2-d2ac-454c-b473-6f3f43da5e8b",
+					"BounceData": {
+						"AlwaysBounceAtEnemies": "false",
+						"Bounces": 0,
+						"Delay": 0,
+						"InRangeOrder": "false",
+						"Multiplier": 0.5,
+						"NeverBounce": "false",
+						"NoRepeatTargets": "false",
+						"Range": 10
+					},
+					"CanCrit": "true",
+					"CanGraze": "false",
+					"CastSpeedID": "eacb53e3-6eb5-422a-92ca-99cc883ae4a9",
+					"DamageData": {
+						"AlternateDamageType": "None",
+						"DamageProcs": [],
+						"DamageType": "None",
+						"Maximum": 0,
+						"Minimum": 0
+					},
+					"DefendedBy": "Deflect",
+					"DoesNotApplyDamage": "false",
+					"ExtraAttackID": "00000000-0000-0000-0000-000000000000",
+					"FaceTarget": "true",
+					"ForcedTarget": "None",
+					"HideFromCombatLog": "false",
+					"HitBone": "Chest",
+					"HostilityOverride": "Default",
+					"ImpactDelay": 0,
+					"InterruptType": "Normal",
+					"InterruptsOn": "None",
+					"KeywordsIDs": [],
+					"LaunchBone": "RightWeapon",
+					"MinAttackDistance": 0,
+					"NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+					"OnHitShakeDuration": "None",
+					"OnHitShakeStrength": "None",
+					"PathsToTarget": "true",
+					"PenetrationRating": 0,
+					"PushDistance": 0,
+					"RandomizeStatusEffect": "false",
+					"RecoveryTimeID": "cd5ad068-453b-41f9-8779-db38ff00dd20",
+					"RequiresHitObject": "true",
+					"StatusEffectKeywordsIDs": [],
+					"StatusEffectsIDs": [],
+					"SubstituteHitVisualEffect": "",
+					"TargetAngle": 0,
+					"TreatAsWeapon": "false",
+					"UseParentEquippableHand": "false",
+					"VisualEffects": [{
+							"AnimEventID": 2,
+							"AttachMode": "PositionRotation",
+							"AttachObject": "Caster",
+							"AttachPoint": "Root",
+							"Event": "OnAnimEvent",
+							"Loop": "false",
+							"MeshType": "None",
+							"Scale": "false",
+							"VisualEffect": "prefabs/effects/abilities/fighter/fx_charge_end.prefab"
+						}, {
+							"AnimEventID": 0,
+							"AttachMode": "PositionRotation",
+							"AttachObject": "Caster",
+							"AttachPoint": "Root",
+							"Event": "OnAnimEvent",
+							"Loop": "false",
+							"MeshType": "None",
+							"Scale": "false",
+							"VisualEffect": "prefabs/effects/abilities/fighter/fx_charge_start.prefab"
+						}
+					]
+				}, {
+					"$type": "Game.GameData.BeamTeleportAttackComponent, Assembly-CSharp",
+					"HitTargetWithPrimaryAttack": "true",
+					"HitTargetWithSecondaryAttack": "false",
+					"HitWithPrimaryAttack": "false",
+					"HitWithSecondaryAttack": "false"
+				}, {
+					"$type": "Game.GameData.TeleportAttackComponent, Assembly-CSharp",
+					"Retreating": "false",
+					"SkipRaycast": "false"
+				}
+			]
+		}, 	{
+			"$type": "Game.GameData.BeamTeleportAttackGameData, Assembly-CSharp",
+			"DebugName": "Charge_NoAttacks",
+			"ID": "20ed4098-91d5-4598-91d9-408cd797fa64",
+			"Components": [{
+					"$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+					"AccuracyBonus": 0,
+					"AdditionalAttackOnTooltip": "false",
+					"AffectedTargetConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AffectedTargetDeathState": "Alive",
+					"AffectedTargetType": "Hostile",
+					"AfflictionApplicationModifier": "None",
+					"AfflictionsDefendedBy": "None",
+					"AllReactNoise": "false",
+					"ApplyOnceOnly": "false",
+					"AttackDistance": 5,
+					"AttackOnImpactID": "00000000-0000-0000-0000-000000000000",
+					"AttackValidityConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackVariationID": "d59b9cd2-d2ac-454c-b473-6f3f43da5e8b",
+					"BounceData": {
+						"AlwaysBounceAtEnemies": "false",
+						"Bounces": 0,
+						"Delay": 0,
+						"InRangeOrder": "false",
+						"Multiplier": 0.5,
+						"NeverBounce": "false",
+						"NoRepeatTargets": "false",
+						"Range": 10
+					},
+					"CanCrit": "true",
+					"CanGraze": "false",
+					"CastSpeedID": "eacb53e3-6eb5-422a-92ca-99cc883ae4a9",
+					"DamageData": {
+						"AlternateDamageType": "None",
+						"DamageProcs": [],
+						"DamageType": "None",
+						"Maximum": 0,
+						"Minimum": 0
+					},
+					"DefendedBy": "Deflect",
+					"DoesNotApplyDamage": "false",
+					"ExtraAttackID": "00000000-0000-0000-0000-000000000000",
+					"FaceTarget": "true",
+					"ForcedTarget": "None",
+					"HideFromCombatLog": "false",
+					"HitBone": "Chest",
+					"HostilityOverride": "Default",
+					"ImpactDelay": 0,
+					"InterruptType": "Normal",
+					"InterruptsOn": "None",
+					"KeywordsIDs": [],
+					"LaunchBone": "RightWeapon",
+					"MinAttackDistance": 0,
+					"NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+					"OnHitShakeDuration": "None",
+					"OnHitShakeStrength": "None",
+					"PathsToTarget": "true",
+					"PenetrationRating": 0,
+					"PushDistance": 0,
+					"RandomizeStatusEffect": "false",
+					"RecoveryTimeID": "cd5ad068-453b-41f9-8779-db38ff00dd20",
+					"RequiresHitObject": "false",
+					"StatusEffectKeywordsIDs": [],
+					"StatusEffectsIDs": [],
+					"SubstituteHitVisualEffect": "",
+					"TargetAngle": 0,
+					"TreatAsWeapon": "false",
+					"UseParentEquippableHand": "false",
+					"VisualEffects": [{
+							"AnimEventID": 2,
+							"AttachMode": "PositionRotation",
+							"AttachObject": "Caster",
+							"AttachPoint": "Root",
+							"Event": "OnAnimEvent",
+							"Loop": "false",
+							"MeshType": "None",
+							"Scale": "false",
+							"VisualEffect": "prefabs/effects/abilities/fighter/fx_charge_end.prefab"
+						}, {
+							"AnimEventID": 0,
+							"AttachMode": "PositionRotation",
+							"AttachObject": "Caster",
+							"AttachPoint": "Root",
+							"Event": "OnAnimEvent",
+							"Loop": "false",
+							"MeshType": "None",
+							"Scale": "false",
+							"VisualEffect": "prefabs/effects/abilities/fighter/fx_charge_start.prefab"
+						}
+					]
+				}, {
+					"$type": "Game.GameData.BeamTeleportAttackComponent, Assembly-CSharp",
+					"HitTargetWithPrimaryAttack": "false",
+					"HitTargetWithSecondaryAttack": "false",
+					"HitWithPrimaryAttack": "false",
+					"HitWithSecondaryAttack": "false"
+				}, {
+					"$type": "Game.GameData.TeleportAttackComponent, Assembly-CSharp",
+					"Retreating": "false",
+					"SkipRaycast": "false"
+				}
+			]
+		}, 	{
+			"$type": "Game.GameData.BeamTeleportAttackGameData, Assembly-CSharp",
+			"DebugName": "Charge_StunPath",
+			"ID": "22b8397f-1f79-4612-9e88-d86a5ed51f65",
+			"Components": [{
+					"$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+					"AccuracyBonus": 0,
+					"AdditionalAttackOnTooltip": "false",
+					"AffectedTargetConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AffectedTargetDeathState": "Alive",
+					"AffectedTargetType": "Hostile",
+					"AfflictionApplicationModifier": "None",
+					"AfflictionsDefendedBy": "None",
+					"AllReactNoise": "false",
+					"ApplyOnceOnly": "false",
+					"AttackDistance": 5,
+					"AttackOnImpactID": "00000000-0000-0000-0000-000000000000",
+					"AttackValidityConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackVariationID": "d59b9cd2-d2ac-454c-b473-6f3f43da5e8b",
+					"BounceData": {
+						"AlwaysBounceAtEnemies": "false",
+						"Bounces": 0,
+						"Delay": 0,
+						"InRangeOrder": "false",
+						"Multiplier": 0.5,
+						"NeverBounce": "false",
+						"NoRepeatTargets": "false",
+						"Range": 10
+					},
+					"CanCrit": "true",
+					"CanGraze": "false",
+					"CastSpeedID": "eacb53e3-6eb5-422a-92ca-99cc883ae4a9",
+					"DamageData": {
+						"AlternateDamageType": "None",
+						"DamageProcs": [],
+						"DamageType": "None",
+						"Maximum": 0,
+						"Minimum": 0
+					},
+					"DefendedBy": "Deflect",
+					"DoesNotApplyDamage": "false",
+					"ExtraAttackID": "00000000-0000-0000-0000-000000000000",
+					"FaceTarget": "true",
+					"ForcedTarget": "None",
+					"HideFromCombatLog": "false",
+					"HitBone": "Chest",
+					"HostilityOverride": "Default",
+					"ImpactDelay": 0,
+					"InterruptType": "Normal",
+					"InterruptsOn": "None",
+					"KeywordsIDs": [],
+					"LaunchBone": "RightWeapon",
+					"MinAttackDistance": 0,
+					"NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+					"OnHitShakeDuration": "None",
+					"OnHitShakeStrength": "None",
+					"PathsToTarget": "true",
+					"PenetrationRating": 0,
+					"PushDistance": 0,
+					"RandomizeStatusEffect": "false",
+					"RecoveryTimeID": "cd5ad068-453b-41f9-8779-db38ff00dd20",
+					"RequiresHitObject": "false",
+					"StatusEffectKeywordsIDs": [],
+					"StatusEffectsIDs": ["b5a99b43-0106-48e8-81c3-9bed8d6544c1"],
+					"SubstituteHitVisualEffect": "",
+					"TargetAngle": 0,
+					"TreatAsWeapon": "false",
+					"UseParentEquippableHand": "false",
+					"VisualEffects": [{
+							"AnimEventID": 2,
+							"AttachMode": "PositionRotation",
+							"AttachObject": "Caster",
+							"AttachPoint": "Root",
+							"Event": "OnAnimEvent",
+							"Loop": "false",
+							"MeshType": "None",
+							"Scale": "false",
+							"VisualEffect": "prefabs/effects/abilities/fighter/fx_charge_end.prefab"
+						}, {
+							"AnimEventID": 0,
+							"AttachMode": "PositionRotation",
+							"AttachObject": "Caster",
+							"AttachPoint": "Root",
+							"Event": "OnAnimEvent",
+							"Loop": "false",
+							"MeshType": "None",
+							"Scale": "false",
+							"VisualEffect": "prefabs/effects/abilities/fighter/fx_charge_start.prefab"
+						}
+					]
+				}, {
+					"$type": "Game.GameData.BeamTeleportAttackComponent, Assembly-CSharp",
+					"HitTargetWithPrimaryAttack": "false",
+					"HitTargetWithSecondaryAttack": "false",
+					"HitWithPrimaryAttack": "false",
+					"HitWithSecondaryAttack": "false"
+				}, {
+					"$type": "Game.GameData.TeleportAttackComponent, Assembly-CSharp",
+					"Retreating": "false",
+					"SkipRaycast": "false"
+				}
+			]
+		}, 	{
+			"$type": "Game.GameData.AttackAOEGameData, Assembly-CSharp",
+			"DebugName": "Rams_Sprints_AOE",
+			"ID": "5545adfc-f8aa-47d0-83ce-47f459f6b725",
+			"Components": [{
+					"$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+					"AccuracyBonus": 0,
+					"AdditionalAttackOnTooltip": "false",
+					"AffectedTargetConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AffectedTargetDeathState": "Alive",
+					"AffectedTargetType": "Hostile",
+					"AfflictionApplicationModifier": "None",
+					"AfflictionsDefendedBy": "None",
+					"AllReactNoise": "false",
+					"ApplyOnceOnly": "false",
+					"AttackDistance": 6,
+					"AttackOnImpactID": "00000000-0000-0000-0000-000000000000",
+					"AttackValidityConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackVariationID": "fec9483c-ea67-4c91-88c3-80b3dd3d0f75",
+					"BounceData": {
+						"AlwaysBounceAtEnemies": "false",
+						"Bounces": 0,
+						"Delay": 0,
+						"InRangeOrder": "false",
+						"Multiplier": 0.5,
+						"NeverBounce": "false",
+						"NoRepeatTargets": "false",
+						"Range": 10
+					},
+					"CanCrit": "true",
+					"CanGraze": "false",
+					"CastSpeedID": "eacb53e3-6eb5-422a-92ca-99cc883ae4a9",
+					"DamageData": {
+						"AlternateDamageType": "None",
+						"DamageProcs": [],
+						"DamageType": "None",
+						"Maximum": 0,
+						"Minimum": 0
+					},
+					"DefendedBy": "Fortitude",
+					"DoesNotApplyDamage": "false",
+					"ExtraAttackID": "00000000-0000-0000-0000-000000000000",
+					"FaceTarget": "true",
+					"ForcedTarget": "Self",
+					"HideFromCombatLog": "false",
+					"HitBone": "Chest",
+					"HostilityOverride": "Default",
+					"ImpactDelay": 0,
+					"InterruptType": "Normal",
+					"InterruptsOn": "None",
+					"KeywordsIDs": [],
+					"LaunchBone": "RightWeapon",
+					"MinAttackDistance": 0,
+					"NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+					"OnHitShakeDuration": "None",
+					"OnHitShakeStrength": "None",
+					"PathsToTarget": "true",
+					"PenetrationRating": 0,
+					"PushDistance": -2,
+					"RandomizeStatusEffect": "false",
+					"RecoveryTimeID": "039ef4b4-eeb3-42d3-9817-a8df05c53515",
+					"RequiresHitObject": "false",
+					"StatusEffectKeywordsIDs": [],
+					"StatusEffectsIDs": [],
+					"SubstituteHitVisualEffect": "",
+					"TargetAngle": 0,
+					"TreatAsWeapon": "false",
+					"UseParentEquippableHand": "false",
+					"VisualEffects": [{
+							"AnimEventID": 0,
+							"AttachMode": "Position",
+							"AttachObject": "Caster",
+							"AttachPoint": "Chest",
+							"Event": "OnLaunch",
+							"Loop": "false",
+							"MeshType": "None",
+							"Scale": "false",
+							"VisualEffect": "prefabs/effects/abilities/barbarian/fx_rams_spirit_aoe.prefab"
+						}
+					]
+				}, {
+					"$type": "Game.GameData.AttackAOEComponent, Assembly-CSharp",
+					"BlastPhysicsForce": 500,
+					"BlastRadiusOverride": 2.5,
+					"BlastSize": "Medium",
+					"DamageAngle": 360,
+					"ExcludePrimaryTarget": "true",
+					"ExcludeSelf": "false",
+					"IgnoreParentTarget": "false",
+					"PushFromCaster": "false"
+				}, {
+					"$type": "Game.GameData.AttackRangedComponent, Assembly-CSharp",
+					"IgnoreMagicDefense": "false",
+					"IsMultiHit": "false",
+					"LaunchAttackOnCollision": "false",
+					"LaunchOffset": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"LaunchOffsetRandom": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"LaunchSource": "Caster",
+					"MultiHitMaxHits": 0,
+					"MultiHitTravelDist": 10,
+					"ProjectileConeAngle": 145,
+					"ProjectileCount": 1,
+					"ProjectilePrefab": "prefabs/projectiles/invisible_projectile.prefab"
+				}
+			]
+		}, 	{
+			"$type": "Game.GameData.AttackAOEGameData, Assembly-CSharp",
+			"DebugName": "Lions_Sprints_AOE",
+			"ID": "01d5c90f-6e34-4bcd-8307-b3c9c10316a6",
+			"Components": [{
+					"$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+					"AccuracyBonus": 0,
+					"AdditionalAttackOnTooltip": "false",
+					"AffectedTargetConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AffectedTargetDeathState": "Alive",
+					"AffectedTargetType": "Hostile",
+					"AfflictionApplicationModifier": "None",
+					"AfflictionsDefendedBy": "None",
+					"AllReactNoise": "false",
+					"ApplyOnceOnly": "false",
+					"AttackDistance": 6,
+					"AttackOnImpactID": "00000000-0000-0000-0000-000000000000",
+					"AttackValidityConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackVariationID": "fec9483c-ea67-4c91-88c3-80b3dd3d0f75",
+					"BounceData": {
+						"AlwaysBounceAtEnemies": "false",
+						"Bounces": 0,
+						"Delay": 0,
+						"InRangeOrder": "false",
+						"Multiplier": 0.5,
+						"NeverBounce": "false",
+						"NoRepeatTargets": "false",
+						"Range": 10
+					},
+					"CanCrit": "true",
+					"CanGraze": "false",
+					"CastSpeedID": "eacb53e3-6eb5-422a-92ca-99cc883ae4a9",
+					"DamageData": {
+						"AlternateDamageType": "None",
+						"DamageProcs": [],
+						"DamageType": "None",
+						"Maximum": 0,
+						"Minimum": 0
+					},
+					"DefendedBy": "Fortitude",
+					"DoesNotApplyDamage": "false",
+					"ExtraAttackID": "00000000-0000-0000-0000-000000000000",
+					"FaceTarget": "true",
+					"ForcedTarget": "Self",
+					"HideFromCombatLog": "false",
+					"HitBone": "Chest",
+					"HostilityOverride": "Default",
+					"ImpactDelay": 0,
+					"InterruptType": "Normal",
+					"InterruptsOn": "None",
+					"KeywordsIDs": [],
+					"LaunchBone": "RightWeapon",
+					"MinAttackDistance": 0,
+					"NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+					"OnHitShakeDuration": "None",
+					"OnHitShakeStrength": "None",
+					"PathsToTarget": "true",
+					"PenetrationRating": 0,
+					"PushDistance": -2,
+					"RandomizeStatusEffect": "false",
+					"RecoveryTimeID": "039ef4b4-eeb3-42d3-9817-a8df05c53515",
+					"RequiresHitObject": "false",
+					"StatusEffectKeywordsIDs": [],
+					"StatusEffectsIDs": ["8dfb05c3-6821-48d6-a713-7593bd2cbaac"],//from fighter status effects
+					"SubstituteHitVisualEffect": "",
+					"TargetAngle": 0,
+					"TreatAsWeapon": "false",
+					"UseParentEquippableHand": "false",
+					"VisualEffects": [{
+							"AnimEventID": 0,
+							"AttachMode": "Position",
+							"AttachObject": "Caster",
+							"AttachPoint": "Chest",
+							"Event": "OnLaunch",
+							"Loop": "false",
+							"MeshType": "None",
+							"Scale": "false",
+							"VisualEffect": "prefabs/effects/abilities/barbarian/fx_rams_spirit_aoe.prefab"
+						}
+					]
+				}, {
+					"$type": "Game.GameData.AttackAOEComponent, Assembly-CSharp",
+					"BlastPhysicsForce": 500,
+					"BlastRadiusOverride": 2.5,
+					"BlastSize": "Medium",
+					"DamageAngle": 360,
+					"ExcludePrimaryTarget": "true",
+					"ExcludeSelf": "false",
+					"IgnoreParentTarget": "false",
+					"PushFromCaster": "false"
+				}, {
+					"$type": "Game.GameData.AttackRangedComponent, Assembly-CSharp",
+					"IgnoreMagicDefense": "false",
+					"IsMultiHit": "false",
+					"LaunchAttackOnCollision": "false",
+					"LaunchOffset": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"LaunchOffsetRandom": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"LaunchSource": "Caster",
+					"MultiHitMaxHits": 0,
+					"MultiHitTravelDist": 10,
+					"ProjectileConeAngle": 145,
+					"ProjectileCount": 1,
+					"ProjectilePrefab": "prefabs/projectiles/invisible_projectile.prefab"
+				}
+			]
+		}, 	{
+			"$type": "Game.GameData.AttackAOEGameData, Assembly-CSharp",
+			"DebugName": "The_Mist_AOE",
+			"ID": "2417cf50-59eb-4c7a-9d17-5e46c575d307",
+			"Components": [{
+					"$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+					"AccuracyBonus": 0,
+					"AdditionalAttackOnTooltip": "false",
+					"AffectedTargetConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AffectedTargetDeathState": "Alive",
+					"AffectedTargetType": "Hostile",
+					"AfflictionApplicationModifier": "None",
+					"AfflictionsDefendedBy": "None",
+					"AllReactNoise": "false",
+					"ApplyOnceOnly": "false",
+					"AttackDistance": 6,
+					"AttackOnImpactID": "00000000-0000-0000-0000-000000000000",
+					"AttackVariationID": "5f56a8f2-66a2-4bab-90ae-af919c8116f0",
+					"BounceData": {
+						"AlwaysBounceAtEnemies": "false",
+						"Bounces": 0,
+						"Delay": 0,
+						"InRangeOrder": "false",
+						"Multiplier": 0.5,
+						"NeverBounce": "false",
+						"NoRepeatTargets": "false",
+						"Range": 10
+					},
+					"CanCrit": "true",
+					"CanGraze": "false",
+					"CastSpeedID": "eacb53e3-6eb5-422a-92ca-99cc883ae4a9",
+					"DamageData": {
+						"AlternateDamageType": "None",
+						"DamageProcs": [],
+						"DamageType": "None",
+						"Maximum": 0,
+						"Minimum": 0
+					},
+					"DefendedBy": "Reflex",
+					"DoesNotApplyDamage": "false",
+					"ExtraAttackID": "00000000-0000-0000-0000-000000000000",
+					"FaceTarget": "true",
+					"ForcedTarget": "Self",
+					"HideFromCombatLog": "false",
+					"HitBone": "Chest",
+					"HostilityOverride": "Hostile",
+					"ImpactDelay": 0,
+					"InterruptType": "Normal",
+					"InterruptsOn": "None",
+					"KeywordsIDs": [],
+					"LaunchBone": "RightWeapon",
+					"MinAttackDistance": 0,
+					"NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+					"OnHitShakeDuration": "None",
+					"OnHitShakeStrength": "None",
+					"PathsToTarget": "true",
+					"PenetrationRating": 0,
+					"PushDistance": 0,
+					"RandomizeStatusEffect": "false",
+					"RecoveryTimeID": "566840d9-1561-4243-8ca7-889df9869847",
+					"RequiresHitObject": "false",
+					"StatusEffectKeywordsIDs": [],
+					"StatusEffectsIDs": ["94016ef2-5253-4b22-a5da-fc923911a3b0"],
+					"SubstituteHitVisualEffect": "",
+					"TargetAngle": 0,
+					"TreatAsWeapon": "false",
+					"UseParentEquippableHand": "false",
+					"VisualEffects": [{
+							"AnimEventID": 0,
+							"AttachMode": "PositionRotation",
+							"AttachObject": "Caster",
+							"AttachPoint": "Root",
+							"Event": "OnLaunch",
+							"Loop": "false",
+							"MeshType": "None",
+							"Scale": "false",
+							"VisualEffect": "prefabs/effects/abilities/ranger/fx_whirling_dervish.prefab"
+						}
+					]
+				}, {
+					"$type": "Game.GameData.AttackAOEComponent, Assembly-CSharp",
+					"BlastPhysicsForce": 500,
+					"BlastRadiusOverride": 1.5,
+					"BlastSize": "Small",
+					"DamageAngle": 360,
+					"ExcludePrimaryTarget": "false",
+					"ExcludeSelf": "true",
+					"IgnoreParentTarget": "false",
+					"PushFromCaster": "false"
+				}, {
+					"$type": "Game.GameData.AttackRangedComponent, Assembly-CSharp",
+					"IgnoreMagicDefense": "false",
+					"IsMultiHit": "false",
+					"LaunchAttackOnCollision": "false",
+					"LaunchOffset": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"LaunchOffsetRandom": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"LaunchSource": "Caster",
+					"MultiHitMaxHits": 0,
+					"MultiHitTravelDist": 10,
+					"ProjectileConeAngle": 145,
+					"ProjectileCount": 1,
+					"ProjectilePrefab": "prefabs/projectiles/invisible_projectile.prefab"
+				}
+			]
+		}, 	{
+			"$type": "Game.GameData.AttackAOEGameData, Assembly-CSharp",
+			"DebugName": "Nauseating_Mist_AOE",
+			"ID": "dca02c2b-93a4-4755-b77d-fb6e2d59c545",
+			"Components": [{
+					"$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+					"AccuracyBonus": 0,
+					"AdditionalAttackOnTooltip": "false",
+					"AffectedTargetConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AffectedTargetDeathState": "Alive",
+					"AffectedTargetType": "All",
+					"AfflictionApplicationModifier": "None",
+					"AfflictionsDefendedBy": "None",
+					"AllReactNoise": "false",
+					"ApplyOnceOnly": "false",
+					"AttackDistance": 6,
+					"AttackOnImpactID": "00000000-0000-0000-0000-000000000000",
+					"AttackVariationID": "5f56a8f2-66a2-4bab-90ae-af919c8116f0",
+					"BounceData": {
+						"AlwaysBounceAtEnemies": "false",
+						"Bounces": 0,
+						"Delay": 0,
+						"InRangeOrder": "false",
+						"Multiplier": 0.5,
+						"NeverBounce": "false",
+						"NoRepeatTargets": "false",
+						"Range": 10
+					},
+					"CanCrit": "true",
+					"CanGraze": "false",
+					"CastSpeedID": "eacb53e3-6eb5-422a-92ca-99cc883ae4a9",
+					"DamageData": {
+						"AlternateDamageType": "None",
+						"DamageProcs": [],
+						"DamageType": "None",
+						"Maximum": 0,
+						"Minimum": 0
+					},
+					"DefendedBy": "None",
+					"DoesNotApplyDamage": "false",
+					"ExtraAttackID": "00000000-0000-0000-0000-000000000000",
+					"FaceTarget": "true",
+					"ForcedTarget": "Self",
+					"HideFromCombatLog": "false",
+					"HitBone": "Chest",
+					"HostilityOverride": "Hostile",
+					"ImpactDelay": 0,
+					"InterruptType": "Normal",
+					"InterruptsOn": "None",
+					"KeywordsIDs": [],
+					"LaunchBone": "RightWeapon",
+					"MinAttackDistance": 0,
+					"NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+					"OnHitShakeDuration": "None",
+					"OnHitShakeStrength": "None",
+					"PathsToTarget": "true",
+					"PenetrationRating": 0,
+					"PushDistance": 0,
+					"RandomizeStatusEffect": "false",
+					"RecoveryTimeID": "566840d9-1561-4243-8ca7-889df9869847",
+					"RequiresHitObject": "false",
+					"StatusEffectKeywordsIDs": [],
+					"StatusEffectsIDs": ["94016ef2-5253-4b22-a5da-fc923911a3b0", "b1dd032c-0fd9-4a2a-892d-9e8f20d4b0e0"],
+					"SubstituteHitVisualEffect": "",
+					"TargetAngle": 0,
+					"TreatAsWeapon": "false",
+					"UseParentEquippableHand": "false",
+					"VisualEffects": [{
+							"AnimEventID": 0,
+							"AttachMode": "PositionRotation",
+							"AttachObject": "Caster",
+							"AttachPoint": "Root",
+							"Event": "OnLaunch",
+							"Loop": "false",
+							"MeshType": "None",
+							"Scale": "false",
+							"VisualEffect": "prefabs/effects/abilities/ranger/fx_whirling_dervish.prefab"
+						}
+					]
+				}, {
+					"$type": "Game.GameData.AttackAOEComponent, Assembly-CSharp",
+					"BlastPhysicsForce": 500,
+					"BlastRadiusOverride": 1.5,
+					"BlastSize": "Small",
+					"DamageAngle": 360,
+					"ExcludePrimaryTarget": "false",
+					"ExcludeSelf": "true",
+					"IgnoreParentTarget": "false",
+					"PushFromCaster": "false"
+				}, {
+					"$type": "Game.GameData.AttackRangedComponent, Assembly-CSharp",
+					"IgnoreMagicDefense": "false",
+					"IsMultiHit": "false",
+					"LaunchAttackOnCollision": "false",
+					"LaunchOffset": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"LaunchOffsetRandom": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"LaunchSource": "Caster",
+					"MultiHitMaxHits": 0,
+					"MultiHitTravelDist": 10,
+					"ProjectileConeAngle": 145,
+					"ProjectileCount": 1,
+					"ProjectilePrefab": "prefabs/projectiles/invisible_projectile.prefab"
+				}
+			]
+		}, 	{
+			"$type": "Game.GameData.AttackAOEGameData, Assembly-CSharp",
+			"DebugName": "Spirit_Vortex_AOE",
+			"ID": "16683bba-0c0a-4cbf-9b33-3783aa360f10",
+			"Components": [{
+					"$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+					"AccuracyBonus": 0,
+					"AdditionalAttackOnTooltip": "false",
+					"AffectedTargetConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AffectedTargetDeathState": "Alive",
+					"AffectedTargetType": "Hostile",
+					"AfflictionApplicationModifier": "None",
+					"AfflictionsDefendedBy": "Will",
+					"AllReactNoise": "false",
+					"ApplyOnceOnly": "false",
+					"AttackDistance": 1,
+					"AttackOnImpactID": "00000000-0000-0000-0000-000000000000",
+					"AttackVariationID": "fec9483c-ea67-4c91-88c3-80b3dd3d0f75",
+					"BounceData": {
+						"AlwaysBounceAtEnemies": "false",
+						"Bounces": 0,
+						"Delay": 0,
+						"InRangeOrder": "false",
+						"Multiplier": 0.5,
+						"NeverBounce": "false",
+						"NoRepeatTargets": "false",
+						"Range": 10
+					},
+					"CanCrit": "true",
+					"CanGraze": "false",
+					"CastSpeedID": "eacb53e3-6eb5-422a-92ca-99cc883ae4a9",
+					"DamageData": {
+						"AlternateDamageType": "None",
+						"DamageProcs": [],
+						"DamageType": "Freeze",
+						"Maximum": 20,
+						"Minimum": 14
+					},
+					"DefendedBy": "Deflect",
+					"DoesNotApplyDamage": "false",
+					"ExtraAttackID": "00000000-0000-0000-0000-000000000000",
+					"FaceTarget": "true",
+					"ForcedTarget": "Self",
+					"HideFromCombatLog": "false",
+					"HitBone": "Chest",
+					"HostilityOverride": "Default",
+					"ImpactDelay": 0,
+					"InterruptType": "Normal",
+					"InterruptsOn": "None",
+					"KeywordsIDs": [],
+					"LaunchBone": "RightWeapon",
+					"MinAttackDistance": 0,
+					"NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
+					"OnHitShakeDuration": "None",
+					"OnHitShakeStrength": "None",
+					"PathsToTarget": "true",
+					"PenetrationRating": 9,
+					"PushDistance": 0,
+					"RandomizeStatusEffect": "false",
+					"RecoveryTimeID": "039ef4b4-eeb3-42d3-9817-a8df05c53515",
+					"RequiresHitObject": "false",
+					"StatusEffectKeywordsIDs": [],
+					"StatusEffectsIDs": ["cccbcdce-e19b-481f-b018-8481358979a7"],
+					"SubstituteHitVisualEffect": "",
+					"TargetAngle": 0,
+					"TreatAsWeapon": "false",
+					"UseParentEquippableHand": "false",
+					"VisualEffects": []
+				}, {
+					"$type": "Game.GameData.AttackAOEComponent, Assembly-CSharp",
+					"BlastPhysicsForce": 500,
+					"BlastRadiusOverride": 2.5,
+					"BlastSize": "Medium",
+					"DamageAngle": 360,
+					"ExcludePrimaryTarget": "false",
+					"ExcludeSelf": "true",
+					"IgnoreParentTarget": "false",
+					"PushFromCaster": "false"
+				}, {
+					"$type": "Game.GameData.AttackRangedComponent, Assembly-CSharp",
+					"IgnoreMagicDefense": "false",
+					"IsMultiHit": "false",
+					"LaunchAttackOnCollision": "false",
+					"LaunchOffset": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"LaunchOffsetRandom": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"LaunchSource": "Caster",
+					"MultiHitMaxHits": 0,
+					"MultiHitTravelDist": 10,
+					"ProjectileConeAngle": 145,
+					"ProjectileCount": 1,
+					"ProjectilePrefab": "prefabs/projectiles/invisible_projectile.prefab"
+				}
+			]
+		},	{
+			"$type": "Game.GameData.AttackRangedGameData, Assembly-CSharp",
+			"DebugName": "alt_Driving_Shout_MultiHitRay",
+			"ID": "9446c544-6ef8-4c66-86b4-9531bfbf1f59",
+			"Components": [{
+					"$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+					"AccuracyBonus": 0,
+					"AdditionalAttackOnTooltip": "false",
+					"AffectedTargetConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AffectedTargetDeathState": "Alive",
+					"AffectedTargetType": "Hostile",
+					"AfflictionApplicationModifier": "None",
+					"AfflictionsDefendedBy": "None",
+					"AllReactNoise": "false",
+					"ApplyOnceOnly": "false",
+					"AttackDistance": 6,
+					"AttackOnImpactID": "00000000-0000-0000-0000-000000000000",
+					"AttackVariationID": "b6ea4f7b-f831-4162-9d89-8d71d404c68d",
+					"BounceData": {
+						"AlwaysBounceAtEnemies": "false",
+						"Bounces": 0,
+						"Delay": 0,
+						"InRangeOrder": "false",
+						"Multiplier": 0.5,
+						"NeverBounce": "false",
+						"NoRepeatTargets": "false",
+						"Range": 10
+					},
+					"CanCrit": "true",
+					"CanGraze": "false",
+					"CastSpeedID": "e4c738a7-4d3f-407f-b035-cc76191fe26b",
+					"DamageData": {
+						"AlternateDamageType": "None",
+						"DamageProcs": [],
+						"DamageType": "Crush",
+						"Maximum": 33,
+						"Minimum": 21
+					},
+					"DefendedBy": "Fortitude",
+					"DoesNotApplyDamage": "false",
+					"ExtraAttackID": "00000000-0000-0000-0000-000000000000",
+					"FaceTarget": "true",
+					"ForcedTarget": "None",
+					"HideFromCombatLog": "false",
+					"HitBone": "Chest",
+					"HostilityOverride": "Default",
+					"ImpactDelay": 0,
+					"InterruptType": "Prone",
+					"InterruptsOn": "Hit",
+					"KeywordsIDs": [],
+					"LaunchBone": "Head",
+					"MinAttackDistance": 0,
+					"NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+					"OnHitShakeDuration": "None",
+					"OnHitShakeStrength": "None",
+					"PathsToTarget": "true",
+					"PenetrationRating": 9,
+					"PushDistance": 0,
+					"RandomizeStatusEffect": "false",
+					"RecoveryTimeID": "cd5ad068-453b-41f9-8779-db38ff00dd20",
+					"RequiresHitObject": "false",
+					"StatusEffectKeywordsIDs": [],
+					"StatusEffectsIDs": [],
+					"SubstituteHitVisualEffect": "",
+					"TargetAngle": 0,
+					"TreatAsWeapon": "false",
+					"UseParentEquippableHand": "false",
+					"VisualEffects": []
+				}, {
+					"$type": "Game.GameData.AttackRangedComponent, Assembly-CSharp",
+					"IgnoreMagicDefense": "false",
+					"IsMultiHit": "true",
+					"LaunchAttackOnCollision": "false",
+					"LaunchOffset": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"LaunchOffsetRandom": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"LaunchSource": "Caster",
+					"MultiHitMaxHits": 0,
+					"MultiHitTravelDist": 10,
+					"ProjectileConeAngle": 145,
+					"ProjectileCount": 1,
+					"ProjectilePrefab": "prefabs/projectiles/barbarian/fx_barbaric_yawp_projectile.prefab"
+				}, {
+					"$type": "Game.GameData.AttackAOEComponent, Assembly-CSharp",
+					"BlastPhysicsForce": 500,
+					"BlastRadiusOverride": 5,
+					"BlastSize": "Medium",
+					"DamageAngle": 360,
+					"ExcludePrimaryTarget": "false",
+					"ExcludeSelf": "true",
+					"IgnoreParentTarget": "false",
+					"PushFromCaster": "false"
+				}
+			]
+		},	{
+			"$type": "Game.GameData.AttackRangedGameData, Assembly-CSharp",
+			"DebugName": "alt_Dazing_Roar_MultiHitRay",
+			"ID": "d98527d3-c27d-44f9-aa7d-cc05f9de441b",
+			"Components": [{
+					"$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+					"AccuracyBonus": 0,
+					"AdditionalAttackOnTooltip": "false",
+					"AffectedTargetConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AffectedTargetDeathState": "Alive",
+					"AffectedTargetType": "Hostile",
+					"AfflictionApplicationModifier": "None",
+					"AfflictionsDefendedBy": "None",
+					"AllReactNoise": "false",
+					"ApplyOnceOnly": "false",
+					"AttackDistance": 6,
+					"AttackOnImpactID": "00000000-0000-0000-0000-000000000000",
+					"AttackVariationID": "b6ea4f7b-f831-4162-9d89-8d71d404c68d",
+					"BounceData": {
+						"AlwaysBounceAtEnemies": "false",
+						"Bounces": 0,
+						"Delay": 0,
+						"InRangeOrder": "false",
+						"Multiplier": 0.5,
+						"NeverBounce": "false",
+						"NoRepeatTargets": "false",
+						"Range": 10
+					},
+					"CanCrit": "true",
+					"CanGraze": "false",
+					"CastSpeedID": "e4c738a7-4d3f-407f-b035-cc76191fe26b",
+					"DamageData": {
+						"AlternateDamageType": "None",
+						"DamageProcs": [],
+						"DamageType": "Crush",
+						"Maximum": 45,
+						"Minimum": 28
+					},
+					"DefendedBy": "Fortitude",
+					"DoesNotApplyDamage": "false",
+					"ExtraAttackID": "00000000-0000-0000-0000-000000000000",
+					"FaceTarget": "true",
+					"ForcedTarget": "None",
+					"HideFromCombatLog": "false",
+					"HitBone": "Chest",
+					"HostilityOverride": "Default",
+					"ImpactDelay": 0,
+					"InterruptType": "Prone",
+					"InterruptsOn": "Hit",
+					"KeywordsIDs": [],
+					"LaunchBone": "Head",
+					"MinAttackDistance": 0,
+					"NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+					"OnHitShakeDuration": "None",
+					"OnHitShakeStrength": "None",
+					"PathsToTarget": "true",
+					"PenetrationRating": 9,
+					"PushDistance": 0,
+					"RandomizeStatusEffect": "false",
+					"RecoveryTimeID": "cd5ad068-453b-41f9-8779-db38ff00dd20",
+					"RequiresHitObject": "false",
+					"StatusEffectKeywordsIDs": [],
+					"StatusEffectsIDs": ["8920ffa7-47d5-4531-905d-cd8bb163db7b"],
+					"SubstituteHitVisualEffect": "",
+					"TargetAngle": 0,
+					"TreatAsWeapon": "false",
+					"UseParentEquippableHand": "false",
+					"VisualEffects": []
+				}, {
+					"$type": "Game.GameData.AttackRangedComponent, Assembly-CSharp",
+					"IgnoreMagicDefense": "false",
+					"IsMultiHit": "true",
+					"LaunchAttackOnCollision": "false",
+					"LaunchOffset": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"LaunchOffsetRandom": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"LaunchSource": "Caster",
+					"MultiHitMaxHits": 0,
+					"MultiHitTravelDist": 10,
+					"ProjectileConeAngle": 145,
+					"ProjectileCount": 1,
+					"ProjectilePrefab": "prefabs/projectiles/barbarian/fx_barbaric_yawp_projectile.prefab"
+				}, {
+					"$type": "Game.GameData.AttackAOEComponent, Assembly-CSharp",
+					"BlastPhysicsForce": 500,
+					"BlastRadiusOverride": 5,
+					"BlastSize": "Medium",
+					"DamageAngle": 360,
+					"ExcludePrimaryTarget": "false",
+					"ExcludeSelf": "true",
+					"IgnoreParentTarget": "false",
+					"PushFromCaster": "false"
+				}
+			]
+		},  	{
+			"$type": "Game.GameData.AttackAOEGameData, Assembly-CSharp",
+			"DebugName": "alt_Barbaric_Roar_LargeAOE",
+			"ID": "534a2409-3426-4380-9a25-bfc895dd7d0a",
+			"Components": [{
+					"$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+					"AccuracyBonus": 0,
+					"AdditionalAttackOnTooltip": "false",
+					"AffectedTargetConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AffectedTargetDeathState": "Alive",
+					"AffectedTargetType": "Hostile",
+					"AfflictionApplicationModifier": "None",
+					"AfflictionsDefendedBy": "None",
+					"AllReactNoise": "false",
+					"ApplyOnceOnly": "false",
+					"AttackDistance": 6,
+					"AttackOnImpactID": "00000000-0000-0000-0000-000000000000",
+					"AttackVariationID": "fec9483c-ea67-4c91-88c3-80b3dd3d0f75",
+					"BounceData": {
+						"AlwaysBounceAtEnemies": "false",
+						"Bounces": 0,
+						"Delay": 0,
+						"InRangeOrder": "false",
+						"Multiplier": 0.5,
+						"NeverBounce": "false",
+						"NoRepeatTargets": "false",
+						"Range": 10
+					},
+					"CanCrit": "true",
+					"CanGraze": "false",
+					"CastSpeedID": "e4c738a7-4d3f-407f-b035-cc76191fe26b",
+					"DamageData": {
+						"AlternateDamageType": "None",
+						"DamageProcs": [],
+						"DamageType": "None",
+						"Maximum": 0,
+						"Minimum": 0
+					},
+					"DefendedBy": "Will",
+					"DoesNotApplyDamage": "false",
+					"ExtraAttackID": "00000000-0000-0000-0000-000000000000",
+					"FaceTarget": "true",
+					"ForcedTarget": "Self",
+					"HideFromCombatLog": "false",
+					"HitBone": "Head",
+					"HostilityOverride": "Default",
+					"ImpactDelay": 0,
+					"InterruptType": "Normal",
+					"InterruptsOn": "Hit",
+					"KeywordsIDs": [],
+					"LaunchBone": "Root",
+					"MinAttackDistance": 0,
+					"NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+					"OnHitShakeDuration": "None",
+					"OnHitShakeStrength": "None",
+					"PathsToTarget": "true",
+					"PenetrationRating": 0,
+					"PushDistance": 0,
+					"RandomizeStatusEffect": "false",
+					"RecoveryTimeID": "cd5ad068-453b-41f9-8779-db38ff00dd20",
+					"RequiresHitObject": "false",
+					"StatusEffectKeywordsIDs": [],
+					"StatusEffectsIDs": ["cd82e54a-42e3-4507-be98-fc60da102ca6"],
+					"SubstituteHitVisualEffect": "",
+					"TargetAngle": 0,
+					"TreatAsWeapon": "false",
+					"UseParentEquippableHand": "false",
+					"VisualEffects": [{
+							"AnimEventID": 0,
+							"AttachMode": "Position",
+							"AttachObject": "Caster",
+							"AttachPoint": "Head",
+							"Event": "OnLaunch",
+							"Loop": "false",
+							"MeshType": "None",
+							"Scale": "true",
+							"VisualEffect": "prefabs/effects/abilities/barbarian/fx_barbaric_shout_aoe.prefab"
+						}
+					]
+				}, {
+					"$type": "Game.GameData.AttackAOEComponent, Assembly-CSharp",
+					"BlastPhysicsForce": 500,
+					"BlastRadiusOverride": 5,
+					"BlastSize": "Large",
+					"DamageAngle": 360,
+					"ExcludePrimaryTarget": "false",
+					"ExcludeSelf": "true",
+					"IgnoreParentTarget": "false",
+					"PushFromCaster": "false"
+				}, {
+					"$type": "Game.GameData.AttackRangedComponent, Assembly-CSharp",
+					"IgnoreMagicDefense": "false",
+					"IsMultiHit": "false",
+					"LaunchAttackOnCollision": "false",
+					"LaunchOffset": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"LaunchOffsetRandom": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"LaunchSource": "Caster",
+					"MultiHitMaxHits": 0,
+					"MultiHitTravelDist": 10,
+					"ProjectileConeAngle": 145,
+					"ProjectileCount": 1,
+					"ProjectilePrefab": "prefabs/projectiles/invisible_projectile.prefab"
+				}
+			]
+		},  {
+			"$type": "Game.GameData.AttackAOEGameData, Assembly-CSharp",
+			"DebugName": "alt_Barbaric_Shout_MediumAOE",
+			"ID": "f1546020-db93-4de7-87ef-041b4682f5e3",
+			"Components": [{
+					"$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+					"AccuracyBonus": 0,
+					"AdditionalAttackOnTooltip": "false",
+					"AffectedTargetConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AffectedTargetDeathState": "Alive",
+					"AffectedTargetType": "Hostile",
+					"AfflictionApplicationModifier": "None",
+					"AfflictionsDefendedBy": "None",
+					"AllReactNoise": "false",
+					"ApplyOnceOnly": "false",
+					"AttackDistance": 6,
+					"AttackOnImpactID": "00000000-0000-0000-0000-000000000000",
+					"AttackVariationID": "fec9483c-ea67-4c91-88c3-80b3dd3d0f75",
+					"BounceData": {
+						"AlwaysBounceAtEnemies": "false",
+						"Bounces": 0,
+						"Delay": 0,
+						"InRangeOrder": "false",
+						"Multiplier": 0.5,
+						"NeverBounce": "false",
+						"NoRepeatTargets": "false",
+						"Range": 10
+					},
+					"CanCrit": "true",
+					"CanGraze": "false",
+					"CastSpeedID": "eacb53e3-6eb5-422a-92ca-99cc883ae4a9",
+					"DamageData": {
+						"AlternateDamageType": "None",
+						"DamageProcs": [],
+						"DamageType": "None",
+						"Maximum": 0,
+						"Minimum": 0
+					},
+					"DefendedBy": "Will",
+					"DoesNotApplyDamage": "false",
+					"ExtraAttackID": "00000000-0000-0000-0000-000000000000",
+					"FaceTarget": "true",
+					"ForcedTarget": "Self",
+					"HideFromCombatLog": "false",
+					"HitBone": "Head",
+					"HostilityOverride": "Default",
+					"ImpactDelay": 0,
+					"InterruptType": "Normal",
+					"InterruptsOn": "None",
+					"KeywordsIDs": [],
+					"LaunchBone": "Root",
+					"MinAttackDistance": 0,
+					"NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+					"OnHitShakeDuration": "None",
+					"OnHitShakeStrength": "None",
+					"PathsToTarget": "true",
+					"PenetrationRating": 0,
+					"PushDistance": 0,
+					"RandomizeStatusEffect": "false",
+					"RecoveryTimeID": "cd5ad068-453b-41f9-8779-db38ff00dd20",
+					"RequiresHitObject": "false",
+					"StatusEffectKeywordsIDs": [],
+					"StatusEffectsIDs": ["cd82e54a-42e3-4507-be98-fc60da102ca6"],//vanillaSE
+					"SubstituteHitVisualEffect": "",
+					"TargetAngle": 0,
+					"TreatAsWeapon": "false",
+					"UseParentEquippableHand": "false",
+					"VisualEffects": [{
+							"AnimEventID": 0,
+							"AttachMode": "Position",
+							"AttachObject": "Caster",
+							"AttachPoint": "Head",
+							"Event": "OnLaunch",
+							"Loop": "false",
+							"MeshType": "None",
+							"Scale": "true",
+							"VisualEffect": "prefabs/effects/abilities/barbarian/fx_barbaric_shout_aoe.prefab"
+						}
+					]
+				}, {
+					"$type": "Game.GameData.AttackAOEComponent, Assembly-CSharp",
+					"BlastPhysicsForce": 500,
+					"BlastRadiusOverride": 5,
+					"BlastSize": "Medium",
+					"DamageAngle": 360,
+					"ExcludePrimaryTarget": "false",
+					"ExcludeSelf": "true",
+					"IgnoreParentTarget": "false",
+					"PushFromCaster": "false"
+				}, {
+					"$type": "Game.GameData.AttackRangedComponent, Assembly-CSharp",
+					"IgnoreMagicDefense": "false",
+					"IsMultiHit": "false",
+					"LaunchAttackOnCollision": "false",
+					"LaunchOffset": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"LaunchOffsetRandom": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"LaunchSource": "Caster",
+					"MultiHitMaxHits": 0,
+					"MultiHitTravelDist": 10,
+					"ProjectileConeAngle": 145,
+					"ProjectileCount": 1,
+					"ProjectilePrefab": "prefabs/projectiles/invisible_projectile.prefab"
+				}
+			]
+		}, 	{
+			"$type": "Game.GameData.AttackRangedGameData, Assembly-CSharp",
+			"DebugName": "alt_Barbaric_Yell_Attack",
+			"ID": "81f4bee5-99bb-434c-82d5-f4f167d541b9",
+			"Components": [{
+					"$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+					"AccuracyBonus": 20,
+					"AdditionalAttackOnTooltip": "false",
+					"AffectedTargetConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AffectedTargetDeathState": "Alive",
+					"AffectedTargetType": "Hostile",
+					"AfflictionApplicationModifier": "None",
+					"AfflictionsDefendedBy": "None",
+					"AllReactNoise": "false",
+					"ApplyOnceOnly": "false",
+					"AttackDistance": 8,
+					"AttackOnImpactID": "00000000-0000-0000-0000-000000000000",
+					"AttackVariationID": "b6ea4f7b-f831-4162-9d89-8d71d404c68d",
+					"BounceData": {
+						"AlwaysBounceAtEnemies": "false",
+						"Bounces": 0,
+						"Delay": 0,
+						"InRangeOrder": "false",
+						"Multiplier": 0.5,
+						"NeverBounce": "false",
+						"NoRepeatTargets": "false",
+						"Range": 10
+					},
+					"CanCrit": "true",
+					"CanGraze": "true",
+					"CastSpeedID": "e4c738a7-4d3f-407f-b035-cc76191fe26b",
+					"DamageData": {
+						"AlternateDamageType": "None",
+						"DamageProcs": [],
+						"DamageType": "None",
+						"Maximum": 0,
+						"Minimum": 0
+					},
+					"DefendedBy": "Will",
+					"DoesNotApplyDamage": "false",
+					"ExtraAttackID": "00000000-0000-0000-0000-000000000000",
+					"FaceTarget": "true",
+					"ForcedTarget": "None",
+					"HideFromCombatLog": "false",
+					"HitBone": "Head",
+					"HostilityOverride": "Default",
+					"ImpactDelay": 0,
+					"InterruptType": "Normal",
+					"InterruptsOn": "Graze",
+					"KeywordsIDs": [],
+					"LaunchBone": "Root",
+					"MinAttackDistance": 0,
+					"NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+					"OnHitShakeDuration": "None",
+					"OnHitShakeStrength": "None",
+					"PathsToTarget": "true",
+					"PenetrationRating": 7,
+					"PushDistance": 0,
+					"RandomizeStatusEffect": "false",
+					"RecoveryTimeID": "cd5ad068-453b-41f9-8779-db38ff00dd20",
+					"RequiresHitObject": "false",
+					"StatusEffectKeywordsIDs": [],
+					"StatusEffectsIDs": ["80323eae-604f-4a9a-ad2c-05ecec4cb852"],
+					"SubstituteHitVisualEffect": "",
+					"TargetAngle": 0,
+					"TreatAsWeapon": "false",
+					"UseParentEquippableHand": "false",
+					"VisualEffects": [{
+							"AnimEventID": 0,
+							"AttachMode": "PositionFaceSource",
+							"AttachObject": "Caster",
+							"AttachPoint": "Root",
+							"Event": "OnLaunch",
+							"Loop": "false",
+							"MeshType": "None",
+							"Scale": "false",
+							"VisualEffect": "prefabs/effects/abilities/barbarian/fx_barbaric_yell_cone.prefab"
+						}
+					]
+				}, {
+					"$type": "Game.GameData.AttackRangedComponent, Assembly-CSharp",
+					"IgnoreMagicDefense": "false",
+					"IsMultiHit": "false",
+					"LaunchAttackOnCollision": "false",
+					"LaunchOffset": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"LaunchOffsetRandom": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"LaunchSource": "Caster",
+					"MultiHitMaxHits": 0,
+					"MultiHitTravelDist": 10,
+					"ProjectileConeAngle": 145,
+					"ProjectileCount": 1,
+					"ProjectilePrefab": "prefabs/projectiles/invisible_projectile.prefab"
+				}
+			]
+		}
+    ]
+}

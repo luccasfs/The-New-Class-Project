@@ -1,0 +1,2105 @@
+﻿{
+    "GameDataObjects": [
+        {
+            "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+			"DebugName": "Corpse_Eater_SE_ModifyRageCosts",
+			"ID": "d1f34f06-e1c5-4967-be33-5bc1fba509ed",
+			"Components": [{
+					"$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+					"BaseValue": 0
+				}
+			]
+		},  {
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Fleshshifter_Display",
+			"ID": "1083fcd2-5226-424c-80ab-d8b88fc58115",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "00000000-0000-0000-0000-000000000000",
+					"AbilityLevel": 0,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "00000000-0000-0000-0000-000000000000",
+					"AudioEventListID": "00000000-0000-0000-0000-000000000000",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 406000613,
+					"DisplayName": 406000606,
+					"DurationOverride": 0,
+					"GrantedViaScript": "false",
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "subclass_griefshifter.png",
+					"IsCombatOnly": "false",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "true",
+					"KeywordsIDs": [],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "00000000-0000-0000-0000-000000000000",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Never"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": [],
+					"StatusEffectsIDs": [],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+					"UsageType": "None",
+					"UsageValue": 0,
+					"VisualEffects": [],
+					"Vocalization": "NoVocalization"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+        },  {
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Spiritshift_Bear_PassiveUnlock",//apply grief
+			"ID": "8f440f0d-d525-47b2-8b80-981923c60b45",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+					"AbilityLevel": 4,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "00000000-0000-0000-0000-000000000000",
+					"AudioEventListID": "1f30ac34-6460-4aba-a9fd-f9d3066f66b8",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 406000604,
+					"DisplayName": 406000599,
+					"DurationOverride": 0,
+					"GrantedViaScript": "false",
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/druid/spiritshift_bear.png",
+					"IsCombatOnly": "false",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "true",
+					"KeywordsIDs": [],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Never"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": ["e8f5f28e-d285-4fc1-b4e2-8e36f0ecb870"],
+					"StatusEffectsIDs": ["bd01990c-a064-411c-bf25-9569ba79d4f2", "4dc0a6da-3f9a-4b17-b77c-9098b3f10b8e", "cb91b635-0ef5-4737-bfca-e41d4c9313e0"],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+					"UsageType": "None",
+					"UsageValue": 0,
+					"VisualEffects": [],
+					"Vocalization": "NoVocalization"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+        },  {
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Spiritshift_Bear_1",
+			"ID": "527d4580-eeb5-4b86-9662-2735ac8c84d7",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+					"AbilityLevel": 4,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [
+                                {
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean HasStatusEffectWithKeyword(Guid, Guid)",
+										"FunctionHash": 0,
+										"ParameterHash": 0,
+										"Parameters": ["011111e9-0000-0000-0000-000000000000", "ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+										"UnrealCall": ""
+									},
+									"Not": true,
+									"Operator": 0
+								},{
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean HasStatusEffectWithKeyword(Guid, Guid)",
+										"FunctionHash": -1392641717,
+										"ParameterHash": 1889353659,
+										"Parameters": ["011111e9-0000-0000-0000-000000000000", "a457d3b9-b5c7-4c2c-817b-65c2835b19cf"],
+										"UnrealCall": ""
+									},
+									"Not": true,
+									"Operator": 0
+								}
+                            ],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "a529af64-c667-41f0-aaa0-3902663a8a18",
+					"AudioEventListID": "1f30ac34-6460-4aba-a9fd-f9d3066f66b8",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 406000605,
+					"DisplayName": 406000607,
+					"DurationOverride": 0,
+					"GrantedViaScript": "false",
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/druid/spiritshift_bear.png",
+					"IsCombatOnly": "true",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "false",
+					"KeywordsIDs": ["f58f91d7-58af-4dee-855f-6fa8ae8579b7", "ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+					"ModalGroupID": "be36d74d-1e36-446e-856d-544873e2c27b",
+					"NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Never"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": ["a457d3b9-b5c7-4c2c-817b-65c2835b19cf", "ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],//shifted, frenzied
+					"StatusEffectsIDs": ["c22b6629-54cf-4db7-a217-d85507460879", "9ac0f508-7dcf-47e3-9e2d-ef6b2006968f", "698818c0-67e9-43fa-bbe7-ca06f75a921c", "808e813a-876d-49d0-8141-944e1836fc56", "e1f6e027-d1fd-497b-8ce6-011cb587e143"],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+					"UsageType": "PerEncounter",
+					"UsageValue": 1,
+					"VisualEffects": [],
+					"Vocalization": "NoVocalization"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		},  {
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Spiritshift_Bear_2",
+			"ID": "77fd35a6-f5f2-4033-902c-e140cf01c2c6",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+					"AbilityLevel": 5,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [
+                                {
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean HasStatusEffectWithKeyword(Guid, Guid)",
+										"FunctionHash": 0,
+										"ParameterHash": 0,
+										"Parameters": ["011111e9-0000-0000-0000-000000000000", "ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+										"UnrealCall": ""
+									},
+									"Not": true,
+									"Operator": 0
+								},{
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean HasStatusEffectWithKeyword(Guid, Guid)",
+										"FunctionHash": -1392641717,
+										"ParameterHash": 1889353659,
+										"Parameters": ["011111e9-0000-0000-0000-000000000000", "a457d3b9-b5c7-4c2c-817b-65c2835b19cf"],
+										"UnrealCall": ""
+									},
+									"Not": true,
+									"Operator": 0
+								}
+                            ],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "a529af64-c667-41f0-aaa0-3902663a8a18",
+					"AudioEventListID": "1f30ac34-6460-4aba-a9fd-f9d3066f66b8",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 406000605,
+					"DisplayName": 406000607,
+					"DurationOverride": 0,
+					"GrantedViaScript": "false",
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/druid/spiritshift_bear.png",
+					"IsCombatOnly": "true",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "false",
+					"KeywordsIDs": ["f58f91d7-58af-4dee-855f-6fa8ae8579b7", "ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+					"ModalGroupID": "be36d74d-1e36-446e-856d-544873e2c27b",
+					"NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Never"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": ["a457d3b9-b5c7-4c2c-817b-65c2835b19cf", "7d263be8-690e-4531-9918-c60e3f24cbeb"],
+					"StatusEffectsIDs": ["c22b6629-54cf-4db7-a217-d85507460879", "9ac0f508-7dcf-47e3-9e2d-ef6b2006968f", "698818c0-67e9-43fa-bbe7-ca06f75a921c", "808e813a-876d-49d0-8141-944e1836fc56", "e1f6e027-d1fd-497b-8ce6-011cb587e143"],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "527d4580-eeb5-4b86-9662-2735ac8c84d7",
+					"UsageType": "PerEncounter",
+					"UsageValue": 2,
+					"VisualEffects": [],
+					"Vocalization": "NoVocalization"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		},  {
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Spiritshift_Bear_3",
+			"ID": "dd4fca79-d774-4124-9815-de4b3498eca4",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+					"AbilityLevel": 6,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [
+                                {
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean HasStatusEffectWithKeyword(Guid, Guid)",
+										"FunctionHash": 0,
+										"ParameterHash": 0,
+										"Parameters": ["011111e9-0000-0000-0000-000000000000", "ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+										"UnrealCall": ""
+									},
+									"Not": true,
+									"Operator": 0
+								},{
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean HasStatusEffectWithKeyword(Guid, Guid)",
+										"FunctionHash": -1392641717,
+										"ParameterHash": 1889353659,
+										"Parameters": ["011111e9-0000-0000-0000-000000000000", "a457d3b9-b5c7-4c2c-817b-65c2835b19cf"],
+										"UnrealCall": ""
+									},
+									"Not": true,
+									"Operator": 0
+								}
+                            ],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "a529af64-c667-41f0-aaa0-3902663a8a18",
+					"AudioEventListID": "1f30ac34-6460-4aba-a9fd-f9d3066f66b8",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 406000605,
+					"DisplayName": 406000607,
+					"DurationOverride": 0,
+					"GrantedViaScript": "false",
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/druid/spiritshift_bear.png",
+					"IsCombatOnly": "true",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "false",
+					"KeywordsIDs": ["f58f91d7-58af-4dee-855f-6fa8ae8579b7", "ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+					"ModalGroupID": "be36d74d-1e36-446e-856d-544873e2c27b",
+					"NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Never"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": ["a457d3b9-b5c7-4c2c-817b-65c2835b19cf", "7d263be8-690e-4531-9918-c60e3f24cbeb"],
+					"StatusEffectsIDs": ["c22b6629-54cf-4db7-a217-d85507460879", "9ac0f508-7dcf-47e3-9e2d-ef6b2006968f", "698818c0-67e9-43fa-bbe7-ca06f75a921c", "808e813a-876d-49d0-8141-944e1836fc56", "e1f6e027-d1fd-497b-8ce6-011cb587e143"],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "77fd35a6-f5f2-4033-902c-e140cf01c2c6",
+					"UsageType": "PerEncounter",
+					"UsageValue": 3,
+					"VisualEffects": [],
+					"Vocalization": "NoVocalization"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Spiritshift_Boar_PassiveUnlock",//apply grief
+			"ID": "3e8eb73b-440c-4b56-b897-1c8cf5f236fe",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+					"AbilityLevel": 4,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "00000000-0000-0000-0000-000000000000",
+					"AudioEventListID": "1f30ac34-6460-4aba-a9fd-f9d3066f66b8",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 406000604,
+					"DisplayName": 406000599,
+					"DurationOverride": 0,
+					"GrantedViaScript": "false",
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/druid/spiritshift_boar.png",
+					"IsCombatOnly": "false",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "true",
+					"KeywordsIDs": [],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Never"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": ["e8f5f28e-d285-4fc1-b4e2-8e36f0ecb870"],
+					"StatusEffectsIDs": ["bd01990c-a064-411c-bf25-9569ba79d4f2", "4dc0a6da-3f9a-4b17-b77c-9098b3f10b8e", "cb91b635-0ef5-4737-bfca-e41d4c9313e0"],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+					"UsageType": "None",
+					"UsageValue": 0,
+					"VisualEffects": [],
+					"Vocalization": "NoVocalization"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+        },  {
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Spiritshift_Boar_1",
+			"ID": "069f635f-bb4c-4d0e-ac9a-f8c74a000812",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+					"AbilityLevel": 4,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [
+                                {
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean HasStatusEffectWithKeyword(Guid, Guid)",
+										"FunctionHash": 0,
+										"ParameterHash": 0,
+										"Parameters": ["011111e9-0000-0000-0000-000000000000", "ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+										"UnrealCall": ""
+									},
+									"Not": true,
+									"Operator": 0
+								},{
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean HasStatusEffectWithKeyword(Guid, Guid)",
+										"FunctionHash": -1392641717,
+										"ParameterHash": 1889353659,
+										"Parameters": ["011111e9-0000-0000-0000-000000000000", "a457d3b9-b5c7-4c2c-817b-65c2835b19cf"],
+										"UnrealCall": ""
+									},
+									"Not": true,
+									"Operator": 0
+								}
+                            ],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "a529af64-c667-41f0-aaa0-3902663a8a18",
+					"AudioEventListID": "1f30ac34-6460-4aba-a9fd-f9d3066f66b8",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 406000605,
+					"DisplayName": 406000607,
+					"DurationOverride": 0,
+					"GrantedViaScript": "false",
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/druid/spiritshift_boar.png",
+					"IsCombatOnly": "true",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "false",
+					"KeywordsIDs": ["f58f91d7-58af-4dee-855f-6fa8ae8579b7", "ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Never"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000", 
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": ["a457d3b9-b5c7-4c2c-817b-65c2835b19cf", "ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],//shifted, frenzied
+					"StatusEffectsIDs": ["376ecb8a-b780-4d67-8c9c-d4d04bfba0ac", "9ac0f508-7dcf-47e3-9e2d-ef6b2006968f", "698818c0-67e9-43fa-bbe7-ca06f75a921c", "c22b6629-54cf-4db7-a217-d85507460879", "808e813a-876d-49d0-8141-944e1836fc56", "cf632b74-faf5-4571-97f6-60f3fbcec554"],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+					"UsageType": "PerEncounter",
+					"UsageValue": 1,
+					"VisualEffects": [],
+					"Vocalization": "NoVocalization"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		},  {
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Spiritshift_Boar_2",
+			"ID": "df79389b-8e4a-4cb9-a034-4b795445110d",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+					"AbilityLevel": 5,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [
+                                {
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean HasStatusEffectWithKeyword(Guid, Guid)",
+										"FunctionHash": 0,
+										"ParameterHash": 0,
+										"Parameters": ["011111e9-0000-0000-0000-000000000000", "ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+										"UnrealCall": ""
+									},
+									"Not": true,
+									"Operator": 0
+								},{
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean HasStatusEffectWithKeyword(Guid, Guid)",
+										"FunctionHash": -1392641717,
+										"ParameterHash": 1889353659,
+										"Parameters": ["011111e9-0000-0000-0000-000000000000", "a457d3b9-b5c7-4c2c-817b-65c2835b19cf"],
+										"UnrealCall": ""
+									},
+									"Not": true,
+									"Operator": 0
+								}
+                            ],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "a529af64-c667-41f0-aaa0-3902663a8a18",
+					"AudioEventListID": "1f30ac34-6460-4aba-a9fd-f9d3066f66b8",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 406000605,
+					"DisplayName": 406000607,
+					"DurationOverride": 0,
+					"GrantedViaScript": "false",
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/druid/spiritshift_boar.png",
+					"IsCombatOnly": "true",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "false",
+					"KeywordsIDs": ["f58f91d7-58af-4dee-855f-6fa8ae8579b7", "ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Never"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": ["a457d3b9-b5c7-4c2c-817b-65c2835b19cf", "7d263be8-690e-4531-9918-c60e3f24cbeb"],
+					"StatusEffectsIDs": ["376ecb8a-b780-4d67-8c9c-d4d04bfba0ac", "9ac0f508-7dcf-47e3-9e2d-ef6b2006968f", "698818c0-67e9-43fa-bbe7-ca06f75a921c", "c22b6629-54cf-4db7-a217-d85507460879", "808e813a-876d-49d0-8141-944e1836fc56", "cf632b74-faf5-4571-97f6-60f3fbcec554"],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "069f635f-bb4c-4d0e-ac9a-f8c74a000812",
+					"UsageType": "PerEncounter",
+					"UsageValue": 2,
+					"VisualEffects": [],
+					"Vocalization": "NoVocalization"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		},  {
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Spiritshift_Boar_3",
+			"ID": "3c69adbf-482d-464b-8f8d-1b502ebd68d3",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+					"AbilityLevel": 6,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [
+                                {
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean HasStatusEffectWithKeyword(Guid, Guid)",
+										"FunctionHash": 0,
+										"ParameterHash": 0,
+										"Parameters": ["011111e9-0000-0000-0000-000000000000", "ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+										"UnrealCall": ""
+									},
+									"Not": true,
+									"Operator": 0
+								},{
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean HasStatusEffectWithKeyword(Guid, Guid)",
+										"FunctionHash": -1392641717,
+										"ParameterHash": 1889353659,
+										"Parameters": ["011111e9-0000-0000-0000-000000000000", "a457d3b9-b5c7-4c2c-817b-65c2835b19cf"],
+										"UnrealCall": ""
+									},
+									"Not": true,
+									"Operator": 0
+								}
+                            ],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "a529af64-c667-41f0-aaa0-3902663a8a18",
+					"AudioEventListID": "1f30ac34-6460-4aba-a9fd-f9d3066f66b8",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 406000605,
+					"DisplayName": 406000607,
+					"DurationOverride": 0,
+					"GrantedViaScript": "false",
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/druid/spiritshift_boar.png",
+					"IsCombatOnly": "true",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "false",
+					"KeywordsIDs": ["f58f91d7-58af-4dee-855f-6fa8ae8579b7", "ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Never"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": ["a457d3b9-b5c7-4c2c-817b-65c2835b19cf", "7d263be8-690e-4531-9918-c60e3f24cbeb"],
+					"StatusEffectsIDs": ["376ecb8a-b780-4d67-8c9c-d4d04bfba0ac", "9ac0f508-7dcf-47e3-9e2d-ef6b2006968f", "698818c0-67e9-43fa-bbe7-ca06f75a921c", "c22b6629-54cf-4db7-a217-d85507460879", "808e813a-876d-49d0-8141-944e1836fc56", "cf632b74-faf5-4571-97f6-60f3fbcec554"],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "df79389b-8e4a-4cb9-a034-4b795445110d",
+					"UsageType": "PerEncounter",
+					"UsageValue": 3,
+					"VisualEffects": [],
+					"Vocalization": "NoVocalization"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Spiritshift_Cat_PassiveUnlock",//apply grief
+			"ID": "997b48e2-6786-48e9-bd10-b994895a0778",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+					"AbilityLevel": 4,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "00000000-0000-0000-0000-000000000000",
+					"AudioEventListID": "1f30ac34-6460-4aba-a9fd-f9d3066f66b8",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 406000604,
+					"DisplayName": 406000599,
+					"DurationOverride": 0,
+					"GrantedViaScript": "false",
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/druid/spiritshift_cat.png",
+					"IsCombatOnly": "false",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "true",
+					"KeywordsIDs": [],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Never"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": ["e8f5f28e-d285-4fc1-b4e2-8e36f0ecb870"],
+					"StatusEffectsIDs": ["bd01990c-a064-411c-bf25-9569ba79d4f2", "4dc0a6da-3f9a-4b17-b77c-9098b3f10b8e", "cb91b635-0ef5-4737-bfca-e41d4c9313e0"],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+					"UsageType": "None",
+					"UsageValue": 0,
+					"VisualEffects": [],
+					"Vocalization": "NoVocalization"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+        },  {
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Spiritshift_Cat_1",
+			"ID": "a4251f90-6c54-46f0-b21b-73917bbaacad",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+					"AbilityLevel": 4,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [
+                                {
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean HasStatusEffectWithKeyword(Guid, Guid)",
+										"FunctionHash": 0,
+										"ParameterHash": 0,
+										"Parameters": ["011111e9-0000-0000-0000-000000000000", "ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+										"UnrealCall": ""
+									},
+									"Not": true,
+									"Operator": 0
+								},{
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean HasStatusEffectWithKeyword(Guid, Guid)",
+										"FunctionHash": -1392641717,
+										"ParameterHash": 1889353659,
+										"Parameters": ["011111e9-0000-0000-0000-000000000000", "a457d3b9-b5c7-4c2c-817b-65c2835b19cf"],
+										"UnrealCall": ""
+									},
+									"Not": true,
+									"Operator": 0
+								}
+                            ],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "a529af64-c667-41f0-aaa0-3902663a8a18",
+					"AudioEventListID": "1f30ac34-6460-4aba-a9fd-f9d3066f66b8",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 406000605,
+					"DisplayName": 406000607,
+					"DurationOverride": 0,
+					"GrantedViaScript": "false",
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/druid/spiritshift_cat.png",
+					"IsCombatOnly": "true",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "false",
+					"KeywordsIDs": ["f58f91d7-58af-4dee-855f-6fa8ae8579b7", "ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Never"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": ["a457d3b9-b5c7-4c2c-817b-65c2835b19cf", "ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],//shifted, frenzied
+					"StatusEffectsIDs": ["f2d641f0-bf73-4a54-86e3-78a14042adf8", "9ac0f508-7dcf-47e3-9e2d-ef6b2006968f", "698818c0-67e9-43fa-bbe7-ca06f75a921c", "808e813a-876d-49d0-8141-944e1836fc56", "0049bb94-ee4b-4e78-b8c3-cb0645c2a259"],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+					"UsageType": "PerEncounter",
+					"UsageValue": 1,
+					"VisualEffects": [],
+					"Vocalization": "NoVocalization"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		},  {
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Spiritshift_Cat_2",
+			"ID": "7fc36ba4-1a44-4db9-ac20-6a2c9a874f91",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+					"AbilityLevel": 5,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [
+                                {
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean HasStatusEffectWithKeyword(Guid, Guid)",
+										"FunctionHash": 0,
+										"ParameterHash": 0,
+										"Parameters": ["011111e9-0000-0000-0000-000000000000", "ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+										"UnrealCall": ""
+									},
+									"Not": true,
+									"Operator": 0
+								},{
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean HasStatusEffectWithKeyword(Guid, Guid)",
+										"FunctionHash": -1392641717,
+										"ParameterHash": 1889353659,
+										"Parameters": ["011111e9-0000-0000-0000-000000000000", "a457d3b9-b5c7-4c2c-817b-65c2835b19cf"],
+										"UnrealCall": ""
+									},
+									"Not": true,
+									"Operator": 0
+								}
+                            ],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "a529af64-c667-41f0-aaa0-3902663a8a18",
+					"AudioEventListID": "1f30ac34-6460-4aba-a9fd-f9d3066f66b8",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 406000605,
+					"DisplayName": 406000607,
+					"DurationOverride": 0,
+					"GrantedViaScript": "false",
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/druid/spiritshift_cat.png",
+					"IsCombatOnly": "true",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "false",
+					"KeywordsIDs": ["f58f91d7-58af-4dee-855f-6fa8ae8579b7", "ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Never"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": ["a457d3b9-b5c7-4c2c-817b-65c2835b19cf", "7d263be8-690e-4531-9918-c60e3f24cbeb"],
+					"StatusEffectsIDs": ["f2d641f0-bf73-4a54-86e3-78a14042adf8", "9ac0f508-7dcf-47e3-9e2d-ef6b2006968f", "698818c0-67e9-43fa-bbe7-ca06f75a921c", "808e813a-876d-49d0-8141-944e1836fc56", "0049bb94-ee4b-4e78-b8c3-cb0645c2a259"],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "a4251f90-6c54-46f0-b21b-73917bbaacad",
+					"UsageType": "PerEncounter",
+					"UsageValue": 2,
+					"VisualEffects": [],
+					"Vocalization": "NoVocalization"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		},  {
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Spiritshift_Cat_3",
+			"ID": "5428f32c-d984-4009-bab8-7b05f1f37c3b",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+					"AbilityLevel": 6,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [
+                                {
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean HasStatusEffectWithKeyword(Guid, Guid)",
+										"FunctionHash": 0,
+										"ParameterHash": 0,
+										"Parameters": ["011111e9-0000-0000-0000-000000000000", "ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+										"UnrealCall": ""
+									},
+									"Not": true,
+									"Operator": 0
+								},{
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean HasStatusEffectWithKeyword(Guid, Guid)",
+										"FunctionHash": -1392641717,
+										"ParameterHash": 1889353659,
+										"Parameters": ["011111e9-0000-0000-0000-000000000000", "a457d3b9-b5c7-4c2c-817b-65c2835b19cf"],
+										"UnrealCall": ""
+									},
+									"Not": true,
+									"Operator": 0
+								}
+                            ],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "a529af64-c667-41f0-aaa0-3902663a8a18",
+					"AudioEventListID": "1f30ac34-6460-4aba-a9fd-f9d3066f66b8",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 406000605,
+					"DisplayName": 406000607,
+					"DurationOverride": 0,
+					"GrantedViaScript": "false",
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/druid/spiritshift_cat.png",
+					"IsCombatOnly": "true",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "false",
+					"KeywordsIDs": ["f58f91d7-58af-4dee-855f-6fa8ae8579b7", "ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Never"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": ["a457d3b9-b5c7-4c2c-817b-65c2835b19cf", "7d263be8-690e-4531-9918-c60e3f24cbeb"],
+					"StatusEffectsIDs": ["f2d641f0-bf73-4a54-86e3-78a14042adf8", "9ac0f508-7dcf-47e3-9e2d-ef6b2006968f", "698818c0-67e9-43fa-bbe7-ca06f75a921c", "808e813a-876d-49d0-8141-944e1836fc56", "0049bb94-ee4b-4e78-b8c3-cb0645c2a259"],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "7fc36ba4-1a44-4db9-ac20-6a2c9a874f91",
+					"UsageType": "PerEncounter",
+					"UsageValue": 3,
+					"VisualEffects": [],
+					"Vocalization": "NoVocalization"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Spiritshift_Stag_PassiveUnlock",//apply grief
+			"ID": "31d4ae22-f29e-40f6-9f79-7a0f95c20f1c",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+					"AbilityLevel": 4,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "00000000-0000-0000-0000-000000000000",
+					"AudioEventListID": "1f30ac34-6460-4aba-a9fd-f9d3066f66b8",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 406000604,
+					"DisplayName": 406000599,
+					"DurationOverride": 0,
+					"GrantedViaScript": "false",
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/druid/spiritshift_stag.png",
+					"IsCombatOnly": "false",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "true",
+					"KeywordsIDs": [],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Never"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": ["e8f5f28e-d285-4fc1-b4e2-8e36f0ecb870"],
+					"StatusEffectsIDs": ["bd01990c-a064-411c-bf25-9569ba79d4f2", "4dc0a6da-3f9a-4b17-b77c-9098b3f10b8e", "cb91b635-0ef5-4737-bfca-e41d4c9313e0"],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+					"UsageType": "None",
+					"UsageValue": 0,
+					"VisualEffects": [],
+					"Vocalization": "NoVocalization"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+        },  {
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Spiritshift_Stag_1",
+			"ID": "0d1267a0-e2f5-4b69-aec9-caa96a848746",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+					"AbilityLevel": 4,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [
+                                {
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean HasStatusEffectWithKeyword(Guid, Guid)",
+										"FunctionHash": 0,
+										"ParameterHash": 0,
+										"Parameters": ["011111e9-0000-0000-0000-000000000000", "ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+										"UnrealCall": ""
+									},
+									"Not": true,
+									"Operator": 0
+								},{
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean HasStatusEffectWithKeyword(Guid, Guid)",
+										"FunctionHash": -1392641717,
+										"ParameterHash": 1889353659,
+										"Parameters": ["011111e9-0000-0000-0000-000000000000", "a457d3b9-b5c7-4c2c-817b-65c2835b19cf"],
+										"UnrealCall": ""
+									},
+									"Not": true,
+									"Operator": 0
+								}
+                            ],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "a529af64-c667-41f0-aaa0-3902663a8a18",
+					"AudioEventListID": "1f30ac34-6460-4aba-a9fd-f9d3066f66b8",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 406000605,
+					"DisplayName": 406000607,
+					"DurationOverride": 0,
+					"GrantedViaScript": "false",
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/druid/spiritshift_stag.png",
+					"IsCombatOnly": "true",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "false",
+					"KeywordsIDs": ["f58f91d7-58af-4dee-855f-6fa8ae8579b7", "ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Never"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": ["a457d3b9-b5c7-4c2c-817b-65c2835b19cf", "ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],//shifted, frenzied
+					"StatusEffectsIDs": ["a2237b1f-2cff-4f52-adbe-5719f59a60ff", "9ac0f508-7dcf-47e3-9e2d-ef6b2006968f", "698818c0-67e9-43fa-bbe7-ca06f75a921c", "808e813a-876d-49d0-8141-944e1836fc56", "c6649e59-f00b-4e26-81ae-10f26ea1fb2e"],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+					"UsageType": "PerEncounter",
+					"UsageValue": 1,
+					"VisualEffects": [],
+					"Vocalization": "NoVocalization"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		},  {
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Spiritshift_Stag_2",
+			"ID": "3d0a5116-ae03-4bd0-af3a-d1ed9f31841c",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+					"AbilityLevel": 5,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [
+                                {
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean HasStatusEffectWithKeyword(Guid, Guid)",
+										"FunctionHash": 0,
+										"ParameterHash": 0,
+										"Parameters": ["011111e9-0000-0000-0000-000000000000", "ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+										"UnrealCall": ""
+									},
+									"Not": true,
+									"Operator": 0
+								},{
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean HasStatusEffectWithKeyword(Guid, Guid)",
+										"FunctionHash": -1392641717,
+										"ParameterHash": 1889353659,
+										"Parameters": ["011111e9-0000-0000-0000-000000000000", "a457d3b9-b5c7-4c2c-817b-65c2835b19cf"],
+										"UnrealCall": ""
+									},
+									"Not": true,
+									"Operator": 0
+								}
+                            ],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "a529af64-c667-41f0-aaa0-3902663a8a18",
+					"AudioEventListID": "1f30ac34-6460-4aba-a9fd-f9d3066f66b8",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 406000605,
+					"DisplayName": 406000607,
+					"DurationOverride": 0,
+					"GrantedViaScript": "false",
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/druid/spiritshift_stag.png",
+					"IsCombatOnly": "true",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "false",
+					"KeywordsIDs": ["f58f91d7-58af-4dee-855f-6fa8ae8579b7", "ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Never"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": ["a457d3b9-b5c7-4c2c-817b-65c2835b19cf", "7d263be8-690e-4531-9918-c60e3f24cbeb"],
+					"StatusEffectsIDs": ["a2237b1f-2cff-4f52-adbe-5719f59a60ff", "9ac0f508-7dcf-47e3-9e2d-ef6b2006968f", "698818c0-67e9-43fa-bbe7-ca06f75a921c", "808e813a-876d-49d0-8141-944e1836fc56", "c6649e59-f00b-4e26-81ae-10f26ea1fb2e"],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "0d1267a0-e2f5-4b69-aec9-caa96a848746",
+					"UsageType": "PerEncounter",
+					"UsageValue": 2,
+					"VisualEffects": [],
+					"Vocalization": "NoVocalization"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		},  {
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Spiritshift_Stag_3",
+			"ID": "f0cc4e70-7cfc-45a3-92e9-6bfd8e6343a1",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+					"AbilityLevel": 6,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [
+                                {
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean HasStatusEffectWithKeyword(Guid, Guid)",
+										"FunctionHash": 0,
+										"ParameterHash": 0,
+										"Parameters": ["011111e9-0000-0000-0000-000000000000", "ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+										"UnrealCall": ""
+									},
+									"Not": true,
+									"Operator": 0
+								},{
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean HasStatusEffectWithKeyword(Guid, Guid)",
+										"FunctionHash": -1392641717,
+										"ParameterHash": 1889353659,
+										"Parameters": ["011111e9-0000-0000-0000-000000000000", "a457d3b9-b5c7-4c2c-817b-65c2835b19cf"],
+										"UnrealCall": ""
+									},
+									"Not": true,
+									"Operator": 0
+								}
+                            ],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "a529af64-c667-41f0-aaa0-3902663a8a18",
+					"AudioEventListID": "1f30ac34-6460-4aba-a9fd-f9d3066f66b8",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 406000605,
+					"DisplayName": 406000607,
+					"DurationOverride": 0,
+					"GrantedViaScript": "false",
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/druid/spiritshift_stag.png",
+					"IsCombatOnly": "true",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "false",
+					"KeywordsIDs": ["f58f91d7-58af-4dee-855f-6fa8ae8579b7", "ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Never"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": ["a457d3b9-b5c7-4c2c-817b-65c2835b19cf", "7d263be8-690e-4531-9918-c60e3f24cbeb"],
+					"StatusEffectsIDs": ["a2237b1f-2cff-4f52-adbe-5719f59a60ff", "9ac0f508-7dcf-47e3-9e2d-ef6b2006968f", "698818c0-67e9-43fa-bbe7-ca06f75a921c", "808e813a-876d-49d0-8141-944e1836fc56", "c6649e59-f00b-4e26-81ae-10f26ea1fb2e"],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "3d0a5116-ae03-4bd0-af3a-d1ed9f31841c",
+					"UsageType": "PerEncounter",
+					"UsageValue": 3,
+					"VisualEffects": [],
+					"Vocalization": "NoVocalization"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Spiritshift_Wolf_PassiveUnlock",//apply grief
+			"ID": "01371788-5a4b-4f01-9f9c-7ec0a8a88118",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+					"AbilityLevel": 4,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "00000000-0000-0000-0000-000000000000",
+					"AudioEventListID": "1f30ac34-6460-4aba-a9fd-f9d3066f66b8",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 406000604,
+					"DisplayName": 406000599,
+					"DurationOverride": 0,
+					"GrantedViaScript": "false",
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/druid/spiritshift_wolf.png",
+					"IsCombatOnly": "false",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "true",
+					"KeywordsIDs": [],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Never"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": ["e8f5f28e-d285-4fc1-b4e2-8e36f0ecb870"],
+					"StatusEffectsIDs": ["bd01990c-a064-411c-bf25-9569ba79d4f2", "4dc0a6da-3f9a-4b17-b77c-9098b3f10b8e", "cb91b635-0ef5-4737-bfca-e41d4c9313e0"],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+					"UsageType": "None",
+					"UsageValue": 0,
+					"VisualEffects": [],
+					"Vocalization": "NoVocalization"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+        },  {
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Spiritshift_Wolf_1",
+			"ID": "da2d610b-67c8-4784-879c-bddc770811b2",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+					"AbilityLevel": 4,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [
+                                {
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean HasStatusEffectWithKeyword(Guid, Guid)",
+										"FunctionHash": 0,
+										"ParameterHash": 0,
+										"Parameters": ["011111e9-0000-0000-0000-000000000000", "ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+										"UnrealCall": ""
+									},
+									"Not": true,
+									"Operator": 0
+								},{
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean HasStatusEffectWithKeyword(Guid, Guid)",
+										"FunctionHash": -1392641717,
+										"ParameterHash": 1889353659,
+										"Parameters": ["011111e9-0000-0000-0000-000000000000", "a457d3b9-b5c7-4c2c-817b-65c2835b19cf"],
+										"UnrealCall": ""
+									},
+									"Not": true,
+									"Operator": 0
+								}
+                            ],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "a529af64-c667-41f0-aaa0-3902663a8a18",
+					"AudioEventListID": "1f30ac34-6460-4aba-a9fd-f9d3066f66b8",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 406000605,
+					"DisplayName": 406000607,
+					"DurationOverride": 0,
+					"GrantedViaScript": "false",
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/druid/spiritshift_wolf.png",
+					"IsCombatOnly": "true",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "false",
+					"KeywordsIDs": ["f58f91d7-58af-4dee-855f-6fa8ae8579b7", "ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Never"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": ["a457d3b9-b5c7-4c2c-817b-65c2835b19cf", "ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],//shifted, frenzied
+					"StatusEffectsIDs": ["dcaa0cdc-5a80-4709-96bd-cc623591b861", "9ac0f508-7dcf-47e3-9e2d-ef6b2006968f", "698818c0-67e9-43fa-bbe7-ca06f75a921c", "808e813a-876d-49d0-8141-944e1836fc56", "d00cac0b-3a8f-432f-8838-4b43230fc8fe"],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+					"UsageType": "PerEncounter",
+					"UsageValue": 1,
+					"VisualEffects": [],
+					"Vocalization": "NoVocalization"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		},  {
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Spiritshift_Wolf_2",
+			"ID": "a01e6ef1-1d1a-4141-a8a3-d1b09273f4fe",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+					"AbilityLevel": 5,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [
+                                {
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean HasStatusEffectWithKeyword(Guid, Guid)",
+										"FunctionHash": 0,
+										"ParameterHash": 0,
+										"Parameters": ["011111e9-0000-0000-0000-000000000000", "ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+										"UnrealCall": ""
+									},
+									"Not": true,
+									"Operator": 0
+								},{
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean HasStatusEffectWithKeyword(Guid, Guid)",
+										"FunctionHash": -1392641717,
+										"ParameterHash": 1889353659,
+										"Parameters": ["011111e9-0000-0000-0000-000000000000", "a457d3b9-b5c7-4c2c-817b-65c2835b19cf"],
+										"UnrealCall": ""
+									},
+									"Not": true,
+									"Operator": 0
+								}
+                            ],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "a529af64-c667-41f0-aaa0-3902663a8a18",
+					"AudioEventListID": "1f30ac34-6460-4aba-a9fd-f9d3066f66b8",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 406000605,
+					"DisplayName": 406000607,
+					"DurationOverride": 0,
+					"GrantedViaScript": "false",
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/druid/spiritshift_wolf.png",
+					"IsCombatOnly": "true",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "false",
+					"KeywordsIDs": ["f58f91d7-58af-4dee-855f-6fa8ae8579b7", "ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Never"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": ["a457d3b9-b5c7-4c2c-817b-65c2835b19cf", "7d263be8-690e-4531-9918-c60e3f24cbeb"],
+					"StatusEffectsIDs": ["dcaa0cdc-5a80-4709-96bd-cc623591b861", "9ac0f508-7dcf-47e3-9e2d-ef6b2006968f", "698818c0-67e9-43fa-bbe7-ca06f75a921c", "808e813a-876d-49d0-8141-944e1836fc56", "d00cac0b-3a8f-432f-8838-4b43230fc8fe"],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "da2d610b-67c8-4784-879c-bddc770811b2",
+					"UsageType": "PerEncounter",
+					"UsageValue": 2,
+					"VisualEffects": [],
+					"Vocalization": "NoVocalization"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		},  {
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Spiritshift_Wolf_3",
+			"ID": "775a57d5-dac6-4254-bd9e-7c14486100ff",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+					"AbilityLevel": 6,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [
+                                {
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean HasStatusEffectWithKeyword(Guid, Guid)",
+										"FunctionHash": 0,
+										"ParameterHash": 0,
+										"Parameters": ["011111e9-0000-0000-0000-000000000000", "ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+										"UnrealCall": ""
+									},
+									"Not": true,
+									"Operator": 0
+								},{
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean HasStatusEffectWithKeyword(Guid, Guid)",
+										"FunctionHash": -1392641717,
+										"ParameterHash": 1889353659,
+										"Parameters": ["011111e9-0000-0000-0000-000000000000", "a457d3b9-b5c7-4c2c-817b-65c2835b19cf"],
+										"UnrealCall": ""
+									},
+									"Not": true,
+									"Operator": 0
+								}
+                            ],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "a529af64-c667-41f0-aaa0-3902663a8a18",
+					"AudioEventListID": "1f30ac34-6460-4aba-a9fd-f9d3066f66b8",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 406000605,
+					"DisplayName": 406000607,
+					"DurationOverride": 0,
+					"GrantedViaScript": "false",
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/druid/spiritshift_wolf.png",
+					"IsCombatOnly": "true",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "false",
+					"KeywordsIDs": ["f58f91d7-58af-4dee-855f-6fa8ae8579b7", "ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Never"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": ["a457d3b9-b5c7-4c2c-817b-65c2835b19cf", "7d263be8-690e-4531-9918-c60e3f24cbeb"],
+					"StatusEffectsIDs": ["dcaa0cdc-5a80-4709-96bd-cc623591b861", "9ac0f508-7dcf-47e3-9e2d-ef6b2006968f", "698818c0-67e9-43fa-bbe7-ca06f75a921c", "808e813a-876d-49d0-8141-944e1836fc56", "d00cac0b-3a8f-432f-8838-4b43230fc8fe"],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "a01e6ef1-1d1a-4141-a8a3-d1b09273f4fe",
+					"UsageType": "PerEncounter",
+					"UsageValue": 3,
+					"VisualEffects": [],
+					"Vocalization": "NoVocalization"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		}
+    ]
+}

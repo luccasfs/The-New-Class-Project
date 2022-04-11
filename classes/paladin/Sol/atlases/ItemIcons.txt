@@ -1,0 +1,4 @@
+Splinter_of_the_Godhammer_Shield_L = 0 0 100 100
+Splinter_of_the_Godhammer_Shield_S = 202 0 42 42
+Splinter_of_the_Godhammer_L = 101 0 100 100
+Splinter_of_the_Godhammer_S = 202 43 42 42

@@ -1,0 +1,375 @@
+{
+  "GameDataObjects": [
+    {        
+      "$type": "Game.GameData.WeaponGameData, Assembly-CSharp",
+      "DebugName": "Mace_of_the_Luna_Mystics",
+      "ID": "2179084c-9370-11e8-9eb6-529269fb1459",
+      "Components": [
+        {
+          "$type": "Game.GameData.ItemComponent, Assembly-CSharp",
+          "DisplayName": 17131,
+          "DescriptionText": 17132,
+          "FilterType": "Weapons",
+          "InventoryAudioEventListID": "b2b31122-0564-425c-9d76-b7640add1343",
+          "IsQuestItem": "false",
+          "IsIngredient": "false",
+          "IsCurrency": "false",
+          "IsAdventuringItem": "false",
+          "CanSellForFullValue": "false",
+          "MaxStackSize": 1,
+          "NeverDropAsLoot": "true",
+          "CanBePickpocketed": "true",
+          "IsUnique": "false",
+          "Value": 35,
+          "IconTextureSmall": "gui/icons/items/weapons/mace/SilverMaceOfTheMysticKnights_S.png",
+          "IconTextureLarge": "gui/icons/items/weapons/mace/SilverMaceOfTheMysticKnights_L.png",
+          "PencilSketchTexture": "",
+          "InspectOnUseButton": [],
+          "IsPlaceholder": "false"
+        },
+        {
+          "$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
+          "EquipmentType": "Mace",
+          "EquipmentSlot": "AnyWeapon",
+          "AppearancePiece": {
+            "ModelVisualDataPath": "prefabs/items/appearance/weapons/sceptre/a_sceptre03.asset"
+          },
+          "ItemModsIDs": [
+            "9691785d-0207-492a-9c88-47f9a86db8af",
+            "bb44900e-9591-11e8-9eb6-529269fb1459",
+            "769ded43-4997-442b-8dee-028127ee13f2",
+            "d82f238a-c6c6-11e8-a355-529269fb1459"
+          ],
+          "OnEquipVisualEffects": [
+            {
+              "VisualEffect": "prefabs/effects/items/lax02/lax02_fx_currents_rush_wpn.prefab",
+              "AttachPoint": "Fx_Bone_01",
+              "EmissiveColor": {
+                "A": 1,
+                "R": 1,
+                "G": 1,
+                "B": 1
+              },
+              "EmissiveGlowScale": 1
+            },
+            {
+              "VisualEffect": "prefabs/effects/abilities/wizzard/fx_thrust_of_tattered_veils_start.prefab",
+              "AttachPoint": "RightWeapon",
+              "EmissiveColor": {
+                "A": 1,
+                "R": 1,
+                "G": 1,
+                "B": 1
+              },
+              "EmissiveGlowScale": 0.25
+            }                    
+          ],
+          "RestrictedToClassIDs": [],
+          "RestrictedToPlayer": "false",
+          "ProficientAbilityID": "a30b2411-8e7b-4ae2-a2ed-91ed550021b6",
+          "CannotUnequip": "false",
+          "ItemRendererPrefab": "prefabs/itemrenderers/genericitemrenderer.prefab",
+          "ItemModel": "art/character/weapons/sceptre/sceptre01/w_sceptre01.fbx",
+          "AnimationController": "",
+          "PaperdollOverrideRenderer": "",
+          "AttackSummonID": "00000000-0000-0000-0000-000000000000",
+          "CannotSheathe": "false",
+          "PropVisualEffects": []
+        },
+        {
+          "$type": "Game.GameData.WeaponComponent, Assembly-CSharp",
+          "Stance": "OneHanded",
+          "AnimationStanceID": "ddeda306-872b-4d63-8032-fbaf359d0ed2",
+          "StatusEffectsOnLaunchIDs": [],
+          "IsDisplayedWhenAlternate": "true",
+          "IsUniversalType": "false",
+          "AttackID": "1576e11f-cb87-40bf-b037-423ca0636a82",
+          "NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+          "ForceBackScabbard": "false",
+          "ScabbardAppearancePiece": {
+            "ModelVisualDataPath": ""
+          },
+          "ScabbardRendererPrefab": "",
+          "ScabbardModel": "",
+          "AudioEventListID": "00000000-0000-0000-0000-000000000000"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.ItemModGameData, Assembly-CSharp",
+      "DebugName": "Arcane_Dampener",
+      "ID": "bb44900e-9591-11e8-9eb6-529269fb1459",
+      "Components": [
+        {
+          "$type": "Game.GameData.ItemModComponent, Assembly-CSharp",
+          "DisplayName": 453350,
+          "HideFromUI": "false",
+          "EnchantCategory": "Unique",
+          "Cost": 0,
+          "DisplayEvenIfCostZero": "true",
+          "CursesItem": "false",
+          "StatusEffectsOnEquipIDs": [],
+          "StatusEffectsOnLaunchIDs": [],
+          "StatusEffectsOnAttackIDs": [],
+          "AbilityModsOnEquipIDs": [],
+          "OnEquipVisualEffects": [],
+          "DamageProcs": [],
+          "AbilitiesOnEquipIDs": [
+            "8428b369-1b7d-45ed-801e-78c7e7df004e"
+          ]
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.ItemModGameData, Assembly-CSharp",
+      "DebugName": "Silence_the_Mages",
+      "ID": "d82f238a-c6c6-11e8-a355-529269fb1459",
+      "Components": [
+        {
+          "$type": "Game.GameData.ItemModComponent, Assembly-CSharp",
+          "DisplayName": 543330,
+          "HideFromUI": "false",
+          "EnchantCategory": "Unique",
+          "Cost": 0,
+          "DisplayEvenIfCostZero": "true",
+          "CursesItem": "false",
+          "StatusEffectsOnEquipIDs": [
+            "b2743996-c6c6-11e8-a355-529269fb1459"
+          ],
+          "StatusEffectsOnLaunchIDs": [],
+          "StatusEffectsOnAttackIDs": [],
+          "AbilityModsOnEquipIDs": [],
+          "OnEquipVisualEffects": [],
+          "DamageProcs": [],
+          "AbilitiesOnEquipIDs": []
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.WeaponGameData, Assembly-CSharp",
+      "DebugName": "Heart_of_Resentment_2",
+      "ID": "792009fb-f0ff-485b-80ad-9d76087b764A",      
+      "Components": [
+        {
+          "$type": "Game.GameData.ItemComponent, Assembly-CSharp",
+          "DisplayName": 17133,
+          "DescriptionText": 17134,
+          "FilterType": "Weapons",
+          "InventoryAudioEventListID": "b2b31122-0564-425c-9d76-b7640add1343",
+          "IsQuestItem": "false",
+          "IsIngredient": "false",
+          "IsCurrency": "false",
+          "IsAdventuringItem": "false",
+          "CanSellForFullValue": "false",
+          "MaxStackSize": 1,
+          "NeverDropAsLoot": "false",
+          "CanBePickpocketed": "true",
+          "IsUnique": "true",
+          "Value": 35,
+          "IconTextureSmall": "gui/icons/items/weapons/sceptre/HeartofResentment_s.png",
+          "IconTextureLarge": "gui/icons/items/weapons/sceptre/HeartofResentment_l.png",
+          "PencilSketchTexture": "",
+          "InspectOnUseButton": [],
+          "IsPlaceholder": "false"
+        },
+        {
+          "$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
+          "EquipmentType": "Sceptre",
+          "EquipmentSlot": "PrimaryWeaponOnly",
+          "AppearancePiece": {
+            "ModelVisualDataPath": "prefabs/lax02/appearance/weapons/sceptre/a_lax02_sceptre200_v01.asset"
+          },
+          "ItemModsIDs": [
+            "769ded43-4997-442b-8dee-028127ee13f2",
+            "9691785d-0207-492a-9c88-47f9a86db8af"
+          ],
+          "OnEquipVisualEffects": [],
+          "RestrictedToClassIDs": [],
+          "RestrictedToPlayer": "false",
+          "EquipConditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ProficientAbilityID": "dddf5fe6-108c-4d96-a891-b0517354c695",
+          "CannotUnequip": "false",
+          "ItemRendererPrefab": "prefabs/itemrenderers/genericitemrenderer.prefab",
+          "ItemModel": "art/character/weapons/sceptre/sceptre01/w_sceptre01.fbx",
+          "AnimationController": "",
+          "PaperdollOverrideRenderer": "",
+          "AttackSummonID": "00000000-0000-0000-0000-000000000000",
+          "CannotSheathe": "false",
+          "PropVisualEffects": []
+        },
+        {
+          "$type": "Game.GameData.WeaponComponent, Assembly-CSharp",
+          "Stance": "OneHanded",
+          "AnimationStanceID": "42de436a-5f52-4bc5-8310-076eb320abc4",
+          "StatusEffectsOnLaunchIDs": [],
+          "IsDisplayedWhenAlternate": "true",
+          "IsUniversalType": "false",
+          "AttackID": "048d1d11-8996-4a9f-b23c-6fe96d6ee2c5",
+          "NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+          "ForceBackScabbard": "false",
+          "ScabbardAppearancePiece": {
+            "ModelVisualDataPath": ""
+          },
+          "ScabbardRendererPrefab": "",
+          "ScabbardModel": "",
+          "AudioEventListID": "00000000-0000-0000-0000-000000000000"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.WeaponGameData, Assembly-CSharp",
+      "DebugName": "Heart_of_Resentment_1",
+      "ID": "792009fb-f0ff-485b-80ad-9d76087b764B",      
+      "Components": [
+        {
+          "$type": "Game.GameData.ItemComponent, Assembly-CSharp",
+          "DisplayName": 17133,
+          "DescriptionText": 17134,
+          "FilterType": "Weapons",
+          "InventoryAudioEventListID": "b2b31122-0564-425c-9d76-b7640add1343",
+          "IsQuestItem": "false",
+          "IsIngredient": "false",
+          "IsCurrency": "false",
+          "IsAdventuringItem": "false",
+          "CanSellForFullValue": "false",
+          "MaxStackSize": 1,
+          "NeverDropAsLoot": "false",
+          "CanBePickpocketed": "true",
+          "IsUnique": "true",
+          "Value": 35,
+          "IconTextureSmall": "gui/icons/items/weapons/sceptre/HeartofResentment_s.png",
+          "IconTextureLarge": "gui/icons/items/weapons/sceptre/HeartofResentment_l.png",
+          "PencilSketchTexture": "",
+          "InspectOnUseButton": [],
+          "IsPlaceholder": "false"
+        },
+        {
+          "$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
+          "EquipmentType": "Sceptre",
+          "EquipmentSlot": "SecondaryWeaponOnly",
+          "AppearancePiece": {
+            "ModelVisualDataPath": "prefabs/lax02/appearance/weapons/sceptre/a_lax02_sceptre200_v01.asset"
+          },
+          "ItemModsIDs": [
+            "769ded43-4997-442b-8dee-028127ee13f2",
+            "9691785d-0207-492a-9c88-47f9a86db8af"
+          ],
+          "OnEquipVisualEffects": [],
+          "RestrictedToClassIDs": [],
+          "RestrictedToPlayer": "false",
+          "EquipConditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ProficientAbilityID": "dddf5fe6-108c-4d96-a891-b0517354c695",
+          "CannotUnequip": "false",
+          "ItemRendererPrefab": "prefabs/itemrenderers/genericitemrenderer.prefab",
+          "ItemModel": "art/character/weapons/sceptre/sceptre01/w_sceptre01.fbx",
+          "AnimationController": "",
+          "PaperdollOverrideRenderer": "",
+          "AttackSummonID": "00000000-0000-0000-0000-000000000000",
+          "CannotSheathe": "false",
+          "PropVisualEffects": []
+        },
+        {
+          "$type": "Game.GameData.WeaponComponent, Assembly-CSharp",
+          "Stance": "OneHanded",
+          "AnimationStanceID": "42de436a-5f52-4bc5-8310-076eb320abc4",
+          "StatusEffectsOnLaunchIDs": [],
+          "IsDisplayedWhenAlternate": "true",
+          "IsUniversalType": "false",
+          "AttackID": "048d1d11-8996-4a9f-b23c-6fe96d6ee2c5",
+          "NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+          "ForceBackScabbard": "false",
+          "ScabbardAppearancePiece": {
+            "ModelVisualDataPath": ""
+          },
+          "ScabbardRendererPrefab": "",
+          "ScabbardModel": "",
+          "AudioEventListID": "00000000-0000-0000-0000-000000000000"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.EquippableGameData, Assembly-CSharp",
+      "DebugName": "Torn_Dress",
+      "ID": "1e446536-df4c-4390-a7d3-e61346bf1346",
+      "Components": [
+        {
+          "$type": "Game.GameData.ItemComponent, Assembly-CSharp",
+          "DisplayName": 17135,
+          "DescriptionText": 17136,
+          "FilterType": "Armor",
+          "InventoryAudioEventListID": "50b61346-2a8e-4595-a76f-85c497adab02",
+          "IsQuestItem": "false",
+          "IsIngredient": "false",
+          "IsCurrency": "false",
+          "IsAdventuringItem": "false",
+          "CanSellForFullValue": "false",
+          "MaxStackSize": 1,
+          "NeverDropAsLoot": "true",
+          "CanBePickpocketed": "true",
+          "IsUnique": "false",
+          "Value": 0,
+          "IconTextureSmall": "gui/icons/items/ingredients/TornDress_s.png",
+          "IconTextureLarge": "gui/icons/items/ingredients/TornDress_l.png",
+          "PencilSketchTexture": "",
+          "InspectOnUseButton": [],
+          "IsPlaceholder": "false"
+        },
+        {
+          "$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
+          "EquipmentType": "None",
+          "EquipmentSlot": "Armor",
+          "AppearancePiece": {
+            "ModelVisualDataPath": ""
+          },
+          "ItemModsIDs": [
+            "8e7c1120-8926-45ab-b8c6-9eb64c564349"
+          ],
+          "OnEquipVisualEffects": [],
+          "RestrictedToClassIDs": [],
+          "RestrictedToPlayer": "false",
+          "ProficientAbilityID": "00000000-0000-0000-0000-000000000000",
+          "CannotUnequip": "false",
+          "ItemRendererPrefab": "",
+          "ItemModel": "",
+          "AnimationController": "",
+          "PaperdollOverrideRenderer": "",
+          "AttackSummonID": "00000000-0000-0000-0000-000000000000",
+          "CannotSheathe": "false",
+          "PropVisualEffects": []
+        },
+        {
+          "$type": "Game.GameData.ArmorComponent, Assembly-CSharp",
+          "ArmorRating": 7,
+          "SpeedFactor": 0.75,
+          "ArmorCategory": "Medium",
+          "ArmorMaterial": "None",
+          "LevelScaling": {
+            "BaseLevel": 8,
+            "LevelIncrement": 4,
+            "MaxLevel": 20,
+            "ArmorRatingAdjustment": 1
+          },
+          "OverridePierceRating": -1,
+          "OverrideSlashRating": -1,
+          "OverrideCrushRating": -1,
+          "OverrideBurnRating": 11,
+          "OverrideFreezeRating": -1,
+          "OverrideShockRating": 3,
+          "OverrideCorrodeRating": -1,
+          "ImmunityPierce": "false",
+          "ImmunitySlash": "false",
+          "ImmunityCrush": "false",
+          "ImmunityBurn": "false",
+          "ImmunityFreeze": "false",
+          "ImmunityShock": "false",
+          "ImmunityCorrode": "false"
+        }
+      ]
+    },
+    {

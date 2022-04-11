@@ -1,0 +1,18 @@
+{
+  "Title": {
+    "en": "The New Class Project"
+  },
+  "ModVersion": "1.9",
+  "Url": null,
+  "SupportedGameVersion": {
+    "Min": "3.0.0",
+    "Max": "5.1.0"
+  },
+  "Description": {
+    "en": "Changes spells and class resources to reset on rest instead of after each encounter."
+  },
+  "ContentType": 0,
+  "SteamItemID": 2069852198,
+  "Author": "Occhi",
+  "DefaultVisibility": 2
+}

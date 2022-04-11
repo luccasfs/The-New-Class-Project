@@ -1,0 +1,271 @@
+{
+	"GameDataObjects": [
+	{
+		"$type": "Game.GameData.ModalGroupGameData, Assembly-CSharp",
+		"DebugName": "MG_Ranger_Aim",
+		"ID": "46ab2074-64f0-4a82-8a27-11118ce74abb",
+		"Components": [{
+			"$type": "Game.GameData.ModalGroupComponent, Assembly-CSharp",
+			"DisplayName": 406002458,//changed by Arma
+			"MustBeActive": "false"
+		}]
+	},
+	{
+		"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+		"DebugName": "Ranger_Stances",
+		"ID": "7a404b64-3e73-4f8f-985d-000000000000",
+		"Components": [{
+			"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+			"KeywordsIDs": [],
+			"DisplayName": 1327013,
+			"Description": 1327014,
+			"UpgradeDescriptions": [],
+			"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+			"Vocalization": "NoVocalization",
+			"Icon": "gui/icons/abilities/chanter/sure_handed_ila.png",
+			"UsageType": "None",
+			"UsageValue": 0,
+			"AbilityClassID": "1718929c-1faf-4292-b82c-7e2a7c20b3ab",
+			"AbilityLevel": 2,
+			"IsPassive": "false",
+			"StackingRuleOverride": "Default",
+			"TriggerOnHit": "false",
+			"IsModal": "false",
+			"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+			"IsCombatOnly": "false",
+			"IsNonCombatOnly": "false",
+			"HideFromUI": "true",
+			"HideFromCombatLog": "true",
+			"UniqueSet": "None",
+			"NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+			"DurationOverride": 0,
+			"OverrideEmpower": "Default",
+			"ClearsOnMovement": "false",
+			"CannotActivateWhileInStealth": "false",
+			"CannotActivateWhileInvisible": "false",
+			"ActivationPrerequisites": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				}
+			},
+			"ApplicationPrerequisites": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				}
+			},
+			"DeactivationPrerequisites": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				}
+			},
+			"PowerLevelScaling": {
+				"BaseLevel": 0,
+				"LevelIncrement": 1,
+				"MaxLevel": 0,
+				"DamageAdjustment": 1,
+				"DurationAdjustment": 1,
+				"BounceCountAdjustment": 0,
+				"ProjectileCountAdjustment": 0,
+				"AccuracyAdjustment": 0,
+				"PenetrationAdjustment": 0
+			},
+			"StatusEffectKeywordsIDs": [],
+			"StatusEffectsIDs": [],
+			"VisualEffects": [],
+			"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+			"AttackID": "00000000-0000-0000-0000-000000000000",
+			"AITargetingConditional": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				},
+				"Scripts": []
+			},
+			"AudioEventListID": "00000000-0000-0000-0000-000000000000"
+		},
+		{
+			"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+		}]
+	},
+	{
+		"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+		"DebugName": "Swift_Aim",
+		"ID": "7a404b64-3e73-4f8f-985d-000000000001",
+		"Components": [{
+			"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+			"KeywordsIDs": [],
+			"DisplayName": 1327015,
+			"Description": 1327016,
+			"UpgradeDescriptions": [],
+			"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+			"Vocalization": "NoVocalization",
+			"Icon": "gui/icons/abilities/ranger/swift_aim.png",
+			"UsageType": "None",
+			"UsageValue": 0,
+			"AbilityClassID": "1718929c-1faf-4292-b82c-7e2a7c20b3ab",
+			"AbilityLevel": 2,
+			"IsPassive": "false",
+			"StackingRuleOverride": "Always",
+			"TriggerOnHit": "false",
+			"IsModal": "true",
+			"ModalGroupID": "46ab2074-64f0-4a82-8a27-11118ce74abb",
+			"IsCombatOnly": "false",
+			"IsNonCombatOnly": "false",
+			"HideFromUI": "false",
+			"HideFromCombatLog": "false",
+			"UniqueSet": "None",
+			"NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+			"DurationOverride": 0,
+			"OverrideEmpower": "Default",
+			"ClearsOnMovement": "false",
+			"CannotActivateWhileInStealth": "false",
+			"CannotActivateWhileInvisible": "false",
+			"ActivationPrerequisites": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				}
+			},
+			"ApplicationPrerequisites": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				}
+			},
+			"DeactivationPrerequisites": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				}
+			},
+			"PowerLevelScaling": {
+				"BaseLevel": 0,
+				"LevelIncrement": 1,
+				"MaxLevel": 0,
+				"DamageAdjustment": 1,
+				"DurationAdjustment": 1,
+				"BounceCountAdjustment": 0,
+				"ProjectileCountAdjustment": 0,
+				"AccuracyAdjustment": 0,
+				"PenetrationAdjustment": 0
+			},
+			"StatusEffectKeywordsIDs": [],
+			"StatusEffectsIDs": ["1b3ff7d4-b71e-42ed-b265-4cceda221234", "64fd55f4-fe6c-4b0b-9d93-dd51f3fe1234", "298c2786-f142-4845-abd1-000000000002"],
+			"VisualEffects": [{
+				"VisualEffect": "prefabs/effects/abilities/fighter/fx_cleaving_stance_activate.prefab",
+				"AttachPoint": "Root",
+				"AttachObject": "Caster",
+				"AttachMode": "Attach",
+				"MeshType": "None",
+				"Event": "OnActivate"
+			}],
+			"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+			"AttackID": "00000000-0000-0000-0000-000000000000",
+			"AITargetingConditional": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				},
+				"Scripts": []
+			},
+			"AudioEventListID": "eb29f135-9ed6-412e-b776-06f7bfce50a5"
+		},
+		{
+			"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+		}]
+	},
+	{
+		"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+		"DebugName": "Vicious_Aim",
+		"ID": "7a404b64-3e73-4f8f-985d-000000000002",
+		"Components": [{
+			"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+			"KeywordsIDs": [],
+			"DisplayName": 1327017,
+			"Description": 1327018,
+			"UpgradeDescriptions": [],
+			"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+			"Vocalization": "NoVocalization",
+			"Icon": "gui/icons/abilities/ranger/vicious_aim.png",
+			"UsageType": "None",
+			"UsageValue": 0,
+			"AbilityClassID": "1718929c-1faf-4292-b82c-7e2a7c20b3ab",
+			"AbilityLevel": 2,
+			"IsPassive": "false",
+			"StackingRuleOverride": "Always",
+			"TriggerOnHit": "false",
+			"IsModal": "true",
+			"ModalGroupID": "46ab2074-64f0-4a82-8a27-11118ce74abb",
+			"IsCombatOnly": "false",
+			"IsNonCombatOnly": "false",
+			"HideFromUI": "false",
+			"HideFromCombatLog": "false",
+			"UniqueSet": "None",
+			"NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+			"DurationOverride": 0,
+			"OverrideEmpower": "Default",
+			"ClearsOnMovement": "false",
+			"CannotActivateWhileInStealth": "false",
+			"CannotActivateWhileInvisible": "false",
+			"ActivationPrerequisites": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				}
+			},
+			"ApplicationPrerequisites": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				}
+			},
+			"DeactivationPrerequisites": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				}
+			},
+			"PowerLevelScaling": {
+				"BaseLevel": 0,
+				"LevelIncrement": 1,
+				"MaxLevel": 0,
+				"DamageAdjustment": 1,
+				"DurationAdjustment": 1,
+				"BounceCountAdjustment": 0,
+				"ProjectileCountAdjustment": 0,
+				"AccuracyAdjustment": 0,
+				"PenetrationAdjustment": 0
+			},
+			"StatusEffectKeywordsIDs": [],
+			"StatusEffectsIDs": ["64fd55f4-fe6c-4b0b-9d93-dd51f3fe1235",
+			"63984981-3e8a-4913-a001-000000000002",
+			"a199095e-b779-4b7a-a0d7-bb2c16151234",
+			"1b3ff7d4-b71e-42ed-b265-4cceda221235"],
+			"VisualEffects": [{
+				"VisualEffect": "prefabs/effects/abilities/fighter/fx_cleaving_stance_activate.prefab",
+				"AttachPoint": "Root",
+				"AttachObject": "Caster",
+				"AttachMode": "Attach",
+				"MeshType": "None",
+				"Event": "OnActivate"
+			}],
+			"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+			"AttackID": "00000000-0000-0000-0000-000000000000",
+			"AITargetingConditional": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				},
+				"Scripts": []
+			},
+			"AudioEventListID": "eb29f135-9ed6-412e-b776-06f7bfce50a5"
+		},
+		{
+			"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+		}]
+	}
+	]
+}

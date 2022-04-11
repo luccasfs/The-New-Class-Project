@@ -1,0 +1,43 @@
+{
+   "GameDataObjects": [
+      {
+         "$type": "Game.GameData.DeityGameData, Assembly-CSharp",
+         "DebugName": "Hylea",
+         "ID": "666b6138-843a-11e8-adc0-fa7ae01bbebc",
+         "Components": [
+            {
+               "$type": "Game.GameData.DeityComponent, Assembly-CSharp",
+               "DisplayName": 16503,
+               "PositiveDispositionsIDs": [
+                  "6d4a08e8-3b00-4abc-b786-ec051f0f3b8a",
+                  "198aeee0-7438-464c-9f40-0dc98fd6ecb4"
+               ],
+               "NegativeDispositionsIDs": [
+                  "3e042480-1ef8-4cc9-8f65-99214dbcd78f",
+                  "c7d9588c-bc62-4c0c-a2e3-76a970e7b7d4"
+               ]
+            }
+         ]
+      },
+      {
+         "$type": "Game.GameData.PriestSubClassGameData, Assembly-CSharp",
+         "DebugName": "Priest_Hylea",
+         "ID": "7851f8b2-843a-11e8-adc0-fa7ae01bbebc",
+         "Components": [
+            {
+               "$type": "Game.GameData.CharacterSubClassComponent, Assembly-CSharp",
+               "DisplayName": 16500,
+               "SummaryText": 226,
+               "DescriptionText": 16501,
+               "ForClassID": "f7cb46af-a719-41c0-9a53-107eefdbce2b",
+               "HideInCharacterCreation": "false",
+               "BonusFirstLevelProficiencies": 0,
+               "MaximumProficiencies": -1
+            },
+            {
+               "$type": "Game.GameData.PriestSubClassComponent, Assembly-CSharp",
+               "DeityID": "666b6138-843a-11e8-adc0-fa7ae01bbebc"
+            }
+         ]
+      },
+      {

@@ -1,0 +1,43 @@
+{
+   "GameDataObjects": [
+      {
+         "$type": "Game.GameData.DeityGameData, Assembly-CSharp",
+         "DebugName": "Ondra",
+         "ID": "194b4a0c-85da-11e8-adc0-fa7ae01bbebc",
+         "Components": [
+            {
+               "$type": "Game.GameData.DeityComponent, Assembly-CSharp",
+               "DisplayName": 15603,
+               "PositiveDispositionsIDs": [
+                  "3e042480-1ef8-4cc9-8f65-99214dbcd78f",
+                  "198aeee0-7438-464c-9f40-0dc98fd6ecb4"
+               ],
+               "NegativeDispositionsIDs": [
+                  "7b8fd294-6d81-4ec1-84dc-569089b10841",
+                  "44a0b784-be8a-422f-b9d6-592da03d8b46"
+               ]
+            }
+         ]
+      },
+      {
+         "$type": "Game.GameData.PriestSubClassGameData, Assembly-CSharp",
+         "DebugName": "Priest_Ondra",
+         "ID": "3804ddfa-85da-11e8-adc0-fa7ae01bbebc",
+         "Components": [
+            {
+               "$type": "Game.GameData.CharacterSubClassComponent, Assembly-CSharp",
+               "DisplayName": 15600,
+               "SummaryText": 230,
+               "DescriptionText": 15601,
+               "ForClassID": "f7cb46af-a719-41c0-9a53-107eefdbce2b",
+               "HideInCharacterCreation": "false",
+               "BonusFirstLevelProficiencies": 0,
+               "MaximumProficiencies": -1
+            },
+            {
+               "$type": "Game.GameData.PriestSubClassComponent, Assembly-CSharp",
+               "DeityID": "194b4a0c-85da-11e8-adc0-fa7ae01bbebc"
+            }
+         ]
+      },
+      {

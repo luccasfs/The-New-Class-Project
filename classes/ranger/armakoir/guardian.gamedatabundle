@@ -1,0 +1,906 @@
+﻿{
+    "GameDataObjects": [
+        {
+			"$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+			"DebugName": "SE_Guardian_Recovery_Penalty",
+			"ID": "dc1194b7-799d-4765-bbab-b8047e078f17",
+			"Components": [{
+				"$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+				"AfflictionTypeValueID": "00000000-0000-0000-0000-000000000000",
+				"ApplicationBehavior": "UseLongerDurationIfAlreadyApplied",
+				"ApplicationPrerequisites": {
+					"Conditional": {
+						"Components": [],
+						"Operator": 0
+					}
+				},
+				"ApplicationType": "ApplyOnStart",
+				"AttackFilter": {
+					"AttackHostility": "Default",
+					"ChanceToApply": 1,
+					"ClassTypeID": "00000000-0000-0000-0000-000000000000",
+					"DefendedBy": "None",
+					"Disengagement": "false",
+					"Empowered": "false",
+					"KeywordLogic": "Or",
+					"KeywordsIDs": [],
+					"PowerLevel": 0,
+					"PowerLevelOperator": "EqualTo",
+					"Range": "None",
+					"Source": "None",
+					"Stealthed": "false",
+					"UseStealthLinger": "false"
+				},
+				"AttackHitType": "None",
+				"AttackOverrideValue": "None",
+				"AttackTargetFilter": {
+					"Distance": 0,
+					"DistanceOperator": "EqualTo",
+					"HasDOT": "false",
+					"HealthOperator": "EqualTo",
+					"HealthPercentage": 0,
+					"IsKith": "false",
+					"IsMarked": "false",
+					"KeywordLogic": "Or",
+					"KeywordsIDs": [],
+					"Race": "None",
+					"TargetHostility": "Default"
+				},
+				"AttackValueID": "00000000-0000-0000-0000-000000000000",
+				"AudioEventListID": "00000000-0000-0000-0000-000000000000",
+				"BaseValue": 1.2,
+				"BedRestDaysMaximum": 0,
+				"BedRestDaysMinimum": 0,
+				"ClassValueID": "00000000-0000-0000-0000-000000000000",
+				"ClearOnCombatEnd": "false",
+				"ClearOnDeath": "false",
+				"ClearOnFoodRest": "false",
+				"ClearOnRest": "false",
+				"ClearWhenAttacks": "false",
+				"DamageTypeValue": "All",
+				"Duration": 0,
+				"DurationType": "Infinite",
+				"DynamicValue": {
+					"ClassID": "00000000-0000-0000-0000-000000000000",
+					"MultiplyBy": 1,
+					"Operator": "Add",
+					"SkillDataID": "00000000-0000-0000-0000-000000000000",
+					"Stat": "None"
+				},
+				"EventValue": "OnApply",
+				"ExtraValue": 0,
+				"HideFromCombatLog": "false",
+				"HideFromCombatTooltip": "true",
+				"HideFromUI": "false",
+				"IntervalRateID": "00000000-0000-0000-0000-000000000000",
+				"IsHostile": "false",
+				"ItemValueID": "00000000-0000-0000-0000-000000000000",
+				"KeywordValueID": "00000000-0000-0000-0000-000000000000",
+				"KeywordsIDs": [],
+				"MaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+				"MaxStackQuantity": 0,
+				"OverrideDescriptionString": -1,
+				"OverridePenetration": 0,
+				"PowerLevelScaling": {
+					"BaseLevel": 0,
+					"DurationAdjustment": 0,
+					"LevelIncrement": 1,
+					"MaxLevel": 0,
+					"UseCharacterLevel": "false",
+					"ValueAdjustment": 0
+				},
+				"RaceValue": "None",
+				"SkillValueID": "00000000-0000-0000-0000-000000000000",
+				"StackedChildrenApplyEffects": "false",
+				"StatusEffectType": "RecoveryTimeMultiplier",
+				"StatusEffectTypeValue": "None",
+				"StatusEffectsValueIDs": [],
+				"TriggerAdjustment": {
+					"ChanceToTrigger": 1,
+					"DurationAdjustment": 0,
+					"IgnoreMaxTriggerCount": "false",
+					"MaxTriggerCount": 0,
+					"ParamValue": 0,
+					"RemoveEffectAtMax": "false",
+					"ResetTriggerOnEffectTimeout": "false",
+					"TriggerOffEvent": "None",
+					"TriggerOnEvent": "None",
+					"ValidateWithAttackFilter": "false",
+					"ValueAdjustment": 0
+				},
+					"UseStatusEffectValueAs": "None",
+					"VisualEffects": [],
+					"WeaponTypeValue": "None"
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Vile_Thorns_Guardian",
+			"ID": "ac271a35-3f75-44b1-ab2d-f974c1000f63",
+			"Components": [{
+                "$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+                "AITargetingConditional": {
+                    "Conditional": {
+                        "Components": [],
+                        "Operator": 0
+                    },
+                    "Scripts": []
+                },
+                "AbilityClassID": "1718929c-1faf-4292-b82c-7e2a7c20b3ab",
+                "AbilityLevel": 1,
+                "ActivationPrerequisites": {
+                    "Conditional": {
+                        "Components": [],
+                        "Operator": 0
+                    }
+                },
+                "ApplicationPrerequisites": {
+                    "Conditional": {
+                        "Components": [],
+                        "Operator": 0
+                    }
+                },
+                "AttackID": "664d3cfb-3b94-4486-8152-af75c2df2f4e",
+                "AudioEventListID": "32ab813d-b0c1-482e-974c-1a52161dab0e",
+                "CannotActivateWhileInStealth": "false",
+                "CannotActivateWhileInvisible": "false",
+                "ClearsOnMovement": "false",
+                "DeactivationPrerequisites": {
+                    "Conditional": {
+                        "Components": [],
+                        "Operator": 0
+                    }
+                },
+                "Description": 517,
+                "DisplayName": 516,
+                "DurationOverride": 0,
+                "HideFromCombatLog": "false",
+                "HideFromUI": "false",
+                "Icon": "gui/icons/abilities/druid/vile_thorns.png",
+                "IsCombatOnly": "false",
+                "IsModal": "false",
+                "IsNonCombatOnly": "false",
+                "IsPassive": "false",
+                "KeywordsIDs": ["504782eb-f943-42a1-93dc-cbec74d42c66"],
+                "ModalGroupID": "00000000-0000-0000-0000-000000000000",
+                "NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
+                "OverrideEmpower": "Default",
+                "PowerLevelScaling": {
+                    "AccuracyAdjustment": 0,
+                    "BaseLevel": 0,
+                    "BounceCountAdjustment": 0,
+                    "DamageAdjustment": 1,
+                    "DurationAdjustment": 1,
+                    "LevelIncrement": 1,
+                    "MaxLevel": 0,
+                    "PenetrationAdjustment": 0,
+                    "ProjectileCountAdjustment": 0,
+                    "ScalingType": "Default"
+                },
+                "SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+                "StackingRuleOverride": "Default",
+                "StatusEffectKeywordsIDs": [],
+                "StatusEffectsIDs": [],
+                "TriggerOnHit": "false",
+                "UniqueSet": "None",
+                "UpgradeDescriptions": [],
+                "UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+                "UsageType": "ClassPowerPool",
+                "UsageValue": 1,
+                "VisualEffects": [],
+                "Vocalization": "GenericSpellCast5"
+            }, {
+                "$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+                }
+			]
+		},  {
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Hold_Beasts_Guardian",
+			"ID": "9a9cf9ff-d6a2-4aa2-9d0c-1f26bbf1a7bd",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "1718929c-1faf-4292-b82c-7e2a7c20b3ab",
+					"AbilityLevel": 2,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "2a2101b6-9029-4f4b-949e-6753a830be26",
+					"AudioEventListID": "c180950a-6d40-4c49-a9d0-ae313e817d1b",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 525,
+					"DisplayName": 524,
+					"DurationOverride": 0,
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/druid/hold_beast.png",
+					"IsCombatOnly": "false",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "false",
+					"KeywordsIDs": ["7905202d-358e-4ca7-ba17-acfed0718a02"],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Default"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": [],
+					"StatusEffectsIDs": [],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+					"UsageType": "ClassPowerPool",
+					"UsageValue": 1,
+					"VisualEffects": [],
+					"Vocalization": "GenericSpellCast5"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		},  {
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Woodskin_Guardian",
+			"ID": "454d1a7e-bbfa-48c2-b226-8a1c273f2567",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "1718929c-1faf-4292-b82c-7e2a7c20b3ab",
+					"AbilityLevel": 3,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "559ac955-9b44-4b03-947b-e3773de1f7b9",
+					"AudioEventListID": "eb01ce77-5722-4333-bcde-326f4106971f",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 827,
+					"DisplayName": 81,
+					"DurationOverride": 0,
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/druid/woodskin.png",
+					"IsCombatOnly": "true",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "false",
+					"KeywordsIDs": ["504782eb-f943-42a1-93dc-cbec74d42c66"],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Default"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": [],
+					"StatusEffectsIDs": [],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+					"UsageType": "ClassPowerPool",
+					"UsageValue": 1,
+					"VisualEffects": [],
+					"Vocalization": "GenericSpellCast2"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		},  {
+            "$type": "Game.GameData.WeaponAttackAbilityGameData, Assembly-CSharp",
+			"DebugName": "Taste_of_the_Hunt_Guardian",
+			"ID": "ba23d872-9fc9-4a18-8615-2268716aca29",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "1718929c-1faf-4292-b82c-7e2a7c20b3ab",
+					"AbilityLevel": 4,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "00000000-0000-0000-0000-000000000000",
+					"AudioEventListID": "513ca2c8-1d11-4d7c-ae80-a27c21ad8ec2",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 826,
+					"DisplayName": 526,
+					"DurationOverride": 0,
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/druid/taste_of_the_hunt.png",
+					"IsCombatOnly": "false",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "false",
+					"KeywordsIDs": ["2f013adc-8e9d-480a-bc65-ba1c7b66dc6c"],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Default"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": [],
+					"StatusEffectsIDs": ["bb957ff7-2a7b-4f20-a148-3d3c36e5b02a"],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+					"UsageType": "ClassPowerPool",
+					"UsageValue": 2,
+					"VisualEffects": [],
+					"Vocalization": "GenericSpellCast3"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}, {
+					"$type": "Game.GameData.WeaponAttackAbilityComponent, Assembly-CSharp",
+					"AfflictionsDefendedBy": "Count",
+					"AttackKeywordsIDs": ["2f013adc-8e9d-480a-bc65-ba1c7b66dc6c"],
+					"AttackStatusEffectsIDs": ["3882b054-57be-496d-94fe-d8a026f30c8f"],
+					"AttackVariationID": "00000000-0000-0000-0000-000000000000",
+					"AttackVisualEffects": [{
+							"AnimEventID": 0,
+							"AttachMode": "PositionFaceSource",
+							"AttachObject": "Target",
+							"AttachPoint": "Chest",
+							"Event": "OnHit",
+							"Loop": "false",
+							"MeshType": "None",
+							"Scale": "false",
+							"VisualEffect": "prefabs/effects/abilities/druid/fx_taste_of_the_hunt.prefab"
+						}, {
+							"AnimEventID": 0,
+							"AttachMode": "Attach",
+							"AttachObject": "Caster",
+							"AttachPoint": "LeftWeapon",
+							"Event": "OnAnimEvent",
+							"Loop": "true",
+							"MeshType": "None",
+							"Scale": "false",
+							"VisualEffect": "prefabs/effects/abilities/cast/fx_cast_druid_left_arm.prefab"
+						}, {
+							"AnimEventID": 0,
+							"AttachMode": "Attach",
+							"AttachObject": "Caster",
+							"AttachPoint": "RightWeapon",
+							"Event": "OnAnimEvent",
+							"Loop": "true",
+							"MeshType": "None",
+							"Scale": "false",
+							"VisualEffect": "prefabs/effects/abilities/cast/fx_cast_druid_right_arm.prefab"
+						}, {
+							"AnimEventID": 0,
+							"AttachMode": "Attach",
+							"AttachObject": "Caster",
+							"AttachPoint": "RightWeapon",
+							"Event": "OnLaunch",
+							"Loop": "false",
+							"MeshType": "None",
+							"Scale": "false",
+							"VisualEffect": "prefabs/effects/abilities/cast/fx_cast_druid_finish.prefab"
+						}, {
+							"AnimEventID": 0,
+							"AttachMode": "Attach",
+							"AttachObject": "Caster",
+							"AttachPoint": "LeftWeapon",
+							"Event": "OnLaunch",
+							"Loop": "false",
+							"MeshType": "None",
+							"Scale": "false",
+							"VisualEffect": "prefabs/effects/abilities/cast/fx_cast_druid_finish.prefab"
+						}
+					],
+					"BonusAccuracy": 0,
+					"BonusDamageMultiplier": 1,
+					"BonusPenetration": 0,
+					"BonusPushDistance": 0,
+					"DefendedBy": "Count",
+					"InterruptType": "Normal",
+					"InterruptsOn": "None",
+					"Range": "Melee",
+					"RecoveryTimeID": "00000000-0000-0000-0000-000000000000",
+					"Type": "Primary"
+				}
+			]
+		},  {
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Wicked_Briars_Guardian",
+			"ID": "4e13236e-e68e-44c8-a3f8-9c23c29a336c",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "1718929c-1faf-4292-b82c-7e2a7c20b3ab",
+					"AbilityLevel": 5,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "d5fe8569-1ccb-4a56-8039-f475496c877e",
+					"AudioEventListID": "c89e5fc6-f870-4468-9941-e30de169ac78",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 832,
+					"DisplayName": 544,
+					"DurationOverride": 0,
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/druid/wicked_brairs.png",
+					"IsCombatOnly": "false",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "false",
+					"KeywordsIDs": ["0ccf0af6-8870-4798-ae79-30ac5318f42e", "504782eb-f943-42a1-93dc-cbec74d42c66"],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Default"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": [],
+					"StatusEffectsIDs": [],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+					"UsageType": "ClassPowerPool",
+					"UsageValue": 2,
+					"VisualEffects": [],
+					"Vocalization": "GenericSpellCast5"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		},  {
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Form_of_the_Delemgan_Guardian",
+			"ID": "d2bf9728-deb7-4552-94cb-b14ff33a3215",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "1718929c-1faf-4292-b82c-7e2a7c20b3ab",
+					"AbilityLevel": 6,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "b118400f-0aa1-4601-973b-aac1de53df75",
+					"AudioEventListID": "a18f9924-37ec-45b0-96c2-e294f41922f2",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 1739,
+					"DisplayName": 1616,
+					"DurationOverride": 0,
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/druid/form_of_the_delemgan.png",
+					"IsCombatOnly": "true",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "false",
+					"KeywordsIDs": ["7905202d-358e-4ca7-ba17-acfed0718a02"],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Default"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": [],
+					"StatusEffectsIDs": [],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+					"UsageType": "ClassPowerPool",
+					"UsageValue": 2,
+					"VisualEffects": [],
+					"Vocalization": "GenericSpellCast2"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		},   {
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Garden_of_Life_Guardian",
+			"ID": "e588ce3e-49b8-467d-9214-28ce1e72b732",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "1718929c-1faf-4292-b82c-7e2a7c20b3ab",
+					"AbilityLevel": 7,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "d9b517a3-9940-4b0e-85ba-e002eb5ec002",
+					"AudioEventListID": "61922e1f-529b-4d2f-8947-6cdb17d18dba",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 558,
+					"DisplayName": 557,
+					"DurationOverride": 0,
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/druid/garden_of_life.png",
+					"IsCombatOnly": "true",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "false",
+					"KeywordsIDs": ["504782eb-f943-42a1-93dc-cbec74d42c66"],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Default"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": [],
+					"StatusEffectsIDs": [],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+					"UsageType": "ClassPowerPool",
+					"UsageValue": 2,
+					"VisualEffects": [],
+					"Vocalization": "GenericSpellCast2"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		},  {
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Rusted_Armor_Guardian",
+			"ID": "21ca445a-1745-4850-8992-2021d4870599",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "1718929c-1faf-4292-b82c-7e2a7c20b3ab",
+					"AbilityLevel": 8,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "e1d49ff2-525d-4510-b31f-b1b80c925246",
+					"AudioEventListID": "2787b466-2c66-4c92-92a8-17286e0eaaf0",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 2671,
+					"DisplayName": 2670,
+					"DurationOverride": 0,
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/druid/rusted_armor.png",
+					"IsCombatOnly": "false",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "false",
+					"KeywordsIDs": ["2f013adc-8e9d-480a-bc65-ba1c7b66dc6c"],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Default"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": [],
+					"StatusEffectsIDs": [],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+					"UsageType": "ClassPowerPool",
+					"UsageValue": 3,
+					"VisualEffects": [],
+					"Vocalization": "GenericSpellCast3"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		},  {
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Fire_Stag_Guardian",
+			"ID": "d0daade9-216e-4827-87cf-4da78690f940",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "1718929c-1faf-4292-b82c-7e2a7c20b3ab",
+					"AbilityLevel": 9,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "76827655-d365-43b6-8fa2-241b79d877b5",
+					"AudioEventListID": "8fbe2695-e8b0-4470-a453-e54544788464",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 1737,
+					"DisplayName": 1705,
+					"DurationOverride": 0,
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/druid/fire_stag.png",
+					"IsCombatOnly": "true",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "false",
+					"KeywordsIDs": ["7905202d-358e-4ca7-ba17-acfed0718a02", "f0dbb330-1b06-4175-8ce4-efe790b99213"],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Default"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": [],
+					"StatusEffectsIDs": [],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+					"UsageType": "ClassPowerPool",
+					"UsageValue": 3,
+					"VisualEffects": [],
+					"Vocalization": "GenericSpellCast1"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		}
+    ]
+}

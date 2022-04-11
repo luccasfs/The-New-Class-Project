@@ -1,0 +1,33 @@
+﻿{
+    "GameDataObjects": [
+        {
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+            "DebugName": "Armor_Expertise",
+            "ID": "d4e66694-b7d0-4c44-9629-000000000001",
+            "Components": [{
+                "$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+                "AbilityClassID": "00000000-0000-0000-0000-000000000000",
+                "AbilityLevel": 6
+                }
+            ]
+        },  {
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+            "DebugName": "Ranger_Stances",
+		    "ID": "7a404b64-3e73-4f8f-985d-000000000000",
+            "Components": [{
+                "$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+                "Icon": "gui/icons/abilities/talents/class_ranger.png"
+                }
+            ]
+        },  {
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+            "DebugName": "Vicious_Aim",
+		    "ID": "7a404b64-3e73-4f8f-985d-000000000002",
+            "Components": [{
+                "$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+                "Icon": "gui/icons/abilities/chanter/sure_handed_ila.png"
+                }
+            ]
+        }
+    ]
+}

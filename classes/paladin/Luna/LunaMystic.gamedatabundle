@@ -1,0 +1,43 @@
+{
+  "GameDataObjects": [
+    {
+      "$type": "Game.GameData.PaladinOrderGameData, Assembly-CSharp",
+      "DebugName": "Luna_Mystic_Knights",
+      "ID": "6969ed20-ebce-465b-8ed2-c1708362128d",
+      "Components": [
+        {
+          "$type": "Game.GameData.PaladinOrderComponent, Assembly-CSharp",
+          "DisplayName": 17111,
+          "PositiveDispositionsIDs": [
+            "44a0b784-be8a-422f-b9d6-592da03d8b46",
+            "7b8fd294-6d81-4ec1-84dc-569089b10841"
+          ],
+          "NegativeDispositionsIDs": [
+            "3e042480-1ef8-4cc9-8f65-99214dbcd78f",
+            "198aeee0-7438-464c-9f40-0dc98fd6ecb4"
+          ]
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.PaladinSubClassGameData, Assembly-CSharp",
+      "DebugName": "Paladin_Luna_Mystic",
+      "ID": "7064a0fa-9362-11e8-9eb6-529269fb1459",
+      "Components": [
+        {
+          "$type": "Game.GameData.CharacterSubClassComponent, Assembly-CSharp",
+          "DisplayName": 17112,
+          "SummaryText": 17114,
+          "DescriptionText": 17113,
+          "ForClassID": "f64b5a21-2dd1-41ae-8562-60ce099b25aa",
+          "HideInCharacterCreation": "false",
+          "BonusFirstLevelProficiencies": 0,
+          "MaximumProficiencies": -1
+        },
+        {
+          "$type": "Game.GameData.PaladinSubClassComponent, Assembly-CSharp",
+          "PaladinOrderID": "6969ed20-ebce-465b-8ed2-c1708362128d"
+        }
+      ]
+    },
+    {

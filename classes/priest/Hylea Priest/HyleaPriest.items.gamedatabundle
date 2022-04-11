@@ -1,0 +1,86 @@
+{
+  "GameDataObjects": [
+    {      
+      "$type": "Game.GameData.WeaponGameData, Assembly-CSharp",
+      "DebugName": "Priest_Spiritual_Weapon_Hylear_War_Bow",
+      "ID": "69f88222-6dc9-4627-b971-f481f9a9bebe",
+      "Components": [
+        {
+          "$type": "Game.GameData.ItemComponent, Assembly-CSharp",
+          "DisplayName": 16520,
+          "DescriptionText": 16521,
+          "FilterType": "Weapons",
+          "InventoryAudioEventListID": "6f9660a9-2695-4949-917b-707f0699d691",
+          "IsQuestItem": "false",
+          "IsIngredient": "false",
+          "IsCurrency": "false",
+          "IsAdventuringItem": "false",
+          "CanSellForFullValue": "false",
+          "MaxStackSize": 1,
+          "NeverDropAsLoot": "false",
+          "CanBePickpocketed": "true",
+          "IsUnique": "false",
+          "Value": 50,
+          "IconTextureSmall": "gui/icons/items/weapons/war_bow/war_bow_veilpiercer_s.png",
+          "IconTextureLarge": "gui/icons/items/weapons/war_bow/war_bow_veilpiercer_l.png",
+          "PencilSketchTexture": "",
+          "InspectOnUseButton": [],
+          "IsPlaceholder": "false"
+        },
+        {
+          "$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
+          "EquipmentType": "WarBow",
+          "EquipmentSlot": "BothPrimaryAndSecondary",
+          "AppearancePiece": {
+            "ModelVisualDataPath": "prefabs/items/appearance/weapons/war_bow/war_bow04/a_wb04_v02.asset"
+          },
+          "ItemModsIDs": [
+            "9691785d-0207-492a-9c88-47f9a86db8af",
+            "3bbfd198-5890-4666-a634-6fbaf537b33b",
+            "b1b78aaf-cc67-4a52-b74b-d30d1cf214a3"
+          ],
+          "OnEquipVisualEffects": [
+            {
+              "VisualEffect": "",
+              "AttachPoint": "Fx_Bone_01",
+              "EmissiveColor": {
+                "A": 1,
+                "R": 1,
+                "G": 1,
+                "B": 1
+              },
+              "EmissiveGlowScale": 1
+            }
+          ],
+          "RestrictedToClassIDs": [],
+          "RestrictedToPlayer": "false",
+          "ProficientAbilityID": "85ab8ebb-9085-4cf3-847a-45cd09f9e274",
+          "CannotUnequip": "false",
+          "ItemRendererPrefab": "prefabs/itemrenderers/genericanimateditemrenderer.prefab",
+          "ItemModel": "",
+          "AnimationController": "art/animation/animationcontrollers/weapon/w_warbow.controller",
+          "PaperdollOverrideRenderer": "",
+          "AttackSummonID": "00000000-0000-0000-0000-000000000000",
+          "CannotSheathe": "false",
+          "PropVisualEffects": []
+        },
+        {
+          "$type": "Game.GameData.WeaponComponent, Assembly-CSharp",
+          "Stance": "OneHanded",
+          "AnimationStanceID": "5b5de9fe-b31d-4136-8847-cd10ba51ff6d",
+          "StatusEffectsOnLaunchIDs": [],
+          "IsDisplayedWhenAlternate": "true",
+          "IsUniversalType": "false",
+          "AttackID": "5382e39c-88aa-11e8-9a94-a6cf71072f73",
+          "NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+          "ForceBackScabbard": "false",
+          "ScabbardAppearancePiece": {
+            "ModelVisualDataPath": ""
+          },
+          "ScabbardRendererPrefab": "",
+          "ScabbardModel": "",
+          "AudioEventListID": "00000000-0000-0000-0000-000000000000"
+        }
+      ]
+    },
+    {

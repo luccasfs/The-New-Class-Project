@@ -1,0 +1,43 @@
+{
+  "GameDataObjects": [
+    {
+      "$type": "Game.GameData.PaladinOrderGameData, Assembly-CSharp",
+      "DebugName": "Sol_Mystic_Knights",
+      "ID": "63cce5fa-b374-11e8-96f8-529269fb1459",
+      "Components": [
+        {
+          "$type": "Game.GameData.PaladinOrderComponent, Assembly-CSharp",
+          "DisplayName": 21111,
+          "PositiveDispositionsIDs": [
+            "6d4a08e8-3b00-4abc-b786-ec051f0f3b8a",
+            "72769293-63ad-4ace-a4c9-a0a21010e92f"
+          ],
+          "NegativeDispositionsIDs": [
+            "38b9f117-9c59-4c8b-a567-4877d93c247b",
+            "c7d9588c-bc62-4c0c-a2e3-76a970e7b7d4"
+          ]
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.PaladinSubClassGameData, Assembly-CSharp",
+      "DebugName": "Paladin_Sol_Mystic",
+      "ID": "696b36a6-b374-11e8-96f8-529269fb1459",
+      "Components": [
+        {
+          "$type": "Game.GameData.CharacterSubClassComponent, Assembly-CSharp",
+          "DisplayName": 21113,
+          "SummaryText": 21112,
+          "DescriptionText": 21115,
+          "ForClassID": "f64b5a21-2dd1-41ae-8562-60ce099b25aa",
+          "HideInCharacterCreation": "false",
+          "BonusFirstLevelProficiencies": 0,
+          "MaximumProficiencies": -1
+        },
+        {
+          "$type": "Game.GameData.PaladinSubClassComponent, Assembly-CSharp",
+          "PaladinOrderID": "63cce5fa-b374-11e8-96f8-529269fb1459"
+        }
+      ]
+    },
+    {

@@ -1,0 +1,1795 @@
+{
+	"GameDataObjects": [
+		{
+			"$type": "Game.GameData.EquippableGameData, Assembly-CSharp",
+			"DebugName": "Ring_of_Wizardry_7",
+			"ID": "e9d531ce-dcbb-4b21-8363-7bedadf12ce2",
+			"Components": [
+				{
+					"$type": "Game.GameData.ItemComponent, Assembly-CSharp",
+					"DisplayName": 6012,
+					"DescriptionText": 6013,
+					"DescriptionTextTactical": -1,
+					"FilterType": "Clothing",
+					"InventoryAudioEventListID": "c607cfb4-6130-4827-87f4-fac4c95a3e02",
+					"IsQuestItem": "false",
+					"IsIngredient": "false",
+					"IsCurrency": "false",
+					"IsAdventuringItem": "false",
+					"IsJunk": "false",
+					"CanSellForFullValue": "false",
+					"MaxStackSize": 1,
+					"NeverDropAsLoot": "false",
+					"CanBePickpocketed": "true",
+					"IsUnique": "false",
+					"Value": 128000,
+					"IconTextureSmall": "gui/icons/items/jewelry/sigil_of_the_arcane_s.png",
+					"IconTextureLarge": "gui/icons/items/jewelry/sigil_of_the_arcane_l.png",
+					"PencilSketchTexture": "",
+					"InspectOnUseButton": [],
+					"IsPlaceholder": "false"
+				},
+				{
+					"$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
+					"EquipmentType": "None",
+					"EquipmentSlot": "RingAnyHand",
+					"AppearancePiece": {
+						"ModelVisualDataPath": ""
+					},
+					"ItemModsIDs": [
+						"abcd1500-badd-4798-a429-9b86bf0bc890"
+					],
+					"OnEquipVisualEffects": [],
+					"RestrictedToClassIDs": [
+						"acfd1303-4699-4939-91eb-6ac46d4af0bd"
+					],
+					"RestrictedToPlayer": "false",
+					"EquipConditionals": {
+						"Operator": 0,
+						"Components": []
+					},
+					"ProficientAbilityID": "00000000-0000-0000-0000-000000000000",
+					"CannotUnequip": "false",
+					"ItemRendererPrefab": "",
+					"ItemModel": "",
+					"AnimationController": "",
+					"PaperdollOverrideRenderer": "",
+					"AttackSummonID": "00000000-0000-0000-0000-000000000000",
+					"CannotSheathe": "false",
+					"PropVisualEffects": []
+				}
+			]
+		},
+		{
+			"$type": "Game.GameData.EquippableGameData, Assembly-CSharp",
+			"DebugName": "Ring_of_Wizardry_8",
+			"ID": "e9d531ce-dcbb-4b21-8363-7bedadf12ce3",
+			"Components": [
+				{
+					"$type": "Game.GameData.ItemComponent, Assembly-CSharp",
+					"DisplayName": 6014,
+					"DescriptionText": 6015,
+					"DescriptionTextTactical": -1,
+					"FilterType": "Clothing",
+					"InventoryAudioEventListID": "c607cfb4-6130-4827-87f4-fac4c95a3e02",
+					"IsQuestItem": "false",
+					"IsIngredient": "false",
+					"IsCurrency": "false",
+					"IsAdventuringItem": "false",
+					"IsJunk": "false",
+					"CanSellForFullValue": "false",
+					"MaxStackSize": 1,
+					"NeverDropAsLoot": "false",
+					"CanBePickpocketed": "true",
+					"IsUnique": "false",
+					"Value": 256000,
+					"IconTextureSmall": "gui/icons/items/jewelry/sigil_of_the_arcane_s.png",
+					"IconTextureLarge": "gui/icons/items/jewelry/sigil_of_the_arcane_l.png",
+					"PencilSketchTexture": "",
+					"InspectOnUseButton": [],
+					"IsPlaceholder": "false"
+				},
+				{
+					"$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
+					"EquipmentType": "None",
+					"EquipmentSlot": "RingAnyHand",
+					"AppearancePiece": {
+						"ModelVisualDataPath": ""
+					},
+					"ItemModsIDs": [
+						"abcd1500-badd-4798-a429-9b86bf0bc891"
+					],
+					"OnEquipVisualEffects": [],
+					"RestrictedToClassIDs": [
+						"acfd1303-4699-4939-91eb-6ac46d4af0bd"
+					],
+					"RestrictedToPlayer": "false",
+					"EquipConditionals": {
+						"Operator": 0,
+						"Components": []
+					},
+					"ProficientAbilityID": "00000000-0000-0000-0000-000000000000",
+					"CannotUnequip": "false",
+					"ItemRendererPrefab": "",
+					"ItemModel": "",
+					"AnimationController": "",
+					"PaperdollOverrideRenderer": "",
+					"AttackSummonID": "00000000-0000-0000-0000-000000000000",
+					"CannotSheathe": "false",
+					"PropVisualEffects": []
+				}
+			]
+		},
+		{
+			"$type": "Game.GameData.EquippableGameData, Assembly-CSharp",
+			"DebugName": "Ring_of_Wizardry_9",
+			"ID": "e9d531ce-dcbb-4b21-8363-7bedadf12ce4",
+			"Components": [
+				{
+					"$type": "Game.GameData.ItemComponent, Assembly-CSharp",
+					"DisplayName": 6016,
+					"DescriptionText": 6017,
+					"DescriptionTextTactical": -1,
+					"FilterType": "Clothing",
+					"InventoryAudioEventListID": "c607cfb4-6130-4827-87f4-fac4c95a3e02",
+					"IsQuestItem": "false",
+					"IsIngredient": "false",
+					"IsCurrency": "false",
+					"IsAdventuringItem": "false",
+					"IsJunk": "false",
+					"CanSellForFullValue": "false",
+					"MaxStackSize": 1,
+					"NeverDropAsLoot": "false",
+					"CanBePickpocketed": "true",
+					"IsUnique": "false",
+					"Value": 512000,
+					"IconTextureSmall": "gui/icons/items/jewelry/sigil_of_the_arcane_s.png",
+					"IconTextureLarge": "gui/icons/items/jewelry/sigil_of_the_arcane_l.png",
+					"PencilSketchTexture": "",
+					"InspectOnUseButton": [],
+					"IsPlaceholder": "false"
+				},
+				{
+					"$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
+					"EquipmentType": "None",
+					"EquipmentSlot": "RingAnyHand",
+					"AppearancePiece": {
+						"ModelVisualDataPath": ""
+					},
+					"ItemModsIDs": [
+						"abcd1500-badd-4798-a429-9b86bf0bc892"
+					],
+					"OnEquipVisualEffects": [],
+					"RestrictedToClassIDs": [
+						"acfd1303-4699-4939-91eb-6ac46d4af0bd"
+					],
+					"RestrictedToPlayer": "false",
+					"EquipConditionals": {
+						"Operator": 0,
+						"Components": []
+					},
+					"ProficientAbilityID": "00000000-0000-0000-0000-000000000000",
+					"CannotUnequip": "false",
+					"ItemRendererPrefab": "",
+					"ItemModel": "",
+					"AnimationController": "",
+					"PaperdollOverrideRenderer": "",
+					"AttackSummonID": "00000000-0000-0000-0000-000000000000",
+					"CannotSheathe": "false",
+					"PropVisualEffects": []
+				}
+			]
+		},
+		{
+			"$type": "Game.GameData.ItemModGameData, Assembly-CSharp",
+			"DebugName": "Wizardry_VII",
+			"ID": "abcd1500-badd-4798-a429-9b86bf0bc890",
+			"Components": [
+				{
+					"$type": "Game.GameData.ItemModComponent, Assembly-CSharp",
+					"DisplayName": 6001,
+					"HideFromUI": "false",
+					"EnchantCategory": "Unique",
+					"Cost": 14,
+					"CursesItem": "false",
+					"DurabilityDamage": 0,
+					"StatusEffectsOnEquipIDs": [
+						"abcd1501-bade-4798-a429-9b86bf0bc897"
+					],
+					"StatusEffectsOnLaunchIDs": [],
+					"StatusEffectsOnAttackIDs": [],
+					"AbilityModsOnEquipIDs": [],
+					"OnEquipVisualEffects": [],
+					"DamageProcs": [],
+					"AbilitiesOnEquipIDs": []
+				}
+			]
+		},
+		{
+			"$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+			"DebugName": "wizardry_7_se_bonus7thspell",
+			"ID": "abcd1501-bade-4798-a429-9b86bf0bc897",
+			"Components": [
+				{
+					"$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+					"StatusEffectType": "SpellCastBonus",
+					"OverrideDescriptionString": -1,
+					"UseStatusEffectValueAs": "None",
+					"BaseValue": 1,
+					"DynamicValue": {
+						"Stat": "None",
+						"SkillDataID": "00000000-0000-0000-0000-000000000000",
+						"Class": "None",
+						"MultiplyBy": 1,
+						"Operator": "Add"
+					},
+					"KeywordsIDs": [],
+					"DurationType": "Infinite",
+					"Duration": 0,
+					"MaxStackQuantity": 0,
+					"ApplicationBehavior": "UseLongerDurationIfAlreadyApplied",
+					"ApplicationType": "ApplyOnStart",
+					"IntervalRateID": "00000000-0000-0000-0000-000000000000",
+					"StackedChildrenApplyEffects": "false",
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Operator": 0,
+							"Components": []
+						}
+					},
+					"TriggerAdjustment": {
+						"TriggerOnEvent": "None",
+						"TriggerOffEvent": "None",
+						"ValidateWithAttackFilter": "false",
+						"ParamValue": 0,
+						"ValueAdjustment": 0,
+						"DurationAdjustment": 0,
+						"ResetTriggerOnEffectTimeout": "false",
+						"MaxTriggerCount": 0,
+						"IgnoreMaxTriggerCount": "false",
+						"RemoveEffectAtMax": "false",
+						"ChanceToTrigger": 1
+					},
+					"PowerLevelScaling": {
+						"UseCharacterLevel": "false",
+						"BaseLevel": 0,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"ValueAdjustment": 0,
+						"DurationAdjustment": 0
+					},
+					"IsHostile": "false",
+					"ClearOnCombatEnd": "false",
+					"ClearOnRest": "false",
+					"ClearOnFoodRest": "false",
+					"ClearWhenAttacks": "false",
+					"ClearOnDeath": "false",
+					"HideFromCombatTooltip": "false",
+					"HideFromCombatLog": "false",
+					"HideFromUI": "true",
+					"VisualEffects": [],
+					"MaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"AttackFilter": {
+						"KeywordsIDs": [],
+						"KeywordLogic": "Or",
+						"Range": "None",
+						"ClassType": "None",
+						"Source": "None",
+						"DefendedBy": "None",
+						"Empowered": "false",
+						"Disengagement": "false",
+						"Stealthed": "false",
+						"UseStealthLinger": "false",
+						"PowerLevel": 0,
+						"PowerLevelOperator": "EqualTo",
+						"ChanceToApply": 1,
+						"AttackHostility": "Default"
+					},
+					"AttackTargetFilter": {
+						"KeywordsIDs": [],
+						"KeywordLogic": "Or",
+						"Race": "None",
+						"HealthPercentage": 0,
+						"HealthOperator": "EqualTo",
+						"Distance": 0,
+						"DistanceOperator": "EqualTo",
+						"HasDOT": "false",
+						"IsMarked": "false",
+						"TargetHostility": "Default"
+					},
+					"ExtraValue": 7,
+					"OverridePenetration": 0,
+					"DamageTypeValue": "All",
+					"KeywordValueID": "00000000-0000-0000-0000-000000000000",
+					"RaceValue": "None",
+					"StatusEffectTypeValue": "None",
+					"ItemValueID": "00000000-0000-0000-0000-000000000000",
+					"AfflictionTypeValueID": "00000000-0000-0000-0000-000000000000",
+					"StatusEffectsValueIDs": [],
+					"AttackValueID": "00000000-0000-0000-0000-000000000000",
+					"AttackOverrideValue": "None",
+					"EventValue": "OnApply",
+					"ClassValueID": "acfd1303-4699-4939-91eb-6ac46d4af0bd",
+					"WeaponTypeValue": "None",
+					"AttackHitType": "None",
+					"SkillValueID": "00000000-0000-0000-0000-000000000000",
+					"AudioEventListID": "00000000-0000-0000-0000-000000000000",
+					"BedRestDaysMinimum": 0,
+					"BedRestDaysMaximum": 0
+				}
+			]
+		},
+		{
+			"$type": "Game.GameData.ItemModGameData, Assembly-CSharp",
+			"DebugName": "Wizardry_VIII",
+			"ID": "abcd1500-badd-4798-a429-9b86bf0bc891",
+			"Components": [
+				{
+					"$type": "Game.GameData.ItemModComponent, Assembly-CSharp",
+					"DisplayName": 6002,
+					"HideFromUI": "false",
+					"EnchantCategory": "Unique",
+					"Cost": 14,
+					"CursesItem": "false",
+					"DurabilityDamage": 0,
+					"StatusEffectsOnEquipIDs": [
+						"abcd1501-bade-4798-a429-9b86bf0bc898"
+					],
+					"StatusEffectsOnLaunchIDs": [],
+					"StatusEffectsOnAttackIDs": [],
+					"AbilityModsOnEquipIDs": [],
+					"OnEquipVisualEffects": [],
+					"DamageProcs": [],
+					"AbilitiesOnEquipIDs": []
+				}
+			]
+		},
+		{
+			"$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+			"DebugName": "wizardry_8_se_bonus8thspell",
+			"ID": "abcd1501-bade-4798-a429-9b86bf0bc898",
+			"Components": [
+				{
+					"$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+					"StatusEffectType": "SpellCastBonus",
+					"OverrideDescriptionString": -1,
+					"UseStatusEffectValueAs": "None",
+					"BaseValue": 1,
+					"DynamicValue": {
+						"Stat": "None",
+						"SkillDataID": "00000000-0000-0000-0000-000000000000",
+						"Class": "None",
+						"MultiplyBy": 1,
+						"Operator": "Add"
+					},
+					"KeywordsIDs": [],
+					"DurationType": "Infinite",
+					"Duration": 0,
+					"MaxStackQuantity": 0,
+					"ApplicationBehavior": "UseLongerDurationIfAlreadyApplied",
+					"ApplicationType": "ApplyOnStart",
+					"IntervalRateID": "00000000-0000-0000-0000-000000000000",
+					"StackedChildrenApplyEffects": "false",
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Operator": 0,
+							"Components": []
+						}
+					},
+					"TriggerAdjustment": {
+						"TriggerOnEvent": "None",
+						"TriggerOffEvent": "None",
+						"ValidateWithAttackFilter": "false",
+						"ParamValue": 0,
+						"ValueAdjustment": 0,
+						"DurationAdjustment": 0,
+						"ResetTriggerOnEffectTimeout": "false",
+						"MaxTriggerCount": 0,
+						"IgnoreMaxTriggerCount": "false",
+						"RemoveEffectAtMax": "false",
+						"ChanceToTrigger": 1
+					},
+					"PowerLevelScaling": {
+						"UseCharacterLevel": "false",
+						"BaseLevel": 0,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"ValueAdjustment": 0,
+						"DurationAdjustment": 0
+					},
+					"IsHostile": "false",
+					"ClearOnCombatEnd": "false",
+					"ClearOnRest": "false",
+					"ClearOnFoodRest": "false",
+					"ClearWhenAttacks": "false",
+					"ClearOnDeath": "false",
+					"HideFromCombatTooltip": "false",
+					"HideFromCombatLog": "false",
+					"HideFromUI": "true",
+					"VisualEffects": [],
+					"MaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"AttackFilter": {
+						"KeywordsIDs": [],
+						"KeywordLogic": "Or",
+						"Range": "None",
+						"ClassType": "None",
+						"Source": "None",
+						"DefendedBy": "None",
+						"Empowered": "false",
+						"Disengagement": "false",
+						"Stealthed": "false",
+						"UseStealthLinger": "false",
+						"PowerLevel": 0,
+						"PowerLevelOperator": "EqualTo",
+						"ChanceToApply": 1,
+						"AttackHostility": "Default"
+					},
+					"AttackTargetFilter": {
+						"KeywordsIDs": [],
+						"KeywordLogic": "Or",
+						"Race": "None",
+						"HealthPercentage": 0,
+						"HealthOperator": "EqualTo",
+						"Distance": 0,
+						"DistanceOperator": "EqualTo",
+						"HasDOT": "false",
+						"IsMarked": "false",
+						"TargetHostility": "Default"
+					},
+					"ExtraValue": 8,
+					"OverridePenetration": 0,
+					"DamageTypeValue": "All",
+					"KeywordValueID": "00000000-0000-0000-0000-000000000000",
+					"RaceValue": "None",
+					"StatusEffectTypeValue": "None",
+					"ItemValueID": "00000000-0000-0000-0000-000000000000",
+					"AfflictionTypeValueID": "00000000-0000-0000-0000-000000000000",
+					"StatusEffectsValueIDs": [],
+					"AttackValueID": "00000000-0000-0000-0000-000000000000",
+					"AttackOverrideValue": "None",
+					"EventValue": "OnApply",
+					"ClassValueID": "acfd1303-4699-4939-91eb-6ac46d4af0bd",
+					"WeaponTypeValue": "None",
+					"AttackHitType": "None",
+					"SkillValueID": "00000000-0000-0000-0000-000000000000",
+					"AudioEventListID": "00000000-0000-0000-0000-000000000000",
+					"BedRestDaysMinimum": 0,
+					"BedRestDaysMaximum": 0
+				}
+			]
+		},
+		{
+			"$type": "Game.GameData.ItemModGameData, Assembly-CSharp",
+			"DebugName": "Wizardry_IX",
+			"ID": "abcd1500-badd-4798-a429-9b86bf0bc892",
+			"Components": [
+				{
+					"$type": "Game.GameData.ItemModComponent, Assembly-CSharp",
+					"DisplayName": 6003,
+					"HideFromUI": "false",
+					"EnchantCategory": "Unique",
+					"Cost": 14,
+					"CursesItem": "false",
+					"DurabilityDamage": 0,
+					"StatusEffectsOnEquipIDs": [
+						"abcd1501-bade-4798-a429-9b86bf0bc899"
+					],
+					"StatusEffectsOnLaunchIDs": [],
+					"StatusEffectsOnAttackIDs": [],
+					"AbilityModsOnEquipIDs": [],
+					"OnEquipVisualEffects": [],
+					"DamageProcs": [],
+					"AbilitiesOnEquipIDs": []
+				}
+			]
+		},
+		{
+			"$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+			"DebugName": "wizardry_9_se_bonus9thspell",
+			"ID": "abcd1501-bade-4798-a429-9b86bf0bc899",
+			"Components": [
+				{
+					"$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+					"StatusEffectType": "SpellCastBonus",
+					"OverrideDescriptionString": -1,
+					"UseStatusEffectValueAs": "None",
+					"BaseValue": 1,
+					"DynamicValue": {
+						"Stat": "None",
+						"SkillDataID": "00000000-0000-0000-0000-000000000000",
+						"Class": "None",
+						"MultiplyBy": 1,
+						"Operator": "Add"
+					},
+					"KeywordsIDs": [],
+					"DurationType": "Infinite",
+					"Duration": 0,
+					"MaxStackQuantity": 0,
+					"ApplicationBehavior": "UseLongerDurationIfAlreadyApplied",
+					"ApplicationType": "ApplyOnStart",
+					"IntervalRateID": "00000000-0000-0000-0000-000000000000",
+					"StackedChildrenApplyEffects": "false",
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Operator": 0,
+							"Components": []
+						}
+					},
+					"TriggerAdjustment": {
+						"TriggerOnEvent": "None",
+						"TriggerOffEvent": "None",
+						"ValidateWithAttackFilter": "false",
+						"ParamValue": 0,
+						"ValueAdjustment": 0,
+						"DurationAdjustment": 0,
+						"ResetTriggerOnEffectTimeout": "false",
+						"MaxTriggerCount": 0,
+						"IgnoreMaxTriggerCount": "false",
+						"RemoveEffectAtMax": "false",
+						"ChanceToTrigger": 1
+					},
+					"PowerLevelScaling": {
+						"UseCharacterLevel": "false",
+						"BaseLevel": 0,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"ValueAdjustment": 0,
+						"DurationAdjustment": 0
+					},
+					"IsHostile": "false",
+					"ClearOnCombatEnd": "false",
+					"ClearOnRest": "false",
+					"ClearOnFoodRest": "false",
+					"ClearWhenAttacks": "false",
+					"ClearOnDeath": "false",
+					"HideFromCombatTooltip": "false",
+					"HideFromCombatLog": "false",
+					"HideFromUI": "true",
+					"VisualEffects": [],
+					"MaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"AttackFilter": {
+						"KeywordsIDs": [],
+						"KeywordLogic": "Or",
+						"Range": "None",
+						"ClassType": "None",
+						"Source": "None",
+						"DefendedBy": "None",
+						"Empowered": "false",
+						"Disengagement": "false",
+						"Stealthed": "false",
+						"UseStealthLinger": "false",
+						"PowerLevel": 0,
+						"PowerLevelOperator": "EqualTo",
+						"ChanceToApply": 1,
+						"AttackHostility": "Default"
+					},
+					"AttackTargetFilter": {
+						"KeywordsIDs": [],
+						"KeywordLogic": "Or",
+						"Race": "None",
+						"HealthPercentage": 0,
+						"HealthOperator": "EqualTo",
+						"Distance": 0,
+						"DistanceOperator": "EqualTo",
+						"HasDOT": "false",
+						"IsMarked": "false",
+						"TargetHostility": "Default"
+					},
+					"ExtraValue": 9,
+					"OverridePenetration": 0,
+					"DamageTypeValue": "All",
+					"KeywordValueID": "00000000-0000-0000-0000-000000000000",
+					"RaceValue": "None",
+					"StatusEffectTypeValue": "None",
+					"ItemValueID": "00000000-0000-0000-0000-000000000000",
+					"AfflictionTypeValueID": "00000000-0000-0000-0000-000000000000",
+					"StatusEffectsValueIDs": [],
+					"AttackValueID": "00000000-0000-0000-0000-000000000000",
+					"AttackOverrideValue": "None",
+					"EventValue": "OnApply",
+					"ClassValueID": "acfd1303-4699-4939-91eb-6ac46d4af0bd",
+					"WeaponTypeValue": "None",
+					"AttackHitType": "None",
+					"SkillValueID": "00000000-0000-0000-0000-000000000000",
+					"AudioEventListID": "00000000-0000-0000-0000-000000000000",
+					"BedRestDaysMinimum": 0,
+					"BedRestDaysMaximum": 0
+				}
+			]
+		},
+		{
+			"$type": "Game.GameData.EquippableGameData, Assembly-CSharp",
+			"DebugName": "Ring_of_Divinity_7",
+			"ID": "e9d531ce-dcbb-4b21-8363-7bedadf12ce5",
+			"Components": [
+				{
+					"$type": "Game.GameData.ItemComponent, Assembly-CSharp",
+					"DisplayName": 6018,
+					"DescriptionText": 6019,
+					"DescriptionTextTactical": -1,
+					"FilterType": "Clothing",
+					"InventoryAudioEventListID": "c607cfb4-6130-4827-87f4-fac4c95a3e02",
+					"IsQuestItem": "false",
+					"IsIngredient": "false",
+					"IsCurrency": "false",
+					"IsAdventuringItem": "false",
+					"IsJunk": "false",
+					"CanSellForFullValue": "false",
+					"MaxStackSize": 1,
+					"NeverDropAsLoot": "false",
+					"CanBePickpocketed": "true",
+					"IsUnique": "false",
+					"Value": 128000,
+					"IconTextureSmall": "gui/icons/items/jewelry/ring_silver_coral_02_s.png",
+					"IconTextureLarge": "gui/icons/items/jewelry/ring_silver_coral_02_l.png",
+					"PencilSketchTexture": "",
+					"InspectOnUseButton": [],
+					"IsPlaceholder": "false"
+				},
+				{
+					"$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
+					"EquipmentType": "None",
+					"EquipmentSlot": "RingAnyHand",
+					"AppearancePiece": {
+						"ModelVisualDataPath": ""
+					},
+					"ItemModsIDs": [
+						"abcd1500-badd-4798-a429-9b86bf0bc893"
+					],
+					"OnEquipVisualEffects": [],
+					"RestrictedToClassIDs": [
+						"f7cb46af-a719-41c0-9a53-107eefdbce2b"
+					],
+					"RestrictedToPlayer": "false",
+					"EquipConditionals": {
+						"Operator": 0,
+						"Components": []
+					},
+					"ProficientAbilityID": "00000000-0000-0000-0000-000000000000",
+					"CannotUnequip": "false",
+					"ItemRendererPrefab": "",
+					"ItemModel": "",
+					"AnimationController": "",
+					"PaperdollOverrideRenderer": "",
+					"AttackSummonID": "00000000-0000-0000-0000-000000000000",
+					"CannotSheathe": "false",
+					"PropVisualEffects": []
+				}
+			]
+		},
+		{
+			"$type": "Game.GameData.EquippableGameData, Assembly-CSharp",
+			"DebugName": "Ring_of_Divinity_8",
+			"ID": "e9d531ce-dcbb-4b21-8363-7bedadf12cef",
+			"Components": [
+				{
+					"$type": "Game.GameData.ItemComponent, Assembly-CSharp",
+					"DisplayName": 6020,
+					"DescriptionText": 6021,
+					"DescriptionTextTactical": -1,
+					"FilterType": "Clothing",
+					"InventoryAudioEventListID": "c607cfb4-6130-4827-87f4-fac4c95a3e02",
+					"IsQuestItem": "false",
+					"IsIngredient": "false",
+					"IsCurrency": "false",
+					"IsAdventuringItem": "false",
+					"IsJunk": "false",
+					"CanSellForFullValue": "false",
+					"MaxStackSize": 1,
+					"NeverDropAsLoot": "false",
+					"CanBePickpocketed": "true",
+					"IsUnique": "false",
+					"Value": 256000,
+					"IconTextureSmall": "gui/icons/items/jewelry/ring_silver_coral_02_s.png",
+					"IconTextureLarge": "gui/icons/items/jewelry/ring_silver_coral_02_l.png",
+					"PencilSketchTexture": "",
+					"InspectOnUseButton": [],
+					"IsPlaceholder": "false"
+				},
+				{
+					"$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
+					"EquipmentType": "None",
+					"EquipmentSlot": "RingAnyHand",
+					"AppearancePiece": {
+						"ModelVisualDataPath": ""
+					},
+					"ItemModsIDs": [
+						"abcd1500-badd-4798-a429-9b86bf0bc894"
+					],
+					"OnEquipVisualEffects": [],
+					"RestrictedToClassIDs": [
+						"f7cb46af-a719-41c0-9a53-107eefdbce2b"
+					],
+					"RestrictedToPlayer": "false",
+					"EquipConditionals": {
+						"Operator": 0,
+						"Components": []
+					},
+					"ProficientAbilityID": "00000000-0000-0000-0000-000000000000",
+					"CannotUnequip": "false",
+					"ItemRendererPrefab": "",
+					"ItemModel": "",
+					"AnimationController": "",
+					"PaperdollOverrideRenderer": "",
+					"AttackSummonID": "00000000-0000-0000-0000-000000000000",
+					"CannotSheathe": "false",
+					"PropVisualEffects": []
+				}
+			]
+		},
+		{
+			"$type": "Game.GameData.EquippableGameData, Assembly-CSharp",
+			"DebugName": "Ring_of_Divinity_9",
+			"ID": "e9d531ce-dcbb-4b21-8363-7bedadf12ce7",
+			"Components": [
+				{
+					"$type": "Game.GameData.ItemComponent, Assembly-CSharp",
+					"DisplayName": 6022,
+					"DescriptionText": 6023,
+					"DescriptionTextTactical": -1,
+					"FilterType": "Clothing",
+					"InventoryAudioEventListID": "c607cfb4-6130-4827-87f4-fac4c95a3e02",
+					"IsQuestItem": "false",
+					"IsIngredient": "false",
+					"IsCurrency": "false",
+					"IsAdventuringItem": "false",
+					"IsJunk": "false",
+					"CanSellForFullValue": "false",
+					"MaxStackSize": 1,
+					"NeverDropAsLoot": "false",
+					"CanBePickpocketed": "true",
+					"IsUnique": "false",
+					"Value": 512000,
+					"IconTextureSmall": "gui/icons/items/jewelry/ring_silver_coral_02_s.png",
+					"IconTextureLarge": "gui/icons/items/jewelry/ring_silver_coral_02_l.png",
+					"PencilSketchTexture": "",
+					"InspectOnUseButton": [],
+					"IsPlaceholder": "false"
+				},
+				{
+					"$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
+					"EquipmentType": "None",
+					"EquipmentSlot": "RingAnyHand",
+					"AppearancePiece": {
+						"ModelVisualDataPath": ""
+					},
+					"ItemModsIDs": [
+						"abcd1500-badd-4798-a429-9b86bf0bc895"
+					],
+					"OnEquipVisualEffects": [],
+					"RestrictedToClassIDs": [
+						"f7cb46af-a719-41c0-9a53-107eefdbce2b"
+					],
+					"RestrictedToPlayer": "false",
+					"EquipConditionals": {
+						"Operator": 0,
+						"Components": []
+					},
+					"ProficientAbilityID": "00000000-0000-0000-0000-000000000000",
+					"CannotUnequip": "false",
+					"ItemRendererPrefab": "",
+					"ItemModel": "",
+					"AnimationController": "",
+					"PaperdollOverrideRenderer": "",
+					"AttackSummonID": "00000000-0000-0000-0000-000000000000",
+					"CannotSheathe": "false",
+					"PropVisualEffects": []
+				}
+			]
+		},
+		{
+			"$type": "Game.GameData.ItemModGameData, Assembly-CSharp",
+			"DebugName": "Divinity_VII",
+			"ID": "abcd1500-badd-4798-a429-9b86bf0bc893",
+			"Components": [
+				{
+					"$type": "Game.GameData.ItemModComponent, Assembly-CSharp",
+					"DisplayName": 6004,
+					"HideFromUI": "false",
+					"EnchantCategory": "Unique",
+					"Cost": 14,
+					"CursesItem": "false",
+					"DurabilityDamage": 0,
+					"StatusEffectsOnEquipIDs": [
+						"abcd1501-bade-4798-a429-9b86bf0bc8a7"
+					],
+					"StatusEffectsOnLaunchIDs": [],
+					"StatusEffectsOnAttackIDs": [],
+					"AbilityModsOnEquipIDs": [],
+					"OnEquipVisualEffects": [],
+					"DamageProcs": [],
+					"AbilitiesOnEquipIDs": []
+				}
+			]
+		},
+		{
+			"$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+			"DebugName": "divinity_7_se_bonus7thspell",
+			"ID": "abcd1501-bade-4798-a429-9b86bf0bc8a7",
+			"Components": [
+				{
+					"$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+					"StatusEffectType": "SpellCastBonus",
+					"OverrideDescriptionString": -1,
+					"UseStatusEffectValueAs": "None",
+					"BaseValue": 1,
+					"DynamicValue": {
+						"Stat": "None",
+						"SkillDataID": "00000000-0000-0000-0000-000000000000",
+						"Class": "None",
+						"MultiplyBy": 1,
+						"Operator": "Add"
+					},
+					"KeywordsIDs": [],
+					"DurationType": "Infinite",
+					"Duration": 0,
+					"MaxStackQuantity": 0,
+					"ApplicationBehavior": "UseLongerDurationIfAlreadyApplied",
+					"ApplicationType": "ApplyOnStart",
+					"IntervalRateID": "00000000-0000-0000-0000-000000000000",
+					"StackedChildrenApplyEffects": "false",
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Operator": 0,
+							"Components": []
+						}
+					},
+					"TriggerAdjustment": {
+						"TriggerOnEvent": "None",
+						"TriggerOffEvent": "None",
+						"ValidateWithAttackFilter": "false",
+						"ParamValue": 0,
+						"ValueAdjustment": 0,
+						"DurationAdjustment": 0,
+						"ResetTriggerOnEffectTimeout": "false",
+						"MaxTriggerCount": 0,
+						"IgnoreMaxTriggerCount": "false",
+						"RemoveEffectAtMax": "false",
+						"ChanceToTrigger": 1
+					},
+					"PowerLevelScaling": {
+						"UseCharacterLevel": "false",
+						"BaseLevel": 0,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"ValueAdjustment": 0,
+						"DurationAdjustment": 0
+					},
+					"IsHostile": "false",
+					"ClearOnCombatEnd": "false",
+					"ClearOnRest": "false",
+					"ClearOnFoodRest": "false",
+					"ClearWhenAttacks": "false",
+					"ClearOnDeath": "false",
+					"HideFromCombatTooltip": "false",
+					"HideFromCombatLog": "false",
+					"HideFromUI": "true",
+					"VisualEffects": [],
+					"MaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"AttackFilter": {
+						"KeywordsIDs": [],
+						"KeywordLogic": "Or",
+						"Range": "None",
+						"ClassType": "None",
+						"Source": "None",
+						"DefendedBy": "None",
+						"Empowered": "false",
+						"Disengagement": "false",
+						"Stealthed": "false",
+						"UseStealthLinger": "false",
+						"PowerLevel": 0,
+						"PowerLevelOperator": "EqualTo",
+						"ChanceToApply": 1,
+						"AttackHostility": "Default"
+					},
+					"AttackTargetFilter": {
+						"KeywordsIDs": [],
+						"KeywordLogic": "Or",
+						"Race": "None",
+						"HealthPercentage": 0,
+						"HealthOperator": "EqualTo",
+						"Distance": 0,
+						"DistanceOperator": "EqualTo",
+						"HasDOT": "false",
+						"IsMarked": "false",
+						"TargetHostility": "Default"
+					},
+					"ExtraValue": 7,
+					"OverridePenetration": 0,
+					"DamageTypeValue": "All",
+					"KeywordValueID": "00000000-0000-0000-0000-000000000000",
+					"RaceValue": "None",
+					"StatusEffectTypeValue": "None",
+					"ItemValueID": "00000000-0000-0000-0000-000000000000",
+					"AfflictionTypeValueID": "00000000-0000-0000-0000-000000000000",
+					"StatusEffectsValueIDs": [],
+					"AttackValueID": "00000000-0000-0000-0000-000000000000",
+					"AttackOverrideValue": "None",
+					"EventValue": "OnApply",
+					"ClassValueID": "f7cb46af-a719-41c0-9a53-107eefdbce2b",
+					"WeaponTypeValue": "None",
+					"AttackHitType": "None",
+					"SkillValueID": "00000000-0000-0000-0000-000000000000",
+					"AudioEventListID": "00000000-0000-0000-0000-000000000000",
+					"BedRestDaysMinimum": 0,
+					"BedRestDaysMaximum": 0
+				}
+			]
+		},
+		{
+			"$type": "Game.GameData.ItemModGameData, Assembly-CSharp",
+			"DebugName": "Divinity_VIII",
+			"ID": "abcd1500-badd-4798-a429-9b86bf0bc894",
+			"Components": [
+				{
+					"$type": "Game.GameData.ItemModComponent, Assembly-CSharp",
+					"DisplayName": 6005,
+					"HideFromUI": "false",
+					"EnchantCategory": "Unique",
+					"Cost": 14,
+					"CursesItem": "false",
+					"DurabilityDamage": 0,
+					"StatusEffectsOnEquipIDs": [
+						"abcd1501-bade-4798-a429-9b86bf0bc8a8"
+					],
+					"StatusEffectsOnLaunchIDs": [],
+					"StatusEffectsOnAttackIDs": [],
+					"AbilityModsOnEquipIDs": [],
+					"OnEquipVisualEffects": [],
+					"DamageProcs": [],
+					"AbilitiesOnEquipIDs": []
+				}
+			]
+		},
+		{
+			"$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+			"DebugName": "divinity_8_se_bonus8thspell",
+			"ID": "abcd1501-bade-4798-a429-9b86bf0bc8a8",
+			"Components": [
+				{
+					"$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+					"StatusEffectType": "SpellCastBonus",
+					"OverrideDescriptionString": -1,
+					"UseStatusEffectValueAs": "None",
+					"BaseValue": 1,
+					"DynamicValue": {
+						"Stat": "None",
+						"SkillDataID": "00000000-0000-0000-0000-000000000000",
+						"Class": "None",
+						"MultiplyBy": 1,
+						"Operator": "Add"
+					},
+					"KeywordsIDs": [],
+					"DurationType": "Infinite",
+					"Duration": 0,
+					"MaxStackQuantity": 0,
+					"ApplicationBehavior": "UseLongerDurationIfAlreadyApplied",
+					"ApplicationType": "ApplyOnStart",
+					"IntervalRateID": "00000000-0000-0000-0000-000000000000",
+					"StackedChildrenApplyEffects": "false",
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Operator": 0,
+							"Components": []
+						}
+					},
+					"TriggerAdjustment": {
+						"TriggerOnEvent": "None",
+						"TriggerOffEvent": "None",
+						"ValidateWithAttackFilter": "false",
+						"ParamValue": 0,
+						"ValueAdjustment": 0,
+						"DurationAdjustment": 0,
+						"ResetTriggerOnEffectTimeout": "false",
+						"MaxTriggerCount": 0,
+						"IgnoreMaxTriggerCount": "false",
+						"RemoveEffectAtMax": "false",
+						"ChanceToTrigger": 1
+					},
+					"PowerLevelScaling": {
+						"UseCharacterLevel": "false",
+						"BaseLevel": 0,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"ValueAdjustment": 0,
+						"DurationAdjustment": 0
+					},
+					"IsHostile": "false",
+					"ClearOnCombatEnd": "false",
+					"ClearOnRest": "false",
+					"ClearOnFoodRest": "false",
+					"ClearWhenAttacks": "false",
+					"ClearOnDeath": "false",
+					"HideFromCombatTooltip": "false",
+					"HideFromCombatLog": "false",
+					"HideFromUI": "true",
+					"VisualEffects": [],
+					"MaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"AttackFilter": {
+						"KeywordsIDs": [],
+						"KeywordLogic": "Or",
+						"Range": "None",
+						"ClassType": "None",
+						"Source": "None",
+						"DefendedBy": "None",
+						"Empowered": "false",
+						"Disengagement": "false",
+						"Stealthed": "false",
+						"UseStealthLinger": "false",
+						"PowerLevel": 0,
+						"PowerLevelOperator": "EqualTo",
+						"ChanceToApply": 1,
+						"AttackHostility": "Default"
+					},
+					"AttackTargetFilter": {
+						"KeywordsIDs": [],
+						"KeywordLogic": "Or",
+						"Race": "None",
+						"HealthPercentage": 0,
+						"HealthOperator": "EqualTo",
+						"Distance": 0,
+						"DistanceOperator": "EqualTo",
+						"HasDOT": "false",
+						"IsMarked": "false",
+						"TargetHostility": "Default"
+					},
+					"ExtraValue": 8,
+					"OverridePenetration": 0,
+					"DamageTypeValue": "All",
+					"KeywordValueID": "00000000-0000-0000-0000-000000000000",
+					"RaceValue": "None",
+					"StatusEffectTypeValue": "None",
+					"ItemValueID": "00000000-0000-0000-0000-000000000000",
+					"AfflictionTypeValueID": "00000000-0000-0000-0000-000000000000",
+					"StatusEffectsValueIDs": [],
+					"AttackValueID": "00000000-0000-0000-0000-000000000000",
+					"AttackOverrideValue": "None",
+					"EventValue": "OnApply",
+					"ClassValueID": "f7cb46af-a719-41c0-9a53-107eefdbce2b",
+					"WeaponTypeValue": "None",
+					"AttackHitType": "None",
+					"SkillValueID": "00000000-0000-0000-0000-000000000000",
+					"AudioEventListID": "00000000-0000-0000-0000-000000000000",
+					"BedRestDaysMinimum": 0,
+					"BedRestDaysMaximum": 0
+				}
+			]
+		},
+		{
+			"$type": "Game.GameData.ItemModGameData, Assembly-CSharp",
+			"DebugName": "Divinity_IX",
+			"ID": "abcd1500-badd-4798-a429-9b86bf0bc895",
+			"Components": [
+				{
+					"$type": "Game.GameData.ItemModComponent, Assembly-CSharp",
+					"DisplayName": 6006,
+					"HideFromUI": "false",
+					"EnchantCategory": "Unique",
+					"Cost": 14,
+					"CursesItem": "false",
+					"DurabilityDamage": 0,
+					"StatusEffectsOnEquipIDs": [
+						"abcd1501-bade-4798-a429-9b86bf0bc8a9"
+					],
+					"StatusEffectsOnLaunchIDs": [],
+					"StatusEffectsOnAttackIDs": [],
+					"AbilityModsOnEquipIDs": [],
+					"OnEquipVisualEffects": [],
+					"DamageProcs": [],
+					"AbilitiesOnEquipIDs": []
+				}
+			]
+		},
+		{
+			"$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+			"DebugName": "divinity_9_se_bonus9thspell",
+			"ID": "abcd1501-bade-4798-a429-9b86bf0bc8a9",
+			"Components": [
+				{
+					"$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+					"StatusEffectType": "SpellCastBonus",
+					"OverrideDescriptionString": -1,
+					"UseStatusEffectValueAs": "None",
+					"BaseValue": 1,
+					"DynamicValue": {
+						"Stat": "None",
+						"SkillDataID": "00000000-0000-0000-0000-000000000000",
+						"Class": "None",
+						"MultiplyBy": 1,
+						"Operator": "Add"
+					},
+					"KeywordsIDs": [],
+					"DurationType": "Infinite",
+					"Duration": 0,
+					"MaxStackQuantity": 0,
+					"ApplicationBehavior": "UseLongerDurationIfAlreadyApplied",
+					"ApplicationType": "ApplyOnStart",
+					"IntervalRateID": "00000000-0000-0000-0000-000000000000",
+					"StackedChildrenApplyEffects": "false",
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Operator": 0,
+							"Components": []
+						}
+					},
+					"TriggerAdjustment": {
+						"TriggerOnEvent": "None",
+						"TriggerOffEvent": "None",
+						"ValidateWithAttackFilter": "false",
+						"ParamValue": 0,
+						"ValueAdjustment": 0,
+						"DurationAdjustment": 0,
+						"ResetTriggerOnEffectTimeout": "false",
+						"MaxTriggerCount": 0,
+						"IgnoreMaxTriggerCount": "false",
+						"RemoveEffectAtMax": "false",
+						"ChanceToTrigger": 1
+					},
+					"PowerLevelScaling": {
+						"UseCharacterLevel": "false",
+						"BaseLevel": 0,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"ValueAdjustment": 0,
+						"DurationAdjustment": 0
+					},
+					"IsHostile": "false",
+					"ClearOnCombatEnd": "false",
+					"ClearOnRest": "false",
+					"ClearOnFoodRest": "false",
+					"ClearWhenAttacks": "false",
+					"ClearOnDeath": "false",
+					"HideFromCombatTooltip": "false",
+					"HideFromCombatLog": "false",
+					"HideFromUI": "true",
+					"VisualEffects": [],
+					"MaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"AttackFilter": {
+						"KeywordsIDs": [],
+						"KeywordLogic": "Or",
+						"Range": "None",
+						"ClassType": "None",
+						"Source": "None",
+						"DefendedBy": "None",
+						"Empowered": "false",
+						"Disengagement": "false",
+						"Stealthed": "false",
+						"UseStealthLinger": "false",
+						"PowerLevel": 0,
+						"PowerLevelOperator": "EqualTo",
+						"ChanceToApply": 1,
+						"AttackHostility": "Default"
+					},
+					"AttackTargetFilter": {
+						"KeywordsIDs": [],
+						"KeywordLogic": "Or",
+						"Race": "None",
+						"HealthPercentage": 0,
+						"HealthOperator": "EqualTo",
+						"Distance": 0,
+						"DistanceOperator": "EqualTo",
+						"HasDOT": "false",
+						"IsMarked": "false",
+						"TargetHostility": "Default"
+					},
+					"ExtraValue": 9,
+					"OverridePenetration": 0,
+					"DamageTypeValue": "All",
+					"KeywordValueID": "00000000-0000-0000-0000-000000000000",
+					"RaceValue": "None",
+					"StatusEffectTypeValue": "None",
+					"ItemValueID": "00000000-0000-0000-0000-000000000000",
+					"AfflictionTypeValueID": "00000000-0000-0000-0000-000000000000",
+					"StatusEffectsValueIDs": [],
+					"AttackValueID": "00000000-0000-0000-0000-000000000000",
+					"AttackOverrideValue": "None",
+					"EventValue": "OnApply",
+					"ClassValueID": "f7cb46af-a719-41c0-9a53-107eefdbce2b",
+					"WeaponTypeValue": "None",
+					"AttackHitType": "None",
+					"SkillValueID": "00000000-0000-0000-0000-000000000000",
+					"AudioEventListID": "00000000-0000-0000-0000-000000000000",
+					"BedRestDaysMinimum": 0,
+					"BedRestDaysMaximum": 0
+				}
+			]
+		},
+						{
+			"$type": "Game.GameData.EquippableGameData, Assembly-CSharp",
+			"DebugName": "Ring_of_Shamanry_7",
+			"ID": "e9d531ce-dcbb-4b21-8363-7bedadf12ce6",
+			"Components": [
+				{
+					"$type": "Game.GameData.ItemComponent, Assembly-CSharp",
+					"DisplayName": 6024,
+					"DescriptionText": 6025,
+					"DescriptionTextTactical": -1,
+					"FilterType": "Clothing",
+					"InventoryAudioEventListID": "c607cfb4-6130-4827-87f4-fac4c95a3e02",
+					"IsQuestItem": "false",
+					"IsIngredient": "false",
+					"IsCurrency": "false",
+					"IsAdventuringItem": "false",
+					"IsJunk": "false",
+					"CanSellForFullValue": "false",
+					"MaxStackSize": 1,
+					"NeverDropAsLoot": "false",
+					"CanBePickpocketed": "true",
+					"IsUnique": "false",
+					"Value": 128000,
+					"IconTextureSmall": "gui/icons/items/jewelry/ring_harmony_s.png",
+					"IconTextureLarge": "gui/icons/items/jewelry/ring_harmony_l.png",
+					"PencilSketchTexture": "",
+					"InspectOnUseButton": [],
+					"IsPlaceholder": "false"
+				},
+				{
+					"$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
+					"EquipmentType": "None",
+					"EquipmentSlot": "RingAnyHand",
+					"AppearancePiece": {
+						"ModelVisualDataPath": ""
+					},
+					"ItemModsIDs": [
+						"abcd1500-badd-4798-a429-9b86bf0bc896"
+					],
+					"OnEquipVisualEffects": [],
+					"RestrictedToClassIDs": [
+						"568f1c26-1398-4e67-8b81-0f6a60e6cdde"
+					],
+					"RestrictedToPlayer": "false",
+					"EquipConditionals": {
+						"Operator": 0,
+						"Components": []
+					},
+					"ProficientAbilityID": "00000000-0000-0000-0000-000000000000",
+					"CannotUnequip": "false",
+					"ItemRendererPrefab": "",
+					"ItemModel": "",
+					"AnimationController": "",
+					"PaperdollOverrideRenderer": "",
+					"AttackSummonID": "00000000-0000-0000-0000-000000000000",
+					"CannotSheathe": "false",
+					"PropVisualEffects": []
+				}
+			]
+		},
+		{
+			"$type": "Game.GameData.EquippableGameData, Assembly-CSharp",
+			"DebugName": "Ring_of_Shamanry_8",
+			"ID": "e9d531ce-dcbb-4b21-8363-7bedadf12ce9",
+			"Components": [
+				{
+					"$type": "Game.GameData.ItemComponent, Assembly-CSharp",
+					"DisplayName": 6026,
+					"DescriptionText": 6027,
+					"DescriptionTextTactical": -1,
+					"FilterType": "Clothing",
+					"InventoryAudioEventListID": "c607cfb4-6130-4827-87f4-fac4c95a3e02",
+					"IsQuestItem": "false",
+					"IsIngredient": "false",
+					"IsCurrency": "false",
+					"IsAdventuringItem": "false",
+					"IsJunk": "false",
+					"CanSellForFullValue": "false",
+					"MaxStackSize": 1,
+					"NeverDropAsLoot": "false",
+					"CanBePickpocketed": "true",
+					"IsUnique": "false",
+					"Value": 256000,
+					"IconTextureSmall": "gui/icons/items/jewelry/ring_harmony_s.png",
+					"IconTextureLarge": "gui/icons/items/jewelry/ring_harmony_l.png",
+					"PencilSketchTexture": "",
+					"InspectOnUseButton": [],
+					"IsPlaceholder": "false"
+				},
+				{
+					"$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
+					"EquipmentType": "None",
+					"EquipmentSlot": "RingAnyHand",
+					"AppearancePiece": {
+						"ModelVisualDataPath": ""
+					},
+					"ItemModsIDs": [
+						"abcd1500-badd-4798-a429-9b86bf0bc897"
+					],
+					"OnEquipVisualEffects": [],
+					"RestrictedToClassIDs": [
+						"568f1c26-1398-4e67-8b81-0f6a60e6cdde"
+					],
+					"RestrictedToPlayer": "false",
+					"EquipConditionals": {
+						"Operator": 0,
+						"Components": []
+					},
+					"ProficientAbilityID": "00000000-0000-0000-0000-000000000000",
+					"CannotUnequip": "false",
+					"ItemRendererPrefab": "",
+					"ItemModel": "",
+					"AnimationController": "",
+					"PaperdollOverrideRenderer": "",
+					"AttackSummonID": "00000000-0000-0000-0000-000000000000",
+					"CannotSheathe": "false",
+					"PropVisualEffects": []
+				}
+			]
+		},
+		{
+			"$type": "Game.GameData.EquippableGameData, Assembly-CSharp",
+			"DebugName": "Ring_of_Shamanry_9",
+			"ID": "e9d531ce-dcbb-4b21-8363-7bedadf12cea",
+			"Components": [
+				{
+					"$type": "Game.GameData.ItemComponent, Assembly-CSharp",
+					"DisplayName": 6028,
+					"DescriptionText": 6029,
+					"DescriptionTextTactical": -1,
+					"FilterType": "Clothing",
+					"InventoryAudioEventListID": "c607cfb4-6130-4827-87f4-fac4c95a3e02",
+					"IsQuestItem": "false",
+					"IsIngredient": "false",
+					"IsCurrency": "false",
+					"IsAdventuringItem": "false",
+					"IsJunk": "false",
+					"CanSellForFullValue": "false",
+					"MaxStackSize": 1,
+					"NeverDropAsLoot": "false",
+					"CanBePickpocketed": "true",
+					"IsUnique": "false",
+					"Value": 512000,
+					"IconTextureSmall": "gui/icons/items/jewelry/ring_harmony_s.png",
+					"IconTextureLarge": "gui/icons/items/jewelry/ring_harmony_l.png",
+					"PencilSketchTexture": "",
+					"InspectOnUseButton": [],
+					"IsPlaceholder": "false"
+				},
+				{
+					"$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
+					"EquipmentType": "None",
+					"EquipmentSlot": "RingAnyHand",
+					"AppearancePiece": {
+						"ModelVisualDataPath": ""
+					},
+					"ItemModsIDs": [
+						"abcd1500-badd-4798-a429-9b86bf0bc898"
+					],
+					"OnEquipVisualEffects": [],
+					"RestrictedToClassIDs": [
+						"568f1c26-1398-4e67-8b81-0f6a60e6cdde"
+					],
+					"RestrictedToPlayer": "false",
+					"EquipConditionals": {
+						"Operator": 0,
+						"Components": []
+					},
+					"ProficientAbilityID": "00000000-0000-0000-0000-000000000000",
+					"CannotUnequip": "false",
+					"ItemRendererPrefab": "",
+					"ItemModel": "",
+					"AnimationController": "",
+					"PaperdollOverrideRenderer": "",
+					"AttackSummonID": "00000000-0000-0000-0000-000000000000",
+					"CannotSheathe": "false",
+					"PropVisualEffects": []
+				}
+			]
+		},
+		{
+			"$type": "Game.GameData.ItemModGameData, Assembly-CSharp",
+			"DebugName": "Shamanry_VII",
+			"ID": "abcd1500-badd-4798-a429-9b86bf0bc896",
+			"Components": [
+				{
+					"$type": "Game.GameData.ItemModComponent, Assembly-CSharp",
+					"DisplayName": 6004,
+					"HideFromUI": "false",
+					"EnchantCategory": "Unique",
+					"Cost": 14,
+					"CursesItem": "false",
+					"DurabilityDamage": 0,
+					"StatusEffectsOnEquipIDs": [
+						"abcd1501-bade-4798-a429-9b86bf0bc8b7"
+					],
+					"StatusEffectsOnLaunchIDs": [],
+					"StatusEffectsOnAttackIDs": [],
+					"AbilityModsOnEquipIDs": [],
+					"OnEquipVisualEffects": [],
+					"DamageProcs": [],
+					"AbilitiesOnEquipIDs": []
+				}
+			]
+		},
+		{
+			"$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+			"DebugName": "shamanry_7_se_bonus7thspell",
+			"ID": "abcd1501-bade-4798-a429-9b86bf0bc8b7",
+			"Components": [
+				{
+					"$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+					"StatusEffectType": "SpellCastBonus",
+					"OverrideDescriptionString": -1,
+					"UseStatusEffectValueAs": "None",
+					"BaseValue": 1,
+					"DynamicValue": {
+						"Stat": "None",
+						"SkillDataID": "00000000-0000-0000-0000-000000000000",
+						"Class": "None",
+						"MultiplyBy": 1,
+						"Operator": "Add"
+					},
+					"KeywordsIDs": [],
+					"DurationType": "Infinite",
+					"Duration": 0,
+					"MaxStackQuantity": 0,
+					"ApplicationBehavior": "UseLongerDurationIfAlreadyApplied",
+					"ApplicationType": "ApplyOnStart",
+					"IntervalRateID": "00000000-0000-0000-0000-000000000000",
+					"StackedChildrenApplyEffects": "false",
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Operator": 0,
+							"Components": []
+						}
+					},
+					"TriggerAdjustment": {
+						"TriggerOnEvent": "None",
+						"TriggerOffEvent": "None",
+						"ValidateWithAttackFilter": "false",
+						"ParamValue": 0,
+						"ValueAdjustment": 0,
+						"DurationAdjustment": 0,
+						"ResetTriggerOnEffectTimeout": "false",
+						"MaxTriggerCount": 0,
+						"IgnoreMaxTriggerCount": "false",
+						"RemoveEffectAtMax": "false",
+						"ChanceToTrigger": 1
+					},
+					"PowerLevelScaling": {
+						"UseCharacterLevel": "false",
+						"BaseLevel": 0,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"ValueAdjustment": 0,
+						"DurationAdjustment": 0
+					},
+					"IsHostile": "false",
+					"ClearOnCombatEnd": "false",
+					"ClearOnRest": "false",
+					"ClearOnFoodRest": "false",
+					"ClearWhenAttacks": "false",
+					"ClearOnDeath": "false",
+					"HideFromCombatTooltip": "false",
+					"HideFromCombatLog": "false",
+					"HideFromUI": "true",
+					"VisualEffects": [],
+					"MaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"AttackFilter": {
+						"KeywordsIDs": [],
+						"KeywordLogic": "Or",
+						"Range": "None",
+						"ClassType": "None",
+						"Source": "None",
+						"DefendedBy": "None",
+						"Empowered": "false",
+						"Disengagement": "false",
+						"Stealthed": "false",
+						"UseStealthLinger": "false",
+						"PowerLevel": 0,
+						"PowerLevelOperator": "EqualTo",
+						"ChanceToApply": 1,
+						"AttackHostility": "Default"
+					},
+					"AttackTargetFilter": {
+						"KeywordsIDs": [],
+						"KeywordLogic": "Or",
+						"Race": "None",
+						"HealthPercentage": 0,
+						"HealthOperator": "EqualTo",
+						"Distance": 0,
+						"DistanceOperator": "EqualTo",
+						"HasDOT": "false",
+						"IsMarked": "false",
+						"TargetHostility": "Default"
+					},
+					"ExtraValue": 7,
+					"OverridePenetration": 0,
+					"DamageTypeValue": "All",
+					"KeywordValueID": "00000000-0000-0000-0000-000000000000",
+					"RaceValue": "None",
+					"StatusEffectTypeValue": "None",
+					"ItemValueID": "00000000-0000-0000-0000-000000000000",
+					"AfflictionTypeValueID": "00000000-0000-0000-0000-000000000000",
+					"StatusEffectsValueIDs": [],
+					"AttackValueID": "00000000-0000-0000-0000-000000000000",
+					"AttackOverrideValue": "None",
+					"EventValue": "OnApply",
+					"ClassValueID": "568f1c26-1398-4e67-8b81-0f6a60e6cdde",
+					"WeaponTypeValue": "None",
+					"AttackHitType": "None",
+					"SkillValueID": "00000000-0000-0000-0000-000000000000",
+					"AudioEventListID": "00000000-0000-0000-0000-000000000000",
+					"BedRestDaysMinimum": 0,
+					"BedRestDaysMaximum": 0
+				}
+			]
+		},
+		{
+			"$type": "Game.GameData.ItemModGameData, Assembly-CSharp",
+			"DebugName": "Shamanry_VIII",
+			"ID": "abcd1500-badd-4798-a429-9b86bf0bc897",
+			"Components": [
+				{
+					"$type": "Game.GameData.ItemModComponent, Assembly-CSharp",
+					"DisplayName": 6008,
+					"HideFromUI": "false",
+					"EnchantCategory": "Unique",
+					"Cost": 14,
+					"CursesItem": "false",
+					"DurabilityDamage": 0,
+					"StatusEffectsOnEquipIDs": [
+						"abcd1501-bade-4798-a429-9b86bf0bc8b8"
+					],
+					"StatusEffectsOnLaunchIDs": [],
+					"StatusEffectsOnAttackIDs": [],
+					"AbilityModsOnEquipIDs": [],
+					"OnEquipVisualEffects": [],
+					"DamageProcs": [],
+					"AbilitiesOnEquipIDs": []
+				}
+			]
+		},
+		{
+			"$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+			"DebugName": "shamanry_8_se_bonus8thspell",
+			"ID": "abcd1501-bade-4798-a429-9b86bf0bc8b8",
+			"Components": [
+				{
+					"$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+					"StatusEffectType": "SpellCastBonus",
+					"OverrideDescriptionString": -1,
+					"UseStatusEffectValueAs": "None",
+					"BaseValue": 1,
+					"DynamicValue": {
+						"Stat": "None",
+						"SkillDataID": "00000000-0000-0000-0000-000000000000",
+						"Class": "None",
+						"MultiplyBy": 1,
+						"Operator": "Add"
+					},
+					"KeywordsIDs": [],
+					"DurationType": "Infinite",
+					"Duration": 0,
+					"MaxStackQuantity": 0,
+					"ApplicationBehavior": "UseLongerDurationIfAlreadyApplied",
+					"ApplicationType": "ApplyOnStart",
+					"IntervalRateID": "00000000-0000-0000-0000-000000000000",
+					"StackedChildrenApplyEffects": "false",
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Operator": 0,
+							"Components": []
+						}
+					},
+					"TriggerAdjustment": {
+						"TriggerOnEvent": "None",
+						"TriggerOffEvent": "None",
+						"ValidateWithAttackFilter": "false",
+						"ParamValue": 0,
+						"ValueAdjustment": 0,
+						"DurationAdjustment": 0,
+						"ResetTriggerOnEffectTimeout": "false",
+						"MaxTriggerCount": 0,
+						"IgnoreMaxTriggerCount": "false",
+						"RemoveEffectAtMax": "false",
+						"ChanceToTrigger": 1
+					},
+					"PowerLevelScaling": {
+						"UseCharacterLevel": "false",
+						"BaseLevel": 0,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"ValueAdjustment": 0,
+						"DurationAdjustment": 0
+					},
+					"IsHostile": "false",
+					"ClearOnCombatEnd": "false",
+					"ClearOnRest": "false",
+					"ClearOnFoodRest": "false",
+					"ClearWhenAttacks": "false",
+					"ClearOnDeath": "false",
+					"HideFromCombatTooltip": "false",
+					"HideFromCombatLog": "false",
+					"HideFromUI": "true",
+					"VisualEffects": [],
+					"MaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"AttackFilter": {
+						"KeywordsIDs": [],
+						"KeywordLogic": "Or",
+						"Range": "None",
+						"ClassType": "None",
+						"Source": "None",
+						"DefendedBy": "None",
+						"Empowered": "false",
+						"Disengagement": "false",
+						"Stealthed": "false",
+						"UseStealthLinger": "false",
+						"PowerLevel": 0,
+						"PowerLevelOperator": "EqualTo",
+						"ChanceToApply": 1,
+						"AttackHostility": "Default"
+					},
+					"AttackTargetFilter": {
+						"KeywordsIDs": [],
+						"KeywordLogic": "Or",
+						"Race": "None",
+						"HealthPercentage": 0,
+						"HealthOperator": "EqualTo",
+						"Distance": 0,
+						"DistanceOperator": "EqualTo",
+						"HasDOT": "false",
+						"IsMarked": "false",
+						"TargetHostility": "Default"
+					},
+					"ExtraValue": 8,
+					"OverridePenetration": 0,
+					"DamageTypeValue": "All",
+					"KeywordValueID": "00000000-0000-0000-0000-000000000000",
+					"RaceValue": "None",
+					"StatusEffectTypeValue": "None",
+					"ItemValueID": "00000000-0000-0000-0000-000000000000",
+					"AfflictionTypeValueID": "00000000-0000-0000-0000-000000000000",
+					"StatusEffectsValueIDs": [],
+					"AttackValueID": "00000000-0000-0000-0000-000000000000",
+					"AttackOverrideValue": "None",
+					"EventValue": "OnApply",
+					"ClassValueID": "568f1c26-1398-4e67-8b81-0f6a60e6cdde",
+					"WeaponTypeValue": "None",
+					"AttackHitType": "None",
+					"SkillValueID": "00000000-0000-0000-0000-000000000000",
+					"AudioEventListID": "00000000-0000-0000-0000-000000000000",
+					"BedRestDaysMinimum": 0,
+					"BedRestDaysMaximum": 0
+				}
+			]
+		},
+		{
+			"$type": "Game.GameData.ItemModGameData, Assembly-CSharp",
+			"DebugName": "Shamanry_IX",
+			"ID": "abcd1500-badd-4798-a429-9b86bf0bc898",
+			"Components": [
+				{
+					"$type": "Game.GameData.ItemModComponent, Assembly-CSharp",
+					"DisplayName": 6009,
+					"HideFromUI": "false",
+					"EnchantCategory": "Unique",
+					"Cost": 14,
+					"CursesItem": "false",
+					"DurabilityDamage": 0,
+					"StatusEffectsOnEquipIDs": [
+						"abcd1501-bade-4798-a429-9b86bf0bc8b9"
+					],
+					"StatusEffectsOnLaunchIDs": [],
+					"StatusEffectsOnAttackIDs": [],
+					"AbilityModsOnEquipIDs": [],
+					"OnEquipVisualEffects": [],
+					"DamageProcs": [],
+					"AbilitiesOnEquipIDs": []
+				}
+			]
+		},
+		{
+			"$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+			"DebugName": "shamanry_9_se_bonus9thspell",
+			"ID": "abcd1501-bade-4798-a429-9b86bf0bc8b9",
+			"Components": [
+				{
+					"$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+					"StatusEffectType": "SpellCastBonus",
+					"OverrideDescriptionString": -1,
+					"UseStatusEffectValueAs": "None",
+					"BaseValue": 1,
+					"DynamicValue": {
+						"Stat": "None",
+						"SkillDataID": "00000000-0000-0000-0000-000000000000",
+						"Class": "None",
+						"MultiplyBy": 1,
+						"Operator": "Add"
+					},
+					"KeywordsIDs": [],
+					"DurationType": "Infinite",
+					"Duration": 0,
+					"MaxStackQuantity": 0,
+					"ApplicationBehavior": "UseLongerDurationIfAlreadyApplied",
+					"ApplicationType": "ApplyOnStart",
+					"IntervalRateID": "00000000-0000-0000-0000-000000000000",
+					"StackedChildrenApplyEffects": "false",
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Operator": 0,
+							"Components": []
+						}
+					},
+					"TriggerAdjustment": {
+						"TriggerOnEvent": "None",
+						"TriggerOffEvent": "None",
+						"ValidateWithAttackFilter": "false",
+						"ParamValue": 0,
+						"ValueAdjustment": 0,
+						"DurationAdjustment": 0,
+						"ResetTriggerOnEffectTimeout": "false",
+						"MaxTriggerCount": 0,
+						"IgnoreMaxTriggerCount": "false",
+						"RemoveEffectAtMax": "false",
+						"ChanceToTrigger": 1
+					},
+					"PowerLevelScaling": {
+						"UseCharacterLevel": "false",
+						"BaseLevel": 0,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"ValueAdjustment": 0,
+						"DurationAdjustment": 0
+					},
+					"IsHostile": "false",
+					"ClearOnCombatEnd": "false",
+					"ClearOnRest": "false",
+					"ClearOnFoodRest": "false",
+					"ClearWhenAttacks": "false",
+					"ClearOnDeath": "false",
+					"HideFromCombatTooltip": "false",
+					"HideFromCombatLog": "false",
+					"HideFromUI": "true",
+					"VisualEffects": [],
+					"MaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"AttackFilter": {
+						"KeywordsIDs": [],
+						"KeywordLogic": "Or",
+						"Range": "None",
+						"ClassType": "None",
+						"Source": "None",
+						"DefendedBy": "None",
+						"Empowered": "false",
+						"Disengagement": "false",
+						"Stealthed": "false",
+						"UseStealthLinger": "false",
+						"PowerLevel": 0,
+						"PowerLevelOperator": "EqualTo",
+						"ChanceToApply": 1,
+						"AttackHostility": "Default"
+					},
+					"AttackTargetFilter": {
+						"KeywordsIDs": [],
+						"KeywordLogic": "Or",
+						"Race": "None",
+						"HealthPercentage": 0,
+						"HealthOperator": "EqualTo",
+						"Distance": 0,
+						"DistanceOperator": "EqualTo",
+						"HasDOT": "false",
+						"IsMarked": "false",
+						"TargetHostility": "Default"
+					},
+					"ExtraValue": 9,
+					"OverridePenetration": 0,
+					"DamageTypeValue": "All",
+					"KeywordValueID": "00000000-0000-0000-0000-000000000000",
+					"RaceValue": "None",
+					"StatusEffectTypeValue": "None",
+					"ItemValueID": "00000000-0000-0000-0000-000000000000",
+					"AfflictionTypeValueID": "00000000-0000-0000-0000-000000000000",
+					"StatusEffectsValueIDs": [],
+					"AttackValueID": "00000000-0000-0000-0000-000000000000",
+					"AttackOverrideValue": "None",
+					"EventValue": "OnApply",
+					"ClassValueID": "568f1c26-1398-4e67-8b81-0f6a60e6cdde",
+					"WeaponTypeValue": "None",
+					"AttackHitType": "None",
+					"SkillValueID": "00000000-0000-0000-0000-000000000000",
+					"AudioEventListID": "00000000-0000-0000-0000-000000000000",
+					"BedRestDaysMinimum": 0,
+					"BedRestDaysMaximum": 0
+				}
+			]
+		}
+	]
+}

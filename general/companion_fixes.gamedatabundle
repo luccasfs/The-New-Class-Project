@@ -1,0 +1,542 @@
+﻿{
+    "GameDataObjects": [
+        {
+            "$type": "Game.GameData.CharacterProgressionTableGameData, Assembly-CSharp",
+			"DebugName": "PT_Eder_Fighter",
+			"ID": "5dd582c1-044a-41d2-8f4e-bf1965f0d6ff",
+			"Components": [{
+					"$type": "Game.GameData.BaseProgressionTableComponent, Assembly-CSharp",
+					"AbilityUnlocks": [
+                        {
+							"ActivationObject": "Self",
+							"AddAbilityID": "a3ccfefb-a002-4b27-9c0c-c255faf21190",
+							"Category": "General",
+                            "Note": "CL 1 - Guarded Stance",
+							"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+							"UnlockStyle": "AutoGrant",
+							"Prerequisites": {
+								"Conditional": {
+									"Components": [],
+									"Operator": 0
+								},
+								"IsMutuallyExclusiveUpgrade": "true",
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "6e6750b6-61d7-4b61-9713-55957e0f0591",
+									"MinimumPowerLevel": 0
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"VisibilityConditional": {
+									"Components": [],
+									"Operator": 0
+								}
+							}
+						},  {
+							"ActivationObject": "Self",
+							"AddAbilityID": "8feb7dae-7725-41dc-8984-fcdc4ec5d71c",
+							"Category": "General",
+                            "Note": "CL 1 - Proficiency Sabre",
+							"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+							"UnlockStyle": "AutoGrant",
+							"Prerequisites": {
+								"Conditional": {
+									"Components": [],
+									"Operator": 0
+								},
+								"IsMutuallyExclusiveUpgrade": "true",
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "6e6750b6-61d7-4b61-9713-55957e0f0591",
+									"MinimumPowerLevel": 0
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"VisibilityConditional": {
+									"Components": [],
+									"Operator": 0
+								}
+							}
+						}, {
+							"ActivationObject": "Self",
+							"AddAbilityID": "977ffd2e-63c6-497d-b817-b3b3d06b19fd",
+							"Category": "General",
+                            "Note": "CL 1 - Proficiency Medium Shield",
+							"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+							"UnlockStyle": "AutoGrant",
+							"Prerequisites": {
+								"Conditional": {
+									"Components": [],
+									"Operator": 0
+								},
+								"IsMutuallyExclusiveUpgrade": "true",
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "6e6750b6-61d7-4b61-9713-55957e0f0591",
+									"MinimumPowerLevel": 0
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"VisibilityConditional": {
+									"Components": [],
+									"Operator": 0
+								}
+							}
+						}
+                    ],
+					"DecisionTreeSelectionType": "RandomOrder",
+					"DefaultCustomAI2ID": "00000000-0000-0000-0000-000000000000",
+					"DefaultCustomAIID": "00000000-0000-0000-0000-000000000000",
+					"DefaultDecisionTrees": []
+				}, {
+					"$type": "Game.GameData.CharacterProgressionTableComponent, Assembly-CSharp",
+					"DefaultClassID": "6e6750b6-61d7-4b61-9713-55957e0f0591",
+					"IgnoreResources": "false",
+					"MultiClassID": "00000000-0000-0000-0000-000000000000",
+					"Skills": [{
+							"ActiveSkillID": "fefc4d3d-250d-4c32-85e0-62a851240e62",
+							"Level": 2,
+							"PassiveSkillID": "c7e22ee0-bdd6-4ca8-99f0-a46f3dd66606"
+						}, {
+							"ActiveSkillID": "fefc4d3d-250d-4c32-85e0-62a851240e62",
+							"Level": 3,
+							"PassiveSkillID": "6fa62ec8-6695-4a1d-8553-7486b0ac20c4"
+						}, {
+							"ActiveSkillID": "8cc41e27-e62f-4e75-9f7d-ae47986895d2",
+							"Level": 4,
+							"PassiveSkillID": "98cc5a0d-1387-42e3-9202-417bc42b53ad"
+						}, {
+							"ActiveSkillID": "e67f20e3-5bf9-4d87-9bda-211405107362",
+							"Level": 5,
+							"PassiveSkillID": "3ad9194b-4f41-480e-aa75-1c82df43be84"
+						}, {
+							"ActiveSkillID": "fefc4d3d-250d-4c32-85e0-62a851240e62",
+							"Level": 6,
+							"PassiveSkillID": "98cc5a0d-1387-42e3-9202-417bc42b53ad"
+						}, {
+							"ActiveSkillID": "fefc4d3d-250d-4c32-85e0-62a851240e62",
+							"Level": 7,
+							"PassiveSkillID": "eb8da173-4a3e-4910-94e8-dd0c1436ca40"
+						}, {
+							"ActiveSkillID": "3b073ebf-0a4a-48a3-947d-ad38bef10b36",
+							"Level": 8,
+							"PassiveSkillID": "6fa62ec8-6695-4a1d-8553-7486b0ac20c4"
+						}, {
+							"ActiveSkillID": "fefc4d3d-250d-4c32-85e0-62a851240e62",
+							"Level": 9,
+							"PassiveSkillID": "c7e22ee0-bdd6-4ca8-99f0-a46f3dd66606"
+						}, {
+							"ActiveSkillID": "fefc4d3d-250d-4c32-85e0-62a851240e62",
+							"Level": 10,
+							"PassiveSkillID": "98cc5a0d-1387-42e3-9202-417bc42b53ad"
+						}, {
+							"ActiveSkillID": "e67f20e3-5bf9-4d87-9bda-211405107362",
+							"Level": 11,
+							"PassiveSkillID": "6fa62ec8-6695-4a1d-8553-7486b0ac20c4"
+						}, {
+							"ActiveSkillID": "fefc4d3d-250d-4c32-85e0-62a851240e62",
+							"Level": 12,
+							"PassiveSkillID": "c7e22ee0-bdd6-4ca8-99f0-a46f3dd66606"
+						}, {
+							"ActiveSkillID": "8cc41e27-e62f-4e75-9f7d-ae47986895d2",
+							"Level": 13,
+							"PassiveSkillID": "98cc5a0d-1387-42e3-9202-417bc42b53ad"
+						}, {
+							"ActiveSkillID": "e67f20e3-5bf9-4d87-9bda-211405107362",
+							"Level": 14,
+							"PassiveSkillID": "3ad9194b-4f41-480e-aa75-1c82df43be84"
+						}, {
+							"ActiveSkillID": "fefc4d3d-250d-4c32-85e0-62a851240e62",
+							"Level": 15,
+							"PassiveSkillID": "98cc5a0d-1387-42e3-9202-417bc42b53ad"
+						}, {
+							"ActiveSkillID": "fefc4d3d-250d-4c32-85e0-62a851240e62",
+							"Level": 16,
+							"PassiveSkillID": "eb8da173-4a3e-4910-94e8-dd0c1436ca40"
+						}, {
+							"ActiveSkillID": "3b073ebf-0a4a-48a3-947d-ad38bef10b36",
+							"Level": 17,
+							"PassiveSkillID": "6fa62ec8-6695-4a1d-8553-7486b0ac20c4"
+						}, {
+							"ActiveSkillID": "fefc4d3d-250d-4c32-85e0-62a851240e62",
+							"Level": 18,
+							"PassiveSkillID": "c7e22ee0-bdd6-4ca8-99f0-a46f3dd66606"
+						}, {
+							"ActiveSkillID": "fefc4d3d-250d-4c32-85e0-62a851240e62",
+							"Level": 19,
+							"PassiveSkillID": "98cc5a0d-1387-42e3-9202-417bc42b53ad"
+						}, {
+							"ActiveSkillID": "e67f20e3-5bf9-4d87-9bda-211405107362",
+							"Level": 20,
+							"PassiveSkillID": "6fa62ec8-6695-4a1d-8553-7486b0ac20c4"
+						}
+					],
+					"SubclassesIDs": []
+				}
+			]
+		},  {
+            "$type": "Game.GameData.CharacterProgressionTableGameData, Assembly-CSharp",
+			"DebugName": "PT_Eder_Rogue",
+			"ID": "3593fca2-5d9d-4e33-a76a-c50fb86b41d8",
+			"Components": [{
+					"$type": "Game.GameData.BaseProgressionTableComponent, Assembly-CSharp",
+					"AbilityUnlocks": [
+                        {
+							"ActivationObject": "Self",
+							"AddAbilityID": "1fda55c8-8d5f-47b2-b25d-0ca82c0debed",
+							"Category": "General",
+                            "Note": "CL 1 - Crippling Strike",
+							"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+							"UnlockStyle": "AutoGrant",
+							"Prerequisites": {
+								"Conditional": {
+									"Components": [],
+									"Operator": 0
+								},
+								"IsMutuallyExclusiveUpgrade": "true",
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
+									"MinimumPowerLevel": 0
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"VisibilityConditional": {
+									"Components": [],
+									"Operator": 0
+								}
+							}
+						},  {
+							"ActivationObject": "Self",
+							"AddAbilityID": "8feb7dae-7725-41dc-8984-fcdc4ec5d71c",
+							"Category": "General",
+                            "Note": "CL 1 - Proficiency Sabre",
+							"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+							"UnlockStyle": "AutoGrant",
+							"Prerequisites": {
+								"Conditional": {
+									"Components": [],
+									"Operator": 0
+								},
+								"IsMutuallyExclusiveUpgrade": "true",
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "6e6750b6-61d7-4b61-9713-55957e0f0591",
+									"MinimumPowerLevel": 0
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"VisibilityConditional": {
+									"Components": [],
+									"Operator": 0
+								}
+							}
+						},  {
+							"ActivationObject": "Self",
+							"AddAbilityID": "977ffd2e-63c6-497d-b817-b3b3d06b19fd",
+							"Category": "General",
+                            "Note": "CL 1 - Proficiency Medium Shield",
+							"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+							"UnlockStyle": "AutoGrant",
+							"Prerequisites": {
+								"Conditional": {
+									"Components": [],
+									"Operator": 0
+								},
+								"IsMutuallyExclusiveUpgrade": "true",
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "6e6750b6-61d7-4b61-9713-55957e0f0591",
+									"MinimumPowerLevel": 0
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"VisibilityConditional": {
+									"Components": [],
+									"Operator": 0
+								}
+							}
+						}
+                    ],
+					"DecisionTreeSelectionType": "RandomOrder",
+					"DefaultCustomAI2ID": "00000000-0000-0000-0000-000000000000",
+					"DefaultCustomAIID": "00000000-0000-0000-0000-000000000000",
+					"DefaultDecisionTrees": []
+				}, {
+					"$type": "Game.GameData.CharacterProgressionTableComponent, Assembly-CSharp",
+					"DefaultClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
+					"IgnoreResources": "false",
+					"MultiClassID": "00000000-0000-0000-0000-000000000000",
+					"Skills": [{
+							"ActiveSkillID": "3affbb70-86bd-41f3-82c6-325326d40796",
+							"Level": 2,
+							"PassiveSkillID": "c7e22ee0-bdd6-4ca8-99f0-a46f3dd66606"
+						}, {
+							"ActiveSkillID": "fefc4d3d-250d-4c32-85e0-62a851240e62",
+							"Level": 3,
+							"PassiveSkillID": "6fa62ec8-6695-4a1d-8553-7486b0ac20c4"
+						}, {
+							"ActiveSkillID": "8cc41e27-e62f-4e75-9f7d-ae47986895d2",
+							"Level": 4,
+							"PassiveSkillID": "98cc5a0d-1387-42e3-9202-417bc42b53ad"
+						}, {
+							"ActiveSkillID": "e67f20e3-5bf9-4d87-9bda-211405107362",
+							"Level": 5,
+							"PassiveSkillID": "3ad9194b-4f41-480e-aa75-1c82df43be84"
+						}, {
+							"ActiveSkillID": "3affbb70-86bd-41f3-82c6-325326d40796",
+							"Level": 6,
+							"PassiveSkillID": "98cc5a0d-1387-42e3-9202-417bc42b53ad"
+						}, {
+							"ActiveSkillID": "fefc4d3d-250d-4c32-85e0-62a851240e62",
+							"Level": 7,
+							"PassiveSkillID": "eb8da173-4a3e-4910-94e8-dd0c1436ca40"
+						}, {
+							"ActiveSkillID": "3b073ebf-0a4a-48a3-947d-ad38bef10b36",
+							"Level": 8,
+							"PassiveSkillID": "6fa62ec8-6695-4a1d-8553-7486b0ac20c4"
+						}, {
+							"ActiveSkillID": "3affbb70-86bd-41f3-82c6-325326d40796",
+							"Level": 9,
+							"PassiveSkillID": "c7e22ee0-bdd6-4ca8-99f0-a46f3dd66606"
+						}, {
+							"ActiveSkillID": "fefc4d3d-250d-4c32-85e0-62a851240e62",
+							"Level": 10,
+							"PassiveSkillID": "98cc5a0d-1387-42e3-9202-417bc42b53ad"
+						}, {
+							"ActiveSkillID": "e67f20e3-5bf9-4d87-9bda-211405107362",
+							"Level": 11,
+							"PassiveSkillID": "6fa62ec8-6695-4a1d-8553-7486b0ac20c4"
+						}, {
+							"ActiveSkillID": "3affbb70-86bd-41f3-82c6-325326d40796",
+							"Level": 12,
+							"PassiveSkillID": "c7e22ee0-bdd6-4ca8-99f0-a46f3dd66606"
+						}, {
+							"ActiveSkillID": "8cc41e27-e62f-4e75-9f7d-ae47986895d2",
+							"Level": 13,
+							"PassiveSkillID": "98cc5a0d-1387-42e3-9202-417bc42b53ad"
+						}, {
+							"ActiveSkillID": "e67f20e3-5bf9-4d87-9bda-211405107362",
+							"Level": 14,
+							"PassiveSkillID": "3ad9194b-4f41-480e-aa75-1c82df43be84"
+						}, {
+							"ActiveSkillID": "3affbb70-86bd-41f3-82c6-325326d40796",
+							"Level": 15,
+							"PassiveSkillID": "98cc5a0d-1387-42e3-9202-417bc42b53ad"
+						}, {
+							"ActiveSkillID": "fefc4d3d-250d-4c32-85e0-62a851240e62",
+							"Level": 16,
+							"PassiveSkillID": "eb8da173-4a3e-4910-94e8-dd0c1436ca40"
+						}, {
+							"ActiveSkillID": "3b073ebf-0a4a-48a3-947d-ad38bef10b36",
+							"Level": 17,
+							"PassiveSkillID": "6fa62ec8-6695-4a1d-8553-7486b0ac20c4"
+						}, {
+							"ActiveSkillID": "3affbb70-86bd-41f3-82c6-325326d40796",
+							"Level": 18,
+							"PassiveSkillID": "c7e22ee0-bdd6-4ca8-99f0-a46f3dd66606"
+						}, {
+							"ActiveSkillID": "fefc4d3d-250d-4c32-85e0-62a851240e62",
+							"Level": 19,
+							"PassiveSkillID": "98cc5a0d-1387-42e3-9202-417bc42b53ad"
+						}, {
+							"ActiveSkillID": "e67f20e3-5bf9-4d87-9bda-211405107362",
+							"Level": 20,
+							"PassiveSkillID": "6fa62ec8-6695-4a1d-8553-7486b0ac20c4"
+						}
+					],
+					"SubclassesIDs": []
+				}
+			]
+		},  {
+            "$type": "Game.GameData.CharacterProgressionTableGameData, Assembly-CSharp",
+			"DebugName": "PT_Eder_Fighter_Rogue",
+			"ID": "85df7158-f55b-4324-8362-fd5010a21388",
+			"Components": [{
+					"$type": "Game.GameData.BaseProgressionTableComponent, Assembly-CSharp",
+					"AbilityUnlocks": [
+                        {
+							"ActivationObject": "Self",
+							"AddAbilityID": "e03f0de3-d99f-4b9b-bf1d-8fda8b3451e5",
+							"Category": "General",
+							"Note": "CL 1 Unlock - Penetrating Strike",
+							"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+							"UnlockStyle": "AutoGrant",
+							"Prerequisites": {
+								"Conditional": {
+									"Components": [],
+									"Operator": 0
+								},
+								"IsMutuallyExclusiveUpgrade": "true",
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "6e6750b6-61d7-4b61-9713-55957e0f0591",
+									"MinimumPowerLevel": 0
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"VisibilityConditional": {
+									"Components": [],
+									"Operator": 0
+								}
+							}
+						},  {
+							"ActivationObject": "Self",
+							"AddAbilityID": "719dd06a-6008-4f1d-949c-2bac54bde4da",
+							"Category": "General",
+							"Note": "CL 1 - Escape",
+							"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+							"UnlockStyle": "AutoGrant",
+							"Prerequisites": {
+								"Conditional": {
+									"Components": [],
+									"Operator": 0
+								},
+								"IsMutuallyExclusiveUpgrade": "true",
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
+									"MinimumPowerLevel": 0
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"VisibilityConditional": {
+									"Components": [],
+									"Operator": 0
+								}
+							}
+						},  {
+							"ActivationObject": "Self",
+							"AddAbilityID": "8feb7dae-7725-41dc-8984-fcdc4ec5d71c",
+							"Category": "General",
+                            "Note": "CL 1 - Proficiency Sabre",
+							"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+							"UnlockStyle": "AutoGrant",
+							"Prerequisites": {
+								"Conditional": {
+									"Components": [],
+									"Operator": 0
+								},
+								"IsMutuallyExclusiveUpgrade": "true",
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "6e6750b6-61d7-4b61-9713-55957e0f0591",
+									"MinimumPowerLevel": 0
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"VisibilityConditional": {
+									"Components": [],
+									"Operator": 0
+								}
+							}
+						},  {
+							"ActivationObject": "Self",
+							"AddAbilityID": "977ffd2e-63c6-497d-b817-b3b3d06b19fd",
+							"Category": "General",
+                            "Note": "CL 1 - Proficiency Medium Shield",
+							"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+							"UnlockStyle": "AutoGrant",
+							"Prerequisites": {
+								"Conditional": {
+									"Components": [],
+									"Operator": 0
+								},
+								"IsMutuallyExclusiveUpgrade": "true",
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "6e6750b6-61d7-4b61-9713-55957e0f0591",
+									"MinimumPowerLevel": 0
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"VisibilityConditional": {
+									"Components": [],
+									"Operator": 0
+								}
+							}
+						}
+                    ],
+					"DecisionTreeSelectionType": "RandomOrder",
+					"DefaultCustomAI2ID": "00000000-0000-0000-0000-000000000000",
+					"DefaultCustomAIID": "00000000-0000-0000-0000-000000000000",
+					"DefaultDecisionTrees": []
+				}, {
+					"$type": "Game.GameData.CharacterProgressionTableComponent, Assembly-CSharp",
+					"DefaultClassID": "6e6750b6-61d7-4b61-9713-55957e0f0591",
+					"IgnoreResources": "false",
+					"MultiClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
+					"Skills": [{
+							"ActiveSkillID": "3affbb70-86bd-41f3-82c6-325326d40796",
+							"Level": 2,
+							"PassiveSkillID": "c7e22ee0-bdd6-4ca8-99f0-a46f3dd66606"
+						}, {
+							"ActiveSkillID": "fefc4d3d-250d-4c32-85e0-62a851240e62",
+							"Level": 3,
+							"PassiveSkillID": "6fa62ec8-6695-4a1d-8553-7486b0ac20c4"
+						}, {
+							"ActiveSkillID": "8cc41e27-e62f-4e75-9f7d-ae47986895d2",
+							"Level": 4,
+							"PassiveSkillID": "98cc5a0d-1387-42e3-9202-417bc42b53ad"
+						}, {
+							"ActiveSkillID": "e67f20e3-5bf9-4d87-9bda-211405107362",
+							"Level": 5,
+							"PassiveSkillID": "3ad9194b-4f41-480e-aa75-1c82df43be84"
+						}, {
+							"ActiveSkillID": "3affbb70-86bd-41f3-82c6-325326d40796",
+							"Level": 6,
+							"PassiveSkillID": "98cc5a0d-1387-42e3-9202-417bc42b53ad"
+						}, {
+							"ActiveSkillID": "fefc4d3d-250d-4c32-85e0-62a851240e62",
+							"Level": 7,
+							"PassiveSkillID": "eb8da173-4a3e-4910-94e8-dd0c1436ca40"
+						}, {
+							"ActiveSkillID": "3b073ebf-0a4a-48a3-947d-ad38bef10b36",
+							"Level": 8,
+							"PassiveSkillID": "6fa62ec8-6695-4a1d-8553-7486b0ac20c4"
+						}, {
+							"ActiveSkillID": "3affbb70-86bd-41f3-82c6-325326d40796",
+							"Level": 9,
+							"PassiveSkillID": "c7e22ee0-bdd6-4ca8-99f0-a46f3dd66606"
+						}, {
+							"ActiveSkillID": "fefc4d3d-250d-4c32-85e0-62a851240e62",
+							"Level": 10,
+							"PassiveSkillID": "98cc5a0d-1387-42e3-9202-417bc42b53ad"
+						}, {
+							"ActiveSkillID": "e67f20e3-5bf9-4d87-9bda-211405107362",
+							"Level": 11,
+							"PassiveSkillID": "6fa62ec8-6695-4a1d-8553-7486b0ac20c4"
+						}, {
+							"ActiveSkillID": "3affbb70-86bd-41f3-82c6-325326d40796",
+							"Level": 12,
+							"PassiveSkillID": "c7e22ee0-bdd6-4ca8-99f0-a46f3dd66606"
+						}, {
+							"ActiveSkillID": "8cc41e27-e62f-4e75-9f7d-ae47986895d2",
+							"Level": 13,
+							"PassiveSkillID": "98cc5a0d-1387-42e3-9202-417bc42b53ad"
+						}, {
+							"ActiveSkillID": "e67f20e3-5bf9-4d87-9bda-211405107362",
+							"Level": 14,
+							"PassiveSkillID": "3ad9194b-4f41-480e-aa75-1c82df43be84"
+						}, {
+							"ActiveSkillID": "3affbb70-86bd-41f3-82c6-325326d40796",
+							"Level": 15,
+							"PassiveSkillID": "98cc5a0d-1387-42e3-9202-417bc42b53ad"
+						}, {
+							"ActiveSkillID": "fefc4d3d-250d-4c32-85e0-62a851240e62",
+							"Level": 16,
+							"PassiveSkillID": "eb8da173-4a3e-4910-94e8-dd0c1436ca40"
+						}, {
+							"ActiveSkillID": "3b073ebf-0a4a-48a3-947d-ad38bef10b36",
+							"Level": 17,
+							"PassiveSkillID": "6fa62ec8-6695-4a1d-8553-7486b0ac20c4"
+						}, {
+							"ActiveSkillID": "3affbb70-86bd-41f3-82c6-325326d40796",
+							"Level": 18,
+							"PassiveSkillID": "c7e22ee0-bdd6-4ca8-99f0-a46f3dd66606"
+						}, {
+							"ActiveSkillID": "fefc4d3d-250d-4c32-85e0-62a851240e62",
+							"Level": 19,
+							"PassiveSkillID": "98cc5a0d-1387-42e3-9202-417bc42b53ad"
+						}, {
+							"ActiveSkillID": "e67f20e3-5bf9-4d87-9bda-211405107362",
+							"Level": 20,
+							"PassiveSkillID": "6fa62ec8-6695-4a1d-8553-7486b0ac20c4"
+						}
+					],
+					"SubclassesIDs": []
+				}
+			]
+		}
+    ]
+}

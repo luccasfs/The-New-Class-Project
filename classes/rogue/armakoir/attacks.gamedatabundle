@@ -1,0 +1,32 @@
+﻿{
+    "GameDataObjects": [
+        {
+			"$type": "Game.GameData.AttackAOEGameData, Assembly-CSharp",
+			"DebugName": "Smoke_Cloud_AOE",
+			"ID": "82eec3a0-4665-4652-8b92-7460fe338574",	//vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+					"StatusEffectsIDs": ["554e568a-b284-439f-b207-ac50261bbb20"]
+				}
+			]
+		},	{
+			"$type": "Game.GameData.AttackAOEGameData, Assembly-CSharp",
+			"DebugName": "Pernicious_Cloud_AOE",
+			"ID": "1b0175a3-8fdc-4d0b-9fb0-975f51b9b393",	//vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+					"StatusEffectsIDs": ["554e568a-b284-439f-b207-ac50261bbb20", "23b42c69-62f0-46db-ac21-1bc364594882"]
+				}
+			]
+		},	{
+			"$type": "Game.GameData.AttackAOEGameData, Assembly-CSharp",
+			"DebugName": "Smoke_Grenade_AOE",	//renamed Toxic Grenade
+			"ID": "73684511-e019-45b9-a180-fea125b78da7",	//vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+					"StatusEffectsIDs": ["22bf5e8d-1077-4e76-8e04-943f54709362"]
+				}
+			]
+		}
+    ]
+}

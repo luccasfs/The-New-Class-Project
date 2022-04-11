@@ -1,0 +1,548 @@
+{
+	"GameDataObjects": [
+		{
+			"$type": "Game.GameData.EquippableGameData, Assembly-CSharp",
+			"DebugName": "Grimoire_Of_Ascended_Archmage",
+			"ID": "fd2c4630-fca7-492c-86ba-851b98052c7f",
+			"Components": [
+				{
+					"$type": "Game.GameData.ItemComponent, Assembly-CSharp",
+					"DisplayName": 6001,
+					"DescriptionText": 6002,
+					"FilterType": "Weapons",
+					"InventoryAudioEventListID": "32023afc-c1c3-4b6a-bcfd-77bde56ee6c3",
+					"IsQuestItem": "false",
+					"IsIngredient": "false",
+					"IsCurrency": "false",
+					"IsAdventuringItem": "false",
+					"CanSellForFullValue": "false",
+					"MaxStackSize": 1,
+					"NeverDropAsLoot": "false",
+					"CanBePickpocketed": "true",
+					"IsUnique": "true",
+					"Value": 77500,
+					"IconTextureSmall": "gui/icons/items/misc/grimoire_dusty_black_s.png",
+					"IconTextureLarge": "gui/icons/items/misc/grimoire_dusty_black_l.png",
+					"PencilSketchTexture": "",
+					"InspectOnUseButton": [],
+					"IsPlaceholder": "false"
+				},
+				{
+					"$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
+					"EquipmentType": "None",
+					"EquipmentSlot": "GrimoireOrTrinket",
+					"AppearancePiece": {
+						"ModelVisualDataPath": "prefabs/items/appearance/weapons/grimoire/a_grimoire11.asset"
+					},
+					"ItemModsIDs": [
+						"bff094e2-cf84-44d7-b86f-db7c7642835f"
+					],
+					"OnEquipVisualEffects": [],
+					"RestrictedToClassIDs": [
+						"acfd1303-4699-4939-91eb-6ac46d4af0bd"
+					],
+					"RestrictedToPlayer": "false",
+					"ProficientAbilityID": "00000000-0000-0000-0000-000000000000",
+					"CannotUnequip": "false",
+					"ItemRendererPrefab": "prefabs/itemrenderers/genericanimateditemrenderer.prefab",
+					"ItemModel": "art/character/weapons/grimoire/grimoire01/w_grimoire01_cast.fbx",
+					"AnimationController": "art/animation/animationcontrollers/weapon/w_grimoire.controller",
+					"PaperdollOverrideRenderer": "",
+					"AttackSummonID": "00000000-0000-0000-0000-000000000000",
+					"CannotSheathe": "false",
+					"PropVisualEffects": []
+				},
+				{
+					"$type": "Game.GameData.GrimoireComponent, Assembly-CSharp",
+					"NPCsAutomaticallyFill": "false",
+					"SchoolID": "00000000-0000-0000-0000-000000000000",
+					"SpellsIDs": [
+						"d8c72c57-398e-4d66-818e-11124fe01494",
+						"db830d39-94c1-45c5-a082-75e170b7c92c",
+						"03819651-f218-4d29-a002-ceb99a489f1f",
+						"93c081c1-7177-4380-83cf-0deec9c7fd69",
+						"c0913543-b464-4138-a8cd-000f4ab10c67",
+						"8a243106-d0c8-4626-bd08-712a86c7d525",
+						"a37bd252-73a3-4715-820b-24c860060d3a",
+						"1e2c967f-b5bc-412c-ba34-0355737d338c",
+						"6ff519fd-9284-445d-992c-3143bed04de4",
+						"aea2420f-5689-4b40-9660-14a4a7590448",
+						"f12be0db-62da-4761-ba87-64487625d9f3",
+						"cccff3fb-ff5b-4e64-9e0c-55c2dda1e23b",
+						"a0f34c51-3695-4dda-a04b-1d75ee79cbb8",
+						"d041761d-add6-4d92-b758-a42e5480103f",
+						"aa243106-d0c8-4626-bd08-712a86c7d52a",
+						"a37bd252-73a3-4715-820b-24c860060d3b",
+						"f37bd252-73a3-4715-820b-24c860060d3f",
+						"96e59006-be43-4f27-92b4-424eafa5a494"
+					]
+				}
+			]
+		},
+		{
+			"$type": "Game.GameData.ItemModGameData, Assembly-CSharp",
+			"DebugName": "Archmages_Boon",
+			"ID": "bff094e2-cf84-44d7-b86f-db7c7642835f",
+			"Components": [
+				{
+					"$type": "Game.GameData.ItemModComponent, Assembly-CSharp",
+					"DisplayName": 6000,
+					"HideFromUI": "false",
+					"EnchantCategory": "None",
+					"Cost": 4,
+					"DisplayEvenIfCostZero": "false",
+					"CursesItem": "false",
+					"StatusEffectsOnEquipIDs": [
+						"b5eac66e-cc34-4aa6-ad1b-c9ed8fd96fc2",
+						"b5eac66e-cc34-4aa6-ad1b-c9ed8fd96fc3"
+					],
+					"StatusEffectsOnLaunchIDs": [],
+					"StatusEffectsOnAttackIDs": [],
+					"AbilityModsOnEquipIDs": [],
+					"OnEquipVisualEffects": [],
+					"DamageProcs": [],
+					"AbilitiesOnEquipIDs": []
+				}
+			]
+		},
+		{
+			"$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+			"DebugName": "ArchmagesBoon_Evocation_SE_PowerLevel",
+			"ID": "b5eac66e-cc34-4aa6-ad1b-c9ed8fd96fc2",
+			"Components": [
+				{
+					"$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+					"StatusEffectType": "PowerLevel",
+					"OverrideDescriptionString": -1,
+					"OverrideDescriptionStringTactical": -1,
+					"UseStatusEffectValueAs": "None",
+					"BaseValue": 2,
+					"DynamicValue": {
+						"Stat": "None",
+						"SkillDataID": "00000000-0000-0000-0000-000000000000",
+						"ClassID": "00000000-0000-0000-0000-000000000000",
+						"MultiplyBy": 1,
+						"Operator": "Add"
+					},
+					"KeywordsIDs": [],
+					"DurationType": "Infinite",
+					"Duration": 0,
+					"MaxStackQuantity": 0,
+					"ApplicationBehavior": "UseLongerDurationIfAlreadyApplied",
+					"ApplicationType": "ApplyOnStart",
+					"IntervalRateID": "00000000-0000-0000-0000-000000000000",
+					"StackedChildrenApplyEffects": "false",
+					"InclusionConditions": {
+						"Operator": 0,
+						"Components": []
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Operator": 0,
+							"Components": []
+						}
+					},
+					"TriggerAdjustment": {
+						"TriggerOnEvent": "None",
+						"TriggerOffEvent": "None",
+						"ValidateWithAttackFilter": "false",
+						"ParamValue": 0,
+						"ValueAdjustment": 0,
+						"DurationAdjustment": 0,
+						"ResetTriggerOnEffectTimeout": "false",
+						"MaxTriggerCount": 0,
+						"IgnoreMaxTriggerCount": "false",
+						"RemoveEffectAtMax": "false",
+						"ChanceToTrigger": 1
+					},
+					"PowerLevelScaling": {
+						"UseCharacterLevel": "false",
+						"BaseLevel": 0,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"ValueAdjustment": 0,
+						"DurationAdjustment": 0
+					},
+					"IsHostile": "false",
+					"ClearOnCombatEnd": "false",
+					"ClearOnRest": "false",
+					"ClearOnFoodRest": "false",
+					"ClearWhenAttacks": "false",
+					"ClearOnDeath": "false",
+					"HideFromCombatTooltip": "true",
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"HideIfNoValue": "false",
+					"VisualEffects": [],
+					"MaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"AttackFilter": {
+						"KeywordsIDs": [],
+						"KeywordLogic": "Or",
+						"Race": "None",
+						"IsKith": "false",
+						"HealthPercentage": 0,
+						"HealthOperator": "EqualTo",
+						"Range": "None",
+						"ClassTypeID": "00000000-0000-0000-0000-000000000000",
+						"Source": "None",
+						"DefendedBy": "None",
+						"Empowered": "false",
+						"Disengagement": "false",
+						"Stealthed": "false",
+						"UseStealthLinger": "false",
+						"PowerLevel": 0,
+						"PowerLevelOperator": "EqualTo",
+						"ChanceToApply": 1,
+						"AttackHostility": "Default",
+						"TargetType": "None"
+					},
+					"AttackTargetFilter": {
+						"KeywordsIDs": [],
+						"KeywordLogic": "Or",
+						"Race": "None",
+						"IsKith": "false",
+						"HealthPercentage": 0,
+						"HealthOperator": "EqualTo",
+						"Distance": 0,
+						"DistanceOperator": "EqualTo",
+						"HasDOT": "false",
+						"IsMarked": "false",
+						"TargetHostility": "Default"
+					},
+					"ExtraValue": 0,
+					"OverridePenetration": 0,
+					"DamageTypeValue": "All",
+					"KeywordValueID": "3f075d80-787a-493e-bbaa-6da3d6dc2d0f",
+					"RaceValue": "None",
+					"StatusEffectTypeValue": "None",
+					"ItemValueID": "00000000-0000-0000-0000-000000000000",
+					"AfflictionTypeValueID": "00000000-0000-0000-0000-000000000000",
+					"StatusEffectsValueIDs": [],
+					"AttackValueID": "00000000-0000-0000-0000-000000000000",
+					"AttackOverrideValue": "None",
+					"EventValue": "OnApply",
+					"ClassValueID": "acfd1303-4699-4939-91eb-6ac46d4af0bd",
+					"WeaponTypeValue": "None",
+					"AttackHitType": "None",
+					"SkillValueID": "00000000-0000-0000-0000-000000000000",
+					"AudioEventListID": "00000000-0000-0000-0000-000000000000",
+					"BedRestDaysMinimum": 0,
+					"BedRestDaysMaximum": 0
+				}
+			]
+		},
+		{
+			"$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+			"DebugName": "ArchmagesBoon_Transmutation_SE_PowerLevel",
+			"ID": "b5eac66e-cc34-4aa6-ad1b-c9ed8fd96fc3",
+			"Components": [
+				{
+					"$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+					"StatusEffectType": "PowerLevel",
+					"OverrideDescriptionString": -1,
+					"OverrideDescriptionStringTactical": -1,
+					"UseStatusEffectValueAs": "None",
+					"BaseValue": 2,
+					"DynamicValue": {
+						"Stat": "None",
+						"SkillDataID": "00000000-0000-0000-0000-000000000000",
+						"ClassID": "00000000-0000-0000-0000-000000000000",
+						"MultiplyBy": 1,
+						"Operator": "Add"
+					},
+					"KeywordsIDs": [],
+					"DurationType": "Infinite",
+					"Duration": 0,
+					"MaxStackQuantity": 0,
+					"ApplicationBehavior": "UseLongerDurationIfAlreadyApplied",
+					"ApplicationType": "ApplyOnStart",
+					"IntervalRateID": "00000000-0000-0000-0000-000000000000",
+					"StackedChildrenApplyEffects": "false",
+					"InclusionConditions": {
+						"Operator": 0,
+						"Components": []
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Operator": 0,
+							"Components": []
+						}
+					},
+					"TriggerAdjustment": {
+						"TriggerOnEvent": "None",
+						"TriggerOffEvent": "None",
+						"ValidateWithAttackFilter": "false",
+						"ParamValue": 0,
+						"ValueAdjustment": 0,
+						"DurationAdjustment": 0,
+						"ResetTriggerOnEffectTimeout": "false",
+						"MaxTriggerCount": 0,
+						"IgnoreMaxTriggerCount": "false",
+						"RemoveEffectAtMax": "false",
+						"ChanceToTrigger": 1
+					},
+					"PowerLevelScaling": {
+						"UseCharacterLevel": "false",
+						"BaseLevel": 0,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"ValueAdjustment": 0,
+						"DurationAdjustment": 0
+					},
+					"IsHostile": "false",
+					"ClearOnCombatEnd": "false",
+					"ClearOnRest": "false",
+					"ClearOnFoodRest": "false",
+					"ClearWhenAttacks": "false",
+					"ClearOnDeath": "false",
+					"HideFromCombatTooltip": "true",
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"HideIfNoValue": "false",
+					"VisualEffects": [],
+					"MaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"AttackFilter": {
+						"KeywordsIDs": [],
+						"KeywordLogic": "Or",
+						"Race": "None",
+						"IsKith": "false",
+						"HealthPercentage": 0,
+						"HealthOperator": "EqualTo",
+						"Range": "None",
+						"ClassTypeID": "00000000-0000-0000-0000-000000000000",
+						"Source": "None",
+						"DefendedBy": "None",
+						"Empowered": "false",
+						"Disengagement": "false",
+						"Stealthed": "false",
+						"UseStealthLinger": "false",
+						"PowerLevel": 0,
+						"PowerLevelOperator": "EqualTo",
+						"ChanceToApply": 1,
+						"AttackHostility": "Default",
+						"TargetType": "None"
+					},
+					"AttackTargetFilter": {
+						"KeywordsIDs": [],
+						"KeywordLogic": "Or",
+						"Race": "None",
+						"IsKith": "false",
+						"HealthPercentage": 0,
+						"HealthOperator": "EqualTo",
+						"Distance": 0,
+						"DistanceOperator": "EqualTo",
+						"HasDOT": "false",
+						"IsMarked": "false",
+						"TargetHostility": "Default"
+					},
+					"ExtraValue": 0,
+					"OverridePenetration": 0,
+					"DamageTypeValue": "All",
+					"KeywordValueID": "ab88e534-596e-4f40-b54e-9dd8b2cab983",
+					"RaceValue": "None",
+					"StatusEffectTypeValue": "None",
+					"ItemValueID": "00000000-0000-0000-0000-000000000000",
+					"AfflictionTypeValueID": "00000000-0000-0000-0000-000000000000",
+					"StatusEffectsValueIDs": [],
+					"AttackValueID": "00000000-0000-0000-0000-000000000000",
+					"AttackOverrideValue": "None",
+					"EventValue": "OnApply",
+					"ClassValueID": "acfd1303-4699-4939-91eb-6ac46d4af0bd",
+					"WeaponTypeValue": "None",
+					"AttackHitType": "None",
+					"SkillValueID": "00000000-0000-0000-0000-000000000000",
+					"AudioEventListID": "00000000-0000-0000-0000-000000000000",
+					"BedRestDaysMinimum": 0,
+					"BedRestDaysMaximum": 0
+				}
+			]
+		},
+		{
+			"$type": "Game.GameData.LootListGameData, Assembly-CSharp",
+			"DebugName": "Store_05_AD_Emporium",
+			"ID": "73622f72-063a-4e06-928f-3c4005745e2c",
+			"Components": [
+				{
+					"$type": "Game.GameData.LootListComponent, Assembly-CSharp",
+					"Conditional": {
+						"Operator": 0,
+						"Components": []
+					},
+					"OutputChance": 1,
+					"OutputMode": "All",
+					"Items": [
+						{
+							"Conditional": {
+								"Operator": 0,
+								"Components": []
+							},
+							"OutputChance": 1,
+							"MinCount": 30,
+							"MaxCount": 30,
+							"Weight": 1,
+							"ItemID": "00000000-0000-0000-0000-000000000000",
+							"LootListID": "5eb65b2e-0a71-4212-aa21-e28b201e6b8f",
+							"LockedVisible": "false"
+						},
+						{
+							"Conditional": {
+								"Operator": 0,
+								"Components": []
+							},
+							"OutputChance": 1,
+							"MinCount": 30,
+							"MaxCount": 30,
+							"Weight": 1,
+							"ItemID": "00000000-0000-0000-0000-000000000000",
+							"LootListID": "b0b26aec-689b-4e1a-944d-904dc986571d",
+							"LockedVisible": "false"
+						},
+						{
+							"Conditional": {
+								"Operator": 0,
+								"Components": []
+							},
+							"OutputChance": 1,
+							"MinCount": 1,
+							"MaxCount": 1,
+							"Weight": 1,
+							"ItemID": "fe9323cb-e9a3-4e4d-b165-a5b1dda6092c",
+							"LootListID": "00000000-0000-0000-0000-000000000000",
+							"LockedVisible": "false"
+						},
+						{
+							"Conditional": {
+								"Operator": 0,
+								"Components": []
+							},
+							"OutputChance": 1,
+							"MinCount": 1,
+							"MaxCount": 3,
+							"Weight": 1,
+							"ItemID": "7af1c4f6-c7f1-4467-9c11-cca4696d7c7c",
+							"LootListID": "00000000-0000-0000-0000-000000000000",
+							"LockedVisible": "false"
+						},
+						{
+							"Conditional": {
+								"Operator": 0,
+								"Components": []
+							},
+							"OutputChance": 1,
+							"MinCount": 1,
+							"MaxCount": 3,
+							"Weight": 1,
+							"ItemID": "80399653-ede8-4d47-9a4a-e70121824da4",
+							"LootListID": "00000000-0000-0000-0000-000000000000",
+							"LockedVisible": "false"
+						},
+						{
+							"Conditional": {
+								"Operator": 0,
+								"Components": []
+							},
+							"OutputChance": 1,
+							"MinCount": 1,
+							"MaxCount": 3,
+							"Weight": 1,
+							"ItemID": "5e120ced-b09d-4cbd-9401-f17f2fc42499",
+							"LootListID": "00000000-0000-0000-0000-000000000000",
+							"LockedVisible": "false"
+						},
+						{
+							"Conditional": {
+								"Operator": 0,
+								"Components": []
+							},
+							"OutputChance": 1,
+							"MinCount": 1,
+							"MaxCount": 3,
+							"Weight": 1,
+							"ItemID": "a14984d9-7512-46fe-a36c-25ecc067baa0",
+							"LootListID": "00000000-0000-0000-0000-000000000000",
+							"LockedVisible": "false"
+						},
+						{
+							"Conditional": {
+								"Operator": 0,
+								"Components": []
+							},
+							"OutputChance": 1,
+							"MinCount": 1,
+							"MaxCount": 3,
+							"Weight": 1,
+							"ItemID": "26c90ebb-dc03-407e-941f-71a19c35aa64",
+							"LootListID": "00000000-0000-0000-0000-000000000000",
+							"LockedVisible": "false"
+						},
+						{
+							"Conditional": {
+								"Operator": 0,
+								"Components": []
+							},
+							"OutputChance": 1,
+							"MinCount": 20,
+							"MaxCount": 20,
+							"Weight": 1,
+							"ItemID": "00000000-0000-0000-0000-000000000000",
+							"LootListID": "106e82eb-ee22-4327-a2ca-8cc7e5acbd1a",
+							"LockedVisible": "false"
+						},
+						{
+							"Conditional": {
+								"Operator": 0,
+								"Components": []
+							},
+							"OutputChance": 1,
+							"MinCount": 10,
+							"MaxCount": 10,
+							"Weight": 1,
+							"ItemID": "00000000-0000-0000-0000-000000000000",
+							"LootListID": "b7ec99c1-7c30-4974-a561-02443a522b05",
+							"LockedVisible": "false"
+						},
+						{
+							"Conditional": {
+								"Operator": 0,
+								"Components": []
+							},
+							"OutputChance": 1,
+							"MinCount": 1,
+							"MaxCount": 2,
+							"Weight": 1,
+							"ItemID": "348e7449-1c95-42f5-835f-7836f0c4ecd2",
+							"LootListID": "00000000-0000-0000-0000-000000000000",
+							"LockedVisible": "false"
+						},
+						{
+							"Conditional": {
+								"Operator": 0,
+								"Components": []
+							},
+							"OutputChance": 1,
+							"MinCount": 1,
+							"MaxCount": 1,
+							"Weight": 1,
+							"ItemID": "fd2c4630-fca7-492c-86ba-851b98052c7f",
+							"LootListID": "00000000-0000-0000-0000-000000000000",
+							"LockedVisible": "false"
+						},
+						{
+							"Conditional": {
+								"Operator": 0,
+								"Components": []
+							},
+							"OutputChance": 1,
+							"MinCount": 1,
+							"MaxCount": 1,
+							"Weight": 1,
+							"ItemID": "00000000-0000-0000-0000-000000000000",
+							"LootListID": "79a203e5-c8d8-45f9-b8a1-61041f0f579d",
+							"LockedVisible": "false"
+						}
+					]
+				}
+			]
+		}
+	]
+}

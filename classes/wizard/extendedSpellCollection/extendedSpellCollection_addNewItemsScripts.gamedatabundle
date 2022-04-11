@@ -1,0 +1,310 @@
+{
+	"GameDataObjects": [
+		{
+			"$type": "Game.GameData.LootListGameData, Assembly-CSharp",
+			"DebugName": "LL_Wizardry_Rings",
+			"ID": "0e288d0f-ea1d-4674-b5aa-d8c80958caa0",
+			"Components": [
+				{
+					"$type": "Game.GameData.LootListComponent, Assembly-CSharp",
+					"Conditional": {
+						"Operator": 0,
+						"Components": []
+					},
+					"OutputChance": 1,
+					"OutputMode": "All",
+					"Items": [
+						{
+							"Conditional": {
+								"Operator": 0,
+								"Components": []
+							},
+							"OutputChance": 1,
+							"MinCount": 1,
+							"MaxCount": 1,
+							"Weight": 1,
+							"ItemID": "e9d531ce-dcbb-4b21-8363-7bedadf12ce2",
+							"LootListID": "00000000-0000-0000-0000-000000000000",
+							"LockedVisible": "false"
+						},
+						{
+							"Conditional": {
+								"Operator": 0,
+								"Components": []
+							},
+							"OutputChance": 1,
+							"MinCount": 1,
+							"MaxCount": 1,
+							"Weight": 1,
+							"ItemID": "e9d531ce-dcbb-4b21-8363-7bedadf12ce3",
+							"LootListID": "00000000-0000-0000-0000-000000000000",
+							"LockedVisible": "false"
+						},
+												{
+							"Conditional": {
+								"Operator": 0,
+								"Components": []
+							},
+							"OutputChance": 1,
+							"MinCount": 1,
+							"MaxCount": 1,
+							"Weight": 1,
+							"ItemID": "e9d531ce-dcbb-4b21-8363-7bedadf12ce4",
+							"LootListID": "00000000-0000-0000-0000-000000000000",
+							"LockedVisible": "false"
+						}
+					]
+				}
+			]
+		},
+		{
+			"$type": "Game.GameData.LootListGameData, Assembly-CSharp",
+			"DebugName": "LL_Divinity_Rings",
+			"ID": "0e288d0f-ea1d-4674-b5aa-d8c80958caa1",
+			"Components": [
+				{
+					"$type": "Game.GameData.LootListComponent, Assembly-CSharp",
+					"Conditional": {
+						"Operator": 0,
+						"Components": []
+					},
+					"OutputChance": 1,
+					"OutputMode": "All",
+					"Items": [
+						{
+							"Conditional": {
+								"Operator": 0,
+								"Components": []
+							},
+							"OutputChance": 1,
+							"MinCount": 1,
+							"MaxCount": 1,
+							"Weight": 1,
+							"ItemID": "e9d531ce-dcbb-4b21-8363-7bedadf12ce5",
+							"LootListID": "00000000-0000-0000-0000-000000000000",
+							"LockedVisible": "false"
+						},
+						{
+							"Conditional": {
+								"Operator": 0,
+								"Components": []
+							},
+							"OutputChance": 1,
+							"MinCount": 1,
+							"MaxCount": 1,
+							"Weight": 1,
+							"ItemID": "e9d531ce-dcbb-4b21-8363-7bedadf12cef",
+							"LootListID": "00000000-0000-0000-0000-000000000000",
+							"LockedVisible": "false"
+						},
+												{
+							"Conditional": {
+								"Operator": 0,
+								"Components": []
+							},
+							"OutputChance": 1,
+							"MinCount": 1,
+							"MaxCount": 1,
+							"Weight": 1,
+							"ItemID": "e9d531ce-dcbb-4b21-8363-7bedadf12ce7",
+							"LootListID": "00000000-0000-0000-0000-000000000000",
+							"LockedVisible": "false"
+						}
+					]
+				}
+			]
+		},
+		{
+			"$type": "Game.GameData.LootListGameData, Assembly-CSharp",
+			"DebugName": "LL_Nature_Rings",
+			"ID": "0e288d0f-ea1d-4674-b5aa-d8c80958caa2",
+			"Components": [
+				{
+					"$type": "Game.GameData.LootListComponent, Assembly-CSharp",
+					"Conditional": {
+						"Operator": 0,
+						"Components": []
+					},
+					"OutputChance": 1,
+					"OutputMode": "All",
+					"Items": [
+						{
+							"Conditional": {
+								"Operator": 0,
+								"Components": []
+							},
+							"OutputChance": 1,
+							"MinCount": 1,
+							"MaxCount": 1,
+							"Weight": 1,
+							"ItemID": "e9d531ce-dcbb-4b21-8363-7bedadf12ce6",
+							"LootListID": "00000000-0000-0000-0000-000000000000",
+							"LockedVisible": "false"
+						},
+						{
+							"Conditional": {
+								"Operator": 0,
+								"Components": []
+							},
+							"OutputChance": 1,
+							"MinCount": 1,
+							"MaxCount": 1,
+							"Weight": 1,
+							"ItemID": "e9d531ce-dcbb-4b21-8363-7bedadf12ce9",
+							"LootListID": "00000000-0000-0000-0000-000000000000",
+							"LockedVisible": "false"
+						},
+												{
+							"Conditional": {
+								"Operator": 0,
+								"Components": []
+							},
+							"OutputChance": 1,
+							"MinCount": 1,
+							"MaxCount": 1,
+							"Weight": 1,
+							"ItemID": "e9d531ce-dcbb-4b21-8363-7bedadf12cea",
+							"LootListID": "00000000-0000-0000-0000-000000000000",
+							"LockedVisible": "false"
+						}
+					]
+				}
+			]
+		},
+		{
+			"$type": "Game.GameData.ModScriptHookGameData, Assembly-CSharp",
+			"DebugName": "Wizardry_Rings_ItemAdd",
+			"ID": "417f4f5e-7d01-4cd6-aa9d-1f0b1d0b4be4",
+			"Components": [
+				{
+					"$type": "Game.GameData.ModScriptHookComponent, Assembly-CSharp",
+					"RunOnlyOnce": "false",
+					"SucceedOnlyOnce": "false",
+					"Script": {
+						"Conditional": {
+							"Operator": 0,
+							"Components": [
+								{
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"FullName": "Boolean IsInActiveScene(Guid)",
+										"Parameters": [
+											"00c8d28b-276e-48ed-aa9d-6cac83b59651"
+										]
+									},
+									"Not": false,
+									"Operator": 0
+								}
+							]
+						},
+						"Scripts": [
+							{
+								"Data": {
+									"FullName": "Void GenerateLootListInto(Guid, Guid)",
+									"Parameters": [
+										"00c8d28b-276e-48ed-aa9d-6cac83b59651",
+										"0e288d0f-ea1d-4674-b5aa-d8c80958caa0"
+									]
+								},
+								"Conditional": {
+									"Operator": 0,
+									"Components": []
+								}
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"$type": "Game.GameData.ModScriptHookGameData, Assembly-CSharp",
+			"DebugName": "Divinity_Rings_ItemAdd",
+			"ID": "417f4f5e-7d01-4cd6-aa9d-1f0b1d0b4be3",
+			"Components": [
+				{
+					"$type": "Game.GameData.ModScriptHookComponent, Assembly-CSharp",
+					"RunOnlyOnce": "false",
+					"SucceedOnlyOnce": "false",
+					"Script": {
+						"Conditional": {
+							"Operator": 0,
+							"Components": [
+								{
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"FullName": "Boolean IsInActiveScene(Guid)",
+										"Parameters": [
+											"830616c2-d295-4a6e-926b-154892110a31"
+										]
+									},
+									"Not": false,
+									"Operator": 0
+								}
+							]
+						},
+						"Scripts": [
+							{
+								"Data": {
+									"FullName": "Void GenerateLootListInto(Guid, Guid)",
+									"Parameters": [
+										"830616c2-d295-4a6e-926b-154892110a31",
+										"0e288d0f-ea1d-4674-b5aa-d8c80958caa1"
+									]
+								},
+								"Conditional": {
+									"Operator": 0,
+									"Components": []
+								}
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"$type": "Game.GameData.ModScriptHookGameData, Assembly-CSharp",
+			"DebugName": "Nature_Rings_ItemAdd",
+			"ID": "417f4f5e-7d01-4cd6-aa9d-1f0b1d0b4be5",
+			"Components": [
+				{
+					"$type": "Game.GameData.ModScriptHookComponent, Assembly-CSharp",
+					"RunOnlyOnce": "false",
+					"SucceedOnlyOnce": "false",
+					"Script": {
+						"Conditional": {
+							"Operator": 0,
+							"Components": [
+								{
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"FullName": "Boolean IsInActiveScene(Guid)",
+										"Parameters": [
+											"9f4f0d65-cc42-4d03-94d8-41a4096c77dc"
+										]
+									},
+									"Not": false,
+									"Operator": 0
+								}
+							]
+						},
+						"Scripts": [
+							{
+								"Data": {
+									"FullName": "Void GenerateLootListInto(Guid, Guid)",
+									"Parameters": [
+										"9f4f0d65-cc42-4d03-94d8-41a4096c77dc",
+										"0e288d0f-ea1d-4674-b5aa-d8c80958caa2"
+									]
+								},
+								"Conditional": {
+									"Operator": 0,
+									"Components": []
+								}
+							}
+						]
+					}
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,157 @@
+﻿{
+	"GameDataObjects": [
+	{
+		"$type": "Game.GameData.AttackSummonRandomGameData, Assembly-CSharp",
+		"DebugName": "Conjure_Familiar_Summon",
+		"ID": "26158b7e-59bf-498a-8544-175dd6ad758b",
+		"Components": [{
+			"$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+			"KeywordsIDs": ["e4164ba1-116f-4e51-a678-507c0d4e3f5a"],
+			"AttackDistance": 5,
+			"MinAttackDistance": 0,
+			"AttackVariationID": "4365c4d1-44ce-4b2a-bf11-d895a006b12b",
+			"UseParentEquippableHand": "false",
+			"CastSpeedID": "eacb53e3-6eb5-422a-92ca-99cc883ae4a9",
+			"RecoveryTimeID": "566840d9-1561-4243-8ca7-889df9869847",
+			"ImpactDelay": 0,
+			"ForcedTarget": "None",
+			"AffectedTargetType": "All",
+			"AffectedTargetConditional": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				}
+			},
+			"AffectedTargetDeathState": "Alive",
+			"HostilityOverride": "Default",
+			"PushDistance": 0,
+			"FaceTarget": "true",
+			"AccuracyBonus": 0,
+			"PenetrationRating": 0,
+			"DamageData": {
+				"DamageType": "None",
+				"AlternateDamageType": "None",
+				"Minimum": 0,
+				"Maximum": 0,
+				"DamageProcs": []
+			},
+			"RequiresHitObject": "false",
+			"StatusEffectKeywordsIDs": [],
+			"StatusEffectsIDs": [],
+			"RandomizeStatusEffect": "false",
+			"CanGraze": "false",
+			"CanCrit": "true",
+			"DefendedBy": "None",
+			"AfflictionsDefendedBy": "None",
+			"AfflictionApplicationModifier": "None",
+			"SubstituteHitVisualEffect": "",
+			"VisualEffects": [{
+				"VisualEffect": "prefabs/effects/abilities/cast/fx_cast_wizard_control_rhand_launch.prefab",
+				"AttachPoint": "RightWeapon",
+				"AttachObject": "Caster",
+				"AttachMode": "PositionRotation",
+				"MeshType": "None",
+				"Event": "OnLaunch",
+				"AnimEventID": 0,
+				"Loop": "false",
+				"Scale": "false"
+			},
+			{
+				"VisualEffect": "prefabs/effects/abilities/cast/fx_cast_wizard_control.prefab",
+				"AttachPoint": "LeftWeapon",
+				"AttachObject": "Caster",
+				"AttachMode": "Attach",
+				"MeshType": "None",
+				"Event": "OnAnimEvent",
+				"AnimEventID": 0,
+				"Loop": "true",
+				"Scale": "false"
+			},
+			{
+				"VisualEffect": "prefabs/effects/abilities/cast/fx_cast_wizard_control_rhand.prefab",
+				"AttachPoint": "RightWeapon",
+				"AttachObject": "Caster",
+				"AttachMode": "Attach",
+				"MeshType": "None",
+				"Event": "OnAnimEvent",
+				"AnimEventID": 1,
+				"Loop": "true",
+				"Scale": "false"
+			},
+			{
+				"VisualEffect": "prefabs/effects/abilities/cast/fx_grimoire_close_control.prefab",
+				"AttachPoint": "LeftWeapon",
+				"AttachObject": "Caster",
+				"AttachMode": "Attach",
+				"MeshType": "None",
+				"Event": "OnAnimEvent",
+				"AnimEventID": 3,
+				"Loop": "false",
+				"Scale": "false"
+			}],
+			"AttackOnImpactID": "00000000-0000-0000-0000-000000000000",
+			"ExtraAttackID": "00000000-0000-0000-0000-000000000000",
+			"LaunchBone": "RightWeapon",
+			"HitBone": "Chest",
+			"OnHitShakeDuration": "None",
+			"OnHitShakeStrength": "None",
+			"NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+			"AllReactNoise": "false",
+			"InterruptsOn": "None",
+			"InterruptType": "Normal",
+			"TargetAngle": 0,
+			"ApplyOnceOnly": "false",
+			"PathsToTarget": "true",
+			"HideFromCombatLog": "false",
+			"AdditionalAttackOnTooltip": "false",
+			"DoesNotApplyDamage": "false",
+			"TreatAsWeapon": "false",
+			"BounceData": {
+				"Bounces": 0,
+				"Multiplier": 0.5,
+				"Range": 10,
+				"InRangeOrder": "false",
+				"NoRepeatTargets": "false",
+				"AlwaysBounceAtEnemies": "false",
+				"Delay": 0,
+				"NeverBounce": "false"
+			}
+		},
+		{
+			"$type": "Game.GameData.AttackSummonComponent, Assembly-CSharp",
+			"SummonType": "Summoned",
+			"SummonFileList": [{
+				"Filename": "prefabs/characters/poe2_creatures/creatures_special/wizard_familiars/cre_familiar_bird.prefab"
+			},
+			{
+				"Filename": "prefabs/characters/poe2_creatures/creatures_special/wizard_familiars/cre_familiar_grubling.prefab"
+			},
+			{
+				"Filename": "prefabs/characters/poe2_creatures/creatures_special/wizard_familiars/cre_familiar_imp.prefab"
+			},
+			{
+				"Filename": "prefabs/characters/poe2_creatures/creatures_special/wizard_familiars/cre_familiar_tiny_beetle.prefab"
+			},
+			{
+				"Filename": "prefabs/characters/poe2_creatures/creatures_special/wizard_familiars/cre_familiar_tiny_spider.prefab"
+			},
+			{
+				"Filename": "prefabs/characters/poe2_creatures/creatures_special/wizard_familiars/cre_familiar_tiny_wurm.prefab"
+			}],
+			"SummonDisplayStrings": [{
+				"String": 1221
+			}],
+			"OnSummonVisualEffect": "prefabs/effects/abilities/summon/fx_summon_yellow.prefab",
+			"OnDesummonVisualEffect": "prefabs/effects/abilities/summon/fx_summon_yellow.prefab",
+			"TeamType": "JoinParty",
+			"SummonCopyOfSelf": "false",
+			"Duration": 300,
+			"HasLoot": "false"
+		},
+		{
+			"$type": "Game.GameData.AttackSummonRandomComponent, Assembly-CSharp",
+			"MaxSummons": 1
+		}]
+	}
+	]
+}

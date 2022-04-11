@@ -1,0 +1,21 @@
+{
+    "GameDataObjects": [
+        {
+            "$type": "Game.GameData.CharacterSubClassGameData, Assembly-CSharp",
+            "DebugName": "Cipher_Channeler",
+            "ID": "7a2a315b-feae-4840-853d-dc5b176f1d4f",
+            "Components": [
+                {
+                    "$type": "Game.GameData.CharacterSubClassComponent, Assembly-CSharp",
+                    "DisplayName": 18001,
+                    "SummaryText": 18002,
+                    "DescriptionText": 18003,
+                    "ForClassID": "ccdc9675-e2a7-46fa-83e9-7a5368b56265",
+                    "HideInCharacterCreation": "false",
+                    "BonusFirstLevelProficiencies": 0,
+                    "MaximumProficiencies": -1
+                }
+            ]
+        }
+    ]
+}

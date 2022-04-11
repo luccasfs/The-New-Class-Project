@@ -1,0 +1,39 @@
+﻿{
+    "GameDataObjects": [
+        {
+            "$type": "Game.GameData.CharacterSubClassGameData, Assembly-CSharp",
+            "DebugName": "Barbarian_DrunkenBrute",
+            "ID": "390537ad-5cc0-45b1-bc25-9b7aecb48338",
+            "Components": [
+                {
+                    "$type": "Game.GameData.CharacterSubClassComponent, Assembly-CSharp",
+                    "DisplayName": 406002460,       //gui
+                    "DescriptionText": 406002461,   //gui
+                    "DescriptionTextTactical": -1,
+					"SummaryText": 406000415,       //cyclopedia
+                    "ForClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+                    "HideInCharacterCreation": "false",
+                    "BonusFirstLevelProficiencies": 0,
+                    "MaximumProficiencies": -1
+                }
+            ]
+        },  {
+            "$type": "Game.GameData.CharacterSubClassGameData, Assembly-CSharp",
+            "DebugName": "Barbarian_SeaReaver",
+            "ID": "570edc7f-f9ac-495e-bbac-4afb77f1b3fa",
+            "Components": [
+                {
+                    "$type": "Game.GameData.CharacterSubClassComponent, Assembly-CSharp",
+                    "DisplayName": 35001,
+                    "DescriptionText": 35002,
+                    "DescriptionTextTactical": -1,
+					"SummaryText": 35101,
+                    "ForClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+                    "HideInCharacterCreation": "true",
+                    "BonusFirstLevelProficiencies": 0,
+                    "MaximumProficiencies": -1
+                }
+            ]
+        }
+    ]
+}

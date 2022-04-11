@@ -1,0 +1,258 @@
+{
+  "GameDataObjects": [
+    {        
+      "$type": "Game.GameData.WeaponGameData, Assembly-CSharp",
+      "DebugName": "Splinter_of_the_Godhammer",
+      "ID": "eb785a0a-2665-4b97-9bab-cf87f36fd0e9",
+      "Components": [
+        {
+          "$type": "Game.GameData.ItemComponent, Assembly-CSharp",
+          "DisplayName": 21131,
+          "DescriptionText": 21132,
+          "FilterType": "Weapons",
+          "InventoryAudioEventListID": "81ec0468-cf25-427e-bdb6-b32013313a97",
+          "IsQuestItem": "false",
+          "IsIngredient": "false",
+          "IsCurrency": "false",
+          "IsAdventuringItem": "false",
+          "CanSellForFullValue": "false",
+          "MaxStackSize": 1,
+          "NeverDropAsLoot": "true",
+          "CanBePickpocketed": "false",
+          "IsUnique": "false",
+          "Value": 35,
+          "IconTextureSmall": "gui/icons/items/weapons/spear/Splinter_of_the_Godhammer_S.png",
+          "IconTextureLarge": "gui/icons/items/weapons/spear/Splinter_of_the_Godhammer_L.png",
+          "PencilSketchTexture": "",
+          "InspectOnUseButton": [],
+          "IsPlaceholder": "false"
+        },
+        {
+          "$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
+          "EquipmentType": "Spear",
+          "EquipmentSlot": "AnyWeapon",
+          "AppearancePiece": {
+            "ModelVisualDataPath": "prefabs/items/appearance/weapons/spear/a_spear03_burning_soldier.asset"
+          },
+          "ItemModsIDs": [
+            "9691785d-0207-492a-9c88-47f9a86db8af",
+            "b5559f1d-70c9-400d-b687-58b5ebae6bc7",
+            "f3c7fd16-b388-11e8-96f8-529269fb1459",
+            "1bcb8bea-b382-11e8-96f8-529269fb1459"
+          ],
+          "OnEquipVisualEffects": [
+            {
+              "VisualEffect": "prefabs/effects/abilities/priest/fx_spiritual_weapon_magran_sword.prefab",
+              "AttachPoint": "Fx_Bone_01",
+              "EmissiveColor": {
+                "A": 1,
+                "R": 1,
+                "G": 1,
+                "B": 1
+              },
+              "EmissiveGlowScale": 5
+            },
+            {
+              "VisualEffect": "prefabs/effects/abilities/chanter/fx_animated_pike_summon.prefab",
+              "AttachPoint": "Fx_Bone_01",
+              "EmissiveColor": {
+                "A": 1,
+                "R": 1,
+                "G": 1,
+                "B": 1
+              },
+              "EmissiveGlowScale": 0
+            }            
+          ],
+          "RestrictedToClassIDs": [],
+          "RestrictedToPlayer": "false",
+          "EquipConditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ProficientAbilityID": "111aae3f-ba8f-4cf9-a766-58e7d1e8e8ac",
+          "CannotUnequip": "false",
+          "ItemRendererPrefab": "prefabs/itemrenderers/genericitemrenderer.prefab",
+          "ItemModel": "art/character/weapons/spear/spear01/w_spear01.fbx",
+          "AnimationController": "",
+          "PaperdollOverrideRenderer": "",
+          "AttackSummonID": "00000000-0000-0000-0000-000000000000",
+          "CannotSheathe": "false",
+          "PropVisualEffects": []
+        },
+        {
+          "$type": "Game.GameData.WeaponComponent, Assembly-CSharp",
+          "Stance": "OneHanded",
+          "AnimationStanceID": "f3a98585-08bc-4fc7-8bf8-37d6a9049e07",
+          "StatusEffectsOnLaunchIDs": [],
+          "IsDisplayedWhenAlternate": "true",
+          "IsUniversalType": "false",
+          "AttackID": "146b2d61-c401-46ea-93fb-6e88f424d3cc",
+          "NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+          "ForceBackScabbard": "false",
+          "ScabbardAppearancePiece": {
+            "ModelVisualDataPath": ""
+          },
+          "ScabbardRendererPrefab": "",
+          "ScabbardModel": "",
+          "AudioEventListID": "00000000-0000-0000-0000-000000000000"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.EquippableGameData, Assembly-CSharp",
+      "DebugName": "Splinters_of_the_Godhammer_Shield_Large",
+      "ID": "fbc544dc-b37a-11e8-96f8-529269fb1459",
+      "Components": [
+        {
+          "$type": "Game.GameData.ItemComponent, Assembly-CSharp",
+          "DisplayName": 21133,
+          "DescriptionText": 21134,
+          "FilterType": "Weapons",
+          "InventoryAudioEventListID": "3e83b58f-e67b-4ba5-b2c4-964e57aa1b4f",
+          "IsQuestItem": "false",
+          "IsIngredient": "false",
+          "IsCurrency": "false",
+          "IsAdventuringItem": "false",
+          "CanSellForFullValue": "false",
+          "MaxStackSize": 1,
+          "NeverDropAsLoot": "true",
+          "CanBePickpocketed": "false",
+          "IsUnique": "false",
+          "Value": 35,
+          "IconTextureSmall": "gui/icons/items/weapons/shield_large/Splinter_of_the_Godhammer_Shield_S.png",
+          "IconTextureLarge": "gui/icons/items/weapons/shield_large/Splinter_of_the_Godhammer_Shield_L.png",
+          "PencilSketchTexture": "",
+          "InspectOnUseButton": [],
+          "IsPlaceholder": "false"
+        },
+        {
+          "$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
+          "EquipmentType": "LargeShield",
+          "EquipmentSlot": "SecondaryWeaponOnly",
+          "AppearancePiece": {
+            "ModelVisualDataPath": "prefabs/items/appearance/weapons/shield_large/a_shield_large01_v03_burning_soldier.asset"
+          },
+          "ItemModsIDs": [
+            "92236b9d-7217-47fa-9c45-3b30b38e70a0",
+            "6d5fdc55-2699-4ae9-8c24-6bbe07a91240",
+            "beda9cda-b383-11e8-96f8-529269fb1459"
+          ],
+          "OnEquipVisualEffects": [
+            {
+              "VisualEffect": "",
+              "AttachPoint": "EmissionMesh",
+              "EmissiveColor": {
+                "A": 1,
+                "R": 1,
+                "G": 1,
+                "B": 1
+              },
+              "EmissiveGlowScale": 3
+            }
+          ],
+          "RestrictedToClassIDs": [],
+          "RestrictedToPlayer": "false",
+          "EquipConditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ProficientAbilityID": "f2a32614-d8ce-4183-870f-96cc74d2c57a",
+          "CannotUnequip": "false",
+          "ItemRendererPrefab": "prefabs/itemrenderers/genericitemrenderer.prefab",
+          "ItemModel": "",
+          "AnimationController": "",
+          "PaperdollOverrideRenderer": "",
+          "AttackSummonID": "00000000-0000-0000-0000-000000000000",
+          "CannotSheathe": "false",
+          "PropVisualEffects": []
+        },
+        {
+          "$type": "Game.GameData.ShieldComponent, Assembly-CSharp",
+          "ShieldType": "Large",
+          "AttachmentType": "Arm",
+          "AnimationStanceID": "82d96ea3-42dd-4466-9b8b-4a3cecf9d898",
+          "BaseDeflectBonus": 12,
+          "BaseReflexBonus": 0,
+          "BaseAccuracyBonus": -8,
+          "AudioEventListID": "00000000-0000-0000-0000-000000000000"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.ItemModGameData, Assembly-CSharp",
+      "DebugName": "Sprites_of_Sunlight",
+      "ID": "1bcb8bea-b382-11e8-96f8-529269fb1459",
+      "Components": [
+        {
+          "$type": "Game.GameData.ItemModComponent, Assembly-CSharp",
+          "DisplayName": 21135,
+          "HideFromUI": "false",
+          "EnchantCategory": "Unique",
+          "Cost": 0,
+          "DisplayEvenIfCostZero": "true",
+          "CursesItem": "false",
+          "StatusEffectsOnEquipIDs": [],
+          "StatusEffectsOnLaunchIDs": [],
+          "StatusEffectsOnAttackIDs": [],
+          "AbilityModsOnEquipIDs": [],
+          "OnEquipVisualEffects": [],
+          "DamageProcs": [],
+          "AbilitiesOnEquipIDs": [
+            "b6afb54e-ff55-4830-8709-6dd52198b9fc"
+          ]
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.ItemModGameData, Assembly-CSharp",
+      "DebugName": "Sol_Charge",
+      "ID": "beda9cda-b383-11e8-96f8-529269fb1459",
+      "Components": [
+        {
+          "$type": "Game.GameData.ItemModComponent, Assembly-CSharp",
+          "DisplayName": 21136,
+          "HideFromUI": "false",
+          "EnchantCategory": "Unique",
+          "Cost": 0,
+          "DisplayEvenIfCostZero": "true",
+          "CursesItem": "false",
+          "StatusEffectsOnEquipIDs": [],
+          "StatusEffectsOnLaunchIDs": [],
+          "StatusEffectsOnAttackIDs": [],
+          "AbilityModsOnEquipIDs": [],
+          "OnEquipVisualEffects": [],
+          "DamageProcs": [],
+          "AbilitiesOnEquipIDs": [
+            "0a41584a-b383-11e8-96f8-529269fb1459"
+          ]
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.ItemModGameData, Assembly-CSharp",
+      "DebugName": "Slayer_of_Vessels",
+      "ID": "f3c7fd16-b388-11e8-96f8-529269fb1459",
+      "Components": [
+        {
+          "$type": "Game.GameData.ItemModComponent, Assembly-CSharp",
+          "DisplayName": 21137,
+          "HideFromUI": "false",
+          "EnchantCategory": "Unique",
+          "Cost": 0,
+          "DisplayEvenIfCostZero": "true",
+          "CursesItem": "false",
+          "StatusEffectsOnEquipIDs": [
+            "d7dff676-b388-11e8-96f8-529269fb1459",
+            "db81d5d8-b388-11e8-96f8-529269fb1459"
+          ],
+          "StatusEffectsOnLaunchIDs": [],
+          "StatusEffectsOnAttackIDs": [],
+          "AbilityModsOnEquipIDs": [],
+          "OnEquipVisualEffects": [],
+          "DamageProcs": [],
+          "AbilitiesOnEquipIDs": []
+        }
+      ]
+    },
+    {

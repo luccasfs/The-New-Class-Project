@@ -1,0 +1,119 @@
+﻿{
+	"GameDataObjects": [	
+	{
+		"$type": "Game.GameData.PaladinSubClassGameData, Assembly-CSharp",
+		"DebugName": "Paladin_Inquisitor",
+		"ID": "b6d48764-123a-4e3f-a6a7-1110ee773f60",
+		"Components": [{
+			"$type": "Game.GameData.CharacterSubClassComponent, Assembly-CSharp",
+			"DisplayName": 27900000,
+			"SummaryText": 5790000,
+			"DescriptionText": 28390000,
+			"DescriptionTextTactical": -1,
+			"ForClassID": "f64b5a21-2dd1-41ae-8562-60ce099b25aa",
+			"HideInCharacterCreation": "false",
+			"BonusFirstLevelProficiencies": 0,
+			"MaximumProficiencies": -1
+		},
+		{
+			"$type": "Game.GameData.PaladinSubClassComponent, Assembly-CSharp",
+			"PaladinOrderID": "844cc25a-2040-4389-b1a9-1116a03c9270"
+		}]
+	},
+	{
+		"$type": "Game.GameData.PaladinOrderGameData, Assembly-CSharp",
+		"DebugName": "Paladin_Inquisitor_Order",
+		"ID": "844cc25a-2040-4389-b1a9-1116a03c9270",
+		"Components": [{
+			"$type": "Game.GameData.PaladinOrderComponent, Assembly-CSharp",
+			"DisplayName": 260000,
+			"PositiveDispositionsIDs": ["007315f4-3971-4ee7-affb-fe08c61a8b48",
+			"72769293-63ad-4ace-a4c9-a0a21010e92f"],
+			"NegativeDispositionsIDs": ["38b9f117-9c59-4c8b-a567-4877d93c247b",
+			"c7d9588c-bc62-4c0c-a2e3-76a970e7b7d4"]
+		}]
+	},
+	{
+		"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+		"DebugName": "Paladin_Inquisitor",
+		"ID": "723bbbf4-8452-4c0e-8880-222b3b395091",
+		"Components": [{
+			"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+			"KeywordsIDs": [],
+			"DisplayName": 22441110,
+			"Description": 37201112,
+			"UpgradeDescriptions": [{
+				"String": 22451111
+			}],
+			"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+			"Vocalization": "NoVocalization",
+			"Icon": "gui/icons/abilities/talents/class_chanter.png",
+			"UsageType": "None",
+			"UsageValue": 0,
+			"AbilityClassID": "f64b5a21-2dd1-41ae-8562-60ce099b25aa",
+			"AbilityLevel": 0,
+			"IsPassive": "true",
+			"StackingRuleOverride": "Default",
+			"TriggerOnHit": "false",
+			"IsModal": "false",
+			"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+			"IsCombatOnly": "false",
+			"IsNonCombatOnly": "false",
+			"HideFromUI": "false",
+			"HideFromCombatLog": "false",
+			"UniqueSet": "None",
+			"NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+			"DurationOverride": 0,
+			"OverrideEmpower": "Default",
+			"ClearsOnMovement": "false",
+			"CannotActivateWhileInStealth": "false",
+			"CannotActivateWhileInvisible": "false",
+			"ActivationPrerequisites": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				}
+			},
+			"ApplicationPrerequisites": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				}
+			},
+			"DeactivationPrerequisites": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				}
+			},
+			"PowerLevelScaling": {
+				"BaseLevel": 0,
+				"LevelIncrement": 1,
+				"MaxLevel": 0,
+				"DamageAdjustment": 1,
+				"DurationAdjustment": 1,
+				"BounceCountAdjustment": 0,
+				"ProjectileCountAdjustment": 0,
+				"AccuracyAdjustment": 0,
+				"PenetrationAdjustment": 0
+			},
+			"StatusEffectKeywordsIDs": [],
+			"StatusEffectsIDs": ["8e7c0c4c-7f6f-4ccf-8915-28ade8c17608"],
+			"VisualEffects": [],
+			"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+			"AttackID": "00000000-0000-0000-0000-000000000000",
+			"AITargetingConditional": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				},
+				"Scripts": []
+			},
+			"AudioEventListID": "00000000-0000-0000-0000-000000000000"
+		},
+		{
+			"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+		}]
+	}
+	]
+}

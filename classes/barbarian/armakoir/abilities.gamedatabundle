@@ -1,0 +1,2119 @@
+﻿{
+    "GameDataObjects": [
+        {
+			"$type": "Game.GameData.WeaponAttackAbilityGameData, Assembly-CSharp",
+			"DebugName": "Barbaric_Blow",
+			"ID": "0c69fa2e-d52c-4435-8e49-01a9e396cdcd",	//vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AbilityClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+					"AbilityLevel": 3,
+					"Description": 1106,
+					"DisplayName": 1105
+				}
+			]
+		}, {
+			"$type": "Game.GameData.WeaponAttackAbilityGameData, Assembly-CSharp",
+			"DebugName": "Crushing_Blow",
+			"ID": "57336667-7cd6-4eec-b158-d2d955ba0f07",	//vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AbilityClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+					"AbilityLevel": 6,
+					"Description": 1106,
+					"DisplayName": 2064,
+					"UpgradeDescriptions": [{
+							"String": 2065
+						}
+					]
+				}
+			]
+		}, {
+			"$type": "Game.GameData.WeaponAttackAbilityGameData, Assembly-CSharp",
+			"DebugName": "Barbaric_Smash",
+			"ID": "0d4a5955-f7f3-41d7-9893-8c2af53b6b5e",	//vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AbilityClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+					"AbilityLevel": 6,
+					"Description": 1106,
+					"DisplayName": 2066,
+					"UpgradeDescriptions": [{
+							"String": 2067
+						}
+					]
+				}
+			]
+		}, 	{
+			"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Enduring_Frenzy",
+			"ID": "48a7ee6d-d932-4c46-94da-9ad6f2aa6a48",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+					"AbilityLevel": 4,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "00000000-0000-0000-0000-000000000000",
+					"AudioEventListID": "e7d0b31b-1e58-43a2-ad66-6eea4c9ecb92",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": -1,
+					"DescriptionTactical": -1,
+					"DisplayName": 406000600,
+					"DurationOverride": 0,
+					"GrantedViaScript": "false",
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/talents/class_barb_blue.png",
+					"IsCombatOnly": "false",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "true",
+					"KeywordsIDs": [],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Default"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": [],
+					"StatusEffectsIDs": ["f09d6f4f-b940-4a78-83f4-eec3bfe130bc"],//, "0d609303-8fcf-4970-bfe7-7346a3b0374c"
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+					"UsageType": "None",
+					"UsageValue": 0,
+					"VisualEffects": [],
+					"Vocalization": "NoVocalization"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		}, 	{
+			"$type": "Game.GameData.SpecialGenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Frenzy",
+			"ID": "dc8da24a-58d7-46c9-afae-90abea279b4f",	//vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AbilityClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+					"AbilityLevel": 1,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [
+								{
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean HasStatusEffectWithKeyword(Guid, Guid)",
+										"FunctionHash": 0,
+										"ParameterHash": 0,
+										"Parameters": ["011111e9-0000-0000-0000-000000000000", "ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+										"UnrealCall": ""
+									},
+									"Not": true,
+									"Operator": 0
+								}
+							],
+							"Operator": 0
+						}
+					},
+					"Description": 406000508,
+					"DisplayName": 66,
+					"KeywordsIDs": ["ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+					"StatusEffectKeywordsIDs": ["ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+					"StatusEffectsIDs": ["38b936a0-085f-4772-98ec-8a21dafccdce", "c92d92c0-4b52-4c57-b498-61d95c1bdb17", "de4e1eaa-e1c9-4ba8-b26d-e5a1fecd6f4d", "808e813a-876d-49d0-8141-944e1836fc56"],
+					"UsageType": "ClassPowerPool",
+					"UsageValue": 2
+				}
+			]
+		}, 	{
+            "$type": "Game.GameData.SpecialGenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Rage",
+			"ID": "34d6386d-6fc7-4110-8497-eff12290526a",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+					"AbilityLevel": 4,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [
+								{
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean HasStatusEffectWithKeyword(Guid, Guid)",
+										"FunctionHash": 0,
+										"ParameterHash": 0,
+										"Parameters": ["011111e9-0000-0000-0000-000000000000", "ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+										"UnrealCall": ""
+									},
+									"Not": true,
+									"Operator": 0
+								}
+							],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "a529af64-c667-41f0-aaa0-3902663a8a18",
+					"AudioEventListID": "f2c3be05-cc14-4ca9-a277-345ce0450ab4",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 406000508,
+					"DisplayName": 406000446,
+					"DurationOverride": 0,
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/barbarian/frenzy.png",
+					"IsCombatOnly": "true",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "false",
+					"KeywordsIDs": ["ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Default"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": ["ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+					"StatusEffectsIDs": ["38b936a0-085f-4772-98ec-8a21dafccdce", "c92d92c0-4b52-4c57-b498-61d95c1bdb17", "808e813a-876d-49d0-8141-944e1836fc56", "de4e1eaa-e1c9-4ba8-b26d-e5a1fecd6f4d", "9ac0f508-7dcf-47e3-9e2d-ef6b2006968f"],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+					"UsageType": "ClassPowerPool",
+					"UsageValue": 2,
+					"VisualEffects": [],
+					"Vocalization": "BarbarianShout"
+				}, {
+					"$type": "Game.GameData.SpecialGenericAbilityComponent, Assembly-CSharp",
+					"SpecialGenericAbilityType": "Frenzy"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		},  {
+            "$type": "Game.GameData.SpecialGenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Fury",
+			"ID": "444bdc25-6717-4414-bd74-f87808c11dcf",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+					"AbilityLevel": 7,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [
+								{
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean HasStatusEffectWithKeyword(Guid, Guid)",
+										"FunctionHash": 0,
+										"ParameterHash": 0,
+										"Parameters": ["011111e9-0000-0000-0000-000000000000", "ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+										"UnrealCall": ""
+									},
+									"Not": true,
+									"Operator": 0
+								}
+							],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "a529af64-c667-41f0-aaa0-3902663a8a18",
+					"AudioEventListID": "f2c3be05-cc14-4ca9-a277-345ce0450ab4",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 406000508,
+					"DisplayName": 406000447,
+					"DurationOverride": 0,
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/barbarian/frenzy.png",
+					"IsCombatOnly": "true",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "false",
+					"KeywordsIDs": ["ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Default"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": ["ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+					"StatusEffectsIDs": ["38b936a0-085f-4772-98ec-8a21dafccdce", "c92d92c0-4b52-4c57-b498-61d95c1bdb17", "2e7b60ff-7984-4ab9-9d88-ed2aa1b74a57", "de4e1eaa-e1c9-4ba8-b26d-e5a1fecd6f4d", "9ac0f508-7dcf-47e3-9e2d-ef6b2006968f"],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+					"UsageType": "ClassPowerPool",
+					"UsageValue": 2,
+					"VisualEffects": [],
+					"Vocalization": "BarbarianShout"
+				}, {
+					"$type": "Game.GameData.SpecialGenericAbilityComponent, Assembly-CSharp",
+					"SpecialGenericAbilityType": "Frenzy"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		},  {
+			"$type": "Game.GameData.SpecialGenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Blood_Frenzy",
+			"ID": "a445a671-36c6-4e08-aac3-58c120cff77f",	//vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AbilityClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+					"AbilityLevel": 2,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [
+								{
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean HasStatusEffectWithKeyword(Guid, Guid)",
+										"FunctionHash": 0,
+										"ParameterHash": 0,
+										"Parameters": ["011111e9-0000-0000-0000-000000000000", "ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+										"UnrealCall": ""
+									},
+									"Not": true,
+									"Operator": 0
+								}
+							],
+							"Operator": 0
+						}
+					},
+					"AttackID": "e0cbf46d-17d6-45e3-ad4a-9e808b51be9b",
+					"Description": 406000509,
+					"DisplayName": 2060,
+					"Icon": "gui/icons/abilities/barbarian/blood_storm.png",
+					"KeywordsIDs": ["ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+					"StatusEffectKeywordsIDs": ["ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+					"StatusEffectsIDs": ["38b936a0-085f-4772-98ec-8a21dafccdce", "c92d92c0-4b52-4c57-b498-61d95c1bdb17", "de4e1eaa-e1c9-4ba8-b26d-e5a1fecd6f4d", "9ac0f508-7dcf-47e3-9e2d-ef6b2006968f", "99d8770f-50bb-4359-890b-ea4dbf22890c"],
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+					"UsageType": "ClassPowerPool",
+					"UsageValue": 3
+				}
+			]
+		}, 	{
+			"$type": "Game.GameData.SpecialGenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Blood_Rage",
+			"ID": "45038e63-1150-4f35-a731-e8d36179375b",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+					"AbilityLevel": 6,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [
+								{
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean HasStatusEffectWithKeyword(Guid, Guid)",
+										"FunctionHash": 0,
+										"ParameterHash": 0,
+										"Parameters": ["011111e9-0000-0000-0000-000000000000", "ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+										"UnrealCall": ""
+									},
+									"Not": true,
+									"Operator": 0
+								}
+							],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "e0cbf46d-17d6-45e3-ad4a-9e808b51be9b",
+					"AudioEventListID": "4ffba4f2-879c-467e-afa4-96253e749f68",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 406000509,
+					"DisplayName": 406000504,
+					"DurationOverride": 0,
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/barbarian/blood_storm.png",
+					"IsCombatOnly": "true",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "false",
+					"KeywordsIDs": ["ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Default"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": ["ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+					"StatusEffectsIDs": ["38b936a0-085f-4772-98ec-8a21dafccdce", "c92d92c0-4b52-4c57-b498-61d95c1bdb17", "de4e1eaa-e1c9-4ba8-b26d-e5a1fecd6f4d", "9ac0f508-7dcf-47e3-9e2d-ef6b2006968f", "808e813a-876d-49d0-8141-944e1836fc56", "99d8770f-50bb-4359-890b-ea4dbf22890c"],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "a445a671-36c6-4e08-aac3-58c120cff77f",
+					"UsageType": "ClassPowerPool",
+					"UsageValue": 3,
+					"VisualEffects": [],
+					"Vocalization": "BarbarianShout"
+				}, {
+					"$type": "Game.GameData.SpecialGenericAbilityComponent, Assembly-CSharp",
+					"SpecialGenericAbilityType": "Frenzy"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		}, 	{
+			"$type": "Game.GameData.SpecialGenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Blood_Storm",
+			"ID": "4e6e5b43-823d-4a0f-b3ed-f864f6cd6447",	//vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AbilityClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+					"AbilityLevel": 9,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [
+								{
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean HasStatusEffectWithKeyword(Guid, Guid)",
+										"FunctionHash": 0,
+										"ParameterHash": 0,
+										"Parameters": ["011111e9-0000-0000-0000-000000000000", "ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+										"UnrealCall": ""
+									},
+									"Not": true,
+									"Operator": 0
+								}
+							],
+							"Operator": 0
+						}
+					},
+					"AttackID": "e0cbf46d-17d6-45e3-ad4a-9e808b51be9b",	//2a382d5a-71b0-4b51-8a18-ea78e9163d13
+					"Description": 406000509,
+					"DisplayName": 2398,
+					"KeywordsIDs": ["ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+					"StatusEffectKeywordsIDs": ["ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+					"StatusEffectsIDs": ["38b936a0-085f-4772-98ec-8a21dafccdce", "c92d92c0-4b52-4c57-b498-61d95c1bdb17", "de4e1eaa-e1c9-4ba8-b26d-e5a1fecd6f4d", "3b0a2560-30c9-4003-81ca-6bedab030325", "808e813a-876d-49d0-8141-944e1836fc56", "99d8770f-50bb-4359-890b-ea4dbf22890c", "e206775f-2223-4cbb-8d64-fb98aa7bdee5"],
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "45038e63-1150-4f35-a731-e8d36179375b",
+					"UsageType": "ClassPowerPool",
+					"UsageValue": 3
+				}
+			]
+		}, 	{
+			"$type": "Game.GameData.SpecialGenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Spirit_Frenzy",
+			"ID": "e463132b-791a-4c57-9677-a7050a23db1b",	//vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AbilityClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+					"AbilityLevel": 5,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [
+								{
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean HasStatusEffectWithKeyword(Guid, Guid)",
+										"FunctionHash": 0,
+										"ParameterHash": 0,
+										"Parameters": ["011111e9-0000-0000-0000-000000000000", "ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+										"UnrealCall": ""
+									},
+									"Not": true,
+									"Operator": 0
+								}
+							],
+							"Operator": 0
+						}
+					},
+					"AttackID": "00f03258-f722-4489-93f8-e2d150cfbdfa",
+					"Description": 406000515,
+					"DisplayName": 1882,
+					"KeywordsIDs": ["ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+					"StatusEffectKeywordsIDs": ["ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+					"StatusEffectsIDs": ["38b936a0-085f-4772-98ec-8a21dafccdce", "c92d92c0-4b52-4c57-b498-61d95c1bdb17", "15e1e4e3-aea2-482f-9204-ed9e445380c2", "83f5e5ab-0ba2-499e-8a80-404a5e1b47b6"],	 
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+					"UsageType": "ClassPowerPool",
+					"UsageValue": 4
+				}
+			]
+		}, 	{
+			"$type": "Game.GameData.SpecialGenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Spirit_Tornado",
+			"ID": "6cf4326d-662d-4a5a-bc27-c738343e9d08",	//vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AbilityClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+					"AbilityLevel": 8,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [
+								{
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean HasStatusEffectWithKeyword(Guid, Guid)",
+										"FunctionHash": 0,
+										"ParameterHash": 0,
+										"Parameters": ["011111e9-0000-0000-0000-000000000000", "ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+										"UnrealCall": ""
+									},
+									"Not": true,
+									"Operator": 0
+								}
+							],
+							"Operator": 0
+						}
+					},
+					"AttackID": "00f03258-f722-4489-93f8-e2d150cfbdfa",	//ca1029f2-4d2f-4c6e-8012-cf0ac2366ac4
+					"Description": 406000515,
+					"DisplayName": 2400,
+					"Icon": "gui/icons/abilities/barbarian/spirit_frenzy.png",
+					"KeywordsIDs": ["ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+					"StatusEffectKeywordsIDs": ["ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+					"StatusEffectsIDs": ["38b936a0-085f-4772-98ec-8a21dafccdce", "fd39af88-3926-4bdf-a1d1-b5c630d95b84", "c92d92c0-4b52-4c57-b498-61d95c1bdb17", "01ebfa85-aeea-459b-a9cb-4c905bd52634", "83f5e5ab-0ba2-499e-8a80-404a5e1b47b6", "06d65d30-a618-421d-9e95-33f6e6749c1a"],
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "e463132b-791a-4c57-9677-a7050a23db1b",
+					"UsageType": "ClassPowerPool",
+					"UsageValue": 4
+				}
+			]
+		}, 	{
+			"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Berserker",
+			"ID": "b0f8c981-1c7d-49e2-839c-49a8b9069f95",//vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"Description": 3715,
+					"DisplayName": 2194,
+					"UpgradeDescriptions": [{ "String": 2192 }]
+				}
+			]
+		}, 	{
+			"$type": "Game.GameData.SpecialGenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Berserker_Frenzy",
+			"ID": "ffaa8005-caac-4df2-bb7a-752d2970bc29",
+			"Components": [
+				{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+					"AbilityLevel": 1,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [
+								{
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean HasStatusEffectWithKeyword(Guid, Guid)",
+										"FunctionHash": 0,
+										"ParameterHash": 0,
+										"Parameters": ["011111e9-0000-0000-0000-000000000000", "ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+										"UnrealCall": ""
+									},
+									"Not": true,
+									"Operator": 0
+								}
+							],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "a529af64-c667-41f0-aaa0-3902663a8a18",
+					"AudioEventListID": "f2c3be05-cc14-4ca9-a277-345ce0450ab4",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 406000455,
+					"DisplayName": 406000455,
+					"DurationOverride": 0,
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/barbarian/frenzy.png",
+					"IsCombatOnly": "true",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "false",
+					"KeywordsIDs": ["ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Default"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": ["ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+					"StatusEffectsIDs": ["38b936a0-085f-4772-98ec-8a21dafccdce", "c92d92c0-4b52-4c57-b498-61d95c1bdb17", "3b0a2560-30c9-4003-81ca-6bedab030325", "9c851110-d661-4046-8871-fb8ca5f08e3b", "2676e567-a9ea-4fa9-916a-e389a36ce439", "de4e1eaa-e1c9-4ba8-b26d-e5a1fecd6f4d", "2d79448d-0fc5-41fc-9c93-bd5c950632c6", "32ba648f-2aaf-4301-b4af-7f4fc3a6dbfb"],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+					"UsageType": "ClassPowerPool",
+					"UsageValue": 2,
+					"VisualEffects": [],
+					"Vocalization": "BarbarianShout"
+				}, {
+					"$type": "Game.GameData.SpecialGenericAbilityComponent, Assembly-CSharp",
+					"SpecialGenericAbilityType": "Frenzy"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		}, 	{
+			"$type": "Game.GameData.SpecialGenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Berserker_Rage",
+			"ID": "264cea79-5738-41dc-9e05-2e886903d3b9",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+					"AbilityLevel": 4,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [
+								{
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean HasStatusEffectWithKeyword(Guid, Guid)",
+										"FunctionHash": 0,
+										"ParameterHash": 0,
+										"Parameters": ["011111e9-0000-0000-0000-000000000000", "ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+										"UnrealCall": ""
+									},
+									"Not": true,
+									"Operator": 0
+								}
+							],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "a529af64-c667-41f0-aaa0-3902663a8a18",
+					"AudioEventListID": "f2c3be05-cc14-4ca9-a277-345ce0450ab4",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 406000456,
+					"DisplayName": 406000456,
+					"DurationOverride": 0,
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/barbarian/frenzy.png",
+					"IsCombatOnly": "true",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "false",
+					"KeywordsIDs": ["ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Default"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": ["ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+					"StatusEffectsIDs": ["38b936a0-085f-4772-98ec-8a21dafccdce", "c92d92c0-4b52-4c57-b498-61d95c1bdb17", "3b0a2560-30c9-4003-81ca-6bedab030325", "9c851110-d661-4046-8871-fb8ca5f08e3b", "2676e567-a9ea-4fa9-916a-e389a36ce439", "de4e1eaa-e1c9-4ba8-b26d-e5a1fecd6f4d", "32ba648f-2aaf-4301-b4af-7f4fc3a6dbfb"],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "ffaa8005-caac-4df2-bb7a-752d2970bc29",
+					"UsageType": "ClassPowerPool",
+					"UsageValue": 2,
+					"VisualEffects": [],
+					"Vocalization": "BarbarianShout"
+				}, {
+					"$type": "Game.GameData.SpecialGenericAbilityComponent, Assembly-CSharp",
+					"SpecialGenericAbilityType": "Frenzy"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		}, 	{
+			"$type": "Game.GameData.SpecialGenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Berserker_Fury",
+			"ID": "24c3bc39-426b-404b-a95f-3ac95db8860d",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+					"AbilityLevel": 7,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [
+								{
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean HasStatusEffectWithKeyword(Guid, Guid)",
+										"FunctionHash": 0,
+										"ParameterHash": 0,
+										"Parameters": ["011111e9-0000-0000-0000-000000000000", "ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+										"UnrealCall": ""
+									},
+									"Not": true,
+									"Operator": 0
+								}
+							],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "a529af64-c667-41f0-aaa0-3902663a8a18",
+					"AudioEventListID": "f2c3be05-cc14-4ca9-a277-345ce0450ab4",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 406000457,
+					"DisplayName": 406000457,
+					"DurationOverride": 0,
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/barbarian/frenzy.png",
+					"IsCombatOnly": "true",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "false",
+					"KeywordsIDs": ["ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Default"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": ["ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+					"StatusEffectsIDs": ["38b936a0-085f-4772-98ec-8a21dafccdce", "c92d92c0-4b52-4c57-b498-61d95c1bdb17", "3b0a2560-30c9-4003-81ca-6bedab030325", "9c851110-d661-4046-8871-fb8ca5f08e3b", "2676e567-a9ea-4fa9-916a-e389a36ce439", "de4e1eaa-e1c9-4ba8-b26d-e5a1fecd6f4d"],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "264cea79-5738-41dc-9e05-2e886903d3b9",
+					"UsageType": "ClassPowerPool",
+					"UsageValue": 2,
+					"VisualEffects": [],
+					"Vocalization": "BarbarianShout"
+				}, {
+					"$type": "Game.GameData.SpecialGenericAbilityComponent, Assembly-CSharp",
+					"SpecialGenericAbilityType": "Frenzy"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		}, 	{
+			"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Leap",
+			"ID": "dbde6a7f-9a3a-4214-8667-21a08794ab9d",	//vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AbilityClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+					"AbilityLevel": 5,
+					"Description": 2063,
+					"DisplayName": 2062,
+					"Icon": "gui/icons/abilities/barbarian/panthers_leap.png",
+					"UsageType": "ClassPowerPool",
+					"UsageValue": 2
+				}
+			]
+		}, 	{
+			"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Panthers_Leap",
+			"ID": "75aa050f-3131-4489-9bc1-5e4f84e83412",	//vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AbilityClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+					"AbilityLevel": 8,
+					"Description": 2063,
+					"DisplayName": 2410,
+					"Icon": "gui/icons/abilities/barbarian/leap.png",
+					"UpgradeDescriptions": [{
+							"String": 2411
+						}
+					],
+					"UpgradedFromID": "dbde6a7f-9a3a-4214-8667-21a08794ab9d",
+					"UsageType": "ClassPowerPool",
+					"UsageValue": 3
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		}, 	{
+			"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Dragon_Leap",
+			"ID": "6653e4ba-6770-4e29-8d2d-6e0e68ec9370",	//vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AbilityClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+					"AbilityLevel": 8,
+					"Description": 2063,
+					"DisplayName": 2408,
+					"Icon": "gui/icons/abilities/barbarian/dragon_leap.png",
+					"UpgradeDescriptions": [{
+							"String": 2409
+						}
+					],
+					"UpgradedFromID": "dbde6a7f-9a3a-4214-8667-21a08794ab9d",
+					"UsageType": "ClassPowerPool",
+					"UsageValue": 3,
+					"VisualEffects": [{
+							"AttachMode": "Position",
+							"AttachObject": "Caster",
+							"AttachPoint": "Root",
+							"Event": "OnActivate",
+							"MeshType": "None",
+							"VisualEffect": "prefabs/effects/abilities/barbarian/fx_dragon_leap_start.prefab"
+						}
+					]
+				}
+			]
+		}, 	{
+			"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Frenzy_Area_Strikes",
+			"ID": "cea69d91-2c88-410c-b67a-e850cefcb36c",	//unused
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+					"AbilityLevel": 8,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [
+								{
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean HasStatusEffectWithKeyword(Guid, Guid)",
+										"FunctionHash": 0,
+										"ParameterHash": 0,
+										"Parameters": ["011111e9-0000-0000-0000-000000000000", "ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+										"UnrealCall": ""
+									},
+									"Not": false,
+									"Operator": 0
+								}
+							],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "e8cd6005-d64f-49d4-ae86-fe39887e981e",
+					"AudioEventListID": "24b5ffb9-6c54-44b1-8e08-e6681366e53a",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 2854,
+					"DisplayName": 2853,
+					"DurationOverride": 0,
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/ranger/whirling_dervish.png",
+					"IsCombatOnly": "false",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "false",
+					"KeywordsIDs": [],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Default"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": [],
+					"StatusEffectsIDs": ["cd3aeb00-0c84-46a1-bc73-0ed387f58a96"],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+					"UsageType": "ClassPowerPool",
+					"UsageValue": 3,
+					"VisualEffects": [],
+					"Vocalization": "AbilityCast"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		}, 	{
+			"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "The_Mist",
+			"ID": "5b233fa9-fad2-4d4d-8e03-7b9881b01971",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+					"AbilityLevel": 4,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [
+								/*{
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean HasStatusEffectWithKeyword(Guid, Guid)",
+										"FunctionHash": 0,
+										"ParameterHash": 0,
+										"Parameters": ["011111e9-0000-0000-0000-000000000000", "7671340f-4fd0-41a5-b389-1b69b008aa13"],
+										"UnrealCall": ""
+									},
+									"Not": false,
+									"Operator": 0
+								}*/
+							],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "2417cf50-59eb-4c7a-9d17-5e46c575d307",
+					"AudioEventListID": "24b5ffb9-6c54-44b1-8e08-e6681366e53a",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 406000510,
+					"DisplayName": 406000440,
+					"DurationOverride": 0,
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/chanter/long_nights_drink.png",
+					"IsCombatOnly": "false",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "false",
+					"KeywordsIDs": [],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Default"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": [],
+					"StatusEffectsIDs": ["cd3aeb00-0c84-46a1-bc73-0ed387f58a96"],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],//{ "String": 406000511 }
+					"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+					"UsageType": "ClassPowerPool",
+					"UsageValue": 2,
+					"VisualEffects": [],
+					"Vocalization": "AbilityCast"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		},	{
+			"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Nauseating_Mist",
+			"ID": "ceecda0b-d634-4b42-aee9-d7115347db63",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+					"AbilityLevel": 7,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [
+								/*{
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean HasStatusEffectWithKeyword(Guid, Guid)",
+										"FunctionHash": 0,
+										"ParameterHash": 0,
+										"Parameters": ["011111e9-0000-0000-0000-000000000000", "7671340f-4fd0-41a5-b389-1b69b008aa13"],
+										"UnrealCall": ""
+									},
+									"Not": false,
+									"Operator": 0
+								}*/
+							],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "dca02c2b-93a4-4755-b77d-fb6e2d59c545",
+					"AudioEventListID": "24b5ffb9-6c54-44b1-8e08-e6681366e53a",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 406000510,
+					"DisplayName": 406000441,
+					"DurationOverride": 0,
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/chanter/long_nights_drink.png",
+					"IsCombatOnly": "false",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "false",
+					"KeywordsIDs": [],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Default"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": [],
+					"StatusEffectsIDs": ["cd3aeb00-0c84-46a1-bc73-0ed387f58a96"],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],//{ "String": 406000511 }
+					"UpgradedFromID": "5b233fa9-fad2-4d4d-8e03-7b9881b01971",
+					"UsageType": "ClassPowerPool",
+					"UsageValue": 2,
+					"VisualEffects": [],
+					"Vocalization": "AbilityCast"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		},	{
+			"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Spirit_Vortex",
+			"ID": "fda04b6e-4839-46a4-b2c9-a40ed099f783",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+					"AbilityLevel": 7,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [
+								/*{
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean HasStatusEffectWithKeyword(Guid, Guid)",
+										"FunctionHash": 0,
+										"ParameterHash": 0,
+										"Parameters": ["011111e9-0000-0000-0000-000000000000", "0f7d767a-bb68-4209-8607-c32145a51772"],
+										"UnrealCall": ""
+									},
+									"Not": false,
+									"Operator": 0
+								}*/
+							],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "16683bba-0c0a-4cbf-9b33-3783aa360f10",
+					"AudioEventListID": "24b5ffb9-6c54-44b1-8e08-e6681366e53a",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 406000516,
+					"DisplayName": 406000444,
+					"DurationOverride": 0,
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/wizard/ryngrim's_enervating_terror.png",
+					"IsCombatOnly": "false",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "false",
+					"KeywordsIDs": [],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Default"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": [],
+					"StatusEffectsIDs": [],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],//{ "String": 406000511 }
+					"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+					"UsageType": "ClassPowerPool",
+					"UsageValue": 2,
+					"VisualEffects": [],
+					"Vocalization": "AbilityCast"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		},	{
+			"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Barbaric_Taunt",
+			"ID": "af191d1e-541a-4bd5-9a8d-30b53ced835e",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+					"AbilityLevel": 8,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "81f4bee5-99bb-434c-82d5-f4f167d541b9",
+					"AudioEventListID": "e6045936-cfc1-4313-b459-066343aa87e2",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 406000507,
+					"DisplayName": 406000445,
+					"DurationOverride": 0,
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/barbarian/barbaric_yell.png",
+					"IsCombatOnly": "true",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "false",
+					"KeywordsIDs": [],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "6bfdad12-a1d0-42cc-b797-c9d2dac2af05",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Default"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": [],
+					"StatusEffectsIDs": [],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+					"UsageType": "ClassPowerPool",
+					"UsageValue": 1,
+					"VisualEffects": [],
+					"Vocalization": "BarbarianShout"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		}, 	{
+			"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "alt_Barbaric_Shout",
+			"ID": "cf22f72a-23a1-4661-bc4b-5f7059399f31",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+					"AbilityLevel": 2,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "f1546020-db93-4de7-87ef-041b4682f5e3",
+					"AudioEventListID": "c03dda5a-1951-406a-9d96-e7313abe7cec",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 406000506,
+					"DisplayName": 1908,
+					"DurationOverride": 0,
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/barbarian/barbaric_yawp.png",
+					"IsCombatOnly": "true",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "false",
+					"KeywordsIDs": [],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "6bfdad12-a1d0-42cc-b797-c9d2dac2af05",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Default"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": [],
+					"StatusEffectsIDs": [],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+					"UsageType": "ClassPowerPool",
+					"UsageValue": 2,
+					"VisualEffects": [],
+					"Vocalization": "BarbarianShout"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		}, 	{
+			"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "alt_Barbaric_Roar",
+			"ID": "13e7b2d4-9c96-43da-87fe-87d7cadf4f1d",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+					"AbilityLevel": 5,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "534a2409-3426-4380-9a25-bfc895dd7d0a",
+					"AudioEventListID": "c03dda5a-1951-406a-9d96-e7313abe7cec",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 406000506,
+					"DisplayName": 1853,
+					"DurationOverride": 0,
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/barbarian/barbaric_shout.png",
+					"IsCombatOnly": "true",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "false",
+					"KeywordsIDs": [],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "6bfdad12-a1d0-42cc-b797-c9d2dac2af05",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Default"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": [],
+					"StatusEffectsIDs": [],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "cf22f72a-23a1-4661-bc4b-5f7059399f31",
+					"UsageType": "ClassPowerPool",
+					"UsageValue": 3,
+					"VisualEffects": [],
+					"Vocalization": "BarbarianShout"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		}, 	{
+			"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Driving_Shout",
+			"ID": "1a58df10-7b44-4cef-90c9-dfb72d81f93c",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+					"AbilityLevel": 4,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "9446c544-6ef8-4c66-86b4-9531bfbf1f59",
+					"AudioEventListID": "946f0a2e-6509-4f64-b50e-406682926a48",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "true",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 406000514,
+					"DisplayName": 406000442,
+					"DurationOverride": 0,
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/barbarian/echoing_shout.png",
+					"IsCombatOnly": "true",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "false",
+					"KeywordsIDs": [],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "6bfdad12-a1d0-42cc-b797-c9d2dac2af05",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Default"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": [],
+					"StatusEffectsIDs": [],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+					"UsageType": "ClassPowerPool",
+					"UsageValue": 1,
+					"VisualEffects": [],
+					"Vocalization": "BarbarianShout"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		}, 	{
+			"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Dazing_Roar",
+			"ID": "6dc4d587-5733-4146-8990-8090fbe29224",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+					"AbilityLevel": 9,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "d98527d3-c27d-44f9-aa7d-cc05f9de441b",
+					"AudioEventListID": "04019844-d40b-46a2-8b62-dca2838527d7",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 406000514,
+					"DisplayName": 406000443,
+					"DurationOverride": 0,
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/barbarian/reverberating_yawp.png",
+					"IsCombatOnly": "true",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "false",
+					"KeywordsIDs": [],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "6bfdad12-a1d0-42cc-b797-c9d2dac2af05",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Default"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": [],
+					"StatusEffectsIDs": [],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "1a58df10-7b44-4cef-90c9-dfb72d81f93c",
+					"UsageType": "ClassPowerPool",
+					"UsageValue": 3,
+					"VisualEffects": [],
+					"Vocalization": "BarbarianShout"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		}, 	{
+			"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Savage_Defiance",
+			"ID": "e48d2487-5269-4b29-a90e-c8cbdb08dfd6",	//vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AbilityClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+					"AbilityLevel": 2,
+					"Description": 406000512,
+					"DisplayName": 71,
+					"StatusEffectsIDs": ["44ce040e-b333-4608-81e7-cc5442c34a76"],
+					"UsageType": "ClassPowerPool",
+					"UsageValue": 2
+				}
+			]
+		},	{
+			"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Savage_Courage",
+			"ID": "047161bd-92e1-4a9a-80fd-cf5c492324dc",	//vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AbilityClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+					"AbilityLevel": 7,
+					"Description": 406000512,
+					"DisplayName": 2404,
+					"StatusEffectsIDs": ["44ce040e-b333-4608-81e7-cc5442c34a76", "2b39a613-988d-4856-b8b3-40bac4938c0d", "fccef11e-fbed-465d-b578-3739ac5df0d1"],
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "e48d2487-5269-4b29-a90e-c8cbdb08dfd6",
+					"UsageType": "ClassPowerPool",
+					"UsageValue": 2
+				}
+			]
+		},	{
+			"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Charge_Wild_Charge",
+			"ID": "290ec6ef-e463-4186-8b66-6d94b20ec4eb",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+					"AbilityLevel": 1,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "20ed4098-91d5-4598-91d9-408cd797fa64",
+					"AudioEventListID": "d7e51847-1802-49a2-95f8-f07d533dbc79",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 406000505,
+					"DisplayName": 406000593,
+					"DurationOverride": 0,
+					"GrantedViaScript": "false",
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/barbarian/wild_sprint.png",
+					"IsCombatOnly": "false",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "false",
+					"KeywordsIDs": [],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Default"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": [],
+					"StatusEffectsIDs": ["4da19603-62f3-436c-b7e6-042e53f6f509", "19caee11-ab85-425a-9fdc-ee493ba06e35"],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+					"UsageType": "ClassPowerPool",
+					"UsageValue": 1,
+					"VisualEffects": [],
+					"Vocalization": "BarbarianShout"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		}, 	{
+			"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Charge_Engaging_Charge",
+			"ID": "5b4f3d9e-a2a0-4b30-9dcb-6ca363ec7e09",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+					"AbilityLevel": 3,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "20ed4098-91d5-4598-91d9-408cd797fa64",
+					"AudioEventListID": "d7e51847-1802-49a2-95f8-f07d533dbc79",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 406000505,
+					"DisplayName": 406000546,
+					"DurationOverride": 0,
+					"GrantedViaScript": "false",
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/barbarian/wild_sprint.png",
+					"IsCombatOnly": "false",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "false",
+					"KeywordsIDs": [],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Default"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": [],
+					"StatusEffectsIDs": ["4da19603-62f3-436c-b7e6-042e53f6f509", "19caee11-ab85-425a-9fdc-ee493ba06e35", "efec47a7-3ec4-4adc-8262-8e064907eafe"],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+					"UsageType": "ClassPowerPool",
+					"UsageValue": 1,
+					"VisualEffects": [],
+					"Vocalization": "BarbarianShout"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		}, 	{
+			"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Charge_Stunning_Charge",
+			"ID": "adab6255-c4fc-41fa-a3b4-07bacb67a480",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+					"AbilityLevel": 3,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "22b8397f-1f79-4612-9e88-d86a5ed51f65",
+					"AudioEventListID": "d7e51847-1802-49a2-95f8-f07d533dbc79",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 406000505,
+					"DisplayName": 406000545,
+					"DurationOverride": 0,
+					"GrantedViaScript": "false",
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/barbarian/wild_sprint.png",
+					"IsCombatOnly": "false",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "false",
+					"KeywordsIDs": [],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Default"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": [],
+					"StatusEffectsIDs": ["4da19603-62f3-436c-b7e6-042e53f6f509", "19caee11-ab85-425a-9fdc-ee493ba06e35"],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+					"UsageType": "ClassPowerPool",
+					"UsageValue": 1,
+					"VisualEffects": [],
+					"Vocalization": "BarbarianShout"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		}, 	{
+			"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Rams_Sprint",
+			"ID": "8de98863-c760-4c4b-a0d7-d3534c5a8929",	//vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AbilityClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+					"AbilityLevel": 3,
+					"AttackID": "17bbdabc-fe58-4794-880d-5e708132b270",
+					"Description": 406000513,
+					"DisplayName": 406000591,
+					"IsCombatOnly": "false",
+					"StatusEffectsIDs": [],
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+					"UsageType": "ClassPowerPool",
+					"UsageValue": 1,
+					"Vocalization": "BarbarianShout"
+				}
+			]
+		}, 	{
+			"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Lions_Sprint",
+			"ID": "55aa982e-9e55-40ba-a451-38e780476f00",	//vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AbilityClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+					"AbilityLevel": 6,
+					"AttackID": "eb223403-c0f1-4708-a6d7-a4390d04c4b2",
+					"Description": 406000513,
+					"DisplayName": 406000592,
+					"IsCombatOnly": "false",
+					"StatusEffectsIDs": ["7e2825a7-6df9-4d6a-ab73-3bbf8c01fa40"],
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "8de98863-c760-4c4b-a0d7-d3534c5a8929",
+					"UsageType": "ClassPowerPool",
+					"UsageValue": 1,
+					"Vocalization": "BarbarianShout"
+				}
+			]
+		},	{
+			"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Heart_Of_Fury",
+			"ID": "29f3c4d4-50f2-436e-a3e9-388b59911458",	//vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AbilityClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+					"AbilityLevel": 5,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [
+								/*{
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean HasStatusEffectWithKeyword(Guid, Guid)",
+										"FunctionHash": 0,
+										"ParameterHash": 0,
+										"Parameters": ["011111e9-0000-0000-0000-000000000000", "ca2cb688-b9fe-4fc7-8230-0c7e9caa02c1"],
+										"UnrealCall": ""
+									},
+									"Not": false,
+									"Operator": 0
+								}*/
+							],
+							"Operator": 0
+						}
+					},
+					"AttackID": "80c2342c-5f3a-4f76-a888-6238ca701eb0",
+					"Description": 2413,
+					"DisplayName": 2412,
+					"StatusEffectsIDs": ["f175fb48-2bd3-4668-a003-42c55f004c13"],
+					"UpgradeDescriptions": [],//{ "String": 406000511 }
+					"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+					"UsageType": "ClassPowerPool",
+					"UsageValue": 2
+				}
+			]
+		}	
+    ]
+}

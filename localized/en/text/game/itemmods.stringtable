@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>game\itemmods</Name>
+  <Entries>
+  <!-- INDEX 
+  Extended Spell Collection
+  NocturnalTrance
+      -->
+
+<!-- Extended Spell Collection -->
+<Entry>
+      <ID>6000</ID>
+      <DefaultText>Archmage's Boon</DefaultText>
+      <FemaleText />
+</Entry>
+<Entry>
+      <ID>6001</ID>
+      <DefaultText>Wizardry VII</DefaultText>
+      <FemaleText />
+</Entry>
+<Entry>
+      <ID>6002</ID>
+      <DefaultText>Wizardry VIII</DefaultText>
+      <FemaleText />
+</Entry>
+<Entry>
+      <ID>6003</ID>
+      <DefaultText>Wizardry IX</DefaultText>
+      <FemaleText />
+</Entry>
+<Entry>
+      <ID>6004</ID>
+      <DefaultText>Divinity VII</DefaultText>
+      <FemaleText />
+</Entry>
+<Entry>
+      <ID>6005</ID>
+      <DefaultText>Divinity VIII</DefaultText>
+      <FemaleText />
+</Entry>
+<Entry>
+      <ID>6006</ID>
+      <DefaultText>Divinity IX</DefaultText>
+      <FemaleText />
+ </Entry>
+<Entry>
+      <ID>6007</ID>
+      <DefaultText>Shamanry VII</DefaultText>
+      <FemaleText />
+</Entry>
+<Entry>
+      <ID>6008</ID>
+      <DefaultText>Shamanry VIII</DefaultText>
+      <FemaleText />
+</Entry>
+<Entry>
+      <ID>6009</ID>
+      <DefaultText>Shamanry IX</DefaultText>
+      <FemaleText />
+</Entry>
+<!-- NocturnalTrance -->
+<Entry>
+      <ID>21135</ID>
+      <DefaultText>Splinter of Waidwen's soul</DefaultText>
+      <FemaleText />
+</Entry>
+<Entry>
+      <ID>21136</ID>
+      <DefaultText>Zealous cry</DefaultText>
+      <FemaleText />
+</Entry>
+<Entry>
+      <ID>21137</ID>
+      <DefaultText>Slayer of Vessels</DefaultText>
+      <FemaleText />
+</Entry>
+<Entry>
+      <ID>543330</ID>
+      <DefaultText>Silence the mages</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>453350</ID>
+      <DefaultText>Dispell</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
+      <ID>233330</ID>
+      <DefaultText>Inquisitor</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>233350</ID>
+      <DefaultText>Trap for the hunted</DefaultText>
+      <FemaleText />
+    </Entry>
+<!-- Armakoir -->
+<Entry>
+      <ID>21138</ID>
+      <DefaultText>Pistol Whip Keyword</DefaultText>
+      <FemaleText />
+</Entry>
+</Entries>
+</StringTableFile>

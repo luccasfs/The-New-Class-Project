@@ -1,0 +1,76 @@
+{
+    "GameDataObjects": [
+        {
+            "$type": "Game.GameData.CharacterSubClassGameData, Assembly-CSharp",
+            "DebugName": "Wizard_Martialist",
+            "ID": "9ac86fa8-b1d6-42bb-a860-afc7e1a2687b",
+            "Components": [
+                {
+                    "$type": "Game.GameData.CharacterSubClassComponent, Assembly-CSharp",
+                    "DisplayName": 19000,
+                    "SummaryText": 19001,
+                    "DescriptionText": 19002,
+                    "DescriptionTextTactical": -1,
+                    "ForClassID": "acfd1303-4699-4939-91eb-6ac46d4af0bd",
+                    "HideInCharacterCreation": "false",
+                    "BonusFirstLevelProficiencies": 0,
+                    "MaximumProficiencies": -1
+                }
+            ]
+        },
+        {
+            "$type": "Game.GameData.CharacterSubClassGameData, Assembly-CSharp",
+            "DebugName": "Wizard_Demolitionist",
+            "ID": "c5448f87-f451-4625-ad77-38a98f03d8d5",
+            "Components": [
+                {
+                    "$type": "Game.GameData.CharacterSubClassComponent, Assembly-CSharp",
+                    "DisplayName": 19003,
+                    "SummaryText": 19004,
+                    "DescriptionText": 19005,
+                    "DescriptionTextTactical": -1,
+                    "ForClassID": "acfd1303-4699-4939-91eb-6ac46d4af0bd",
+                    "HideInCharacterCreation": "false",
+                    "BonusFirstLevelProficiencies": 0,
+                    "MaximumProficiencies": -1
+                }
+            ]
+        },
+        {
+            "$type": "Game.GameData.CharacterSubClassGameData, Assembly-CSharp",
+            "DebugName": "Wizard_Spellslinger",
+            "ID": "92486a44-2457-4801-864b-3109b4943665",
+            "Components": [
+                {
+                    "$type": "Game.GameData.CharacterSubClassComponent, Assembly-CSharp",
+                    "DisplayName": 19006,
+                    "SummaryText": 19007,
+                    "DescriptionText": 19008,
+                    "DescriptionTextTactical": -1,
+                    "ForClassID": "acfd1303-4699-4939-91eb-6ac46d4af0bd",
+                    "HideInCharacterCreation": "false",
+                    "BonusFirstLevelProficiencies": 0,
+                    "MaximumProficiencies": -1
+                }
+            ]
+        },
+        {
+            "$type": "Game.GameData.CharacterSubClassGameData, Assembly-CSharp",
+            "DebugName": "Wizard_Hexer",
+            "ID": "dd8056c2-e027-49b3-b162-e25abe4bdd12",
+            "Components": [
+                {
+                    "$type": "Game.GameData.CharacterSubClassComponent, Assembly-CSharp",
+                    "DisplayName": 19009,
+                    "SummaryText": 19010,
+                    "DescriptionText": 19011,
+                    "DescriptionTextTactical": -1,
+                    "ForClassID": "acfd1303-4699-4939-91eb-6ac46d4af0bd",
+                    "HideInCharacterCreation": "false",
+                    "BonusFirstLevelProficiencies": 0,
+                    "MaximumProficiencies": -1
+                }
+            ]
+        }
+    ]
+}

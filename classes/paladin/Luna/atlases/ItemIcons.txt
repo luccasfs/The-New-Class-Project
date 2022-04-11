@@ -1,0 +1,6 @@
+TornDress_L = 0 0 100 100
+TornDress_S = 101 101 42 42
+SilverMaceOfTheMysticKnights_L = 101 0 100 100
+SilverMaceOfTheMysticKnights_S = 101 144 42 42
+HeartofResentment_l = 0 101 100 100
+HeartofResentment_S = 144 101 42 42

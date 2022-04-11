@@ -1,0 +1,122 @@
+﻿{
+    "GameDataObjects": [
+        {
+			"$type": "Game.GameData.CharacterSubClassGameData, Assembly-CSharp",
+			"DebugName": "Rogue_Trickster",
+			"ID": "b20b6721-67a5-45f9-9ae0-83f4686eccd9",	//vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.CharacterSubClassComponent, Assembly-CSharp",
+					"DescriptionText": 35013
+				}
+			]
+		}, {
+			"$type": "Game.GameData.CharacterSubClassGameData, Assembly-CSharp",
+			"DebugName": "Rogue_Streetfighter",
+			"ID": "db98a320-6781-4469-b450-dec52ada245a",	//vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.CharacterSubClassComponent, Assembly-CSharp",
+					"DescriptionText": 35014
+				}
+			]
+		}, {
+			"$type": "Game.GameData.CharacterSubClassGameData, Assembly-CSharp",
+			"DebugName": "Rogue_Assassin",
+			"ID": "ff4e2496-c063-4274-afe3-653f06094b1c",	//vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.CharacterSubClassComponent, Assembly-CSharp",
+					"DescriptionText": 35015
+				}
+			]
+		},  {
+            "$type": "Game.GameData.CharacterSubClassGameData, Assembly-CSharp",
+            "DebugName": "Rogue_Saboteur",
+            "ID": "781816b7-7d53-4f8a-befe-12a62a6838cd",
+            "Components": [
+                {
+                    "$type": "Game.GameData.CharacterSubClassComponent, Assembly-CSharp",
+                    "BonusFirstLevelProficiencies": 0,
+                    "DescriptionText": 35002,
+                    "DescriptionTextTactical": -1,
+                    "DisplayName": 35001,
+                    "ForClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
+                    "HideInCharacterCreation": "false",
+                    "IncompatibleWithIDs": [],
+                    "MaximumProficiencies": -1,
+                    "SummaryText": 35101
+                }
+            ]
+        },	{
+            "$type": "Game.GameData.CharacterSubClassGameData, Assembly-CSharp",
+            "DebugName": "Rogue_Acrobat",
+            "ID": "5ef1ffe8-74a2-4307-b8d0-5e72da1f2986",
+            "Components": [
+                {
+                    "$type": "Game.GameData.CharacterSubClassComponent, Assembly-CSharp",
+                    "BonusFirstLevelProficiencies": 0,
+                    "DisplayName": 35003,
+                    "DescriptionText": 35004,
+                    "DescriptionTextTactical": -1,
+					"SummaryText": 35102,
+                    "ForClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
+                    "HideInCharacterCreation": "false",
+                    "IncompatibleWithIDs": [],
+                    "MaximumProficiencies": -1
+                }
+            ]
+        },	{
+            "$type": "Game.GameData.CharacterSubClassGameData, Assembly-CSharp",
+            "DebugName": "Rogue_Cutpurse",
+            "ID": "a85fca04-e4b7-4a36-a7fc-ff3e510337c2",
+            "Components": [
+                {
+                    "$type": "Game.GameData.CharacterSubClassComponent, Assembly-CSharp",
+                    "DisplayName": 35005,
+                    "DescriptionText": 35006,
+                    "DescriptionTextTactical": -1,
+					"SummaryText": 35103,
+                    "ForClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
+                    "HideInCharacterCreation": "true",
+                    "BonusFirstLevelProficiencies": 0,
+                    "IncompatibleWithIDs": [],
+                    "MaximumProficiencies": -1
+                }
+            ]
+        },	{
+            "$type": "Game.GameData.CharacterSubClassGameData, Assembly-CSharp",
+            "DebugName": "Rogue_Agent",
+            "ID": "36675937-fef0-4248-aef8-61d41844ea5f",
+            "Components": [
+                {
+                    "$type": "Game.GameData.CharacterSubClassComponent, Assembly-CSharp",
+                    "DisplayName": 35009,
+                    "DescriptionText": 35010,
+                    "DescriptionTextTactical": -1,
+					"SummaryText": 35105,
+                    "ForClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
+                    "HideInCharacterCreation": "true",
+                    "BonusFirstLevelProficiencies": 0,
+                    "IncompatibleWithIDs": [],
+                    "MaximumProficiencies": -1
+                }
+            ]
+        },	{
+            "$type": "Game.GameData.CharacterSubClassGameData, Assembly-CSharp",
+            "DebugName": "Rogue_Swiftblade",
+            "ID": "267baff3-2c09-46a0-bf96-f103b4a532d5",
+            "Components": [
+                {
+                    "$type": "Game.GameData.CharacterSubClassComponent, Assembly-CSharp",
+                    "DisplayName": 35011,
+                    "DescriptionText": 35012,
+                    "DescriptionTextTactical": -1,
+					"SummaryText": 35106,
+                    "ForClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
+                    "HideInCharacterCreation": "false",
+                    "BonusFirstLevelProficiencies": 0,
+                    "IncompatibleWithIDs": [],
+                    "MaximumProficiencies": -1
+                }
+            ]
+        }
+    ]
+}

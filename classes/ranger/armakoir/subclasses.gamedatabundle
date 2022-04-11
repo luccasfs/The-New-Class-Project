@@ -1,0 +1,56 @@
+﻿{
+    "GameDataObjects": [
+        {
+            "$type": "Game.GameData.CharacterSubClassGameData, Assembly-CSharp",
+			"DebugName": "Ranger_Guardian",
+			"ID": "adb2d70f-f325-4ef0-9df7-8323b4524edb",
+			"Components": [{
+					"$type": "Game.GameData.CharacterSubClassComponent, Assembly-CSharp",
+					"BonusFirstLevelProficiencies": 0,
+					"DescriptionText": 406002416,        //gui.stringtable
+					"DescriptionTextTactical": -1,
+					"DisplayName": 406002415,            //gui.stringtable
+					"ForClassID": "1718929c-1faf-4292-b82c-7e2a7c20b3ab",
+					"HideInCharacterCreation": "false",
+					"IncompatibleWithIDs": [],
+					"MaximumProficiencies": -1,
+					"SummaryText": 406001417              //cyclopedia.stringtable
+				}
+			]
+		},  {
+            "$type": "Game.GameData.CharacterSubClassGameData, Assembly-CSharp",
+			"DebugName": "Ranger_DuskStalker",
+			"ID": "b6f1d759-7425-4f82-b96e-9f4ecb2ba433",
+			"Components": [{
+					"$type": "Game.GameData.CharacterSubClassComponent, Assembly-CSharp",
+					"BonusFirstLevelProficiencies": 0,
+					"DescriptionText": 406002418,
+					"DescriptionTextTactical": -1,
+					"DisplayName": 406002417,
+					"ForClassID": "1718929c-1faf-4292-b82c-7e2a7c20b3ab",
+					"HideInCharacterCreation": "false",
+					"IncompatibleWithIDs": [],
+					"MaximumProficiencies": -1,
+					"SummaryText": 406001416
+				}
+			]
+		},	{
+            "$type": "Game.GameData.CharacterSubClassGameData, Assembly-CSharp",
+			"DebugName": "Ranger_Spiritshifter",
+			"ID": "10d9c582-1f68-4145-a05c-3a63739a162b",
+			"Components": [{
+					"$type": "Game.GameData.CharacterSubClassComponent, Assembly-CSharp",
+					"BonusFirstLevelProficiencies": 0,
+					"DescriptionText": 406002418,
+					"DescriptionTextTactical": -1,
+					"DisplayName": 406002417,
+					"ForClassID": "1718929c-1faf-4292-b82c-7e2a7c20b3ab",
+					"HideInCharacterCreation": "true",
+					"IncompatibleWithIDs": [],
+					"MaximumProficiencies": -1,
+					"SummaryText": 406001416
+				}
+			]
+		}
+    ]
+}

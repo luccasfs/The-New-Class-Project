@@ -1,0 +1,28 @@
+{
+	"GameDataObjects": [
+	{
+		"$type": "Game.GameData.AfflictionTypeGameData, Assembly-CSharp",
+		"DebugName": "AFT_Invisibility",
+		"ID": "a57f1a61-cf8d-413f-8bff-b973c0e7cd6e",
+		"Components": [{
+			"$type": "Game.GameData.AfflictionTypeComponent, Assembly-CSharp",
+			"DisplayName": 8000,
+			"Icon": "gui/icons/keywords/per_neg.png",
+			"AssociatedAttributeID": "00000000-0000-0000-0000-000000000000",
+			"HardCountersTypeID": "00000000-0000-0000-0000-000000000000",
+			"AfflictionsIDs": ["999c4ee2-bf70-49a0-812c-c1ed6a11af24",
+			"999c4ee2-bf70-49a0-812c-c1ed6a11af35",
+			"999c4ee2-bf70-49a0-812c-c1ed6a11af46",
+			"888c4ee2-bf70-49a0-812c-c1ed6a11af57",
+			"888c4ee2-bf70-49a0-812c-c1ed6a11af68",
+			"888c4ee2-bf70-49a0-812c-c1ed6a11af79",
+			"888c4ee2-bf70-49a0-812c-c1ed6a11af90",
+			"888c4ee2-bf70-49a0-812c-c1ed6a11b001",
+			"888c4ee2-bf70-49a0-812c-c1ed6a11b002",
+			"888c4ee2-bf70-49a0-812c-c1ed6a11b003",
+			"888c4ee2-bf70-49a0-812c-c1ed6a11b004",
+			"888c4ee2-bf70-49a0-812c-c1ed6a11b005",
+			"888c4ee2-bf70-49a0-812c-c1ed6a11b006"]
+		}]
+	}]
+}
